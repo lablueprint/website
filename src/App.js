@@ -3,10 +3,25 @@ import { HashRouter, Route, Link } from 'react-router-dom';
 import logo from './images/logo.png';
 import logo_white from './images/logo_white.png';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Navbar } from 'react-bootstrap';
 
 function App() {
   return (
     <HashRouter basename='/'>
+      <Navbar bg="dark" variant="dark">
+        <Navbar.Brand href="#home">
+          <img
+            alt=""
+            src={logo_white}
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+          />
+          {' Blueprint'}
+        </Navbar.Brand>
+      </Navbar>
+
       <div>
         <ul>
           <li><Link to="/">Home</Link></li>
