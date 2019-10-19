@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "homepage": "https://uclablueprint.github.com/",
+  "homepage": "https://uclablueprint.github.com/website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
