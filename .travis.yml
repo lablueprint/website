@@ -6,7 +6,8 @@ cache:
     - node_modules
 
 before_deploy:
-  - "npm run build"
+  - unset CI 
+  - npm run build
 
 deploy:
   provider: pages
