@@ -52,7 +52,7 @@ function App() {
           <h1 style={jumboHeaderStyle}>TECH FOR SOCIAL GOOD</h1>
       </Jumbotron>
 
-      <Jumbotron fluid style={{'background-color': '#187be5', 'color': 'white'}}>
+      <Jumbotron fluid style={{'backgroundColor': '#187be5', 'color': 'white'}}>
         <Row style={{'margin': 0}}>
           <Col xs={{ span: 10, offset: 1 }} md={{ span: 4, offset: 2}}>
           <h1>What is Blueprint</h1>
