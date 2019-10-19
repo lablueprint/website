@@ -10,6 +10,12 @@ import Nav from 'react-bootstrap/Nav'
 import { Navbar, Jumbotron, Button, Image, Row, Col } from 'react-bootstrap';
 
 function App() {
+  /*
+    TOOD:
+      - move navbar to separate component
+      - move both jumbotrons to separate components
+      - refactor so App renders only a single router component that chooses the page to render depending on url
+  */
   return (
     <HashRouter basename='/'>
       <Navbar bg="dark" variant="dark" expand='md'>
@@ -46,58 +52,27 @@ function App() {
           <h1 style={jumboHeaderStyle}>TECH FOR SOCIAL GOOD</h1>
       </Jumbotron>
 
-      <Jumbotron fluid style={{'background-color': '#187be5', 'background-image':{blueprint_royce_hall}, 'color': 'white'}}>
-        <Row>
-        <Col xs={{ span: 10, offset: 1 }} md={{ span: 4, offset: 2}}>
-        <h1>What is Blueprint</h1>
-          <p>
-            Blueprint strives to make technology accessible and useful for those who assist communities and promote public welfare. 
-​          </p>
-          <p>
-            UCLA Blueprint is committed to building and promoting tech for social good - free of charge. We collaborate with non-profits to provide services such as websites, mobile applications, and data analytical tools.
-          </p>
-          <p>
-            Blueprint is a multinational organization founded in 2012 at UC Berkeley. We are the third established chapter after the University of Waterloo.
-          </p>
-        </Col>
-        <Col xs={{ span: 10, offset: 1 }} md={{ span: 4, offset: 1}}>
-          <Image src={blueprint_royce_hall} fluid></Image>
-        </Col>
+      <Jumbotron fluid style={{'background-color': '#187be5', 'color': 'white'}}>
+        <Row style={{'margin': 0}}>
+          <Col xs={{ span: 10, offset: 1 }} md={{ span: 4, offset: 2}}>
+          <h1>What is Blueprint</h1>
+            <p>
+              Blueprint strives to make technology accessible and useful for those who assist communities and promote public welfare. 
+  ​          </p>
+            <p>
+              UCLA Blueprint is committed to building and promoting tech for social good - free of charge. We collaborate with non-profits to provide services such as websites, mobile applications, and data analytical tools.
+            </p>
+            <p>
+              Blueprint is a multinational organization founded in 2012 at UC Berkeley. We are the third established chapter after the University of Waterloo.
+            </p>
+          </Col>
+          <Col xs={{ span: 10, offset: 1 }} md={{ span: 4, offset: 1}}>
+            <Image src={blueprint_royce_hall} fluid></Image>
+          </Col>
         </Row>
       </Jumbotron>
-      {/* <div>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-        </ul>
-      <hr />
-      <Route exact path="/" component={Home} />
-      <Route path="/about" component={About} />
-      </div> */}
     </HashRouter>
   );
-
-  // return (
-  //   <div className="App">
-  //     <div>
-  //       <ul id="nav">
-  //         <li><a href="#">Home</a></li>
-  //         <li><a href="#">About</a></li>
-  //         <li><a href="#">FAQ</a></li>
-  //         <li><a href="#">Contact</a></li>
-  //       </ul>
-  //     </div>
-  //     <header className="App-header">
-  //       <img src={logo_white} className="App-logo" alt="logo" />
-  //       <div>
-  //         blueprint
-  //       </div>
-  //       <p>
-  //         UCLA Blueprint
-  //       </p>
-  //     </header>
-  //   </div>
-  // );
 }
 
 const Home = () => <div><h2>Home</h2></div>
