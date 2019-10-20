@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import logo from './images/logo.png';
 import logo_white from './images/logo_white.png';
-import jumbo_background from './images/jumbo-background.png';
-import blueprint_royce_hall from './images/blueprint_royce_hall.png';
+import jumbo_background from './images/jumbo_background2.png';
+import blueprint_royce_hall from './images/blueprint_royce_hall2.png';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav'
@@ -30,7 +30,7 @@ class App extends Component {
                 height="30"
                 className="d-inline-block align-top"
               />
-              {' Blueprint'}
+              {' blueprint'}
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -77,7 +77,7 @@ const jumboHeaderStyle = {
 }
 
 function WhoWeAre() {
-  return <Jumbotron fluid style={{'background-color': '#187be5','color': 'white'}} id={'whoweare'}>
+  return <Jumbotron fluid style={{'background-color': '#0078e8','color': 'white'}} id={'whoweare'}>
     <Row style={{'margin': 0}}>
     <Col xs={{ span: 10, offset: 1 }} md={{ span: 4, offset: 2}}>
     <h1>What is Blueprint</h1>
