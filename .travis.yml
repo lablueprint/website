@@ -6,12 +6,13 @@ cache:
     - node_modules
 
 before_deploy:
-  - "npm run build"
+  - unset CI 
+  - npm run build
 
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  local_dir: dist
+  local_dir: build
   on:
     branch: master
