@@ -5,12 +5,12 @@ import CommonNavbar from '../Components/CommonNavbar';
 export default function TeamPage() {
   return (
     <>
-      <CommonNavbar style={teamPageNavbarStyle} />
+      <CommonNavbar style={navbarStyle} />
       <div>not implemented</div>
     </>
   );
 }
 
-const teamPageNavbarStyle = {
+const navbarStyle = {
   background: "rgba(0, 120, 232, 0.6)",
 }
