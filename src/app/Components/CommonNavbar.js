@@ -7,7 +7,7 @@ import logo_white from '..//../images/logo_white.png';
 export default function CommonNavbar(props) {
   return (
     <Navbar variant="dark" style={props.location.pathname === '/' ? homePageNavbarStyle : teamPageNavbarStyle} expand='md'>
-      <Navbar.Brand href="/home">
+      <Navbar.Brand href="/">
         <img
           alt=""
           src={logo_white}
