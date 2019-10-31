@@ -1,21 +1,37 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React from 'react';
-import CommonNavbar from '../Components/CommonNavbar'
-import Landing from '../Components/Landing'
-import WhoWeAre from '../Components/WhoWeAre'
+import React, { Component } from 'react';
+import Landing from '../Components/Landing';
+import WhoWeAre from '../Components/WhoWeAre';
+import { scroller } from 'react-scroll';
 
-export default function HomePage() {
-  return (
-    <>
-      <CommonNavbar style={homePageNavbarStyle}/>
-      <Landing />
-      <WhoWeAre />
-    </>
-  );
-}
+export default class HomePage extends Component {
 
-const homePageNavbarStyle = {
-  opacity: 1,
-  position: "absolute",
-  width: "100%"
+  constructor(props) {
+    super(props);
+  }
+
+  componentDidMount() {
+    scroller.scrollTo(this.props.section, {
+      duration: 1500,
+      delay: 100,
+      smooth: true
+    });
+  }
+
+  componentDidUpdate() {
+    scroller.scrollTo(this.props.section, {
+      duration: 1500,
+      delay: 100,
+      smooth: true
+    });
+  }
+
+  render() {
+    return (
+      <>
+        <Landing id="landing"/>
+        <WhoWeAre id="whoweare"/>
+      </>
+    );
+  }
 }

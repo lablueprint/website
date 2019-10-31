@@ -1,12 +1,12 @@
 import React from 'react';
 import { Navbar } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
-import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 import logo_white from '..//../images/logo_white.png';
 
 export default function CommonNavbar(props) {
   return (
-    <Navbar variant="dark" style={props.style} expand='md'>
+    <Navbar variant="dark" style={props.location.pathname === '/' ? homePageNavbarStyle : teamPageNavbarStyle} expand='md'>
       <Navbar.Brand href="/home">
         <img
           alt=""
@@ -20,13 +20,24 @@ export default function CommonNavbar(props) {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto nav-link">
-          <HashLink className="nav-link" smooth to="/">Home</HashLink>
-          <HashLink className="nav-link" smooth to="/#whoweare">Who We Are</HashLink>
-          <HashLink className="nav-link" smooth to="#filler2">What We Do</HashLink>
-          <HashLink className="nav-link" smooth to="/team">Our Team</HashLink>
-          <HashLink className="nav-link" smooth to="#filler4">Contact Us</HashLink>
+          <Link className="nav-link" to="/" onClick={() => props.setScrollDestination("landing")}>Home</Link>
+          <Link className="nav-link" to="/" onClick={() => props.setScrollDestination("whoweare")}>Who We Are</Link>
+          <Link className="nav-link" to="/" onClick={() => props.setScrollDestination("whatwedo")}>What We Do</Link>
+          <Link className="nav-link" to="/team">Our Team</Link>
+          <Link className="nav-link" to="/" onClick={() => props.setScrollDestination("contactus")}>Contact Us</Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
   );
+}
+
+const homePageNavbarStyle = {
+  opacity: 1,
+  position: "absolute",
+  width: "100%"
+}
+
+const teamPageNavbarStyle = {
+  background: "rgba(0, 120, 232, 0.6)",
+  position: "static"
 }
