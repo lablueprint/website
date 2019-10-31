@@ -12,8 +12,8 @@ export default function MemberProfile(props) {
         height="200"
         fluid
         roundedCircle  />
-      <div>{props.name}</div>
-      <div>{props.position}</div>
+      <div style={nameStyle}>{props.name}</div>
+      <div style={positionStyle}>{props.position}</div>
       <a href={props.linkedInURL}>
         <FaLinkedinIn/>
       </a>
@@ -22,6 +22,16 @@ export default function MemberProfile(props) {
 }
 
 const containerStyle = {
-  textAlign: "center",
-  padding: 30
+  textAlign: 'center',
+  paddingTop: 40
+}
+
+const nameStyle = {
+  fontWeight: 'bold',
+  paddingTop: 10,
+  // color: '#187be5'
+}
+
+const positionStyle = {
+  fontSize: '0.8em'
 }
