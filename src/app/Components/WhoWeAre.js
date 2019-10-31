@@ -3,9 +3,9 @@ import React from 'react';
 import { Col, Image, Jumbotron, Row } from 'react-bootstrap';
 import blueprint_royce_hall from '..//../images/blueprint_royce_hall2.png';
 
-export default function WhoWeAre() {
+export default function WhoWeAre(props) {
   return (
-    <Jumbotron fluid style={jumboStyle} id="whoweare">
+    <Jumbotron fluid style={jumboStyle} id={props.id}>
       <Row style={rowStyle}>
         <Col xs={{ span: 10, offset: 1 }} md={{ span: 4, offset: 2}}>
         <h1>What is Blueprint</h1>
