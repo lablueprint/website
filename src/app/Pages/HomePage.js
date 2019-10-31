@@ -6,10 +6,6 @@ import { scroller } from 'react-scroll';
 
 export default class HomePage extends Component {
 
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     scroller.scrollTo(this.props.section, {
       duration: 1500,
