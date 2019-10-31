@@ -1,11 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import HomePage from './app/Pages/HomePage';
-import TeamPage from './app/Pages/TeamPage';
-import PageNotFound from './app/Pages/PageNotFound';
 import CommonNavbar from './app/Components/CommonNavbar';
-import { withRouter } from "react-router";
+import HomePage from './app/Pages/HomePage';
+import PageNotFound from './app/Pages/PageNotFound';
+import TeamPage from './app/Pages/TeamPage';
 
 export default class App extends Component {
 
@@ -24,10 +23,9 @@ export default class App extends Component {
   }
 
   render() {
-    const CommonNavbarWithRouter = withRouter(CommonNavbar);
     return (
       <BrowserRouter>
-        <CommonNavbarWithRouter setScrollDestination={this.setScrollDestination}/>
+        <Route children={ () => <CommonNavbar setScrollDestination={this.setScrollDestination}/>} />
       	<Switch>
           <Route exact path="/">
             <HomePage section={this.state.section}/>
