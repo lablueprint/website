@@ -5,6 +5,7 @@ import CommonNavbar from './app/Components/CommonNavbar';
 import HomePage from './app/Pages/HomePage';
 import PageNotFound from './app/Pages/PageNotFound';
 import TeamPage from './app/Pages/TeamPage';
+import Footer from './app/Components/Footer';
 
 export default class App extends Component {
 
@@ -37,6 +38,7 @@ export default class App extends Component {
             <PageNotFound/>
           </Route>
         </Switch>
+        <Footer/>
       </BrowserRouter>
     );
   }
