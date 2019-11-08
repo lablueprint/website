@@ -26,12 +26,20 @@ export default function WhoWeAre(props) {
   );
 }
 
+<<<<<<< HEAD
 const containerStyle = {
   minHeight: '50vh',
   backgroundColor: '#f8f8f8',
   color: '#7e8893',
   fontFamily: 'Roboto'
 };
+=======
+const jumboStyle = {
+  backgroundColor: '#0078e8',
+  color: 'white',
+  margin: 0
+}
+>>>>>>> Added "Our Values" page template
 
 const headerStyle = {
   color: 'black'
