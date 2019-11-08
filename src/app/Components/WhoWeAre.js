@@ -29,7 +29,8 @@ export default function WhoWeAre(props) {
 
 const jumboStyle = {
   backgroundColor: '#0078e8',
-  color: 'white'
+  color: 'white',
+  margin: 0
 }
 
 const rowStyle = {

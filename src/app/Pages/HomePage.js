@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
 import Landing from '../Components/Landing';
 import WhoWeAre from '../Components/WhoWeAre';
+import OurValues from '../Components/OurValues';
 import { scroller } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 
@@ -29,6 +30,9 @@ export default class HomePage extends Component {
         <Landing id="landing"/>
         <Fade>
           <WhoWeAre id="whoweare"/>
+        </Fade>
+        <Fade>
+          <OurValues id="values"/>
         </Fade>
       </>
     );
