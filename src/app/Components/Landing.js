@@ -27,10 +27,10 @@ export default function Landing(props) {
 const jumboStyle = {
   backgroundImage: 'url(' + jumbo_background + ')',
   backgroundSize: "cover"
-}
+};
 
 const jumboHeaderStyle = {
   color: "white",
   fontSize: 20,
   paddingTop: 20
-}
+};

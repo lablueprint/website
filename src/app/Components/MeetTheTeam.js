@@ -12,7 +12,6 @@ import summer_siu from '..//../images/team/summer-siu.jpg';
 import tiffany_feng from '..//../images/team/tiffany-feng.jpg';
 import vincent_cheung from '..//../images/team/vincent-cheung.jpg';
 
-
 export default function MeetTheTeam() {
   return (
     <Container style={containerStyle}>
@@ -85,4 +84,4 @@ const containerStyle = {
   textAlign: "center",
   fontFamily: 'Poppins',
   marginBottom: 150
-}
+};

@@ -19,11 +19,10 @@ export default function Footer(props) {
           <Col xs={6} md={2} className="mb-5">
             <h6 class="mb-3">General</h6>
             <ul class="nav flex-column">
-              <li class="nav-item pt-1"><a style={linkStyle} href='/#'>About</a></li>
-              <li class="nav-item pt-1"><a style={linkStyle} href='/#'>Team</a></li>
+              <li class="nav-item pt-1"><a style={linkStyle} href='/'>About</a></li>
+              <li class="nav-item pt-1"><a style={linkStyle} href='/team'>Team</a></li>
               <li class="nav-item pt-1"><a style={linkStyle} href='/#'>Projects</a></li>
-              <li class="nav-item pt-1"><a style={linkStyle} href='/#'>Contact</a></li>
-              <li class="nav-item pt-1"><a style={linkStyle} href='/#'>Blog</a></li>
+              <li class="nav-item pt-1"><a style={linkStyle} href='/contact'>Contact</a></li>
             </ul>
           </Col>
           <Col xs={6} md={2} className="mb-5">
@@ -32,14 +31,12 @@ export default function Footer(props) {
               <li class="nav-item pt-1"><a style={linkStyle} href='/#'>Apply</a></li>
               <li class="nav-item pt-1"><a style={linkStyle} href='/#'>Process</a></li>
               <li class="nav-item pt-1"><a style={linkStyle} href='/#'>FAQs</a></li>
-              <li class="nav-item pt-1"><a style={linkStyle} href='/#'>Decal</a></li>
             </ul>
           </Col>
           <Col xs={6} md={2} className="mb-5">
             <h6 class="mb-3">Nonprofits</h6>
             <ul class="nav flex-column">
               <li class="nav-item pt-1"><a style={linkStyle} href='/#'>Apply</a></li>
-              <li class="nav-item pt-1"><a style={linkStyle} href='/#'>Login</a></li>
               <li class="nav-item pt-1"><a style={linkStyle} href='/#'>Process</a></li>
               <li class="nav-item pt-1"><a style={linkStyle} href='/#'>FAQs</a></li>
             </ul>
@@ -49,7 +46,7 @@ export default function Footer(props) {
             <ul class="nav flex-column">
               <li class="nav-item pt-1"><a style={linkStyle} href='/#'><FaFacebookF class="mr-1"/>Facebook</a></li>
               <li class="nav-item pt-1"><a style={linkStyle} href='/#'><FaTwitter class="mr-1"/>Twitter</a></li>
-              <li class="nav-item pt-1"><a style={linkStyle} href='/#'><FaGithub class="mr-1"/>Github</a></li>
+              <li class="nav-item pt-1"><a style={linkStyle} href='https://github.com/uclablueprint/'><FaGithub class="mr-1"/>Github</a></li>
               <li class="nav-item pt-1"><a style={linkStyle} href='/#'><FaMediumM class="mr-1"/>Blog</a></li>
             </ul>
           </Col>
@@ -69,16 +66,15 @@ const footerStyle = {
   color: 'white',
   minHeight: '35vh',
   fontFamily: 'Roboto'
-}
+};
 
 const linkStyle = {
-  color: 'white',
   fontSize: '0.9em',
   fontFamily: 'Roboto', 
   color: 'rgba(249,250,252,0.6)'
-}
+};
 
 const copyrightStyle = {
   color: 'rgba(249,250,252,0.6)',
   fontSize: '0.9em'
-}
+};

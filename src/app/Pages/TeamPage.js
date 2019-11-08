@@ -18,4 +18,4 @@ export default function TeamPage() {
 const bgStyle = {
   paddingTop: 100,
   paddingBottom: 200
-}
+};

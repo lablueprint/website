@@ -24,14 +24,14 @@ export default function MemberProfile(props) {
 const containerStyle = {
   textAlign: 'center',
   paddingTop: 40
-}
+};
 
 const nameStyle = {
   fontWeight: 'bold',
   paddingTop: 10,
   // color: '#187be5'
-}
+};
 
 const positionStyle = {
   fontSize: '0.8em'
-}
+};

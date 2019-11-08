@@ -40,9 +40,9 @@ const homePageNavbarStyle = {
   opacity: 1,
   position: "absolute",
   width: "100%"
-}
+};
 
 const teamPageNavbarStyle = {
   background: '#187be5',
   position: "static"
-}
+};

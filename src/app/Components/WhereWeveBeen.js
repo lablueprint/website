@@ -26,4 +26,4 @@ const containerStyle = {
   textAlign: "center",
   fontFamily: 'Poppins',
   marginBottom: 150
-}
+};

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import CommonNavbar from './app/Components/CommonNavbar';
 import HomePage from './app/Pages/HomePage';
-import PageNotFound from './app/Pages/PageNotFound';
+import NotFoundPage from './app/Pages/NotFoundPage';
 import TeamPage from './app/Pages/TeamPage';
 import Footer from './app/Components/Footer';
 
@@ -35,7 +35,7 @@ export default class App extends Component {
             <TeamPage/>
           </Route>
         	<Route>
-            <PageNotFound/>
+            <NotFoundPage/>
           </Route>
         </Switch>
         <Footer/>
