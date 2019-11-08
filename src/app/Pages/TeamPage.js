@@ -11,7 +11,6 @@ import jonathan_fan from '..//../images/team/jonathan-fan.jpg';
 import raymond_phan from '..//../images/team/raymond-phan.jpg';
 import derek_chu from '..//../images/team/derek-chu.jpg';
 import vincent_cheung from '..//../images/team/vincent-cheung.jpg';
-import ryan_young from '..//../images/team/ryan-young.jpg';
 
 export default function TeamPage() {
   return (
@@ -27,13 +26,6 @@ export default function TeamPage() {
               name={"Leo Liu"}
               position={"President"}
               linkedInURL={"https://www.linkedin.com/in/leoliuu/"} />
-          </Col>
-          <Col xs={6} md={4}>
-            <MemberProfile
-              image={ryan_young}
-              name={"Ryan Young"}
-              position={"Sales Representative"}
-              linkedInURL={"https://www.linkedin.com/in/ryanjayyoung/"} />
           </Col>
           <Col xs={6} md={4}>
             <MemberProfile
@@ -87,4 +79,4 @@ const containerStyle = {
   marginTop: 100,
   textAlign: "center",
   fontFamily: 'Poppins'
-}
+};

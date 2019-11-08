@@ -30,8 +30,8 @@ export default function WhoWeAre(props) {
 const jumboStyle = {
   backgroundColor: '#0078e8',
   color: 'white'
-}
+};
 
 const rowStyle = {
   margin: 0
-}
+};
