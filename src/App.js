@@ -5,6 +5,7 @@ import CommonNavbar from './app/Components/CommonNavbar';
 import HomePage from './app/Pages/HomePage';
 import NotFoundPage from './app/Pages/NotFoundPage';
 import TeamPage from './app/Pages/TeamPage';
+import ContactPage from './app/Pages/ContactPage';
 import Footer from './app/Components/Footer';
 
 export default class App extends Component {
@@ -33,6 +34,9 @@ export default class App extends Component {
           </Route>
           <Route exact path="/team">
             <TeamPage/>
+          </Route>
+          <Route exact path="/contact">
+            <ContactPage/>
           </Route>
         	<Route>
             <NotFoundPage/>
