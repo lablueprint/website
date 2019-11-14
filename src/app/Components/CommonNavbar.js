@@ -28,6 +28,7 @@ export default function CommonNavbar(props) {
           <Link className="nav-link" to="/" onClick={() => props.setScrollDestination("whoweare")}>Who We Are</Link>
           <Link className="nav-link" to="/" onClick={() => props.setScrollDestination("whatwedo")}>What We Do</Link>
           <Link className="nav-link" to="/team">Our Team</Link>
+          <Link className="nav-link" to="/projects">Our Projects</Link>
           <Link className="nav-link" to="/contact">Contact Us</Link>
         </Fade>
         </Nav>
