@@ -5,7 +5,7 @@ import { Fade, Roll } from 'react-reveal'
 
 export default function Landing(props) {
   return (
-    <div class="container-fluid text-center justify-content-center d-flex flex-column py-5" id={props.id} style={landingStyle}>
+    <div className="container-fluid text-center justify-content-center d-flex flex-column py-5" id={props.id} style={landingStyle}>
       <Container>
         <Roll>
           <Image
