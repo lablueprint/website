@@ -8,8 +8,35 @@ export default function ProjectPage() {
   return (
     <div style={bgStyle}>
       <Container>
+      <Row style={{height: 100}}>
+        <Col><h1>Current Projects</h1></Col>
+      </Row>
         <Row>
-          <Col>
+          <Col xs={6} md={4}>
+            <ProjectCard 
+              projectImg={ptv}
+              projectTitle="Program for Torture Victims" 
+              projectDescription="Placeholder text"
+              projectLink="ptv"
+            />
+          </Col>
+          <Col xs={6} md={4}>
+            <ProjectCard 
+              projectImg={ptv}
+              projectTitle="Program for Torture Victims" 
+              projectDescription="Placeholder text"
+              projectLink="ptv"
+            />
+          </Col>
+          <Col xs={6} md={4}>
+            <ProjectCard 
+              projectImg={ptv}
+              projectTitle="Program for Torture Victims" 
+              projectDescription="Placeholder text"
+              projectLink="ptv"
+            />
+          </Col>
+          <Col xs={6} md={4}>
             <ProjectCard 
               projectImg={ptv}
               projectTitle="Program for Torture Victims" 
@@ -24,5 +51,6 @@ export default function ProjectPage() {
 }
 
 const bgStyle = {
-  paddingBottom: 100
+  paddingTop: 100,
+  paddingBottom: 200
 };

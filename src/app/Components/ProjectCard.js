@@ -11,22 +11,26 @@ export default function ProjectCard(props) {
     let projectLink = "/projects/" + props.projectLink;
 
     return (
-        <Card style={cardStyle}>
-            <Card.Img variant="top" src={ptv} />
-            <Card.Body>
-                <Card.Title>{props.projectTitle}</Card.Title>
-                <Card.Text>
-                    {props.projectDescription}
-                </Card.Text>
-            </Card.Body>
-            <Link className="nav-link" to={projectLink}>Learn More</Link>
-        </Card>
+        <a style={{textDecoration: "none"}} href={projectLink}>
+            <Card style={cardStyle} >
+                <Card.Img variant="top" src={ptv} />
+                <Card.Body>
+                    <Card.Title>{props.projectTitle}</Card.Title>
+                    <Card.Text>
+                        {props.projectDescription}
+                    </Card.Text>
+                </Card.Body>
+                <Link className="nav-link" to={projectLink}>Learn More</Link>
+            </Card>
+        </a>
     )
 }
 
 const cardStyle = {
+    color: "black",
     marginBottom: "40px",
-    padding: "0 20px",
-    width: "33.333%",
-    border: "none"
+    padding: "20px 20px",
+    border: "none",
+    cursor: "pointer",
+    background: "#F8F8F8",
   }
