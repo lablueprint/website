@@ -4,12 +4,13 @@ import Nav from 'react-bootstrap/Nav';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
 import logo_white from '..//../images/logo_white.png';
+import '../../App.css'
 
 export default function CommonNavbar(props) {
   return (
-    <Navbar variant="dark" style={window.location.pathname === '/' ? homePageNavbarStyle : teamPageNavbarStyle} expand='md'>
+    <Navbar variant="dark" style={{...(window.location.pathname === '/' ? homePageNavbarStyle : teamPageNavbarStyle), ...navbarStyle}} expand='md'>
       <Fade left>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/" style={logoStyle}>
           <img
             alt=""
             src={logo_white}
@@ -35,6 +36,14 @@ export default function CommonNavbar(props) {
     </Navbar>
   );
 }
+
+const logoStyle = {
+  fontFamily: 'Poppins'
+};
+
+const navbarStyle = {
+  fontFamily: 'Roboto'
+};
 
 const homePageNavbarStyle = {
   opacity: 1,

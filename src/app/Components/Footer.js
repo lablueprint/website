@@ -14,7 +14,7 @@ export default function Footer(props) {
               height={30}
               className="pr-2"
             />
-            <div class="d-inline-block">blueprint</div>
+            <div class="d-inline-block" style={logoStyle} >blueprint</div>
           </Col>
           <Col xs={6} md={2} className="mb-5">
             <h6 class="mb-3">General</h6>
@@ -60,6 +60,11 @@ export default function Footer(props) {
     </div>
   );
 }
+
+const logoStyle = {
+  fontFamily: 'Poppins',
+  fontSize: '1.1em'
+};
 
 const footerStyle = {
   backgroundColor: '#2C3E50',
