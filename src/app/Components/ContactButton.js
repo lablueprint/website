@@ -1,30 +1,30 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import { Col, Jumbotron, Row, Button } from 'react-bootstrap';
+import { Col, Container, Row, Button } from 'react-bootstrap';
 
-export default function ContactUs(props) {
+export default function ContactUs() {
   return (
-    <Jumbotron style={jumboStyle} id={props.id}>
-      
+    <div class="container-fluid py-3" style={contactStyle}>
+      <Container>
       <Row>
-        <Col xs={{ span: 10, offset: 1 }} md={{ span: 5, offset: 2}}>
+        <Col xs={{ span: 10, offset: 1 }} md={{ span: 5, offset: 0}}>
           <h1>Contact Us</h1>
         </Col>
       </Row>
-      <br/>
       <Row>
-      <Col xs={{ span: 10, offset: 1 }} md={{ span: 5, offset: 2}}>
+      <Col xs={{ span: 10, offset: 1 }} md={{ span: 5, offset: 0}}>
           <h4 style={headerStyle}>Have a question? Message us here!</h4>
         </Col>
-        <Col xs={{ span: 10, offset: 1 }} md={{ span: 2, offset: 1}}>
+        <Col xs={{ span: 10, offset: 1 }} md={{ span: 2, offset: 2}}>
           <Button style={buttonStyle} variant="light" href="/contact">Email Us!</Button>
         </Col>
       </Row>
-    </Jumbotron>
+      </Container>
+    </div>
   );
 }
 
-const jumboStyle = {
+const contactStyle = {
   backgroundColor: 'white',
   color: 'black'
 }

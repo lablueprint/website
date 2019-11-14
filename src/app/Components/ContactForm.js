@@ -23,6 +23,7 @@ class ContactForm extends Component {
                 message: '' 
             }
         }
+        this.onChange = this.handleInputChange.bind(this);
     }
 
     handleInputChange (event) {
@@ -111,7 +112,7 @@ class ContactForm extends Component {
                             value={this.state.name}
                             error={this.state.errors.name} 
                             required='required'
-                            onChange={this.handleInputChange.bind(this)}  
+                            onChange={this.onChange}  
                             placeholder="Joe Bruin" />
                     </Form.Group>
                     <Form.Group controlId="formBasicEmail">
@@ -123,17 +124,18 @@ class ContactForm extends Component {
                             value={this.state.email}
                             error={this.state.errors.email}
                             required='required'
-                            onChange={this.handleInputChange.bind(this)} 
+                            onChange={this.onChange} 
                             placeholder="jbruin@ucla.edu" />
                     </Form.Group>
                     <Form.Group controlId="formBasicNPO">
-                        <Form.Label style={headerStyle}>Nonprofit organization (Optional)</Form.Label>
+                        <Form.Label style={headerStyle}>Organization (Optional)</Form.Label>
                         <Form.Control 
                             style={inputStyle}
                             name="npo"
                             value={this.state.npo}
                             error={this.state.errors.npo} 
-                            onChange={this.handleInputChange.bind(this)} 
+                            onChange={this.onChange} 
+                            defaultValue="General"
                             placeholder="UCLA" />
                     </Form.Group>
                     <Form.Group controlId="formBasicSubject">
@@ -144,7 +146,7 @@ class ContactForm extends Component {
                             value={this.state.subject}
                             error={this.state.errors.subject} 
                             required='required'
-                            onChange={this.handleInputChange.bind(this)} 
+                            onChange={this.onChange} 
                             placeholder="What's your question?" />
                     </Form.Group>
                     <Form.Group controlId="formBasicMessage">
@@ -156,7 +158,7 @@ class ContactForm extends Component {
                             value={this.state.message}
                             error={this.state.errors.message} 
                             required='required'
-                            onChange={this.handleInputChange.bind(this)} 
+                            onChange={this.onChange} 
                             placeholder="Enter message..." />
                     </Form.Group>
                     <Button variant="light" style={buttonStyle} type="submit">

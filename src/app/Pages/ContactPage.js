@@ -3,7 +3,7 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import ContactForm from '../Components/ContactForm';
 
-export default function TeamPage() {
+export default function ContactPage() {
   return (
     <div style={bgStyle}>
       <Fade bottom>
