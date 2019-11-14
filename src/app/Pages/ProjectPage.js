@@ -1,11 +1,24 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
-import Fade from "react-reveal/Fade";
+import ProjectCard from "../Components/ProjectCard";
+import ptv from '../../images/projects/ptv.jpg'
+import { Container, Row, Col } from "react-bootstrap";
 
-export default function ContactPage() {
+export default function ProjectPage() {
   return (
     <div style={bgStyle}>
-      <Fade bottom>Hi</Fade>
+      <Container>
+        <Row>
+          <Col>
+            <ProjectCard 
+              projectImg={ptv}
+              projectTitle="Program for Torture Victims" 
+              projectDescription="Placeholder text"
+              projectLink="ptv"
+            />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
