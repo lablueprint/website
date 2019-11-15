@@ -1,15 +1,16 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Jumbotron } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import React from 'react';
-import Landing from '../Components/Landing';
 
 export default function TeamPage() {
   return (
-    <Jumbotron style={jumboStyle} bsPrefix="text-center justify-content-center d-flex flex-column">
-      <div style={numberStyle}>404</div>
-      <div>This page does not exist!</div>
-      <a href='/'>Go back to homepage</a>
-    </Jumbotron>
+    <div class="container-fluid" style={jumboStyle}>
+      <Container className="mb-5 text-center">
+        <div style={numberStyle}>404</div>
+        <div>This page does not exist!</div>
+        <a href='/'>Go back to homepage</a>
+      </Container>
+    </div>
   );
 }
 
@@ -20,6 +21,6 @@ const jumboStyle = {
 
 const numberStyle = {
   color: '#0078e8',
-  fontSize: '200px',
+  fontSize: '15vw',
   fontWeight: '500',
 };
