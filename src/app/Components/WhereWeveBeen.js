@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Image } from 'react-bootstrap';
+import '../../App.css';
 
 import amazon from "..//..//images/past-companies/amazon.webp";
 import avantstay from "..//..//images/past-companies/avantstay.webp";
@@ -47,13 +48,10 @@ const companyData = [
   }
 ];
 
-
-
 export default function WhereWeveBeen() {
   const companyLinks = companyData.map(item =>
     <a href={item.link}><Image className="p-2" src={item.logo}/></a>
   );
-
   return (
     <Container style={containerStyle}>
       <Row style={{height: 100}}>
@@ -70,6 +68,6 @@ export default function WhereWeveBeen() {
 
 const containerStyle = {
   textAlign: "center",
-  fontFamily: 'Poppins',
+  fontFamily: 'Roboto',
   marginBottom: 150
 };

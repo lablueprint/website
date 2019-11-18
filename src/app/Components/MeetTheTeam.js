@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import MemberProfile from '../Components/MemberProfile';
+import '../../App.css';
 
 import derek_chu from '..//../images/team/derek-chu.jpg';
 import jonathan_fan from '..//../images/team/jonathan-fan.jpg';
@@ -82,6 +83,6 @@ export default function MeetTheTeam() {
 
 const containerStyle = {
   textAlign: "center",
-  fontFamily: 'Poppins',
+  fontFamily: 'Roboto',
   marginBottom: 150
 };

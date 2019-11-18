@@ -3,7 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
 import logo_white from '..//../images/logo_white.png';
-import '../../App.css'
+import '../../App.css';
 
 export default function CommonNavbar(props) {
   return (
