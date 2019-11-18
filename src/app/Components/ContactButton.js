@@ -15,7 +15,7 @@ export default function ContactUs() {
           <Col xs={{ span: 10, offset: 1 }} md={{ span: 5, offset: 1}}>
             <h4 style={headerStyle}>Have a question? Message us here!</h4>
           </Col>
-          <Col xs={{ span: 10, offset: 1 }} md={{ span: 1, offset: 0}}>
+          <Col xs={{ span: 10, offset: 1 }} md={{ span: 2, offset: 0}}>
             <Button style={buttonStyle} variant="light" href="/contact">Email Us!</Button>
           </Col>
         </Row>
