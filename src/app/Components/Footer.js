@@ -5,7 +5,7 @@ import { FaFacebookF, FaTwitter, FaGithub, FaMediumM } from 'react-icons/fa';
 
 export default function Footer(props) {
   return (
-    <div class="container-fluid py-5" style={footerStyle}>
+    <div className="container-fluid py-5" style={footerStyle}>
       <Container>
         <Row>
           <Col sm={12} md={4} className="mb-5">
@@ -14,52 +14,59 @@ export default function Footer(props) {
               height={30}
               className="pr-2"
             />
-            <div class="d-inline-block">blueprint</div>
+            <div className="d-inline-block" style={logoStyle} >blueprint</div>
           </Col>
           <Col xs={6} md={2} className="mb-5">
-            <h6 class="mb-3">General</h6>
-            <ul class="nav flex-column">
-              <li class="nav-item pt-1"><a style={linkStyle} href='/'>About</a></li>
-              <li class="nav-item pt-1"><a style={linkStyle} href='/team'>Team</a></li>
-              <li class="nav-item pt-1"><a style={linkStyle} href='/#'>Projects</a></li>
-              <li class="nav-item pt-1"><a style={linkStyle} href='/contact'>Contact</a></li>
+            <h6 className="mb-3">General</h6>
+            <ul className="nav flex-column">
+              <li className="nav-item pt-1"><a style={linkStyle} href='/'>About</a></li>
+              <li className="nav-item pt-1"><a style={linkStyle} href='/team'>Team</a></li>
+              <li className="nav-item pt-1"><a style={linkStyle} href='/#'>Projects</a></li>
+              <li className="nav-item pt-1"><a style={linkStyle} href='/contact'>Contact</a></li>
             </ul>
           </Col>
           <Col xs={6} md={2} className="mb-5">
-            <h6 class="mb-3">Students</h6>
-            <ul class="nav flex-column">
-              <li class="nav-item pt-1"><a style={linkStyle} href='/#'>Apply</a></li>
-              <li class="nav-item pt-1"><a style={linkStyle} href='/#'>Process</a></li>
-              <li class="nav-item pt-1"><a style={linkStyle} href='/#'>FAQs</a></li>
+            <h6 className="mb-3">Students</h6>
+            <ul className="nav flex-column">
+              <li className="nav-item pt-1"><a style={linkStyle} href='/#'>Apply</a></li>
+              <li className="nav-item pt-1"><a style={linkStyle} href='/#'>Process</a></li>
+              <li className="nav-item pt-1"><a style={linkStyle} href='/#'>FAQs</a></li>
             </ul>
           </Col>
           <Col xs={6} md={2} className="mb-5">
-            <h6 class="mb-3">Nonprofits</h6>
-            <ul class="nav flex-column">
-              <li class="nav-item pt-1"><a style={linkStyle} href='/#'>Apply</a></li>
-              <li class="nav-item pt-1"><a style={linkStyle} href='/#'>Process</a></li>
-              <li class="nav-item pt-1"><a style={linkStyle} href='/#'>FAQs</a></li>
+            <h6 className="mb-3">Nonprofits</h6>
+            <ul className="nav flex-column">
+              <li className="nav-item pt-1"><a style={linkStyle} href='/#'>Apply</a></li>
+              <li className="nav-item pt-1"><a style={linkStyle} href='/#'>Process</a></li>
+              <li className="nav-item pt-1"><a style={linkStyle} href='/#'>FAQs</a></li>
             </ul>
           </Col>
           <Col xs={6} md={2} className="mb-5">
-            <h6 class="mb-3">Social Media</h6>
-            <ul class="nav flex-column">
-              <li class="nav-item pt-1"><a style={linkStyle} href='/#'><FaFacebookF class="mr-1"/>Facebook</a></li>
-              <li class="nav-item pt-1"><a style={linkStyle} href='/#'><FaTwitter class="mr-1"/>Twitter</a></li>
-              <li class="nav-item pt-1"><a style={linkStyle} href='https://github.com/uclablueprint/'><FaGithub class="mr-1"/>Github</a></li>
-              <li class="nav-item pt-1"><a style={linkStyle} href='/#'><FaMediumM class="mr-1"/>Blog</a></li>
+            <h6 className="mb-3">Social Media</h6>
+            <ul className="nav flex-column">
+              <li className="nav-item pt-1"><a style={linkStyle} href='/#'><FaFacebookF className="mr-1"/>Facebook</a></li>
+              <li className="nav-item pt-1"><a style={linkStyle} href='/#'><FaTwitter className="mr-1"/>Twitter</a></li>
+              <li className="nav-item pt-1"><a style={linkStyle} href='https://github.com/uclablueprint/'><FaGithub className="mr-1"/>Github</a></li>
+              <li className="nav-item pt-1"><a style={linkStyle} href='/#'><FaMediumM className="mr-1"/>Blog</a></li>
             </ul>
           </Col>
         </Row>
         <Row>
           <Col md={4} style={copyrightStyle}>
-            &copy; Blueprint at UCLA 2019
+            &copy; LA Blueprint 2019
           </Col>
         </Row>
       </Container>
     </div>
   );
 }
+
+const logoStyle = {
+  fontFamily: 'Poppins',
+  fontWeight: 'bold',
+  fontSize: '1.25rem',
+  textShadow: 'none'
+};
 
 const footerStyle = {
   backgroundColor: '#2C3E50',
