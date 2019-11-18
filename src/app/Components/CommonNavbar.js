@@ -24,7 +24,7 @@ export default function CommonNavbar(props) {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto nav-link">
           <Fade right>
-            <Link className="nav-link" to="/" onClick={() => props.setScrollDestination("landing")}>Home</Link>
+            <Link className="nav-link" to="/" onClick={() => props.setScrollDestination(null)}>Home</Link>
             <Link className="nav-link" to="/" onClick={() => props.setScrollDestination("whoweare")}>Who We Are</Link>
             <Link className="nav-link" to="/" onClick={() => props.setScrollDestination("whatwedo")}>What We Do</Link>
             <Link className="nav-link" to="/team">Our Team</Link>
