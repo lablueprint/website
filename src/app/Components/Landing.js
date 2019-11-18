@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Image } from 'react-bootstrap';
 import logo_white from '..//../images/logo_white.png';
-import { Fade, Roll } from 'react-reveal'
+import { Fade, Roll } from 'react-reveal';
+import '../../App.css';
 
 export default function Landing(props) {
   return (
@@ -28,7 +29,8 @@ export default function Landing(props) {
 const landingStyle = {
   backgroundColor: '#187be5',
   minHeight: '70vh',
-  backgroundSize: 'cover'
+  backgroundSize: 'cover',
+  fontFamily: 'Roboto'
 };
 
 const jumboHeaderStyle = {

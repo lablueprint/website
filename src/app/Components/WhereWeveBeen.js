@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import '../../App.css';
 
 export default function MeetTheTeam() {
   return (
@@ -24,6 +25,6 @@ export default function MeetTheTeam() {
 
 const containerStyle = {
   textAlign: "center",
-  fontFamily: 'Poppins',
+  fontFamily: 'Roboto',
   marginBottom: 150
 };

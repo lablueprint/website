@@ -1,9 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
-// import toastr from 'toastr'
-import emailjs from 'emailjs-com'
-import 'jquery'
+// import toastr from 'toastr';
+import emailjs from 'emailjs-com';
+// import 'jquery';
 import {Button, Form} from 'react-bootstrap';
+import '../../App.css';
 
 class ContactForm extends Component {
     constructor (props) {
@@ -174,7 +175,8 @@ const inputStyle = {
     maxWidth: 300
 }
 const formStyle = {
-    maxWidth: 600
+    maxWidth: 600,
+    fontFamily: 'Roboto'
 }
 
 const buttonStyle = {
