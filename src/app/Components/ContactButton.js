@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { Col, Container, Row, Button } from 'react-bootstrap';
+import '../../App.css';
 
 export default function ContactUs() {
   return (
@@ -27,7 +28,8 @@ export default function ContactUs() {
 const contactStyle = {
   minHeight: '30vh',
   backgroundColor: 'white',
-  color: 'black'
+  color: 'black',
+  fontFamily: 'Roboto'
 }
 
 const headerStyle = {

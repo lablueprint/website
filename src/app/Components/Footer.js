@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import logo_white from '..//../images/logo_white.png';
 import { FaFacebookF, FaTwitter, FaGithub, FaMediumM } from 'react-icons/fa';
+import '../../App.css';
 
 export default function Footer(props) {
   return (
@@ -53,7 +54,7 @@ export default function Footer(props) {
         </Row>
         <Row>
           <Col md={4} style={copyrightStyle}>
-            &copy; LA Blueprint 2019
+            &copy; Blueprint at UCLA 2019
           </Col>
         </Row>
       </Container>
