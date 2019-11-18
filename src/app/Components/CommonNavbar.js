@@ -7,7 +7,7 @@ import '../../App.css'
 
 export default function CommonNavbar(props) {
   return (
-    <Navbar variant="dark" style={{...(window.location.pathname === '/' ? homePageNavbarStyle : teamPageNavbarStyle), ...navbarStyle}} expand='md'>
+    <Navbar variant="dark" style={navbarStyle} expand='md'>
       <Fade left>
         <Navbar.Brand href="/" style={logoStyle}>
           <img
@@ -43,16 +43,18 @@ const logoStyle = {
 };
 
 const navbarStyle = {
+  background: '#187be5',
+  position: "static",
   fontFamily: 'Roboto'
 };
 
-const homePageNavbarStyle = {
-  opacity: 1,
-  position: 'absolute',
-  width: '100%'
-};
+// const homePageNavbarStyle = {
+//   opacity: 1,
+//   position: 'absolute',
+//   width: '100%'
+// };
 
-const teamPageNavbarStyle = {
-  background: '#187be5',
-  position: "static"
-};
+// const teamPageNavbarStyle = {
+//   background: '#187be5',
+//   position: "static"
+// };

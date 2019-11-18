@@ -53,7 +53,7 @@ export default function Footer(props) {
         </Row>
         <Row>
           <Col md={4} style={copyrightStyle}>
-            &copy; Blueprint at UCLA 2019
+            &copy; LA Blueprint 2019
           </Col>
         </Row>
       </Container>
