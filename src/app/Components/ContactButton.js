@@ -5,7 +5,7 @@ import '../../App.css';
 
 export default function ContactUs() {
   return (
-    <div className="container-fluid py-3" style={contactStyle}>
+    <div className="container-fluid py-5" style={contactStyle}>
       <Container>
         <Row>
           <Col xs={{ span: 10, offset: 1 }} md={{ span: 10, offset: 1}}>
