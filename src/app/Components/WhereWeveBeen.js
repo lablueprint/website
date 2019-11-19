@@ -53,16 +53,18 @@ export default function WhereWeveBeen() {
     <a href={item.link}><Image className="p-2" src={item.logo}/></a>
   );
   return (
-    <Container style={containerStyle}>
-      <Row style={{height: 100}}>
-        <Col><h1>Where We've Been</h1></Col>
-      </Row>
-      <Row>
-        <Col>
-          {companyLinks}
-        </Col>
-      </Row>
-    </Container>
+    <div className="container-fluid py-5">
+      <Container className="py-5" style={containerStyle}>
+        <Row style={{height: 100}}>
+          <Col><h1>Where We've Been</h1></Col>
+        </Row>
+        <Row>
+          <Col>
+            {companyLinks}
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 }
 
