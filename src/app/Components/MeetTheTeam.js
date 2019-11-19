@@ -13,76 +13,86 @@ import summer_siu from '..//../images/team/summer-siu.jpg';
 import tiffany_feng from '..//../images/team/tiffany-feng.jpg';
 import vincent_cheung from '..//../images/team/vincent-cheung.jpg';
 
+const members = [
+  {
+    image: leo_liu,
+    name: "Leo Liu",
+    position: "President",
+    linkedInURL: "https://www.linkedin.com/in/leoliuu/"
+  },
+  {
+    image: summer_siu,
+    name: "Summer Siu",
+    position: "Director of Outreach",
+    linkedInURL: "https://www.linkedin.com/in/summer-siu-997824149/"
+  },
+  {
+    image: tiffany_feng,
+    name: "Tiffany Feng",
+    position: "Director of Design",
+    linkedInURL: "https://www.linkedin.com/in/tiffany-feng-b12219162/"
+  },
+  {
+    image: jonathan_fan,
+    name: "Jonathan Fan",
+    position: "Director of Marketing",
+    linkedInURL: "https://www.linkedin.com/in/jonathan-f-424b35106/"
+  },
+  {
+    image: raymond_phan,
+    name: "Raymond Phan",
+    position: "Director of Technology",
+    linkedInURL: "https://www.linkedin.com/in/raymondphan/"
+  },
+  {
+    image: derek_chu,
+    name: "Derek Chu",
+    position: "Project Lead",
+    linkedInURL: "https://www.linkedin.com/in/derekchu98/"
+  },
+  {
+    image: vincent_cheung,
+    name: "Vincent Cheung",
+    position: "Software Engineer",
+    linkedInURL: "https://www.linkedin.com/in/vincent-cheung-b6b202137/"
+  },
+  {
+    image: justin_jeon,
+    name: "Justin Jeon",
+    position: "Software Engineer",
+    linkedInURL: "https://www.linkedin.com/in/justin--jeon/"
+  }
+];
+
 export default function MeetTheTeam() {
+  const memberProfiles = members.map(item => (
+    <Col xs={6} md={4}>
+      <MemberProfile
+        image={item.image}
+        name={item.name}
+        position={item.position}
+        linkedInURL={item.linkedInURL} />
+    </Col>
+  ));
   return (
-    <Container style={containerStyle}>
-      <Row style={{height: 100}}>
-        <Col><h1>Meet the Team</h1></Col>
-      </Row>
-      <Row>
-        <Col xs={6} md={4}>
-          <MemberProfile
-            image={leo_liu}
-            name={"Leo Liu"}
-            position={"President"}
-            linkedInURL={"https://www.linkedin.com/in/leoliuu/"} />
-        </Col>
-        <Col xs={6} md={4}>
-          <MemberProfile
-            image={summer_siu}
-            name={"Summer Siu"}
-            position={"Director of Outreach"}
-            linkedInURL={"https://www.linkedin.com/in/summer-siu-997824149/"} />
-        </Col>
-        <Col xs={6} md={4}>
-          <MemberProfile
-            image={tiffany_feng}
-            name={"Tiffany Feng"}
-            position={"Director of Design"}
-            linkedInURL={"https://www.linkedin.com/in/tiffany-feng-b12219162/"} />
-        </Col>
-        <Col xs={6} md={4}>
-          <MemberProfile
-            image={jonathan_fan}
-            name={"Jonathan Fan"}
-            position={"Director of Marketing"}
-            linkedInURL={"https://www.linkedin.com/in/jonathan-f-424b35106/"} />
-        </Col>
-        <Col xs={6} md={4}>
-          <MemberProfile
-            image={raymond_phan}
-            name={"Raymond Phan"}
-            position={"Director of Technology"}
-            linkedInURL={"https://www.linkedin.com/in/raymondphan/"} />
-        </Col>
-        <Col xs={6} md={4}>
-          <MemberProfile
-            image={derek_chu}
-            name={"Derek Chu"}
-            position={"Project Lead"}
-            linkedInURL={"https://www.linkedin.com/in/derekchu98/"} />
-        </Col>
-        <Col xs={6} md={4}>
-          <MemberProfile
-            image={vincent_cheung}
-            name={"Vincent Cheung"}
-            position={"Software Engineer"}
-            linkedInURL={"https://www.linkedin.com/in/vincent-cheung-b6b202137/"} />
-        </Col>
-        <Col xs={6} md={4}>
-          <MemberProfile
-            image={justin_jeon}
-            name={"Justin Jeon"}
-            position={"Software Engineer"}
-            linkedInURL={"https://www.linkedin.com/in/justin--jeon/"} />
-        </Col>
-      </Row>
-    </Container>
+    <div className="container-fluid py-5" style={backgroundStyle}>
+      <Container className="py-5" style={containerStyle}>
+        <Row style={{height: 100}}>
+          <Col><h1>Meet the Team</h1></Col>
+        </Row>
+        <Row>
+          {memberProfiles}
+        </Row>
+      </Container>
+    </div>
   );
 }
 
 const containerStyle = {
   textAlign: "center",
-  fontFamily: 'Roboto',
-  marginBottom: 150
+  fontFamily: 'Roboto'
 };
+
+const backgroundStyle = {
+  backgroundColor: '#f8f8f8'
+}
