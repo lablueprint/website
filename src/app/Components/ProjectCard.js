@@ -4,8 +4,6 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 
-import ptv from '../../images/projects/ptv.jpg'
-
 export default function ProjectCard(props) {
 
     let projectLink = "/projects/" + props.projectLink;
@@ -13,10 +11,10 @@ export default function ProjectCard(props) {
     return (
         <a style={{textDecoration: "none"}} href={projectLink}>
             <Card style={cardStyle} >
-                <Card.Img variant="top" src={ptv} />
+                <Card.Img variant="top" src={props.projectImg} />
                 <Card.Body>
                     <Card.Title>{props.projectTitle}</Card.Title>
-                    <Card.Text>
+                    <Card.Text style={{color: "#505050"}}>
                         {props.projectDescription}
                     </Card.Text>
                 </Card.Body>
