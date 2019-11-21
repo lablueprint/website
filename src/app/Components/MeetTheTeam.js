@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import Fade from 'react-reveal/Fade';
 import MemberProfile from '../Components/MemberProfile';
 import '../../App.css';
 
@@ -80,9 +81,11 @@ export default function MeetTheTeam() {
         <Row style={{height: 100}}>
           <Col><h1>Meet the Team</h1></Col>
         </Row>
-        <Row>
-          {memberProfiles}
-        </Row>
+        <Fade bottom>
+          <Row>
+            {memberProfiles}
+          </Row>
+        </Fade>
       </Container>
     </div>
   );
