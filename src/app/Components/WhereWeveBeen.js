@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import { Image } from 'react-bootstrap';
+import { Col, Container, Row, Image } from 'react-bootstrap';
+import Fade from 'react-reveal/Fade';
 import '../../App.css';
 
 import amazon from "..//..//images/past-companies/amazon.webp";
@@ -58,11 +58,13 @@ export default function WhereWeveBeen() {
         <Row style={{height: 100}}>
           <Col><h1>Where We've Been</h1></Col>
         </Row>
-        <Row>
-          <Col>
-            {companyLinks}
-          </Col>
-        </Row>
+        <Fade bottom>
+          <Row>
+            <Col>
+              {companyLinks}
+            </Col>
+          </Row>
+        </Fade>
       </Container>
     </div>
   );
