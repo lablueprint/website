@@ -2,14 +2,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 
 import Card from 'react-bootstrap/Card';
-import { Link } from 'react-router-dom';
+import { Link, useRouteMatch } from 'react-router-dom';
 
 export default function ProjectCard(props) {
-
-    let projectLink = "/projects/" + props.projectLink;
+    let match = useRouteMatch();
 
     return (
-        <a style={{textDecoration: "none"}} href={projectLink}>
+        <a style={{textDecoration: "none"}} href={`${match.url}/${props.projectLink}`}>
             <Card style={cardStyle} >
                 <Card.Img variant="top" src={props.projectImg} />
                 <Card.Body>
@@ -18,7 +17,7 @@ export default function ProjectCard(props) {
                         {props.projectDescription}
                     </Card.Text>
                 </Card.Body>
-                <Link className="nav-link" to={projectLink}>Learn More</Link>
+                <Link className="nav-link" to={`${match.url}/${props.projectLink}`}>Learn More</Link>
             </Card>
         </a>
     )
