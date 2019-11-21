@@ -6,16 +6,9 @@ import WhereWeveBeen from '../Components/WhereWeveBeen';
 
 export default function TeamPage() {
   return (
-    <div style={bgStyle}>
-      <Fade bottom>
-        <MeetTheTeam />
-        <WhereWeveBeen />
-      </Fade>
-    </div>
+    <Fade bottom>
+      <MeetTheTeam />
+      <WhereWeveBeen />
+    </Fade>
   );
 }
-
-const bgStyle = {
-  paddingTop: 100,
-  paddingBottom: 200
-};
