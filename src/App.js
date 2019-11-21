@@ -5,6 +5,7 @@ import CommonNavbar from './app/Components/CommonNavbar';
 import HomePage from './app/Pages/HomePage';
 import NotFoundPage from './app/Pages/NotFoundPage';
 import TeamPage from './app/Pages/TeamPage';
+import ProjectPage from './app/Pages/ProjectPage'
 import ContactPage from './app/Pages/ContactPage';
 import Footer from './app/Components/Footer';
 
@@ -31,6 +32,9 @@ export default class App extends Component {
       	<Switch>
           <Route exact path="/">
             <HomePage section={this.state.section}/>
+          </Route>
+          <Route exact path="/projects">
+            <ProjectPage/>
           </Route>
           <Route exact path="/team">
             <TeamPage/>
