@@ -47,14 +47,14 @@ export default function Footer(props) {
             <ul className="nav flex-column">
               <li className="nav-item pt-1"><a style={linkStyle} href='/#'><FaFacebookF className="mr-1"/>Facebook</a></li>
               <li className="nav-item pt-1"><a style={linkStyle} href='/#'><FaTwitter className="mr-1"/>Twitter</a></li>
-              <li className="nav-item pt-1"><a style={linkStyle} href='https://github.com/uclablueprint/'><FaGithub className="mr-1"/>Github</a></li>
+              <li className="nav-item pt-1"><a style={linkStyle} href='https://github.com/lablueprint/'><FaGithub className="mr-1"/>Github</a></li>
               <li className="nav-item pt-1"><a style={linkStyle} href='/#'><FaMediumM className="mr-1"/>Blog</a></li>
             </ul>
           </Col>
         </Row>
         <Row>
           <Col md={4} style={copyrightStyle}>
-            &copy; Blueprint at UCLA 2019
+            &copy; LA Blueprint 2019
           </Col>
         </Row>
       </Container>

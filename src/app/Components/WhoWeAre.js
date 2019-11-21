@@ -14,7 +14,7 @@ export default function WhoWeAre(props) {
               Blueprint strives to make technology accessible and useful for those who assist communities and promote public welfare. 
         ​    </p>
             <p>
-              Blueprint at UCLA is committed to building and promoting tech for social good - free of charge. We collaborate with non-profits to provide services such as websites, mobile applications, and data analytical tools.
+              LA Blueprint is committed to building and promoting tech for social good - free of charge. We collaborate with non-profits to provide services such as websites, mobile applications, and data analytical tools.
             </p>
             <p>
               Blueprint is a multinational organization founded in 2012 at <a href='https://www.calblueprint.org'>UC Berkeley</a>. We are the third established chapter after the <a href='https://www.uwblueprint.org'>University of Waterloo</a>.
