@@ -27,7 +27,7 @@ export default function ContactUs() {
 
 const contactStyle = {
   minHeight: '30vh',
-  backgroundColor: 'white',
+  backgroundColor: '#f8f8f8',
   color: 'black',
   fontFamily: 'Roboto'
 }

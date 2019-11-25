@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Landing from '../Components/Landing';
 import WhoWeAre from '../Components/WhoWeAre';
 import ContactButton from '../Components/ContactButton';
+import OurValues from '../Components/OurValues';
 import { scroller } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 
@@ -32,8 +33,11 @@ export default class HomePage extends Component {
           <WhoWeAre id="whoweare"/>
         </Fade>
         <Fade>
-          <ContactButton id="contactus"/>
+          <OurValues id="values"/>
         </Fade>
+        <Fade>
+          <ContactButton id="contactus"/>
+       </Fade> 
       </>
     );
   }
