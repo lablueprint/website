@@ -2,11 +2,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
 import Landing from '../Components/Landing';
 import WhoWeAre from '../Components/WhoWeAre';
-<<<<<<< HEAD
 import ContactButton from '../Components/ContactButton';
-=======
 import OurValues from '../Components/OurValues';
->>>>>>> Added "Our Values" page template
 import { scroller } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 
