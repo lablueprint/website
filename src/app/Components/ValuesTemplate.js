@@ -26,5 +26,5 @@ const titleStyle = {
 }
 
 const textStyle = {
-  fontSize: '0.8em'
+  fontSize: '0.9em'
 }

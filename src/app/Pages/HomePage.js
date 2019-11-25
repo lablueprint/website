@@ -33,11 +33,11 @@ export default class HomePage extends Component {
           <WhoWeAre id="whoweare"/>
         </Fade>
         <Fade>
-          <ContactButton id="contactus"/>
-       </Fade>
-       <Fade>
           <OurValues id="values"/>
         </Fade>
+        <Fade>
+          <ContactButton id="contactus"/>
+       </Fade> 
       </>
     );
   }
