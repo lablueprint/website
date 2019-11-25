@@ -98,4 +98,4 @@ const containerStyle = {
 
 const backgroundStyle = {
   backgroundColor: '#f8f8f8'
-}
+};

@@ -18,13 +18,13 @@ export default function Value(props) {
 
 const containerStyle = {
   paddingTop: 40
-}
+};
 
 const titleStyle = {
   fontWeight: 'bold',
   paddingTop : 10
-}
+};
 
 const textStyle = {
   fontSize: '0.9em'
-}
+};

@@ -11,7 +11,7 @@ const projects = [
     projectDescription: "PTV helps take care of refugees escaping violence and human rights abuse.",
     projectLink: "ptv"
   },
-]
+];
 
 export default function ProjectPage() {
   const projectCards = projects.map(item => (

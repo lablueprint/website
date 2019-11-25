@@ -30,14 +30,14 @@ const contactStyle = {
   backgroundColor: '#f8f8f8',
   color: 'black',
   fontFamily: 'Roboto'
-}
+};
 
 const headerStyle = {
   color: '#8c8c8c',
   paddingBottom: 20
-}
+};
 
 const buttonStyle = {
   color: 'white',
   backgroundColor: '#0078e8'
-}
+};

@@ -51,4 +51,4 @@ export default function OurValues(props) {
 const valuesStyle = {
   backgroundColor: '#ffffff',
   margin: 0
-}
+};
