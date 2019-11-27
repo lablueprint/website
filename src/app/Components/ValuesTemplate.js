@@ -7,8 +7,8 @@ export default function Value(props) {
     <div style={containerStyle}>
       <Image
         src={props.image}
-        width="150"
-        heigh="150"
+        width="100"
+        heigh="100"
         fluid />
       <div style={titleStyle}>{props.title}</div>
       <div style={textStyle}>{props.text}</div>
@@ -18,13 +18,13 @@ export default function Value(props) {
 
 const containerStyle = {
   paddingTop: 40
-}
+};
 
 const titleStyle = {
   fontWeight: 'bold',
   paddingTop : 10
-}
+};
 
 const textStyle = {
   fontSize: '0.9em'
-}
+};

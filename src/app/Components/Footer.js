@@ -6,7 +6,7 @@ import '../../App.css';
 
 const generalLinks = [
   {
-    linkText: 'About',
+    linkText: 'Home',
     href: '/',
   },
   {
@@ -21,7 +21,7 @@ const generalLinks = [
     linkText: 'Contact',
     href: '/contact',
   }
-]
+];
 
 const studentLinks = [
   {
@@ -36,7 +36,7 @@ const studentLinks = [
     linkText: 'Faqs',
     href: '/',
   }
-]
+];
 
 const nonprofitLinks = [
   {
@@ -51,7 +51,7 @@ const nonprofitLinks = [
     linkText: 'Faqs',
     href: '/',
   }
-]
+];
 
 const socialLinks = [
   {
@@ -74,7 +74,7 @@ const socialLinks = [
     href: '/',
     icon: FaMediumM,
   }
-]
+];
 
 export default class Footer extends Component {
 
@@ -158,4 +158,4 @@ const copyrightStyle = {
 
 const socialIconStyle = {
   verticalAlign: -2
-}
+};
