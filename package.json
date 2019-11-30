@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "homepage": "https://uclablueprint.org",
+  "homepage": "https://lablueprint.org",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
