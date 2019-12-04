@@ -2,12 +2,38 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import ValuesTemplate from './ValuesTemplate';
-import Couple from '..//../images/values_couple.png';
 import Presentation from '..//../images/values_presentation.png';
-import Shield from '..//../images/values_shield.png';
+import Couple from '..//../images/values_couple.png';
 import Innovation from '..//../images/values_innovation.png';
+// import Shield from '..//../images/values_shield.png';
+
+const values = [
+  {
+    image: Presentation,
+    title: "Quality",
+    text: "Blueprint strives for the best quality in our projects, members, and workshops. We meticulously choose projects that create a lasting impact."
+  },
+  {
+    image: Couple,
+    title: "Community",
+    text: "Blueprint strives to create a culture where everyone is welcome – our tight-knit community is driven by our passion for social good."
+  },
+  {
+    image: Innovation,
+    title: "Innovation",
+    text: "Blueprint continuously innovates to make sure our projects, workshops, and events are unique. Our creative developments are fueled by our enthusiasm and our eagerness to learn."
+  }
+];
 
 export default function OurValues(props) {
+  const valuesObject = values.map((item, index) => (
+    <Col xs={{span: 10, offset: 1}} md={{span: 4, offset: (index % 2 === 0) ? 1 : 2 }}>
+      <ValuesTemplate
+        image={item.image}
+        title={item.title}
+        text={item.text} />
+    </Col>
+  ));
   return (
     <div class="container-fluid py-5" style={valuesStyle} id={props.id}>
       <Container>
@@ -17,31 +43,7 @@ export default function OurValues(props) {
           </Col>
         </Row>
         <Row>
-          <Col sm={{span: 10, offset: 1}} md={{span: 5, offset: 1}}>
-            <ValuesTemplate
-              image={Presentation}
-              title={"Quality"}
-              text={"From developing projects, recruiting members, and to creating workshops, we strive for the best quality. We meticously chose projects that best create a positive impact on the community."} />
-          </Col>
-          <Col sm={{span: 10, offset: 1}} md={{span: 5}}>
-            <ValuesTemplate
-              image={Couple}
-              title={"Community"}
-              text={"We not only aim to build projects that would have a long lasting social impact, but create an enduring community among our members that expands outside of just working on projects for social good. "} />
-          </Col>
-          <Col sm={{span: 10, offset: 1}} md={{span: 5, offset: 1}}>
-            <ValuesTemplate
-              image={Innovation}
-              title={"Innovation"}
-              text={"We continously innovate to make sure our projects, workshops, and events are unique. This motivates us to be learn and be creative while also having fun."} />
-          </Col>
-          <Col sm={{span: 10, offset: 1}} md={{span: 5}}>
-            <ValuesTemplate
-              image={Shield}
-              title={"Empower"}
-              text={"We help empower nonprofits to accomplish their social mission through the use of technology."} />
-          </Col>
-
+          {valuesObject}
         </Row>
       </Container>
     </div>
