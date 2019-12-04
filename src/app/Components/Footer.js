@@ -24,56 +24,56 @@ const generalLinks = [
 ];
 
 const studentLinks = [
-  {
-    linkText: 'Apply',
-    href: '/',
-  },
-  {
-    linkText: 'Process',
-    href: '/',
-  },
-  {
-    linkText: 'Faqs',
-    href: '/',
-  }
+  // {
+  //   linkText: 'Apply',
+  //   href: '/',
+  // },
+  // {
+  //   linkText: 'Process',
+  //   href: '/',
+  // },
+  // {
+  //   linkText: 'Faqs',
+  //   href: '/',
+  // }
 ];
 
 const nonprofitLinks = [
-  {
-    linkText: 'Apply',
-    href: '/',
-  },
-  {
-    linkText: 'Process',
-    href: '/',
-  },
-  {
-    linkText: 'Faqs',
-    href: '/',
-  }
+  // {
+  //   linkText: 'Apply',
+  //   href: '/',
+  // },
+  // {
+  //   linkText: 'Process',
+  //   href: '/',
+  // },
+  // {
+  //   linkText: 'Faqs',
+  //   href: '/',
+  // }
 ];
 
 const socialLinks = [
-  {
-    linkText: 'Facebook',
-    href: '/',
-    icon: FaFacebookF,
-  },
-  {
-    linkText: 'Twitter',
-    href: '/',
-    icon: FaTwitter,
-  },
+  // {
+  //   linkText: 'Facebook',
+  //   href: '/',
+  //   icon: FaFacebookF,
+  // },
+  // {
+  //   linkText: 'Twitter',
+  //   href: '/',
+  //   icon: FaTwitter,
+  // },
   {
     linkText: 'Github',
     href: 'https://github.com/lablueprint/',
     icon: FaGithub,
   },
-  {
-    linkText: 'Blog',
-    href: '/',
-    icon: FaMediumM,
-  }
+  // {
+  //   linkText: 'Blog',
+  //   href: '/',
+  //   icon: FaMediumM,
+  // }
 ];
 
 export default class Footer extends Component {
@@ -99,8 +99,8 @@ export default class Footer extends Component {
 
   render() {
     const generalNavItems = this.generateNavItems('General', generalLinks);
-    const studentNavItems = this.generateNavItems('Students', studentLinks);
-    const nonprofitNavItems = this.generateNavItems('Nonprofits', nonprofitLinks);
+    // const studentNavItems = this.generateNavItems('Students', studentLinks);
+    // const nonprofitNavItems = this.generateNavItems('Nonprofits', nonprofitLinks);
     const socialNavItems = this.generateNavItems('Social Media', socialLinks);
 
     return (
@@ -116,8 +116,8 @@ export default class Footer extends Component {
               <div className="d-inline-block" style={logoStyle} >blueprint</div>
             </Col>
             {generalNavItems}
-            {studentNavItems}
-            {nonprofitNavItems}
+            {/*studentNavItems*/}
+            {/*nonprofitNavItems*/}
             {socialNavItems}
           </Row>
           <Row>

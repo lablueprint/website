@@ -10,7 +10,8 @@ const projects = [
     projectImg: ptv,
     projectTitle: "Program for Torture Victims",
     projectDescription: "PTV helps take care of refugees escaping violence and human rights abuse.",
-    projectLink: "ptv"
+    projectLink: "https://ptvla.org/"
+    // projectLink: "ptv"
   },
 ];
 

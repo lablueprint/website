@@ -6,7 +6,8 @@ import { Link } from 'react-router-dom';
 
 export default function ProjectCard(props) {
 
-  let projectLink = "/projects/" + props.projectLink;
+  // let projectLink = "/projects/" + props.projectLink;
+  let projectLink = props.projectLink;
 
   return (
     <a style={{textDecoration: "none"}} href={projectLink}>
@@ -18,7 +19,8 @@ export default function ProjectCard(props) {
             {props.projectDescription}
           </Card.Text>
         </Card.Body>
-        <Link className="nav-link" to={projectLink}>Learn More</Link>
+        { /* <Link className="nav-link" to={projectLink}>Learn More</Link> */ }
+        <a href={projectLink}>Learn More</a>
       </Card>
     </a>
   )
