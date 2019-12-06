@@ -1,3 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+.subtitle {
+  margin: 50px 0 50px 0;
+  font-family: 'Questrial';
+  line-height: 1.5em;
+}
+
+@media screen and (min-width: 480px) {
+  .subtitle {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .subtitle {
+    font-size: 1.8em;
+  }
+}
