@@ -30,7 +30,7 @@ export default class HomePage extends Component {
       <>
         <Landing id="landing"/>
         <Fade>
-          <WhoWeAre id="whoweare"/>
+          <WhoWeAre id="whoweare" bg='dark'/>
         </Fade>
         <Fade>
           <OurValues id="values"/>
