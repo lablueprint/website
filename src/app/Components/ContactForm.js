@@ -57,7 +57,7 @@ export default class ContactForm extends Component {
     const templateParams = {
       contact_name: name,
       email_addr: email,
-      npo_name: npo,
+      npo_name: (npo.length !== 0) ? npo : 'General',
       subject_header: subject,
       body_content: message,
     };
@@ -72,7 +72,7 @@ export default class ContactForm extends Component {
         console.log('SUCCESS', response.status, response.text);
       },
       (err) => {
-        console.log(err);
+        console.err(err);
       },
     );
 
@@ -165,7 +165,6 @@ export default class ContactForm extends Component {
               value={npo}
               error={errors.npo}
               onChange={this.onChange}
-              defaultValue="General"
               placeholder="UCLA"
             />
           </Form.Group>

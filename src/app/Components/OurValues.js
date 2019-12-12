@@ -46,6 +46,7 @@ export default function OurValues(props) {
   const { id } = props;
   const valuesObject = values.map((item, index) => (
     <Col
+      key={item.title}
       xs={{ span: 10, offset: 1 }}
       md={{ span: 4, offset: index % 2 === 0 ? 1 : 2 }}
     >
