@@ -2,28 +2,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { Image } from 'react-bootstrap';
 import { FaLinkedinIn } from 'react-icons/fa';
-
-export default function MemberProfile(props) {
-  return (
-    <div style={containerStyle}>
-      <Image
-        src={props.image}
-        width="200"
-        height="200"
-        fluid
-        roundedCircle  />
-      <div style={nameStyle}>{props.name}</div>
-      <div style={positionStyle}>{props.position}</div>
-      <a href={props.linkedInURL}>
-        <FaLinkedinIn/>
-      </a>
-    </div>
-  );
-}
+import PropTypes from 'prop-types';
 
 const containerStyle = {
   textAlign: 'center',
-  paddingTop: 40
+  paddingTop: 40,
 };
 
 const nameStyle = {
@@ -33,5 +16,28 @@ const nameStyle = {
 };
 
 const positionStyle = {
-  fontSize: '0.8em'
+  fontSize: '0.8em',
+};
+
+export default function MemberProfile(props) {
+  // eslint-disable-next-line object-curly-newline
+  const { image, name, position, linkedInURL } = props;
+
+  return (
+    <div style={containerStyle}>
+      <Image src={image} width="200" height="200" fluid roundedCircle />
+      <div style={nameStyle}>{name}</div>
+      <div style={positionStyle}>{position}</div>
+      <a href={linkedInURL}>
+        <FaLinkedinIn />
+      </a>
+    </div>
+  );
+}
+
+MemberProfile.propTypes = {
+  image: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  position: PropTypes.string.isRequired,
+  linkedInURL: PropTypes.string.isRequired,
 };

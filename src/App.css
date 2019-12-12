@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Questrial&display=swap");
 
 .subtitle {
   margin: 50px 0 50px 0;
-  font-family: 'Questrial';
+  font-family: "Questrial";
   line-height: 1.5em;
 }
 

@@ -1,14 +1,17 @@
 import React from 'react';
-
-export default function SectionParagraph(props) {
-  return (
-    <p style={pStyle}>
-      {props.children}
-    </p>
-  );
-}
+import PropTypes from 'prop-types';
 
 const pStyle = {
   fontSize: '1.2em',
-  fontFamily: 'Roboto'
+  fontFamily: 'Roboto',
+};
+
+export default function SectionParagraph(props) {
+  const { children } = props;
+
+  return <p style={pStyle}>{children}</p>;
+}
+
+SectionParagraph.propTypes = {
+  children: PropTypes.element.isRequired,
 };

@@ -1,15 +1,22 @@
 import React from 'react';
-
-export default function SectionHeading(props) {
-  return (
-    <h1 class='my-4' style={headerStyle}>
-      {props.children}
-    </h1>
-  );
-}
+import PropTypes from 'prop-types';
 
 const headerStyle = {
   color: 'black',
   fontFamily: 'Questrial',
-  fontWeight: 'bold'
+  fontWeight: 'bold',
+};
+
+export default function SectionHeading(props) {
+  const { children } = props;
+
+  return (
+    <h1 className="my-4" style={headerStyle}>
+      {children}
+    </h1>
+  );
+}
+
+SectionHeading.propTypes = {
+  children: PropTypes.element.isRequired,
 };
