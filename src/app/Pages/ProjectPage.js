@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 // eslint-disable-next-line object-curly-newline
 import { Button, Col, Container, Row } from 'react-bootstrap';
@@ -7,11 +6,6 @@ import PageHeader from '../components/PageHeader';
 import ProjectCard from '../components/ProjectCard';
 
 import ptv from '../assets/images/projects/ptv.jpg';
-
-const bgStyle = {
-  paddingTop: 100,
-  paddingBottom: 200,
-};
 
 const projects = [
   {
@@ -51,9 +45,9 @@ export default function ProjectPage() {
           </>
         )}
       />
-      <div style={bgStyle}>
+      <div className="project-page">
         <Container>
-          <Row style={{ height: '100px' }}>
+          <Row className="title">
             <Col>
               <h1>Current Projects</h1>
             </Col>

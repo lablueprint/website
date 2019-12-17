@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
 import { scroller } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
@@ -19,13 +18,17 @@ export default class HomePage extends Component {
   componentDidMount() {
     const { section } = this.props;
 
-    scroller.scrollTo(section, OPTIONS);
+    if (section !== null) {
+      scroller.scrollTo(section, OPTIONS);
+    }
   }
 
   componentDidUpdate() {
     const { section } = this.props;
 
-    scroller.scrollTo(section, OPTIONS);
+    if (section !== null) {
+      scroller.scrollTo(section, OPTIONS);
+    }
   }
 
   render() {
@@ -33,7 +36,7 @@ export default class HomePage extends Component {
       <>
         <Landing id="landing" />
         <Fade>
-          <WhoWeAre id="whoweare" bg="dark" />
+          <WhoWeAre id="whoweare" bg="off-white" />
         </Fade>
         <Fade>
           <OurValues id="values" />

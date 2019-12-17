@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './app/assets/stylesheets/main.scss';
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -15,7 +15,7 @@ export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      section: 'root',
+      section: null,
     };
     this.setScrollDestination = this.setScrollDestination.bind(this);
   }

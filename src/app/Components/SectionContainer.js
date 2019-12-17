@@ -1,20 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
-const containerStyle = {
-  minHeight: '50vh',
-  color: '#7e8893',
-  padding: '100px 0 100px 0',
-};
+import ClassNames from 'classnames';
 
 export default function SectionContainer({ id, bg, children }) {
-  const backgroundColor = bg === 'dark' ? '#f8f8f8' : 'white';
+  const className = ClassNames('container-fluid', 'section-container', {
+    'off-white': bg === 'off-white',
+  });
 
   return (
     <div
-      className="container-fluid"
+      className={className}
       id={id}
-      style={{ ...containerStyle, backgroundColor }}
       bg={bg}
     >
       {children}

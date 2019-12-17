@@ -1,40 +1,9 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../App.scss';
 import React from 'react';
 // eslint-disable-next-line object-curly-newline
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { FaGithub } from 'react-icons/fa';
 
 import LogoWhite from '../assets/images/branding/logo_white.png';
-
-const logoStyle = {
-  fontFamily: 'Poppins',
-  fontWeight: 'bold',
-  fontSize: '1.25rem',
-  textShadow: 'none',
-};
-
-const footerStyle = {
-  backgroundColor: '#2C3E50',
-  color: 'white',
-  minHeight: '35vh',
-  fontFamily: 'Roboto',
-};
-
-const linkStyle = {
-  fontSize: '0.9em',
-  fontFamily: 'Roboto',
-  color: 'rgba(249,250,252,0.6)',
-};
-
-const copyrightStyle = {
-  color: 'rgba(249,250,252,0.6)',
-  fontSize: '0.9em',
-};
-
-const socialIconStyle = {
-  verticalAlign: -2,
-};
 
 const generalLinks = [
   {
@@ -69,9 +38,9 @@ export default function Footer() {
       /* setting key as item is kind of choppy, but each object should be unique
       (in a list) so i don't think there will be any issues */
       <li key={JSON.stringify(item)} className="nav-item pt-1">
-        <a style={linkStyle} href={item.href}>
+        <a href={item.href} className="link">
           {item.icon ? (
-            <item.icon style={socialIconStyle} className="mr-1" />
+            <item.icon className="mr-1 social-icon" />
           ) : null}
           {item.linkText}
         </a>
@@ -89,12 +58,12 @@ export default function Footer() {
   const socialNavItems = generateNavItems('Social Media', socialLinks);
 
   return (
-    <div className="container-fluid py-5" style={footerStyle}>
+    <div className="container-fluid py-5 footer">
       <Container>
         <Row>
           <Col sm={12} md={4} className="mb-5">
             <Image src={LogoWhite} height={30} className="pr-2" />
-            <div className="d-inline-block" style={logoStyle}>
+            <div className="d-inline-block logo">
               blueprint
             </div>
           </Col>
@@ -104,7 +73,7 @@ export default function Footer() {
           {socialNavItems}
         </Row>
         <Row>
-          <Col md={4} style={copyrightStyle}>
+          <Col md={4} className="copyright">
             &copy; LA Blueprint 2019
           </Col>
         </Row>

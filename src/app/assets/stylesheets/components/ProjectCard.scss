@@ -1,0 +1,18 @@
+.project-card {
+  &:hover {
+    text-decoration: none;
+  }
+
+  .card {
+    color: black;
+    margin-bottom: 40px;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    background: $off-white;
+
+    .card-text {
+        color: #505050;
+    }
+  }
+}

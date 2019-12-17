@@ -1,26 +1,6 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../App.scss';
 import React, { Component } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import EmailJS from 'emailjs-com';
-
-const inputStyle = {
-  maxWidth: 300,
-};
-
-const formStyle = {
-  maxWidth: 600,
-  fontFamily: 'Roboto',
-};
-
-const buttonStyle = {
-  color: 'white',
-  backgroundColor: '#0078e8',
-};
-
-const headerStyle = {
-  fontWeight: 'bold',
-};
 
 export default class ContactForm extends Component {
   constructor(props) {
@@ -128,14 +108,13 @@ export default class ContactForm extends Component {
     const { name, email, npo, subject, message, errors } = this.state;
 
     return (
-      <div className="container-fluid py-5" style={formStyle}>
+      <div className="container-fluid py-5 contact-form">
         <h1>Contact Us</h1>
         <br />
         <Form onSubmit={this.onSubmit}>
           <Form.Group controlId="formBasicName">
-            <Form.Label style={headerStyle}>Name</Form.Label>
+            <Form.Label>Name</Form.Label>
             <Form.Control
-              style={inputStyle}
               name="name"
               value={name}
               error={errors.name}
@@ -145,9 +124,8 @@ export default class ContactForm extends Component {
             />
           </Form.Group>
           <Form.Group controlId="formBasicEmail">
-            <Form.Label style={headerStyle}>Email address</Form.Label>
+            <Form.Label>Email address</Form.Label>
             <Form.Control
-              style={inputStyle}
               type="email"
               name="email"
               value={email}
@@ -158,9 +136,8 @@ export default class ContactForm extends Component {
             />
           </Form.Group>
           <Form.Group controlId="formBasicNPO">
-            <Form.Label style={headerStyle}>Organization (Optional)</Form.Label>
+            <Form.Label>Organization (Optional)</Form.Label>
             <Form.Control
-              style={inputStyle}
               name="npo"
               value={npo}
               error={errors.npo}
@@ -169,9 +146,8 @@ export default class ContactForm extends Component {
             />
           </Form.Group>
           <Form.Group controlId="formBasicSubject">
-            <Form.Label style={headerStyle}>Subject</Form.Label>
+            <Form.Label>Subject</Form.Label>
             <Form.Control
-              style={inputStyle}
               name="subject"
               value={subject}
               error={errors.subject}
@@ -181,7 +157,7 @@ export default class ContactForm extends Component {
             />
           </Form.Group>
           <Form.Group controlId="formBasicMessage">
-            <Form.Label style={headerStyle}>Message</Form.Label>
+            <Form.Label>Message</Form.Label>
             <Form.Control
               as="textarea"
               rows="5"
@@ -191,9 +167,10 @@ export default class ContactForm extends Component {
               required="required"
               onChange={this.onChange}
               placeholder="Enter message..."
+              className="textarea"
             />
           </Form.Group>
-          <Button variant="light" style={buttonStyle} type="submit">
+          <Button variant="light" type="submit">
             Submit
           </Button>
         </Form>

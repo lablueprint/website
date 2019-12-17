@@ -1,15 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const headerStyle = {
-  color: 'black',
-  fontFamily: 'Questrial',
-  fontWeight: 'bold',
-};
-
 export default function SectionHeading({ children }) {
   return (
-    <h1 className="my-4" style={headerStyle}>
+    <h1 className="my-4 section-heading">
       {children}
     </h1>
   );

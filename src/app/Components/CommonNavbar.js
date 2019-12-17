@@ -1,5 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../App.scss';
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
@@ -8,32 +6,13 @@ import PropTypes from 'prop-types';
 
 import LogoWhite from '../assets/images/branding/logo_white.png';
 
-const logoStyle = {
-  fontFamily: 'Poppins',
-  fontWeight: 'bold',
-  textShadow: 'none',
-};
-
-const navbarStyle = {
-  position: 'static',
-  fontFamily: 'Roboto',
-  paddingLeft: 0,
-  paddingRight: 0,
-};
-
-const bgStyle = {
-  background: '#187be5',
-  padding: 0,
-  margin: 0,
-};
-
 export default function CommonNavbar({ setScrollDestination }) {
   return (
-    <div className="container-fluid" style={bgStyle}>
+    <div className="container-fluid common-navbar">
       <Container>
-        <Navbar variant="dark" style={navbarStyle} expand="md">
+        <Navbar variant="dark" expand="md">
           <Fade left>
-            <Navbar.Brand href="/" style={logoStyle}>
+            <Navbar.Brand href="/">
               <img
                 alt=""
                 src={LogoWhite}
@@ -51,7 +30,7 @@ export default function CommonNavbar({ setScrollDestination }) {
                 <Link
                   className="nav-link"
                   to="/"
-                  onClick={() => setScrollDestination('root')}
+                  onClick={() => setScrollDestination(null)}
                 >
                   Home
                 </Link>

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 export default function SectionSubtitle({ children }) {
-  return <div className="subtitle">{children}</div>;
+  return <div className="section-subtitle">{children}</div>;
 }
 
 SectionSubtitle.propTypes = {

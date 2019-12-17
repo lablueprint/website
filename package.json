@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "classnames": "^2.2.6",
     "emailjs-com": "^2.4.1",
     "gh-pages": "^2.1.1",
     "node-sass": "^4.13.0",

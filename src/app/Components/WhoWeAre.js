@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { Col, Row, Container } from 'react-bootstrap';
 import PropTypes from 'prop-types';

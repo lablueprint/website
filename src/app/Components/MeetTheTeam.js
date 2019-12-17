@@ -1,5 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../App.scss';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
@@ -14,15 +12,6 @@ import RaymondPhan from '../assets/images/team/raymond_phan.jpg';
 import SummerSiu from '../assets/images/team/summer_siu.jpg';
 import TiffanyFeng from '../assets/images/team/tiffany_feng.jpg';
 import VincentCheung from '../assets/images/team/vincent_cheung.jpg';
-
-const containerStyle = {
-  textAlign: 'center',
-  fontFamily: 'Roboto',
-};
-
-const backgroundStyle = {
-  backgroundColor: '#f8f8f8',
-};
 
 const members = [
   {
@@ -88,8 +77,8 @@ export default function MeetTheTeam() {
   ));
 
   return (
-    <div className="container-fluid py-5" style={backgroundStyle}>
-      <Container className="py-5" style={containerStyle}>
+    <div className="container-fluid py-5 meet-the-team">
+      <Container className="py-5">
         <Row style={{ height: 100 }}>
           <Col>
             <h1>Meet the Team</h1>

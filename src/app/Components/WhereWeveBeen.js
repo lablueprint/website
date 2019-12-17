@@ -1,5 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../App.scss';
 import React from 'react';
 // eslint-disable-next-line object-curly-newline
 import { Col, Container, Row, Image } from 'react-bootstrap';
@@ -13,12 +11,6 @@ import IBM from '../assets/images/companies/ibm.webp';
 import ImpactHK from '../assets/images/companies/impact_hk.webp';
 import PPG from '../assets/images/companies/ppg.webp';
 import Stripe from '../assets/images/companies/stripe.webp';
-
-const containerStyle = {
-  textAlign: 'center',
-  fontFamily: 'Roboto',
-  marginBottom: 150,
-};
 
 const companyData = [
   {
@@ -62,9 +54,9 @@ export default function WhereWeveBeen() {
     </a>
   ));
   return (
-    <div className="container-fluid py-5">
-      <Container className="py-5" style={containerStyle}>
-        <Row style={{ height: 100 }}>
+    <div className="container-fluid py-5 where-weve-been">
+      <Container className="py-5">
+        <Row className="title">
           <Col>
             <h1>Where We&#39;ve Been</h1>
           </Col>

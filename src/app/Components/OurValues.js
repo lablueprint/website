@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import PropTypes from 'prop-types';
@@ -8,11 +7,6 @@ import ValuesTemplate from './ValuesTemplate';
 import Presentation from '../assets/images/values/presentation.png';
 import Couple from '../assets/images/values/couple.png';
 import Innovation from '../assets/images/values/innovation.png';
-
-const valuesStyle = {
-  backgroundColor: '#ffffff',
-  margin: 0,
-};
 
 const values = [
   {
@@ -53,7 +47,7 @@ export default function OurValues({ id }) {
   ));
 
   return (
-    <div className="container-fluid py-5" style={valuesStyle} id={id}>
+    <div className="container-fluid py-5 our-values" id={id}>
       <Container>
         <Row>
           <Col sm={{ span: 10, offset: 1 }} md={{ span: 10, offset: 1 }}>
