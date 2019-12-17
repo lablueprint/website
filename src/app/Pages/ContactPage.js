@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 
-import ContactForm from '../Components/ContactForm';
+import ContactForm from '../components/ContactForm';
 
 const bgStyle = {
   paddingBottom: 100,

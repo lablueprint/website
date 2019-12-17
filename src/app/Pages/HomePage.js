@@ -4,30 +4,28 @@ import { scroller } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
 import PropTypes from 'prop-types';
 
-import Landing from '../Components/Landing';
-import WhoWeAre from '../Components/WhoWeAre';
-import ContactButton from '../Components/ContactButton';
-import OurValues from '../Components/OurValues';
+import Landing from '../components/Landing';
+import WhoWeAre from '../components/WhoWeAre';
+import ContactButton from '../components/ContactButton';
+import OurValues from '../components/OurValues';
+
+const OPTIONS = {
+  duration: 1500,
+  delay: 100,
+  smooth: true,
+};
 
 export default class HomePage extends Component {
   componentDidMount() {
     const { section } = this.props;
 
-    scroller.scrollTo(section, {
-      duration: 1500,
-      delay: 100,
-      smooth: true,
-    });
+    scroller.scrollTo(section, OPTIONS);
   }
 
   componentDidUpdate() {
     const { section } = this.props;
 
-    scroller.scrollTo(section, {
-      duration: 1500,
-      delay: 100,
-      smooth: true,
-    });
+    scroller.scrollTo(section, OPTIONS);
   }
 
   render() {

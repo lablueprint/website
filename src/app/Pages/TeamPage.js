@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 
-import MeetTheTeam from '../Components/MeetTheTeam';
-import WhereWeveBeen from '../Components/WhereWeveBeen';
-import PageHeader from '../Components/PageHeader';
+import MeetTheTeam from '../components/MeetTheTeam';
+import WhereWeveBeen from '../components/WhereWeveBeen';
+import PageHeader from '../components/PageHeader';
 
 export default function TeamPage() {
   return (

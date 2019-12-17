@@ -1,10 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../App.css';
+import '../../App.scss';
 import React from 'react';
 // eslint-disable-next-line object-curly-newline
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { FaGithub } from 'react-icons/fa';
-import LogoWhite from '../../images/logo_white.png';
+
+import LogoWhite from '../assets/images/branding/logo_white.png';
 
 const logoStyle = {
   fontFamily: 'Poppins',

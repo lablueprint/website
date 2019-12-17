@@ -7,8 +7,7 @@ const containerStyle = {
   padding: '100px 0 100px 0',
 };
 
-export default function SectionContainer(props) {
-  const { id, bg, children } = props;
+export default function SectionContainer({ id, bg, children }) {
   const backgroundColor = bg === 'dark' ? '#f8f8f8' : 'white';
 
   return (

@@ -19,10 +19,9 @@ const positionStyle = {
   fontSize: '0.8em',
 };
 
-export default function MemberProfile(props) {
-  // eslint-disable-next-line object-curly-newline
-  const { image, name, position, linkedInURL } = props;
-
+export default function MemberProfile({
+  image, name, position, linkedInURL,
+}) {
   return (
     <div style={containerStyle}>
       <Image src={image} width="200" height="200" fluid roundedCircle />

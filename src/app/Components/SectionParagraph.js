@@ -6,12 +6,19 @@ const pStyle = {
   fontFamily: 'Roboto',
 };
 
-export default function SectionParagraph(props) {
-  const { children } = props;
-
+export default function SectionParagraph({ children }) {
   return <p style={pStyle}>{children}</p>;
 }
 
 SectionParagraph.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.string,
+    PropTypes.arrayOf(
+      PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.element,
+      ]),
+    ),
+  ]).isRequired,
 };

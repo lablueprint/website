@@ -16,9 +16,7 @@ const textStyle = {
   fontSize: '0.9em',
 };
 
-export default function Value(props) {
-  const { image, title, text } = props;
-
+export default function Value({ image, title, text }) {
   return (
     <div style={containerStyle}>
       <Image src={image} width="100" heigh="100" fluid />

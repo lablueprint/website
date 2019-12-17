@@ -3,10 +3,10 @@ import React from 'react';
 // eslint-disable-next-line object-curly-newline
 import { Button, Col, Container, Row } from 'react-bootstrap';
 
-import PageHeader from '../Components/PageHeader';
-import ProjectCard from '../Components/ProjectCard';
+import PageHeader from '../components/PageHeader';
+import ProjectCard from '../components/ProjectCard';
 
-import ptv from '../../images/projects/ptv.jpg';
+import ptv from '../assets/images/projects/ptv.jpg';
 
 const bgStyle = {
   paddingTop: 100,
@@ -15,23 +15,23 @@ const bgStyle = {
 
 const projects = [
   {
-    projectImage: ptv,
-    projectTitle: 'Program for Torture Victims',
-    projectDescription:
+    image: ptv,
+    title: 'Program for Torture Victims',
+    desc:
       'PTV helps take care of refugees escaping violence and human rights abuse.',
-    projectLink: 'https://ptvla.org/',
-    // projectLink: "ptv"
+    link: 'https://ptvla.org/',
+    // link: "ptv"
   },
 ];
 
 export default function ProjectPage() {
   const projectCards = projects.map((item) => (
-    <Col xs={12} md={4}>
+    <Col xs={12} md={4} key={JSON.stringify(item)}>
       <ProjectCard
-        projectImage={item.projectImage}
-        projectTitle={item.projectTitle}
-        projectDescription={item.projectDescription}
-        projectLink={item.projectLink}
+        image={item.image}
+        title={item.title}
+        desc={item.desc}
+        link={item.link}
       />
     </Col>
   ));

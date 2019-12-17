@@ -7,9 +7,7 @@ const headerStyle = {
   fontWeight: 'bold',
 };
 
-export default function SectionHeading(props) {
-  const { children } = props;
-
+export default function SectionHeading({ children }) {
   return (
     <h1 className="my-4" style={headerStyle}>
       {children}
@@ -18,5 +16,8 @@ export default function SectionHeading(props) {
 }
 
 SectionHeading.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.string,
+  ]).isRequired,
 };

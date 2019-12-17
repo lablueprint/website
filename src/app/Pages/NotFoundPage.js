@@ -13,7 +13,7 @@ const numberStyle = {
   fontWeight: '500',
 };
 
-export default function TeamPage() {
+export default function NotFoundPage() {
   return (
     <div className="container-fluid" style={jumboStyle}>
       <Container className="mb-5 text-center">

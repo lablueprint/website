@@ -5,10 +5,9 @@ import PropTypes from 'prop-types';
 
 import ValuesTemplate from './ValuesTemplate';
 
-import Presentation from '../../images/values_presentation.png';
-import Couple from '../../images/values_couple.png';
-import Innovation from '../../images/values_innovation.png';
-// import Shield from '..//../images/values_shield.png';
+import Presentation from '../assets/images/values/presentation.png';
+import Couple from '../assets/images/values/couple.png';
+import Innovation from '../assets/images/values/innovation.png';
 
 const valuesStyle = {
   backgroundColor: '#ffffff',
@@ -42,8 +41,7 @@ const values = [
   },
 ];
 
-export default function OurValues(props) {
-  const { id } = props;
+export default function OurValues({ id }) {
   const valuesObject = values.map((item, index) => (
     <Col
       key={item.title}

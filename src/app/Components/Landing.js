@@ -1,11 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../App.css';
+import '../../App.scss';
 import React from 'react';
 import { Container, Image } from 'react-bootstrap';
 import { Fade, Roll } from 'react-reveal';
 import PropTypes from 'prop-types';
 
-import LogoWhite from '../../images/logo_white.png';
+import LogoWhite from '../assets/images/branding/logo_white.png';
 
 const landingStyle = {
   backgroundColor: '#187be5',
@@ -20,9 +20,7 @@ const jumboHeaderStyle = {
   paddingTop: 20,
 };
 
-export default function Landing(props) {
-  const { id } = props;
-
+export default function Landing({ id }) {
   return (
     <div
       className="container-fluid text-center justify-content-center d-flex flex-column py-5"

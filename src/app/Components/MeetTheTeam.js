@@ -1,19 +1,19 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../App.css';
+import '../../App.scss';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 
 import MemberProfile from './MemberProfile';
 
-import DerekChu from '../../images/team/derek-chu.jpg';
-import JonathanFan from '../../images/team/jonathan-fan.jpg';
-import JustinJeon from '../../images/team/justin-jeon.jpg';
-import LeoLiu from '../../images/team/leo-liu.jpg';
-import RaymondPhan from '../../images/team/raymond-phan.jpg';
-import SummerSiu from '../../images/team/summer-siu.jpg';
-import TiffanyFeng from '../../images/team/tiffany-feng.jpg';
-import VincentCheung from '../../images/team/vincent-cheung.jpg';
+import DerekChu from '../assets/images/team/derek_chu.jpg';
+import JonathanFan from '../assets/images/team/jonathan_fan.jpg';
+import JustinJeon from '../assets/images/team/justin_jeon.jpg';
+import LeoLiu from '../assets/images/team/leo_liu.jpg';
+import RaymondPhan from '../assets/images/team/raymond_phan.jpg';
+import SummerSiu from '../assets/images/team/summer_siu.jpg';
+import TiffanyFeng from '../assets/images/team/tiffany_feng.jpg';
+import VincentCheung from '../assets/images/team/vincent_cheung.jpg';
 
 const containerStyle = {
   textAlign: 'center',
@@ -77,7 +77,7 @@ const members = [
 
 export default function MeetTheTeam() {
   const memberProfiles = members.map((item) => (
-    <Col xs={6} md={4}>
+    <Col xs={6} md={4} key={JSON.stringify(item)}>
       <MemberProfile
         image={item.image}
         name={item.name}

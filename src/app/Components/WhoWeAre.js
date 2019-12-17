@@ -8,9 +8,7 @@ import SectionHeading from './SectionHeading';
 import SectionSubtitle from './SectionSubtitle';
 import SectionParagraph from './SectionParagraph';
 
-export default function WhoWeAre(props) {
-  const { id, bg } = props;
-
+export default function WhoWeAre({ id, bg }) {
   return (
     <SectionContainer id={id} bg={bg}>
       <Container>

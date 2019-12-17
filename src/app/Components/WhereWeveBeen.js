@@ -1,18 +1,18 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../App.css';
+import '../../App.scss';
 import React from 'react';
 // eslint-disable-next-line object-curly-newline
 import { Col, Container, Row, Image } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 
-import Amazon from '../../images/past-companies/amazon.webp';
-import Avantstay from '../../images/past-companies/avantstay.webp';
-import CacheCDS from '../../images/past-companies/cache.webp';
-import GreenDot from '../../images/past-companies/green-dot.webp';
-import IBM from '../../images/past-companies/ibm.webp';
-import ImpactHK from '../../images/past-companies/impact-hk.webp';
-import PPG from '../../images/past-companies/ppg.webp';
-import Stripe from '../../images/past-companies/stripe.webp';
+import Amazon from '../assets/images/companies/amazon.webp';
+import Avantstay from '../assets/images/companies/avantstay.webp';
+import CacheCDS from '../assets/images/companies/cache.webp';
+import GreenDot from '../assets/images/companies/green_dot.webp';
+import IBM from '../assets/images/companies/ibm.webp';
+import ImpactHK from '../assets/images/companies/impact_hk.webp';
+import PPG from '../assets/images/companies/ppg.webp';
+import Stripe from '../assets/images/companies/stripe.webp';
 
 const containerStyle = {
   textAlign: 'center',
@@ -57,7 +57,7 @@ const companyData = [
 
 export default function WhereWeveBeen() {
   const companyLinks = companyData.map((item) => (
-    <a href={item.link}>
+    <a href={item.link} key={JSON.stringify(item)}>
       <Image className="p-2" src={item.logo} />
     </a>
   ));

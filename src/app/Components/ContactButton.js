@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../App.css';
+import '../../App.scss';
 import React from 'react';
 // eslint-disable-next-line object-curly-newline
 import { Col, Container, Row, Button } from 'react-bootstrap';

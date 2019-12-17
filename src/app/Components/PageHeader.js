@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../App.css';
+import '../../App.scss';
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Fade } from 'react-reveal';
@@ -25,11 +25,9 @@ const bodyStyle = {
   opacity: 0.7,
 };
 
-export default function PageHeader(props) {
-  const { id, title, render } = props;
-
+export default function PageHeader({ title, render }) {
   return (
-    <div className="container-fluid py-5" id={id} style={pageHeaderStyle}>
+    <div className="container-fluid py-5" style={pageHeaderStyle}>
       <Container>
         <Fade>
           <Row style={titleStyle}>
@@ -47,7 +45,6 @@ export default function PageHeader(props) {
 }
 
 PageHeader.propTypes = {
-  id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   render: PropTypes.func.isRequired,
 };

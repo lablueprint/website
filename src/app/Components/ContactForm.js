@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../App.css';
+import '../../App.scss';
 import React, { Component } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import EmailJS from 'emailjs-com';
