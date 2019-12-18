@@ -50,7 +50,7 @@ const companyData = [
 export default function WhereWeveBeen() {
   const companyLinks = companyData.map((item) => (
     <a href={item.link} key={JSON.stringify(item)}>
-      <Image className="p-2" src={item.logo} />
+      <Image className="company-img" src={item.logo} />
     </a>
   ));
   return (
@@ -63,7 +63,7 @@ export default function WhereWeveBeen() {
         </Row>
         <Fade bottom>
           <Row>
-            <Col>{companyLinks}</Col>
+            <div className="company-container">{companyLinks}</div>
           </Row>
         </Fade>
       </Container>

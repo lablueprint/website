@@ -10,6 +10,14 @@ import Innovation from '../assets/images/values/innovation.png';
 
 const values = [
   {
+    image: Innovation,
+    title: 'Innovation',
+    text:
+      // eslint-disable-next-line no-multi-str
+      'Blueprint continuously innovates to make sure our projects, workshops, and events are unique. \
+      Our creative developments are fueled by our enthusiasm and our eagerness to learn.',
+  },
+  {
     image: Presentation,
     title: 'Quality',
     text:
@@ -25,36 +33,22 @@ const values = [
       'Blueprint strives to create a culture where everyone is welcome – our tight-knit community \
       is driven by our passion for social good.',
   },
-  {
-    image: Innovation,
-    title: 'Innovation',
-    text:
-      // eslint-disable-next-line no-multi-str
-      'Blueprint continuously innovates to make sure our projects, workshops, and events are unique. \
-      Our creative developments are fueled by our enthusiasm and our eagerness to learn.',
-  },
 ];
 
 export default function OurValues({ id }) {
   const valuesObject = values.map((item, index) => (
-    <Col
-      key={item.title}
-      xs={{ span: 10, offset: 1 }}
-      md={{ span: 4, offset: index % 2 === 0 ? 1 : 2 }}
-    >
+    <div className="value-container">
       <ValuesTemplate image={item.image} title={item.title} text={item.text} />
-    </Col>
+    </div>
   ));
 
   return (
-    <div className="container-fluid py-5 our-values" id={id}>
-      <Container>
-        <Row>
-          <Col sm={{ span: 10, offset: 1 }} md={{ span: 10, offset: 1 }}>
-            <h1>Core Values</h1>
-          </Col>
-        </Row>
-        <Row>{valuesObject}</Row>
+    <div className="container-fluid home-section" id={id}>
+      <Container className="values-container">
+        <div>
+          <h1 className="section-heading">Core Values</h1>
+        </div>
+        <div className="values">{valuesObject}</div>
       </Container>
     </div>
   );
