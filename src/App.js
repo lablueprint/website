@@ -1,15 +1,15 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './app/assets/stylesheets/main.scss';
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import CommonNavbar from './app/Components/CommonNavbar';
-import Footer from './app/Components/Footer';
+import CommonNavbar from './app/components/CommonNavbar';
+import Footer from './app/components/Footer';
 
-import HomePage from './app/Pages/HomePage';
-import NotFoundPage from './app/Pages/NotFoundPage';
-import TeamPage from './app/Pages/TeamPage';
-import ProjectPage from './app/Pages/ProjectPage';
-import ContactPage from './app/Pages/ContactPage';
+import HomePage from './app/pages/HomePage';
+import NotFoundPage from './app/pages/NotFoundPage';
+import TeamPage from './app/pages/TeamPage';
+import ProjectPage from './app/pages/ProjectPage';
+import ContactPage from './app/pages/ContactPage';
 
 export default class App extends Component {
   constructor(props) {

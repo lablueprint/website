@@ -1,0 +1,21 @@
+.contact-form {
+  max-width: 600px;
+  font-family: Roboto;
+
+  .form-label {
+    font-weight: bold;
+  }
+
+  .form-control {
+    max-width: 300px;
+    
+    &.textarea {
+      max-width: 100%;
+    }
+  }
+
+  .btn {
+    background-color: $bp-blue;
+    color: $white,
+  }
+}

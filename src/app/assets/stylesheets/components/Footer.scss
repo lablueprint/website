@@ -1,0 +1,28 @@
+.footer {
+  background-color: #2C3E50;
+  color: $white;
+  min-height: 35vh;
+  font-family: Roboto;
+
+  .logo {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-shadow: none;
+  }
+
+  .copyright {
+    color: rgba(249,250,252,0.6);
+    font-size: 0.9em;
+  }
+
+  .link {
+    color: rgba(249,250,252,0.6);
+    font-size: 0.9em;
+    font-family: Roboto;
+  }
+
+  .social-icon {
+    vertical-align: -2;
+  }
+}

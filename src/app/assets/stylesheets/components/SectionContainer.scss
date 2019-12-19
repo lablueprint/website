@@ -1,0 +1,10 @@
+.section-container {
+  min-height: 50vh;
+  color: #7e8893;
+  padding: 100px 0 100px 0;
+  background-color: $white;
+
+  &.off-white {
+    background-color: $off-white;
+  }
+}

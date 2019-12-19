@@ -1,0 +1,19 @@
+.page-header {
+  background-color: $bp-blue;
+  color: $white;
+  min-height: 50vh;
+  background-size: cover;
+  font-family: Questrial;
+
+  .title {
+    font-size: 45px;
+    height: 150px;
+    margin-top: 15px;
+  }
+
+  .body {
+    font-size: 25px;
+    line-height: 1.5em;
+    opacity: 0.7;
+  }
+}
