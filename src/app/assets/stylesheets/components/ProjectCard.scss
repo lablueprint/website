@@ -2,9 +2,9 @@
   &:hover {
     text-decoration: none;
   }
-
+  
   .card {
-    color: black;
+    color: $black;
     margin-bottom: 40px;
     padding: 20px 20px;
     border: none;
@@ -14,5 +14,10 @@
     .card-text {
         color: #505050;
     }
+    
   }
+
 }
+
+
+

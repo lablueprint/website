@@ -6,8 +6,32 @@ import SectionContainer from './SectionContainer';
 import SectionHeading from './SectionHeading';
 import SectionSubtitle from './SectionSubtitle';
 import SectionParagraph from './SectionParagraph';
+import ProjectCard from './ProjectCard';
+
+import ptv from '../assets/images/projects/ptv.jpg';
+
+const projects = [
+  {
+    image: ptv,
+    title: 'Program for Torture Victims',
+    desc:
+      'PTV helps take care of refugees escaping violence and human rights abuse.',
+    link: 'https://ptvla.org/',
+  },
+];
 
 export default function WhoWeAre({ id, bg }) {
+  const projectCards = projects.map((item) => (
+    <Col xs={12} md={4} key={JSON.stringify(item)}>
+      <ProjectCard
+        image={item.image}
+        title={item.title}
+        link={item.link}
+        desc=""
+        className="card-home"
+      />
+    </Col>
+  ));
   return (
     <SectionContainer id={id} bg={bg}>
       <Container>
@@ -33,6 +57,13 @@ export default function WhoWeAre({ id, bg }) {
               We are the third established chapter after the <a href="https://www.uwblueprint.org">University of Waterloo</a>.
             </SectionParagraph>
             {/* eslint-enable */}
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={{ span: 10, offset: 1 }} md={{ span: 10, offset: 1 }}>
+            <h3 className="subtitle-blue">Currently working with...</h3>
+            <div className="center">{projectCards}</div>
+
           </Col>
         </Row>
       </Container>

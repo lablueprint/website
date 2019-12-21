@@ -39,7 +39,7 @@ export default function ProjectPage() {
               All of Blueprint&#39;s work is open source because we believe in
               building technology that makes us more open and connected.
             </div>
-            <Button variant="light" href="https://github.com/lablueprint">
+            <Button className="button-light" variant="light" href="https://github.com/lablueprint">
               See our GitHub
             </Button>
           </>

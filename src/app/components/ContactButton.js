@@ -13,7 +13,7 @@ export default function ContactUs() {
         </Row>
         <Row>
           <Col xs={{ span: 10, offset: 1 }} md={{ span: 6, offset: 1 }}>
-            <h4 className="header">Have a question? Message us here!</h4>
+            <h4 className="subheader">Have a question? Message us here!</h4>
           </Col>
           <Col xs={{ span: 10, offset: 1 }} md={{ span: 2, offset: 0 }}>
             <Button variant="light" href="/contact">
