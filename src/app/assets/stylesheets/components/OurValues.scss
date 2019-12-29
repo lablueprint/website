@@ -1,4 +1,18 @@
-.our-values {
-  background-color: $white;
-  margin: 0;
+.values {
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.values-container {
+  @media screen and (max-width: 480px) {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+  }
 }

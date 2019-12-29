@@ -1,37 +1,36 @@
 .footer {
-  background-color: #2C3E50;
+  background-color: $dark-gray;
   color: $white;
+  font-family: $sans-serif;
   min-height: 35vh;
-  font-family: Roboto;
 
-  .logo {
-    font-family: Poppins;
-    font-weight: bold;
-    font-size: 1.25rem;
-    text-shadow: none;
+  a {
+    text-decoration: none;
+
+    &:hover {
+      color: $white;
+    }
   }
 
   .copyright {
-    color: rgba(249,250,252,0.6);
+    color: $white-40;
     font-size: 0.9em;
   }
 
   .link {
-    color: rgba(249,250,252,0.6);
+    color: $white-60;
+    font-family: $sans-serif;
     font-size: 0.9em;
-    font-family: Roboto;
+  }
+
+  .logo {
+    font-family: $bp-text;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-shadow: none;
   }
 
   .social-icon {
     vertical-align: -2;
   }
-
-  a{
-    text-decoration: none;  
-  }
-  a:hover{
-    color:white;
-  }
-  
-  
 }

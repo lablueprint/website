@@ -1,0 +1,22 @@
+.where-weve-been {
+  text-align: center;
+  font-family: $sans-serif;
+
+  .title {
+    height: 100px;
+  }
+}
+
+.company-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-img {
+  max-width: 250px;
+  max-height: 125px;
+  padding: 28px;
+  margin-bottom: 25px;
+}

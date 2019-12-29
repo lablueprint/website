@@ -1,22 +1,18 @@
 .common-navbar {
   background-color: $bp-blue;
-  padding: 0;
   margin: 0;
+  padding: 0;
 
   .navbar {
-    position: static;
-    font-family: 'Roboto';
+    font-family: $sans-serif;
     padding-left: 0;
     padding-right: 0;
+    position: static;
   }
 
   .navbar-brand {
-    font-family: Poppins;
+    font-family: $bp-text;
     font-weight: bold;
     text-shadow: none;
   }
-}
-
-.active{
-  color: $white;
 }

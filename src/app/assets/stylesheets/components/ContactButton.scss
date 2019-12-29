@@ -1,16 +1,15 @@
 .contact-button {
   background-color: $off-white;
-  color: black;
+  color: $black;
+  font-family: $sans-serif;
   min-height: 30vh;
-  font-family: Roboto;
-
-  .header {
-    color: #8C8C8C;
-    padding-bottom: 20px;
-  }
 
   .btn {
     background-color: $bp-blue;
     color: $white;
+  }
+
+  .subheader {
+    padding-bottom: 20px;
   }
 }

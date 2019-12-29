@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 
 import ValuesTemplate from './ValuesTemplate';
@@ -36,8 +36,8 @@ const values = [
 ];
 
 export default function OurValues({ id }) {
-  const valuesObject = values.map((item, index) => (
-    <div className="value-container">
+  const valuesObject = values.map((item) => (
+    <div key={item.title} className="value-container">
       <ValuesTemplate image={item.image} title={item.title} text={item.text} />
     </div>
   ));

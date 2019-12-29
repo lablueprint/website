@@ -1,9 +1,9 @@
 .page-header {
   background-color: $bp-blue;
-  color: $white;
-  min-height: 50vh;
   background-size: cover;
-  font-family: Questrial;
+  color: $white;
+  font-family: $header-text;
+  min-height: 50vh;
 
   .title {
     font-size: 45px;

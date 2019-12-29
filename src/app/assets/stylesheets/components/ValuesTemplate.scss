@@ -1,0 +1,21 @@
+.values-template {
+  padding-top: 60px;
+  color: $black;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+
+  .values-title {
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 10px;
+    font-family: $sans-serif;
+    color: $bp-blue;
+  }
+
+  .values-text {
+    padding-top: 15px;
+    color: $gray;
+    font-size: 0.9em;
+  }
+}

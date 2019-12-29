@@ -1,8 +1,8 @@
 .landing {
   background-color: $bp-blue;
-  min-height: 70vh;
   background-size: cover;
-  font-family: Roboto;
+  font-family: $sans-serif;
+  min-height: 70vh;
 
   .header {
     color: $white;

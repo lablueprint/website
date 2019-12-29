@@ -1,5 +1,21 @@
-$bp-blue:   #187BE5;
-$white:     #FFFFFF;
-$off-white: #F8F8F8;
-$black: #2C3E50;
-$gray:#7e8893;
+// colors
+$bp-blue:   #187be5;
+
+$white:     #fff;
+$white-60:    rgba($white, 0.6);
+$white-40:    rgba($white, 0.4);
+
+$off-white: #f8f8f8;
+
+$black:     #2c3e50;
+
+$gray:      #7e8893;
+
+$dark-gray: #2c3e50;
+
+// fonts
+$bp-text:     'Poppins';
+
+$header-text: 'Questrial';
+
+$sans-serif:  'Roboto', 'Helvetica', sans-serif;

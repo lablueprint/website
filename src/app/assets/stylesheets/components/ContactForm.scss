@@ -1,21 +1,21 @@
 .contact-form {
+  font-family: $sans-serif;
   max-width: 600px;
-  font-family: Roboto;
 
-  .form-label {
-    font-weight: bold;
+  .btn {
+    background-color: $bp-blue;
+    color: $white;
   }
 
   .form-control {
     max-width: 300px;
-    
+
     &.textarea {
       max-width: 100%;
     }
   }
 
-  .btn {
-    background-color: $bp-blue;
-    color: $white,
+  .form-label {
+    font-weight: bold;
   }
 }
