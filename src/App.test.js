@@ -10,7 +10,7 @@ it('renders without crashing', () => {
   ReactDOM.render(
     <BrowserRouter>
       <App />
-    </BrowserRouter>, document.getElementById('root'),
+    </BrowserRouter>, div,
   );
   ReactDOM.unmountComponentAtNode(div);
 });
