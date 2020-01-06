@@ -1,19 +1,59 @@
 .page-header {
-  background-color: $bp-blue;
-  background-size: cover;
-  color: $white;
-  font-family: $header-text;
-  min-height: 50vh;
+  &.background {
+    $navbar-height: 72px;
+    $collapsed-navbar-height: 56px;
 
-  .title {
-    font-size: 45px;
-    height: 150px;
-    margin-top: 15px;
+    background-color: $bp-blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(100% + #{$navbar-height});
+    padding-top: $navbar-height;
+    margin-top: -$navbar-height;
+    position: relative;
+    z-index: 1;
+
+    @media screen and (max-width: 767px) {
+      padding-top: $collapsed-navbar-height;
+      margin-top: -$collapsed-navbar-height;
+      height: calc(100% + #{$collapsed-navbar-height});
+    }
+
+    &.home {
+      background-image: url(../../images/headers/royce_hall4.png);
+      background-position: right;
+      background-size: contain;
+
+      @media screen and (max-width: 767px) {
+        background-image: linear-gradient(to right, $bp-blue-95 38%, $bp-blue-75 99%, $bp-blue-75 100%), url(../../images/headers/royce_hall4.png);
+      }
+    }
+
+    &.projects {
+      background-image: linear-gradient(to right, $bp-blue-95 38%, $bp-blue-75 99%, $bp-blue-75 100%), url(../../images/headers/wireframe.jpg);
+    }
   }
 
-  .body {
-    font-size: 25px;
-    line-height: 1.5em;
-    opacity: 0.7;
+  .content {
+    color: $white;
+    font-family: $header-text;
+    min-height: 50vh;
+
+    .title {
+      font-size: 45px;
+      height: 150px;
+      margin-top: 15px;
+    }
+
+    .body {
+      font-size: 25px;
+      line-height: 1.5em;
+      opacity: 0.7;
+    }
+  }
+
+  .btn {
+    @extend .raised-button;
   }
 }

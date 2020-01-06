@@ -15,9 +15,11 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module'
   },
-  plugins: ['react'],
+  plugins: ['react', 'react-hooks'],
   rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }], // we don't care that .js files contain JSX code
     'react/jsx-props-no-spreading': 'off', // HOCs should have prop spreading
+    "react-hooks/rules-of-hooks": "error", // part of react hooks
+    "react-hooks/exhaustive-deps": "warn" // part of react hooks
   },
 };

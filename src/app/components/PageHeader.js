@@ -1,28 +1,36 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import { Fade } from 'react-reveal';
 import PropTypes from 'prop-types';
+import ClassNames from 'classnames';
 
-export default function PageHeader({ title, render }) {
+export default function PageHeader({ className, title, render }) {
+  const headerClass = ClassNames(className, 'page-header', 'background');
+
   return (
-    <div className="container-fluid py-5 page-header">
-      <Container>
-        <Fade>
-          <Row className="title">
-            <Col>
-              <div>{title}</div>
-            </Col>
-          </Row>
-          <Row className="body">
-            <Col md={6}>{render()}</Col>
-          </Row>
-        </Fade>
-      </Container>
+    <div className={headerClass}>
+      <div className="container-fluid py-5 content">
+        <Container>
+          <Fade>
+            <div className="title">
+              {title}
+            </div>
+            <div className="body">
+              {render()}
+            </div>
+          </Fade>
+        </Container>
+      </div>
     </div>
   );
 }
 
+PageHeader.defaultProps = {
+  className: '',
+};
+
 PageHeader.propTypes = {
+  className: PropTypes.string,
   title: PropTypes.string.isRequired,
   render: PropTypes.func.isRequired,
 };

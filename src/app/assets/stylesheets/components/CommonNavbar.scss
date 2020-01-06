@@ -2,6 +2,8 @@
   background-color: $bp-blue;
   margin: 0;
   padding: 0;
+  position: relative;
+  z-index: 2;
 
   .navbar {
     font-family: $sans-serif;
@@ -14,5 +16,40 @@
     font-family: $bp-text;
     font-weight: bold;
     text-shadow: none;
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $white-80;
+    }
+  }
+
+  &.transparent {
+    background-color: transparent;
+    transition: background 2.5s;
+
+    &.expanded {
+      background-color: $bp-blue;
+      transition: background 0s;
+      // background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba($bp-blue, 0) 56px, rgba($bp-blue, 1) 56px, rgba($bp-blue, 1) 100%);
+    }
+  }
+
+  &.inverse {
+    background-color: inherit;
+
+    .navbar-brand {
+      img {
+        content: url('../../images/branding/logo.png');
+      }
+
+      color: $bp-blue;
+    }
+
+    .navbar-nav {
+      .nav-link {
+        color: $bp-blue-80;
+      }
+    }
   }
 }

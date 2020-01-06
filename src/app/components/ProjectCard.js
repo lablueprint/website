@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 export default function ProjectCard({
   link, image, title, desc,
 }) {
-  // let projectLink = "/projects/" + props.projectLink;
+  // const projectLink = `/projects/${link}`;
 
   return (
     <a href={link} className="project-card">
@@ -18,8 +18,7 @@ export default function ProjectCard({
             {desc}
           </Card.Text>
         </Card.Body>
-        {/* <Link className="nav-link" to={link}>Learn More</Link> */}
-        <a href={link}>Learn More</a>
+        <div className="blue">Learn More</div>
       </Card>
     </a>
   );

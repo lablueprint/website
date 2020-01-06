@@ -1,18 +1,28 @@
-.values {
+.our-values {
+  background-color: $off-white;
   display: flex;
-  justify-content: space-between;
+  padding: 0;
+  padding-bottom: 100px;
+  padding-top: 100px;
 
-  @media screen and (max-width: 480px) {
-    flex-direction: column;
-    align-items: center;
-  }
-}
+  .values-container {
+    width: 100%;
+    height: 100%;
 
-.values-container {
-  @media screen and (max-width: 480px) {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    margin: 40px;
+    @media screen and (max-width: 768px) {
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .values {
+      display: flex;
+      justify-content: space-between;
+
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
   }
 }

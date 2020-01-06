@@ -7,4 +7,14 @@
   &.off-white {
     background-color: $off-white;
   }
+
+  .last {
+    margin-bottom: 50px;
+  }
+
+  .link {
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }

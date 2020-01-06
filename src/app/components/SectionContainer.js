@@ -2,24 +2,23 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ClassNames from 'classnames';
 
-export default function SectionContainer({ id, bg, children }) {
-  const className = ClassNames('container-fluid', 'section-container', {
-    'off-white': bg === 'off-white',
-  });
+export default function SectionContainer({ className, children }) {
+  const sectionClass = ClassNames(className, 'container-fluid', 'section-container');
 
   return (
     <div
-      className={className}
-      id={id}
-      bg={bg}
+      className={sectionClass}
     >
       {children}
     </div>
   );
 }
 
+SectionContainer.defaultProps = {
+  className: '',
+};
+
 SectionContainer.propTypes = {
-  id: PropTypes.string.isRequired,
-  bg: PropTypes.string.isRequired,
+  className: PropTypes.string,
   children: PropTypes.element.isRequired,
 };

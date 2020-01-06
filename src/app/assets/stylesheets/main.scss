@@ -9,15 +9,17 @@ h1 {
   .header {
     color: $white;
   }
-
-  .section-heading {
-    font-weight: bold;
-  }
 }
 
 h4 {
   color: $gray;
   font-weight: 400;
+}
+
+.container {
+  @media screen and (min-width: 992px) {
+    max-width: 920px;
+  }
 }
 
 .blue {
@@ -28,4 +30,42 @@ h4 {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+.raised-button {
+  &.btn {
+    background-color: $white;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: $black;
+    font-family: $bp-text;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: none;
+    user-select: none;
+    -webkit-transition: 150ms;
+    transition: 150ms;
+
+    &.blue {
+      background-color: $bp-blue;
+      color: $white;
+
+      &:active {
+        background-color: $bp-blue !important;
+        color: $white !important;
+      }
+    }
+
+    &:active {
+      background-color: $white !important;
+      border: 1px solid transparent;
+      color: $black !important;
+    }
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+  }
 }

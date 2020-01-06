@@ -1,7 +1,7 @@
 import React from 'react';
 // eslint-disable-next-line object-curly-newline
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaFacebookF } from 'react-icons/fa';
 
 import LogoWhite from '../assets/images/branding/logo_white.png';
 
@@ -11,8 +11,8 @@ const generalLinks = [
     href: '/',
   },
   {
-    linkText: 'Team',
-    href: '/team',
+    linkText: 'About',
+    href: '/about',
   },
   {
     linkText: 'Projects',
@@ -24,7 +24,19 @@ const generalLinks = [
   },
 ];
 
+const studentLinks = [
+  {
+    linkText: 'Apply',
+    href: 'https://airtable.com/shrru3kJPm50g5MDO',
+  },
+];
+
 const socialLinks = [
+  {
+    linkText: 'Facebook',
+    href: 'https://facebook.com/lablueprint',
+    icon: FaFacebookF,
+  },
   {
     linkText: 'Github',
     href: 'https://github.com/lablueprint/',
@@ -56,6 +68,7 @@ export default function Footer() {
 
   const generalNavItems = generateNavItems('General', generalLinks);
   const socialNavItems = generateNavItems('Social Media', socialLinks);
+  const studentNavItems = generateNavItems('Student', studentLinks);
 
   return (
     <div className="container-fluid py-5 footer">
@@ -68,13 +81,13 @@ export default function Footer() {
             </div>
           </Col>
           {generalNavItems}
-          {/* studentNavItems */}
+          {studentNavItems}
           {/* nonprofitNavItems */}
           {socialNavItems}
         </Row>
         <Row>
           <Col md={4} className="copyright">
-            &copy; LA Blueprint 2019
+            &copy; Blueprint 2019
           </Col>
         </Row>
       </Container>

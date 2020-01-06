@@ -4,8 +4,10 @@ import { Button, Col, Container, Row } from 'react-bootstrap';
 
 import PageHeader from '../components/PageHeader';
 import ProjectCard from '../components/ProjectCard';
+import SectionContainer from '../components/SectionContainer';
 
 import ptv from '../assets/images/projects/ptv.jpg';
+import harmony from '../assets/images/projects/harmony.png';
 
 const projects = [
   {
@@ -13,8 +15,13 @@ const projects = [
     title: 'Program for Torture Victims',
     desc:
       'PTV helps take care of refugees escaping violence and human rights abuse.',
-    link: 'https://ptvla.org/',
-    // link: "ptv"
+    link: 'https://www.ptvla.org/',
+  },
+  {
+    image: harmony,
+    title: 'Harmony Project',
+    desc: 'Harmony Project uses music education to provide students with the skills and resources needed to thrive in school, in their community, and in life.',
+    link: 'https://www.harmony-project.org/',
   },
 ];
 
@@ -32,6 +39,7 @@ export default function ProjectPage() {
   return (
     <>
       <PageHeader
+        className="projects"
         title="Our Projects"
         render={() => (
           <>
@@ -39,13 +47,13 @@ export default function ProjectPage() {
               All of Blueprint&#39;s work is open source because we believe in
               building technology that makes us more open and connected.
             </div>
-            <Button className="button-light" variant="light" href="https://github.com/lablueprint">
+            <Button size="md" href="https://github.com/lablueprint">
               See our GitHub
             </Button>
           </>
         )}
       />
-      <div className="project-page">
+      <SectionContainer className="project-page off-white">
         <Container>
           <Row className="title">
             <Col>
@@ -54,7 +62,7 @@ export default function ProjectPage() {
           </Row>
           <Row>{projectCards}</Row>
         </Container>
-      </div>
+      </SectionContainer>
     </>
   );
 }

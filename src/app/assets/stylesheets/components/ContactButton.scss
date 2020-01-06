@@ -5,11 +5,23 @@
   min-height: 30vh;
 
   .btn {
+    display: inline-block;
     background-color: $bp-blue;
     color: $white;
+    margin-right: 10px;
+
+    // &.facebook-button {
+    //   background-color: $white;
+    // }
   }
 
   .subheader {
+    display: inline-block;
     padding-bottom: 20px;
+    margin-right: 5vw;
+
+    @media screen and (min-width: 768px) {
+      margin-right: 100px;
+    }
   }
 }

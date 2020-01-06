@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import PropTypes from 'prop-types';
 
 import ValuesTemplate from './ValuesTemplate';
 
@@ -35,7 +34,7 @@ const values = [
   },
 ];
 
-export default function OurValues({ id }) {
+export default function OurValues() {
   const valuesObject = values.map((item) => (
     <div key={item.title} className="value-container">
       <ValuesTemplate image={item.image} title={item.title} text={item.text} />
@@ -43,7 +42,7 @@ export default function OurValues({ id }) {
   ));
 
   return (
-    <div className="container-fluid home-section" id={id}>
+    <div className="container-fluid py-5 our-values">
       <Container className="values-container">
         <div>
           <h1 className="section-heading">Core Values</h1>
@@ -53,7 +52,3 @@ export default function OurValues({ id }) {
     </div>
   );
 }
-
-OurValues.propTypes = {
-  id: PropTypes.string.isRequired,
-};

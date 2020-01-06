@@ -1,0 +1,14 @@
+.our-projects {
+  .card-deck {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 38%;
+
+    @media screen and (max-width: 767px) {
+      width: 70%;
+    }
+  }
+}

@@ -8,7 +8,7 @@ export default function MemberProfile({
 }) {
   return (
     <div className="member-profile">
-      <Image src={image} width="200" height="200" fluid roundedCircle />
+      <Image src={image} width="200" height="200" fluid rounded />
       <div className="name">{name}</div>
       <div className="position">{position}</div>
       <a href={linkedInURL}>

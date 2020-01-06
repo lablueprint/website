@@ -1,59 +1,71 @@
 import './app/assets/stylesheets/main.scss';
-import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import React from 'react';
+import { Route, Switch, useLocation } from 'react-router-dom';
 
 import CommonNavbar from './app/components/CommonNavbar';
 import Footer from './app/components/Footer';
 
-import HomePage from './app/pages/HomePage';
-import NotFoundPage from './app/pages/NotFoundPage';
-import TeamPage from './app/pages/TeamPage';
-import ProjectPage from './app/pages/ProjectPage';
+import AboutPage from './app/pages/AboutPage';
+import ApplyPage from './app/pages/ApplyPage';
 import ContactPage from './app/pages/ContactPage';
+import HomePage from './app/pages/HomePage';
+import NonprofitPage from './app/pages/NonprofitPage';
+import NotFoundPage from './app/pages/NotFoundPage';
+import ProjectPage from './app/pages/ProjectPage';
+import StudentPage from './app/pages/StudentPage';
 
-export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      section: null,
-    };
-    this.setScrollDestination = this.setScrollDestination.bind(this);
+const transparentPages = [
+  '',
+  'about',
+  'nonprofits',
+  'projects',
+  'students',
+].map((page) => `/${page}`);
+
+const inversePages = [
+  'contact',
+].map((page) => `/${page}`);
+
+export default function App() {
+  const location = useLocation();
+
+  let navbarClass = '';
+  if (typeof transparentPages.find((elem) => (elem === location.pathname)) !== 'undefined') {
+    navbarClass = 'transparent';
+  } else if (typeof inversePages.find((elem) => (elem === location.pathname)) !== 'undefined') {
+    navbarClass = 'inverse';
   }
 
-  setScrollDestination(section) {
-    this.setState({ section });
-  }
-
-  render() {
-    const { section } = this.state;
-
-    return (
-      <BrowserRouter>
-        <Route
-          // eslint-disable-next-line react/no-children-prop
-          children={
-            <CommonNavbar setScrollDestination={this.setScrollDestination} />
-          }
-        />
-        <Switch>
-          <Route exact path="/">
-            <HomePage section={section} />
-          </Route>
-          <Route exact path="/projects">
-            <ProjectPage />
-          </Route>
-          <Route exact path="/team">
-            <TeamPage />
-          </Route>
-          <Route exact path="/contact">
-            <ContactPage />
-          </Route>
-          <Route>
-            <NotFoundPage />
-          </Route>
-        </Switch>
-        <Footer />
-      </BrowserRouter>
-    );
-  }
+  return (
+    <>
+      <CommonNavbar className={navbarClass} />
+      <Switch>
+        <Route exact path="/">
+          <HomePage />
+        </Route>
+        <Route exact path="/about">
+          <AboutPage />
+        </Route>
+        <Route exact path="/projects">
+          <ProjectPage />
+        </Route>
+        <Route exact path="/apply">
+          <ApplyPage />
+        </Route>
+        <Route exact path="/students">
+          <StudentPage />
+        </Route>
+        <Route exact path="/nonprofits">
+          <NonprofitPage />
+        </Route>
+        <Route exact path="/contact">
+          <ContactPage />
+        </Route>
+        <Route>
+          <NotFoundPage />
+        </Route>
+      </Switch>
+      <Footer />
+    </>
+  );
 }

@@ -79,7 +79,7 @@ export default function MeetTheTeam() {
   return (
     <div className="container-fluid py-5 meet-the-team">
       <Container className="py-5">
-        <Row style={{ height: 100 }}>
+        <Row className="title">
           <Col>
             <h1>Meet the Team</h1>
           </Col>

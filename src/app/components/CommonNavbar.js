@@ -1,52 +1,55 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import Fade from 'react-reveal/Fade';
+import { Fade, Roll } from 'react-reveal';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import ClassNames from 'classnames';
 
 import LogoWhite from '../assets/images/branding/logo_white.png';
 
-export default function CommonNavbar({ setScrollDestination }) {
+export default function CommonNavbar({ className }) {
+  const [expanded, setExpanded] = useState(false);
+
+  function toggleExpanded() {
+    setExpanded(!expanded);
+  }
+
+  const navbarClass = ClassNames(className, { expanded }, 'container-fluid', 'common-navbar');
+
   return (
-    <div className="container-fluid common-navbar">
+    <div className={navbarClass}>
       <Container>
         <Navbar variant="dark" expand="md">
-          <Fade left>
+          <Fade down>
             <Navbar.Brand href="/">
-              <img
-                alt=""
-                src={LogoWhite}
-                width="30"
-                height="30"
-                className="d-inline-block align-top"
-              />
+              <Roll>
+                <img
+                  alt=""
+                  src={LogoWhite}
+                  width="30"
+                  height="30"
+                  className="d-inline-block align-top"
+                />
+              </Roll>
               {' blueprint'}
             </Navbar.Brand>
           </Fade>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle onClick={toggleExpanded} aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto nav-link">
-              <Fade right>
+              <Fade down>
                 <Link
                   className="nav-link"
-                  to="/"
-                  onClick={() => setScrollDestination(null)}
-                >
-                  Home
-                </Link>
-                <Link
-                  className="nav-link"
-                  to="/"
-                  onClick={() => setScrollDestination('whoweare')}
+                  to="/about"
                 >
                   About
-                </Link>
-                <Link className="nav-link" to="/team">
-                  Team
                 </Link>
                 <Link className="nav-link" to="/projects">
                   Projects
                 </Link>
+                <a className="nav-link" href="https://airtable.com/shrru3kJPm50g5MDO">
+                    Apply
+                </a>
                 <Link className="nav-link" to="/contact">
                   Contact
                 </Link>
@@ -59,6 +62,10 @@ export default function CommonNavbar({ setScrollDestination }) {
   );
 }
 
+CommonNavbar.defaultProps = {
+  className: '',
+};
+
 CommonNavbar.propTypes = {
-  setScrollDestination: PropTypes.func.isRequired,
+  className: PropTypes.string,
 };
