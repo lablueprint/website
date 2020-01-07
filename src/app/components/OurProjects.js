@@ -41,7 +41,7 @@ export default function OurProjects() {
         <SectionHeading>Our Projects</SectionHeading>
 
         <SectionSubtitle>
-          Every year, teams of 4-6 developers and 1-2 designers work with nonprofits to deliver /
+          Every year, teams of 4-6 developers and 1-2 designers work with nonprofits to deliver
           an application that best suits their needs.
         </SectionSubtitle>
 
