@@ -15,11 +15,12 @@ export default function CommonNavbar({ className }) {
   }
 
   const navbarClass = ClassNames(className, { expanded }, 'container-fluid', 'common-navbar');
+  const variant = (className.includes('inverse')) ? 'light' : 'dark';
 
   return (
     <div className={navbarClass}>
       <Container>
-        <Navbar variant="dark" expand="md">
+        <Navbar variant={variant} expand="md">
           <Fade down>
             <Navbar.Brand href="/">
               <Roll>

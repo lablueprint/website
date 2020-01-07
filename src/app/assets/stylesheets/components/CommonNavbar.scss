@@ -24,6 +24,10 @@
     }
   }
 
+  .navbar-toggler {
+    border-color: transparent;
+  }
+
   &.transparent {
     background-color: transparent;
     transition: background 2.5s;

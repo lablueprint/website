@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
+import SectionContainer from './SectionContainer';
 import ValuesTemplate from './ValuesTemplate';
 
 import Presentation from '../assets/images/values/presentation.png';
@@ -42,13 +43,13 @@ export default function OurValues() {
   ));
 
   return (
-    <div className="container-fluid py-5 our-values">
+    <SectionContainer className="our-values">
       <Container className="values-container">
         <div>
           <h1 className="section-heading">Core Values</h1>
         </div>
         <div className="values">{valuesObject}</div>
       </Container>
-    </div>
+    </SectionContainer>
   );
 }
