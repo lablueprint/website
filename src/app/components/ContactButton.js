@@ -8,10 +8,10 @@ export default function ContactUs() {
       <Container>
         <h1>Contact Us</h1>
         <h4 className="subheader">Have a question? Message us here!</h4>
-        <Button className="raised-button" variant="light" href="/contact">
+        <Button className="raised-button" href="/contact">
           Email Us
         </Button>
-        <Button className="raised-button blue" variant="light" href="https://facebook.com/lablueprint">
+        <Button className="raised-button blue" href="https://facebook.com/lablueprint">
           Facebook Page
         </Button>
       </Container>

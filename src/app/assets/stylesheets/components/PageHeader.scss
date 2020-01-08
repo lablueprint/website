@@ -57,13 +57,13 @@
     @extend .raised-button;
   }
 
-  // &.inverse {
-  //   &.background {
-  //     background-color: $white;
-  //   }
+  &.inverse {
+    &.background {
+      background-color: $white;
+    }
 
-  //   .content {
-  //     color: $black;
-  //   }
-  // }
+    .content {
+      color: $black;
+    }
+  }
 }

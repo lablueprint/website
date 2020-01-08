@@ -53,7 +53,7 @@ export default function ProjectPage() {
           </>
         )}
       />
-      <SectionContainer className="project-page off-white">
+      <SectionContainer className="project-page">
         <Container>
           <Row className="title">
             <Col>
