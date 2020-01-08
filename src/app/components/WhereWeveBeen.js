@@ -49,7 +49,7 @@ const companyData = [
 
 export default function WhereWeveBeen() {
   const companyLinks = companyData.map((item) => (
-    <a href={item.link} key={JSON.stringify(item)}>
+    <a className="company-link" href={item.link} key={JSON.stringify(item)}>
       <Fade>
         <Image className="company-img" src={item.logo} />
       </Fade>
