@@ -32,7 +32,7 @@ export default function CommonNavbar({ className }) {
                   className="d-inline-block align-top"
                 />
               </Roll>
-              {' blueprint'}
+              blueprint
             </Navbar.Brand>
           </Fade>
           <Navbar.Toggle onClick={toggleExpanded} aria-controls="responsive-navbar-nav" />
