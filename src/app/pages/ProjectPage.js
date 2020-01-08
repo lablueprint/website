@@ -14,14 +14,14 @@ const projects = [
     image: ptv,
     title: 'Program for Torture Victims',
     desc:
-      'PTV helps take care of refugees escaping violence and human rights abuse.',
-    link: 'https://www.ptvla.org/',
+      'PTV helps support refugees escaping violence and human rights abuse.',
+    link: 'ptv',
   },
   {
     image: harmony,
     title: 'Harmony Project',
     desc: 'Harmony Project uses music education to provide students with the skills and resources needed to thrive in school, in their community, and in life.',
-    link: 'https://www.harmony-project.org/',
+    link: 'harmony',
   },
 ];
 
@@ -53,7 +53,7 @@ export default function ProjectPage() {
           </>
         )}
       />
-      <SectionContainer className="project-page off-white">
+      <SectionContainer className="project-page">
         <Container>
           <Row className="title">
             <Col>

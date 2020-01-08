@@ -1,15 +1,15 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 export default function ProjectCard({
   link, image, title, desc,
 }) {
-  // const projectLink = `/projects/${link}`;
+  const projectLink = `/projects/${link}`;
 
   return (
-    <a href={link} className="project-card">
+    <Link to={projectLink} className="project-card">
       <Card>
         <Card.Img variant="top" src={image} />
         <Card.Body>
@@ -20,7 +20,7 @@ export default function ProjectCard({
         </Card.Body>
         <div className="blue">Learn More</div>
       </Card>
-    </a>
+    </Link>
   );
 }
 
