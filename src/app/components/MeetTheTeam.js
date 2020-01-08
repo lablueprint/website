@@ -67,12 +67,14 @@ const members = [
 export default function MeetTheTeam() {
   const memberProfiles = members.map((item) => (
     <Col xs={6} md={4} key={JSON.stringify(item)}>
-      <MemberProfile
-        image={item.image}
-        name={item.name}
-        position={item.position}
-        linkedInURL={item.linkedInURL}
-      />
+      <Fade>
+        <MemberProfile
+          image={item.image}
+          name={item.name}
+          position={item.position}
+          linkedInURL={item.linkedInURL}
+        />
+      </Fade>
     </Col>
   ));
 
@@ -84,9 +86,7 @@ export default function MeetTheTeam() {
             <h1>Meet the Team</h1>
           </Col>
         </Row>
-        <Fade bottom>
-          <Row>{memberProfiles}</Row>
-        </Fade>
+        <Row>{memberProfiles}</Row>
       </Container>
     </div>
   );
