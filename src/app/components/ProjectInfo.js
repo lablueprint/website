@@ -28,7 +28,7 @@ const projects = {
           Background
         </SectionHeading>
         <SectionParagraph>
-          Rougly 70,000-90,000 individuals seek asylum <a
+          Rougly 70,000–90,000 individuals seek asylum <a
           href="https://www.dhs.gov/sites/default/files/publications/Refugees_Asylees_2017.pdf">every year.</a> These
           asylum seekers range from individuals wanting to find a better life, avoiding political prosecution, or
           escaping torture and persecution for their beliefs. Many of these asylum seekers arrive to the United States
@@ -59,7 +59,7 @@ const projects = {
           Background
         </SectionHeading>
         <SectionParagraph>
-          From 2015-2017, Los Angeles County had the <a href="https://www.ppic.org/publication/child-poverty-in-california/">
+          From 2015–2017, Los Angeles County had the <a href="https://www.ppic.org/publication/child-poverty-in-california/">
           highest amount of children living under poverty level in California.</a> 12.2% of children who come from
           impoverished communities in the Los Angeles County do not graduate high school and are dissuaded to pursue their
           career aspirations due to their <a
