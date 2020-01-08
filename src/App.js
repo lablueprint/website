@@ -1,6 +1,7 @@
 import './app/assets/stylesheets/main.scss';
 import React from 'react';
 import { Route, Switch, useLocation } from 'react-router-dom';
+import ClassNames from 'classnames';
 
 import CommonNavbar from './app/components/CommonNavbar';
 import Footer from './app/components/Footer';
@@ -15,18 +16,18 @@ import NotFoundPage from './app/pages/NotFoundPage';
 import ProjectPage from './app/pages/ProjectPage';
 import StudentPage from './app/pages/StudentPage';
 
+const projectNames = [
+  'ptv',
+  'harmony',
+];
+
 const transparentPages = [
   '',
   'about',
   'nonprofits',
   'projects',
   'students',
-].map((page) => `/${page}`);
-
-const projectNames = [
-  'ptv',
-  'harmony',
-];
+].map((page) => `/${page}`).concat(projectNames.map((name) => `/projects/${name}`));
 
 const inversePages = [
   'contact',
@@ -36,12 +37,10 @@ const inversePages = [
 export default function App() {
   const location = useLocation();
 
-  let navbarClass = '';
-  if (typeof transparentPages.find((elem) => (elem === location.pathname)) !== 'undefined') {
-    navbarClass = 'transparent';
-  } else if (typeof inversePages.find((elem) => (elem === location.pathname)) !== 'undefined') {
-    navbarClass = 'inverse';
-  }
+  const navbarClass = ClassNames({
+    transparent: typeof transparentPages.find((elem) => (elem === location.pathname)) !== 'undefined',
+    inverse: typeof inversePages.find((elem) => (elem === location.pathname)) !== 'undefined',
+  });
 
   const projects = projectNames.map((name) => (
     <Route exact path={`/projects/${name}`}>

@@ -59,5 +59,11 @@
         color: $bp-blue-80;
       }
     }
+
+    &.transparent {
+      &.expanded {
+        background-color: $white;
+      }
+    }
   }
 }

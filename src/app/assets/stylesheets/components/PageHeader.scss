@@ -42,7 +42,7 @@
 
     .title {
       font-size: 45px;
-      height: 150px;
+      min-height: 150px;
       margin-top: 15px;
     }
 
@@ -60,6 +60,14 @@
   &.inverse {
     &.background {
       background-color: $white;
+
+      &.ptv {
+        background-image: linear-gradient(to right, $white-95 38%, $white-75 99%, $white-75 100%), url(../../images/headers/ptv.jpg);
+      }
+
+      &.harmony {
+        background-image: linear-gradient(to right, $white-95 38%, $white-75 99%, $white-75 100%), url(../../images/headers/harmony.jpg);
+      }
     }
 
     .content {
