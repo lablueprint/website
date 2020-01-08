@@ -56,4 +56,14 @@
   .btn {
     @extend .raised-button;
   }
+
+  // &.inverse {
+  //   &.background {
+  //     background-color: $white;
+  //   }
+
+  //   .content {
+  //     color: $black;
+  //   }
+  // }
 }
