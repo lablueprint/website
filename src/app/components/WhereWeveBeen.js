@@ -3,14 +3,14 @@ import React from 'react';
 import { Col, Container, Row, Image } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 
-import Amazon from '../assets/images/companies/amazon.webp';
-import Avantstay from '../assets/images/companies/avantstay.webp';
-import CacheCDS from '../assets/images/companies/cache.webp';
-import GreenDot from '../assets/images/companies/green_dot.webp';
-import IBM from '../assets/images/companies/ibm.webp';
-import ImpactHK from '../assets/images/companies/impact_hk.webp';
-import PPG from '../assets/images/companies/ppg.webp';
-import Stripe from '../assets/images/companies/stripe.webp';
+import Amazon from '../assets/images/companies/amazon.png';
+import Avantstay from '../assets/images/companies/avantstay.png';
+import CacheCDS from '../assets/images/companies/cache_cds.png';
+import GreenDot from '../assets/images/companies/green_dot.png';
+import IBM from '../assets/images/companies/ibm.png';
+import ImpactHK from '../assets/images/companies/impact_hk.png';
+import PPG from '../assets/images/companies/ppg.png';
+import Stripe from '../assets/images/companies/stripe.png';
 
 const companyData = [
   {
