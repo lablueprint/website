@@ -1,6 +1,7 @@
 import React from 'react';
 // eslint-disable-next-line object-curly-newline
 import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { FaGithub, FaFacebookF } from 'react-icons/fa';
 
 import LogoWhite from '../assets/images/branding/logo_white.png';
@@ -9,18 +10,22 @@ const generalLinks = [
   {
     linkText: 'Home',
     href: '/',
+    internal: true,
   },
   {
     linkText: 'About',
     href: '/about',
+    internal: true,
   },
   {
     linkText: 'Projects',
     href: '/projects',
+    internal: true,
   },
   {
     linkText: 'Contact',
     href: '/contact',
+    internal: true,
   },
 ];
 
@@ -28,6 +33,7 @@ const studentLinks = [
   {
     linkText: 'Apply',
     href: 'https://airtable.com/shrru3kJPm50g5MDO',
+    internal: false,
   },
 ];
 
@@ -36,28 +42,35 @@ const socialLinks = [
     linkText: 'Facebook',
     href: 'https://facebook.com/lablueprint',
     icon: FaFacebookF,
+    internal: false,
   },
   {
     linkText: 'Github',
     href: 'https://github.com/lablueprint/',
     icon: FaGithub,
+    internal: false,
   },
 ];
 
 export default function Footer() {
   function generateNavItems(heading, links) {
-    const navItems = links.map((item) => (
-      /* setting key as item is kind of choppy, but each object should be unique
-      (in a list) so i don't think there will be any issues */
-      <li key={JSON.stringify(item)} className="nav-item pt-1">
-        <a href={item.href} className="link">
+    const navItems = links.map((item) => {
+      const body = (
+        <>
           {item.icon ? (
             <item.icon className="mr-1 social-icon" />
           ) : null}
           {item.linkText}
-        </a>
-      </li>
-    ));
+        </>
+      );
+      return (
+        <li key={JSON.stringify(item)} className="nav-item pt-1">
+          {item.internal ? (
+            <Link to={item.href} className="link">{body}</Link>
+          ) : <a href={item.href} className="link">{body}</a>}
+        </li>
+      );
+    });
     return (
       <Col xs={6} md={2} className="mb-5">
         <h6 className="mb-3">{heading}</h6>

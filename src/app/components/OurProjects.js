@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import SectionContainer from './SectionContainer';
 import SectionHeading from './SectionHeading';
@@ -46,9 +47,9 @@ export default function OurProjects() {
         </SectionSubtitle>
 
         <h3 className="subtitle-blue">
-          <a className="link" href="/projects">
+          <Link className="link" to="/projects">
             Check out our current projects!
-          </a>
+          </Link>
         </h3>
         <div className="card-deck">{projectCards}</div>
       </Container>
