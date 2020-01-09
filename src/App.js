@@ -1,6 +1,7 @@
 import './app/assets/stylesheets/main.scss';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Route, Switch, useLocation } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import ClassNames from 'classnames';
 
 import CommonNavbar from './app/components/CommonNavbar';
@@ -34,8 +35,10 @@ const inversePages = [
 ].map((page) => `/${page}`).concat(projectNames.map((name) => `/projects/${name}`));
 
 
-export default function App() {
+export default function App({ onMount }) {
   const location = useLocation();
+
+  useEffect(() => onMount());
 
   const navbarClass = ClassNames({
     transparent: typeof transparentPages.find((elem) => (elem === location.pathname)) !== 'undefined',
@@ -43,7 +46,7 @@ export default function App() {
   });
 
   const projects = projectNames.map((name) => (
-    <Route exact path={`/projects/${name}`}>
+    <Route exact path={`/projects/${name}`} key={name}>
       <ProjectInfo projectName={name} />
     </Route>
   ));
@@ -82,3 +85,7 @@ export default function App() {
     </>
   );
 }
+
+App.propTypes = {
+  onMount: PropTypes.func.isRequired,
+};
