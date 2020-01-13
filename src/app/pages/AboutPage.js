@@ -10,6 +10,7 @@ export default function AboutPage() {
   return (
     <>
       <PageHeader
+        className="about"
         title="Meet Blueprint"
         // eslint-disable-next-line no-multi-str
         render={() => "We're a group of friendly folks at the University of California, Los Angeles \

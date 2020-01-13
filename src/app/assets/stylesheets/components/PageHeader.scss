@@ -1,4 +1,12 @@
 .page-header {
+  @function header-images-url($file-path) {
+    @return url(../../images/headers/#{$file-path});
+  }
+
+  @mixin background-gradient($color1, $color2, $color3, $image) {
+    background-image: linear-gradient(to right, $color1 38%, $color2 99%, $color3 100%), header-images-url($image);
+  }
+
   &.background {
     $navbar-height: 72px;
     $collapsed-navbar-height: 56px;
@@ -21,17 +29,27 @@
     }
 
     &.home {
-      background-image: url(../../images/headers/royce_hall4.png);
+      background-image: header-images-url('home.png');
       background-position: right;
       background-size: contain;
 
       @media screen and (max-width: 767px) {
-        background-image: linear-gradient(to right, $bp-blue-95 38%, $bp-blue-75 99%, $bp-blue-75 100%), url(../../images/headers/royce_hall4.png);
+        @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'home.png');
       }
     }
 
     &.projects {
-      background-image: linear-gradient(to right, $bp-blue-95 38%, $bp-blue-75 99%, $bp-blue-75 100%), url(../../images/headers/wireframe.jpg);
+      @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'projects.jpg');
+    }
+
+    &.about {
+      @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'about.jpg');
+
+      background-position: center 20%;
+
+      @media screen and (max-aspect-ratio: 4/3) {
+        background-position: top;
+      }
     }
   }
 
@@ -62,11 +80,11 @@
       background-color: $white;
 
       &.ptv {
-        background-image: linear-gradient(to right, $white-95 38%, $white-75 99%, $white-75 100%), url(../../images/headers/ptv.jpg);
+        @include background-gradient($white-95, $white-75, $white-75, 'ptv.jpg');
       }
 
       &.harmony {
-        background-image: linear-gradient(to right, $white-95 38%, $white-75 99%, $white-75 100%), url(../../images/headers/harmony.jpg);
+        @include background-gradient($white-95, $white-75, $white-75, 'harmony.jpg');
       }
     }
 
