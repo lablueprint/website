@@ -5,4 +5,18 @@
   .title {
     height: 100px;
   }
+
+  .current-projects {
+    display: flex;
+
+    .project-card {
+      flex: 1 0 100%;
+      max-width: 33%;
+
+      @media screen and (max-width: 767px) {
+        flex: 1 0 51%;
+        max-width: none;
+      }
+    }
+  }
 }

@@ -5,8 +5,8 @@ import { createBrowserHistory } from 'history';
 
 import Routes from './Routes';
 
-import './app/assets/stylesheets/main.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './app/assets/stylesheets/main.scss';
 
 export default function App() {
   // Google Analytics

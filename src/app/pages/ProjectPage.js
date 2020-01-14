@@ -1,6 +1,5 @@
 import React from 'react';
-// eslint-disable-next-line object-curly-newline
-import { Button, Col, Container, Row } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 
 import PageHeader from '../components/PageHeader';
 import ProjectCard from '../components/ProjectCard';
@@ -27,14 +26,13 @@ const projects = [
 
 export default function ProjectPage() {
   const projectCards = projects.map((item) => (
-    <Col xs={12} md={4} key={JSON.stringify(item)}>
-      <ProjectCard
-        image={item.image}
-        title={item.title}
-        desc={item.desc}
-        link={item.link}
-      />
-    </Col>
+    <ProjectCard
+      key={JSON.stringify(item)}
+      image={item.image}
+      title={item.title}
+      desc={item.desc}
+      link={item.link}
+    />
   ));
   return (
     <>
@@ -55,12 +53,14 @@ export default function ProjectPage() {
       />
       <SectionContainer className="project-page">
         <Container>
-          <Row className="title">
-            <Col>
-              <h1>Current Projects</h1>
-            </Col>
-          </Row>
-          <Row>{projectCards}</Row>
+          <div className="title">
+            <h1>Current Projects</h1>
+          </div>
+          <div className="current-projects">
+            <div className="card-deck">
+              {projectCards}
+            </div>
+          </div>
         </Container>
       </SectionContainer>
     </>

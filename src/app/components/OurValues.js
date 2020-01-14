@@ -37,15 +37,18 @@ const values = [
 
 export default function OurValues() {
   const valuesObject = values.map((item) => (
-    <div key={item.title} className="value-container">
-      <ValuesTemplate image={item.image} title={item.title} text={item.text} />
-    </div>
+    <ValuesTemplate
+      key={item.title}
+      image={item.image}
+      title={item.title}
+      text={item.text}
+    />
   ));
 
   return (
     <SectionContainer className="our-values">
       <Container className="values-container">
-        <div>
+        <div className="title">
           <h1 className="section-heading">Core Values</h1>
         </div>
         <div className="values">{valuesObject}</div>

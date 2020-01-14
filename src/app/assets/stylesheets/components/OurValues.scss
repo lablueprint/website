@@ -4,16 +4,11 @@
   padding-bottom: 100px;
   padding-top: 100px;
 
+  .title {
+    text-align: center;
+  }
+
   .values-container {
-    width: 100%;
-    height: 100%;
-
-    @media screen and (max-width: 768px) {
-      align-items: flex-start;
-      display: flex;
-      flex-direction: column;
-    }
-
     .values {
       display: flex;
       justify-content: space-between;

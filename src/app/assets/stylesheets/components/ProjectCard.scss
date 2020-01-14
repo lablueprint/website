@@ -1,4 +1,6 @@
 .project-card {
+  margin-bottom: 40px;
+
   &:hover {
     text-decoration: none;
   }
@@ -9,8 +11,11 @@
     color: $black;
     cursor: pointer;
     height: 100%;
-    margin-bottom: 40px;
     padding: 20px 20px;
+
+    .card-title {
+      min-height: 50px;
+    }
 
     .card-text {
       color: #505050;
@@ -26,6 +31,10 @@
       width: 100%;
       height: 30vh;
       object-fit: contain;
+    }
+
+    .blue {
+      padding-left: 1.25rem;
     }
   }
 
