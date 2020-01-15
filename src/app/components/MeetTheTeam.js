@@ -21,6 +21,18 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/leoliuu/',
   },
   {
+    image: JonathanFan,
+    name: 'Jonathan Fan',
+    position: 'Internal VP',
+    linkedInURL: 'https://www.linkedin.com/in/jonathan-f-424b35106/',
+  },
+  {
+    image: VincentCheung,
+    name: 'Vincent Cheung',
+    position: 'VP of Projects',
+    linkedInURL: 'https://www.linkedin.com/in/vincent-cheung-b6b202137/',
+  },
+  {
     image: SummerSiu,
     name: 'Summer Siu',
     position: 'Director of Outreach',
@@ -33,33 +45,21 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/tiffany-feng-b12219162/',
   },
   {
-    image: JonathanFan,
-    name: 'Jonathan Fan',
-    position: 'Director of Marketing',
-    linkedInURL: 'https://www.linkedin.com/in/jonathan-f-424b35106/',
-  },
-  {
     image: RaymondPhan,
     name: 'Raymond Phan',
-    position: 'Director of Technology',
+    position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/raymondphan/',
   },
   {
     image: DerekChu,
     name: 'Derek Chu',
-    position: 'Project Lead',
+    position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/derekchu98/',
-  },
-  {
-    image: VincentCheung,
-    name: 'Vincent Cheung',
-    position: 'Software Engineer',
-    linkedInURL: 'https://www.linkedin.com/in/vincent-cheung-b6b202137/',
   },
   {
     image: JustinJeon,
     name: 'Justin Jeon',
-    position: 'Software Engineer',
+    position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/justin--jeon/',
   },
 ];
