@@ -9,13 +9,23 @@
   .current-projects {
     display: flex;
 
-    .project-card {
-      flex: 1 0 100%;
-      max-width: 33%;
+    .card-deck {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
 
-      @media screen and (max-width: 767px) {
-        flex: 1 0 51%;
-        max-width: none;
+      .project-card {
+        flex: 1 0 100%;
+        max-width: 38%;
+
+        @media screen and (max-width: 767px) {
+          flex: 1 0 100%;
+          max-width: none;
+
+          .card-text {
+            min-height: 16vh;
+          }
+        }
       }
     }
   }
