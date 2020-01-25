@@ -48,9 +48,6 @@ export default function CommonNavbar({ className }) {
                 <Link className="nav-link" to="/projects">
                   Projects
                 </Link>
-                <a className="nav-link" href="https://airtable.com/shrru3kJPm50g5MDO">
-                    Apply
-                </a>
                 <Link className="nav-link" to="/contact">
                   Contact
                 </Link>

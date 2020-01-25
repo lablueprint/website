@@ -2,7 +2,7 @@ import React from 'react';
 // eslint-disable-next-line object-curly-newline
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { FaGithub, FaFacebookF } from 'react-icons/fa';
+import { FaGithub, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 
 import LogoWhite from '../assets/images/branding/logo_white.png';
 
@@ -29,13 +29,13 @@ const generalLinks = [
   },
 ];
 
-const studentLinks = [
-  {
-    linkText: 'Apply',
-    href: 'https://airtable.com/shrru3kJPm50g5MDO',
-    internal: false,
-  },
-];
+// const studentLinks = [
+//   {
+//     linkText: 'Apply',
+//     href: 'https://airtable.com/shrru3kJPm50g5MDO',
+//     internal: false,
+//   },
+// ];
 
 const socialLinks = [
   {
@@ -48,6 +48,12 @@ const socialLinks = [
     linkText: 'Github',
     href: 'https://github.com/lablueprint/',
     icon: FaGithub,
+    internal: false,
+  },
+  {
+    linkText: 'LinkedIn',
+    href: 'https://www.linkedin.com/company/la-blueprint/',
+    icon: FaLinkedinIn,
     internal: false,
   },
 ];
@@ -81,7 +87,7 @@ export default function Footer() {
 
   const generalNavItems = generateNavItems('General', generalLinks);
   const socialNavItems = generateNavItems('Social Media', socialLinks);
-  const studentNavItems = generateNavItems('Student', studentLinks);
+  // const studentNavItems = generateNavItems('Students', studentLinks);
 
   return (
     <div className="container-fluid py-5 footer">
@@ -94,7 +100,7 @@ export default function Footer() {
             </div>
           </Col>
           {generalNavItems}
-          {studentNavItems}
+          {/* {studentNavItems} */}
           {/* nonprofitNavItems */}
           {socialNavItems}
         </Row>
