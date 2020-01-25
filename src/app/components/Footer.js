@@ -2,7 +2,9 @@ import React from 'react';
 // eslint-disable-next-line object-curly-newline
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { FaGithub, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
+import {
+  FaGithub, FaFacebookF, FaLinkedinIn, FaInstagram,
+} from 'react-icons/fa';
 
 import LogoWhite from '../assets/images/branding/logo_white.png';
 
@@ -42,6 +44,12 @@ const socialLinks = [
     linkText: 'Facebook',
     href: 'https://facebook.com/lablueprint',
     icon: FaFacebookF,
+    internal: false,
+  },
+  {
+    linkText: 'Instagram',
+    href: 'https://instagram.com/lablueprint',
+    icon: FaInstagram,
     internal: false,
   },
   {
@@ -106,7 +114,7 @@ export default function Footer() {
         </Row>
         <Row>
           <Col md={4} className="copyright">
-            &copy; Blueprint 2019
+            &copy; Blueprint 2020
           </Col>
         </Row>
       </Container>
