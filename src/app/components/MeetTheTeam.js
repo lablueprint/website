@@ -6,7 +6,6 @@ import MemberProfile from './MemberProfile';
 
 import DerekChu from '../assets/images/team/derek_chu.jpg';
 import JonathanFan from '../assets/images/team/jonathan_fan.jpg';
-import JustinJeon from '../assets/images/team/justin_jeon.jpg';
 import LeoLiu from '../assets/images/team/leo_liu.jpg';
 import RaymondPhan from '../assets/images/team/raymond_phan.jpg';
 import SummerSiu from '../assets/images/team/summer_siu.jpg';
@@ -55,12 +54,6 @@ const members = [
     name: 'Derek Chu',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/derekchu98/',
-  },
-  {
-    image: JustinJeon,
-    name: 'Justin Jeon',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/justin--jeon/',
   },
 ];
 
