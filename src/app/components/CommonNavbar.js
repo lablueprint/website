@@ -39,15 +39,18 @@ export default function CommonNavbar({ className }) {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto nav-link">
               <Fade down>
-                <Link
-                  className="nav-link"
-                  to="/about"
-                >
+                <Link className="nav-link" to="/about">
                   About
                 </Link>
                 <Link className="nav-link" to="/projects">
                   Projects
                 </Link>
+                {/* <Link className="nav-link" to="/students">
+                  Students
+                </Link>
+                <Link className="nav-link" to="/nonprofits">
+                  Nonprofits
+                </Link> */}
                 <Link className="nav-link" to="/contact">
                   Contact
                 </Link>

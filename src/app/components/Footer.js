@@ -31,13 +31,41 @@ const generalLinks = [
   },
 ];
 
-// const studentLinks = [
-//   {
-//     linkText: 'Apply',
-//     href: 'https://airtable.com/shrru3kJPm50g5MDO',
-//     internal: false,
-//   },
-// ];
+const studentLinks = [
+  {
+    linkText: 'About',
+    href: '/students',
+    internal: true,
+  },
+  {
+    linkText: 'FAQ',
+    href: '/students',
+    internal: true,
+  },
+  {
+    linkText: 'Apply',
+    href: '/students',
+    internal: true,
+  },
+];
+
+const nonprofitLinks = [
+  {
+    linkText: 'About',
+    href: '/nonprofits',
+    internal: true,
+  },
+  {
+    linkText: 'FAQ',
+    href: '/nonprofits',
+    internal: true,
+  },
+  {
+    linkText: 'Apply',
+    href: '/nonprofits',
+    internal: true,
+  },
+];
 
 const socialLinks = [
   {
@@ -95,21 +123,22 @@ export default function Footer() {
 
   const generalNavItems = generateNavItems('General', generalLinks);
   const socialNavItems = generateNavItems('Social Media', socialLinks);
-  // const studentNavItems = generateNavItems('Students', studentLinks);
+  const studentNavItems = generateNavItems('Students', studentLinks);
+  const nonprofitNavItems = generateNavItems('Nonprofits', nonprofitLinks);
 
   return (
     <div className="container-fluid py-5 footer">
       <Container>
         <Row>
           <Col sm={12} md={4} className="mb-5">
-            <Image src={LogoWhite} height={30} className="pr-2" />
+            <Image src={LogoWhite} height={30} className="pr-2 logo-image" />
             <div className="d-inline-block logo">
               blueprint
             </div>
           </Col>
           {generalNavItems}
           {/* {studentNavItems} */}
-          {/* nonprofitNavItems */}
+          {/* {nonprofitNavItems} */}
           {socialNavItems}
         </Row>
         <Row>

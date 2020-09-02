@@ -45,3 +45,15 @@
     url('../../fonts/NunitoSans/NunitoSans-400.ttf') format('truetype'), /* Safari, Android, iOS */
     url('../../fonts/NunitoSans/NunitoSans-400.svg') format('svg'); /* Legacy iOS */
 }
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-weight: 600;
+  src: url('../../fonts/NunitoSans/NunitoSans-600.eot'); /* IE9 Compat Modes */
+  src:
+    url('../../fonts/NunitoSans/NunitoSans-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../fonts/NunitoSans/NunitoSans-600.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../fonts/NunitoSans/NunitoSans-600.woff') format('woff'), /* Modern Browsers */
+    url('../../fonts/NunitoSans/NunitoSans-600.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../../fonts/NunitoSans/NunitoSans-600.svg') format('svg'); /* Legacy iOS */
+}

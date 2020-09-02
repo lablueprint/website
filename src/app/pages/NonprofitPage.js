@@ -1,12 +1,15 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+
+import PageHeader from '../components/PageHeader';
 
 export default function NonprofitPage() {
   return (
-    <div className="container-fluid not-found-page">
-      <Container className="mb-5 text-center">
-        sdfsdfsd
-      </Container>
-    </div>
+    <>
+      <PageHeader
+        className="nonprofits"
+        title="For Nonprofits"
+        render={() => 'As one of our nonprofit partners, Blueprint will work with you to develop an application that will bring your vision to life.'}
+      />
+    </>
   );
 }
