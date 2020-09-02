@@ -21,7 +21,7 @@ export default function WhoWeAre() {
         <SectionParagraph>
           Blueprint is committed to building and promoting tech for
           social good&mdash;free of charge. We collaborate with nonprofit
-          organizations in Southern California to build mobile and desktop
+          organizations in Southern California to build mobile and web
           applications.
         </SectionParagraph>
 
