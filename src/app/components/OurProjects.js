@@ -14,7 +14,7 @@ const projects = [
   {
     image: ptv,
     title: 'Program for Torture Victims',
-    desc: 'PTV helps support refugees escaping violence and human rights abuse.',
+    desc: 'Program for Torture Victims helps support refugees escaping violence and human rights abuse.',
     link: 'ptv',
   },
   {

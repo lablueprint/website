@@ -13,7 +13,7 @@ const projects = [
     image: ptv,
     title: 'Program for Torture Victims',
     desc:
-      'PTV helps support refugees escaping violence and human rights abuse.',
+      'Program for Torture Victims helps support refugees escaping violence and human rights abuse.',
     link: 'ptv',
   },
   {
