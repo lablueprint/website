@@ -13,7 +13,7 @@
   }
 
   .navbar-brand {
-    font-family: $bp-text;
+    font-family: $poppins;
     font-weight: bold;
     text-shadow: none;
 
@@ -24,6 +24,9 @@
 
   .navbar-nav {
     .nav-link {
+      font-family: $poppins;
+      font-size: 0.9rem;
+      font-weight: 500;
       color: $white-80;
     }
   }
@@ -56,6 +59,9 @@
 
     .navbar-nav {
       .nav-link {
+        font-family: $poppins;
+        font-size: 0.9rem;
+        font-weight: 500;
         color: $bp-blue-80;
       }
     }

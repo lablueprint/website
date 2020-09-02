@@ -1,39 +1,47 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
-
 @font-face {
-  font-family: 'BPText';
+  font-family: 'Poppins';
   font-weight: 400;
-  src: url('../../fonts/BPText/BPText-400.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/Poppins/Poppins-400.eot'); /* IE9 Compat Modes */
   src:
-    url('../../fonts/BPText/BPText-400.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../../fonts/BPText/BPText-400.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../../fonts/BPText/BPText-400.woff') format('woff'), /* Modern Browsers */
-    url('../../fonts/BPText/BPText-400.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../../fonts/BPText/BPText-400.svg') format('svg'); /* Legacy iOS */
+    url('../../fonts/Poppins/Poppins-400.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../fonts/Poppins/Poppins-400.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../fonts/Poppins/Poppins-400.woff') format('woff'), /* Modern Browsers */
+    url('../../fonts/Poppins/Poppins-400.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../../fonts/Poppins/Poppins-400.svg') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
-  font-family: 'BPText';
+  font-family: 'Poppins';
+  font-weight: 500;
+  src: url('../../fonts/Poppins/Poppins-500.eot'); /* IE9 Compat Modes */
+  src:
+    url('../../fonts/Poppins/Poppins-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../fonts/Poppins/Poppins-500.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../fonts/Poppins/Poppins-500.woff') format('woff'), /* Modern Browsers */
+    url('../../fonts/Poppins/Poppins-500.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../../fonts/Poppins/Poppins-500.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Poppins';
   font-weight: 600;
-  src: url('../../fonts/BPText/BPText-600.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/Poppins/Poppins-600.eot'); /* IE9 Compat Modes */
   src:
-    url('../../fonts/BPText/BPText-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../../fonts/BPText/BPText-600.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../../fonts/BPText/BPText-600.woff') format('woff'), /* Modern Browsers */
-    url('../../fonts/BPText/BPText-600.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../../fonts/BPText/BPText-600.svg') format('svg'); /* Legacy iOS */
+    url('../../fonts/Poppins/Poppins-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../fonts/Poppins/Poppins-600.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../fonts/Poppins/Poppins-600.woff') format('woff'), /* Modern Browsers */
+    url('../../fonts/Poppins/Poppins-600.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../../fonts/Poppins/Poppins-600.svg') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
-  font-family: 'HeaderText';
+  font-family: 'Nunito Sans';
   font-weight: 400;
-  src: url('../../fonts/HeaderText/HeaderText-400.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/NunitoSans/NunitoSans-400.eot'); /* IE9 Compat Modes */
   src:
-    url('../../fonts/HeaderText/HeaderText-400.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../../fonts/HeaderText/HeaderText-400.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../../fonts/HeaderText/HeaderText-400.woff') format('woff'), /* Modern Browsers */
-    url('../../fonts/HeaderText/HeaderText-400.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../../fonts/HeaderText/HeaderText-400.svg') format('svg'); /* Legacy iOS */
+    url('../../fonts/NunitoSans/NunitoSans-400.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../fonts/NunitoSans/NunitoSans-400.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../fonts/NunitoSans/NunitoSans-400.woff') format('woff'), /* Modern Browsers */
+    url('../../fonts/NunitoSans/NunitoSans-400.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../../fonts/NunitoSans/NunitoSans-400.svg') format('svg'); /* Legacy iOS */
 }

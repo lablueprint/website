@@ -15,7 +15,7 @@ export default function HomePage() {
         title="Tech for Social Good"
         render={() => (
           <Button size="md" href="/about">
-              Learn More
+            Learn More
           </Button>
         )}
       />

@@ -24,10 +24,14 @@
   }
 
   .logo {
-    font-family: $bp-text;
+    font-family: $poppins;
     font-size: 1.25rem;
     font-weight: bold;
     text-shadow: none;
+  }
+
+  .logo-image {
+    margin-bottom: 5px;
   }
 
   .social-icon {

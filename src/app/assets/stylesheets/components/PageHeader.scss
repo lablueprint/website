@@ -33,7 +33,7 @@
       background-position: right;
       background-size: contain;
 
-      @media screen and (max-width: 767px) {
+      @media screen and (max-width: 993px) {
         @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'home.png');
       }
     }
@@ -41,6 +41,10 @@
     &.projects {
       @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'projects.jpg');
     }
+
+    // &.nonprofits {
+    //   @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'nonprofits.jfif');
+    // }
 
     &.about {
       @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'about.jpg');
@@ -55,13 +59,22 @@
 
   .content {
     color: $white;
-    font-family: $header-text;
+    font-family: $poppins;
     min-height: 50vh;
 
     .title {
-      font-size: 45px;
-      min-height: 150px;
-      margin-top: 15px;
+      font-size: 3rem;
+      font-weight: 500;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+      @media (max-width: 39.99rem) {
+        font-size: 10.3vw;
+      }
+
+      @media (min-width: 72rem) {
+        font-size: 3.5rem;
+      }
     }
 
     .body {
