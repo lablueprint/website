@@ -31,41 +31,41 @@ const generalLinks = [
   },
 ];
 
-const studentLinks = [
-  {
-    linkText: 'About',
-    href: '/students',
-    internal: true,
-  },
-  {
-    linkText: 'FAQ',
-    href: '/students',
-    internal: true,
-  },
-  {
-    linkText: 'Apply',
-    href: '/students',
-    internal: true,
-  },
-];
+// const studentLinks = [
+//   {
+//     linkText: 'About',
+//     href: '/students',
+//     internal: true,
+//   },
+//   {
+//     linkText: 'FAQ',
+//     href: '/students',
+//     internal: true,
+//   },
+//   {
+//     linkText: 'Apply',
+//     href: '/students',
+//     internal: true,
+//   },
+// ];
 
-const nonprofitLinks = [
-  {
-    linkText: 'About',
-    href: '/nonprofits',
-    internal: true,
-  },
-  {
-    linkText: 'FAQ',
-    href: '/nonprofits',
-    internal: true,
-  },
-  {
-    linkText: 'Apply',
-    href: '/nonprofits',
-    internal: true,
-  },
-];
+// const nonprofitLinks = [
+//   {
+//     linkText: 'About',
+//     href: '/nonprofits',
+//     internal: true,
+//   },
+//   {
+//     linkText: 'FAQ',
+//     href: '/nonprofits',
+//     internal: true,
+//   },
+//   {
+//     linkText: 'Apply',
+//     href: '/nonprofits',
+//     internal: true,
+//   },
+// ];
 
 const socialLinks = [
   {
@@ -123,8 +123,8 @@ export default function Footer() {
 
   const generalNavItems = generateNavItems('General', generalLinks);
   const socialNavItems = generateNavItems('Social Media', socialLinks);
-  const studentNavItems = generateNavItems('Students', studentLinks);
-  const nonprofitNavItems = generateNavItems('Nonprofits', nonprofitLinks);
+  // const studentNavItems = generateNavItems('Students', studentLinks);
+  // const nonprofitNavItems = generateNavItems('Nonprofits', nonprofitLinks);
 
   return (
     <div className="container-fluid py-5 footer">

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
 import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import PageHeader from '../components/PageHeader';
 import WhoWeAre from '../components/WhoWeAre';
@@ -14,9 +15,11 @@ export default function HomePage() {
         className="home"
         title="Tech for Social Good"
         render={() => (
-          <Button size="md" href="/about">
-            Learn More
-          </Button>
+          <Link to="/about">
+            <Button size="md">
+              Learn More
+            </Button>
+          </Link>
         )}
       />
       <Fade>

@@ -42,9 +42,13 @@
       @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'projects.jpg');
     }
 
-    // &.nonprofits {
-    //   @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'nonprofits.jfif');
-    // }
+    &.nonprofits {
+      @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'nonprofits.jpg');
+    }
+
+    &.students {
+      @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'students.png');
+    }
 
     &.about {
       @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'about.jpg');
@@ -58,15 +62,18 @@
   }
 
   .content {
+    align-items: center;
     color: $white;
+    display: flex;
     font-family: $poppins;
-    min-height: 50vh;
+    padding-bottom: 4rem;
+    padding-top: 3rem;
+    min-height: 55vh;
 
     .title {
       font-size: 3rem;
       font-weight: 500;
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 1rem;
 
       @media (max-width: 39.99rem) {
         font-size: 10.3vw;

@@ -29,7 +29,7 @@ const projects = {
           Background
         </SectionHeading>
         <SectionParagraph>
-          Rougly 70,000–90,000 individuals seek asylum <a
+          Roughly 70,000–90,000 individuals seek asylum <a
           href="https://www.dhs.gov/sites/default/files/publications/Refugees_Asylees_2017.pdf">every year.</a> These
           asylum seekers range from individuals wanting to find a better life, avoiding political prosecution, or
           escaping torture and persecution for their beliefs. Many of these asylum seekers arrive to the United States

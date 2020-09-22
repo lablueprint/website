@@ -11,16 +11,22 @@ export default function MemberProfile({
       <Image src={image} width="200" height="200" fluid rounded />
       <div className="name">{name}</div>
       <div className="position">{position}</div>
-      <a href={linkedInURL}>
-        <FaLinkedinIn />
-      </a>
+      {linkedInURL && (
+        <a href={linkedInURL}>
+          <FaLinkedinIn />
+        </a>
+      )}
     </div>
   );
 }
+
+MemberProfile.defaultProps = {
+  linkedInURL: '',
+};
 
 MemberProfile.propTypes = {
   image: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   position: PropTypes.string.isRequired,
-  linkedInURL: PropTypes.string.isRequired,
+  linkedInURL: PropTypes.string,
 };

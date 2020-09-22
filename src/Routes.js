@@ -8,7 +8,6 @@ import Footer from './app/components/Footer';
 import ProjectInfo from './app/components/ProjectInfo';
 
 import AboutPage from './app/pages/AboutPage';
-import ApplyPage from './app/pages/ApplyPage';
 import ContactPage from './app/pages/ContactPage';
 import HomePage from './app/pages/HomePage';
 import NonprofitPage from './app/pages/NonprofitPage';
@@ -32,7 +31,6 @@ const transparentPages = [
 const inversePages = [
   'contact',
 ].map((page) => `/${page}`).concat(projectNames.map((name) => `/projects/${name}`));
-
 
 export default function Routes({ onMount }) {
   const location = useLocation();
@@ -64,9 +62,6 @@ export default function Routes({ onMount }) {
           <ProjectPage />
         </Route>
         {projects}
-        <Route exact path="/apply">
-          <ApplyPage />
-        </Route>
         <Route exact path="/students">
           <StudentPage />
         </Route>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Fade } from 'react-reveal';
 
 import MeetTheTeam from '../components/MeetTheTeam';
+import Alumni from '../components/Alumni';
 import WhereWeveBeen from '../components/WhereWeveBeen';
 import PageHeader from '../components/PageHeader';
 import OurValues from '../components/OurValues';
@@ -20,6 +21,7 @@ export default function AboutPage() {
         <OurValues />
       </Fade>
       <MeetTheTeam />
+      <Alumni />
       <WhereWeveBeen />
     </>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import SectionContainer from './SectionContainer';
@@ -33,8 +33,10 @@ export default function WhoWeAre() {
         {/* eslint-enable */}
 
         <h3 className="subtitle-blue">
-          <Link className="link" to="/about">
-            Read More...
+          <Link to="/about">
+            <Button className="raised-button blue">
+              Read More
+            </Button>
           </Link>
         </h3>
       </Container>

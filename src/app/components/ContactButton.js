@@ -1,6 +1,7 @@
 import React from 'react';
 // eslint-disable-next-line object-curly-newline
 import { Container, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export default function ContactUs() {
   return (
@@ -8,9 +9,11 @@ export default function ContactUs() {
       <Container>
         <h1>Contact Us</h1>
         <h4 className="subheader">Have a question? Message us here!</h4>
-        <Button className="raised-button" href="/contact">
-          Email Us
-        </Button>
+        <Link to="/contact">
+          <Button className="raised-button">
+            Email Us
+          </Button>
+        </Link>
         <Button className="raised-button blue" href="https://facebook.com/lablueprint">
           Facebook Page
         </Button>

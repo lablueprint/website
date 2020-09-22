@@ -48,7 +48,7 @@ export default function OurProjects() {
 
         <h3 className="subtitle-blue">
           <Link className="link" to="/projects">
-            Check out our current projects!
+            Check out our current projects ➜
           </Link>
         </h3>
         <div className="card-deck">{projectCards}</div>

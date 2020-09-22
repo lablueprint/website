@@ -9,7 +9,7 @@ export default function PageHeader({ className, title, render }) {
 
   return (
     <div className={headerClass}>
-      <div className="container-fluid py-5 content">
+      <div className="container-fluid content">
         <Container>
           <Fade>
             <div className="title">

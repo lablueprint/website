@@ -22,18 +22,20 @@ export default function CommonNavbar({ className }) {
       <Container>
         <Navbar variant={variant} expand="md">
           <Fade down>
-            <Navbar.Brand href="/">
-              <Roll>
-                <img
-                  alt=""
-                  src={LogoWhite}
-                  width="30"
-                  height="30"
-                  className="d-inline-block align-top"
-                />
-              </Roll>
-              blueprint
-            </Navbar.Brand>
+            <Link to="/">
+              <Navbar.Brand>
+                <Roll>
+                  <img
+                    alt=""
+                    src={LogoWhite}
+                    width="30"
+                    height="30"
+                    className="d-inline-block align-top"
+                  />
+                </Roll>
+                blueprint
+              </Navbar.Brand>
+            </Link>
           </Fade>
           <Navbar.Toggle onClick={toggleExpanded} aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
