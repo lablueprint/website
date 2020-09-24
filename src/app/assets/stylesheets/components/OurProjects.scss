@@ -1,18 +1,27 @@
 .our-projects {
   .card-deck {
+    display: flex;
     justify-content: center;
     align-items: center;
-  }
 
-  .project-card {
-    width: 38%;
-
-    @media screen and (max-width: 769px) {
-      width: 70%;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
     }
 
-    .card-body {
-      height: 100px;
+    .project-card {
+      width: 33%;
+      flex: none;
+
+      @media screen and (max-width: 768px) {
+        width: 80%;
+        flex: 1;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .card-body {
+        height: 100px;
+      }
     }
   }
 }

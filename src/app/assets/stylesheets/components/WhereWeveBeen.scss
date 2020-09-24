@@ -1,5 +1,4 @@
 .where-weve-been {
-  background-color: $off-white;
   text-align: center;
   font-family: $sans-serif;
 
@@ -16,7 +15,7 @@
     .company-link {
       flex: 1 0 21%;
 
-      @media screen and (max-width: 769px) {
+      @media screen and (max-width: 768px) {
         flex: 1 0 34%;
       }
 

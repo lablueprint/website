@@ -17,7 +17,7 @@ const members = [
     image: YinyinWen,
     name: 'Yinyin Wen',
     position: 'Designer',
-    linkedinURL: 'https://www.linkedin.com/in/yinyinwen/',
+    linkedInURL: 'https://www.linkedin.com/in/yinyinwen/',
   },
   {
     image: JonathanFan,

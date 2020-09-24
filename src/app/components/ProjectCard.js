@@ -9,8 +9,8 @@ export default function ProjectCard({
   const projectLink = `/projects/${link}`;
 
   return (
-    <Link to={projectLink} className="project-card">
-      <Card>
+    <Card className="project-card">
+      <Link to={projectLink}>
         <Card.Img variant="top" src={image} />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
@@ -19,8 +19,8 @@ export default function ProjectCard({
           </Card.Text>
         </Card.Body>
         <div className="blue">Learn More</div>
-      </Card>
-    </Link>
+      </Link>
+    </Card>
   );
 }
 

@@ -31,23 +31,23 @@ const generalLinks = [
   },
 ];
 
-// const studentLinks = [
-//   {
-//     linkText: 'About',
-//     href: '/students',
-//     internal: true,
-//   },
-//   {
-//     linkText: 'FAQ',
-//     href: '/students',
-//     internal: true,
-//   },
-//   {
-//     linkText: 'Apply',
-//     href: '/students',
-//     internal: true,
-//   },
-// ];
+const studentLinks = [
+  {
+    linkText: 'About',
+    href: '/students',
+    internal: true,
+  },
+  {
+    linkText: 'FAQ',
+    href: '/students#FAQ',
+    internal: true,
+  },
+  {
+    linkText: 'Apply',
+    href: '/students#Apply',
+    internal: true,
+  },
+];
 
 // const nonprofitLinks = [
 //   {
@@ -123,7 +123,7 @@ export default function Footer() {
 
   const generalNavItems = generateNavItems('General', generalLinks);
   const socialNavItems = generateNavItems('Social Media', socialLinks);
-  // const studentNavItems = generateNavItems('Students', studentLinks);
+  const studentNavItems = generateNavItems('Students', studentLinks);
   // const nonprofitNavItems = generateNavItems('Nonprofits', nonprofitLinks);
 
   return (
@@ -137,7 +137,7 @@ export default function Footer() {
             </div>
           </Col>
           {generalNavItems}
-          {/* {studentNavItems} */}
+          {studentNavItems}
           {/* {nonprofitNavItems} */}
           {socialNavItems}
         </Row>

@@ -1,10 +1,11 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import Fade from 'react-reveal';
+import { Button } from 'react-bootstrap';
 
 import PageHeader from '../components/PageHeader';
-import SectionContainer from '../components/SectionContainer';
-import SectionHeading from '../components/SectionHeading';
-import SectionSubtitle from '../components/SectionSubtitle';
+import ApplicationProcess from '../components/ApplicationProcess';
+
+const MAILCHIMP_URL = 'https://lablueprint.us4.list-manage.com/subscribe/post?u=223f2f7d67a9bd0b9f9172a69&amp;id=70cbf4957b';
 
 export default function StudentPage() {
   return (
@@ -12,18 +13,27 @@ export default function StudentPage() {
       <PageHeader
         className="students"
         title="For Students"
-        render={() => 'Join the Blueprint team and help us build technology for social good!'}
+        render={() => (
+          <>
+            <div className="mb-3">
+              Joining Blueprint is a great way to give back to your community. Help us build our
+              applications and work with nonprofits!
+            </div>
+            <div className="sign-up mb-3">
+              Sign up for our mailing list to get an email when applications open!
+            </div>
+            <form action={MAILCHIMP_URL} method="post" className="mailing-list">
+              <input className="mailing-list-input" name="EMAIL" placeholder="example@email.com" />
+              <Button type="submit" size="md">
+                Submit
+              </Button>
+            </form>
+          </>
+        )}
       />
-      <SectionContainer className="students">
-        <Container className="mb-5 text-center">
-          <SectionHeading>Applications</SectionHeading>
-
-          <SectionSubtitle>
-            Applications for Fall Quarter will be opening up week 1 of Fall
-            Quarter. Check back later!
-          </SectionSubtitle>
-        </Container>
-      </SectionContainer>
+      <Fade>
+        <ApplicationProcess />
+      </Fade>
     </>
   );
 }

@@ -1,11 +1,16 @@
 .project-card {
   margin-bottom: 40px;
+  font-family: $sans-serif;
 
   &:hover {
     text-decoration: none;
   }
 
-  .card {
+  a {
+    text-decoration: none;
+  }
+
+  &.card {
     background: inherit;
     border: none;
     color: $black;
@@ -14,6 +19,7 @@
     padding: 20px 20px;
 
     .card-title {
+      font-weight: 600;
       min-height: 50px;
     }
 
@@ -36,10 +42,5 @@
     .blue {
       padding-left: 1.25rem;
     }
-  }
-
-  a {
-    padding-left: 1.25rem;
-    text-decoration: none;
   }
 }

@@ -22,7 +22,7 @@
     position: relative;
     z-index: 1;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 768px) {
       padding-top: $collapsed-navbar-height;
       margin-top: -$collapsed-navbar-height;
       height: calc(100% + #{$collapsed-navbar-height});
@@ -33,7 +33,7 @@
       background-position: right;
       background-size: contain;
 
-      @media screen and (max-width: 993px) {
+      @media screen and (max-width: 992px) {
         @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'home.png');
       }
     }
@@ -85,14 +85,20 @@
     }
 
     .body {
-      font-size: 25px;
-      line-height: 1.5em;
+      font-size: 1.5rem;
+      line-height: 2rem;
       opacity: 0.7;
     }
   }
 
   .btn {
     @extend .raised-button;
+  }
+
+  .sign-up {
+    margin-top: 50px;
+    font-size: 1.25rem;
+    font-weight: 500;
   }
 
   &.inverse {

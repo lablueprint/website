@@ -1,5 +1,17 @@
 @font-face {
   font-family: 'Poppins';
+  font-style: italic;
+  src: url('../../fonts/Poppins/Poppins-italic.eot'); /* IE9 Compat Modes */
+  src:
+    url('../../fonts/Poppins/Poppins-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../fonts/Poppins/Poppins-italic.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../fonts/Poppins/Poppins-italic.woff') format('woff'), /* Modern Browsers */
+    url('../../fonts/Poppins/Poppins-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../../fonts/Poppins/Poppins-italic.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Poppins';
   font-weight: 400;
   src: url('../../fonts/Poppins/Poppins-400.eot'); /* IE9 Compat Modes */
   src:
@@ -35,6 +47,18 @@
 }
 
 @font-face {
+  font-family: 'Poppins';
+  font-weight: 700;
+  src: url('../../fonts/Poppins/Poppins-700.eot'); /* IE9 Compat Modes */
+  src:
+    url('../../fonts/Poppins/Poppins-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../fonts/Poppins/Poppins-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../fonts/Poppins/Poppins-700.woff') format('woff'), /* Modern Browsers */
+    url('../../fonts/Poppins/Poppins-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../../fonts/Poppins/Poppins-700.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
   font-family: 'Nunito Sans';
   font-weight: 400;
   src: url('../../fonts/NunitoSans/NunitoSans-400.eot'); /* IE9 Compat Modes */
@@ -56,4 +80,16 @@
     url('../../fonts/NunitoSans/NunitoSans-600.woff') format('woff'), /* Modern Browsers */
     url('../../fonts/NunitoSans/NunitoSans-600.ttf') format('truetype'), /* Safari, Android, iOS */
     url('../../fonts/NunitoSans/NunitoSans-600.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-weight: 700;
+  src: url('../../fonts/NunitoSans/NunitoSans-700.eot'); /* IE9 Compat Modes */
+  src:
+    url('../../fonts/NunitoSans/NunitoSans-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../fonts/NunitoSans/NunitoSans-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../fonts/NunitoSans/NunitoSans-700.woff') format('woff'), /* Modern Browsers */
+    url('../../fonts/NunitoSans/NunitoSans-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../../fonts/NunitoSans/NunitoSans-700.svg') format('svg'); /* Legacy iOS */
 }
