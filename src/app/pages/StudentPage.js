@@ -4,6 +4,8 @@ import { Button } from 'react-bootstrap';
 
 import PageHeader from '../components/PageHeader';
 import ApplicationProcess from '../components/ApplicationProcess';
+import StudentFAQ from '../components/StudentFAQ';
+import MailingListButton from '../components/MailingListButton';
 
 const MAILCHIMP_URL = 'https://lablueprint.us4.list-manage.com/subscribe/post?u=223f2f7d67a9bd0b9f9172a69&amp;id=70cbf4957b';
 
@@ -33,6 +35,12 @@ export default function StudentPage() {
       />
       <Fade>
         <ApplicationProcess />
+      </Fade>
+      <Fade>
+        <StudentFAQ />
+      </Fade>
+      <Fade>
+        <MailingListButton />
       </Fade>
     </>
   );

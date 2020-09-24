@@ -55,8 +55,8 @@ const timeline = [
 
 export default function Timeline() {
   const timelineItems = timeline.map((timelineItem, index) => (
-    <>
-      <div className="timeline-row" key={JSON.stringify(timelineItem)}>
+    <div key={JSON.stringify(timelineItem)}>
+      <div className="timeline-row">
         <div className="timeline-number">
           {(index + 1 < 10) ? `0${(index + 1)}` : index + 1}
         </div>
@@ -75,7 +75,7 @@ export default function Timeline() {
         </div>
       </div>
       {index !== timeline.length - 1 && <Image src={TimelineImage} className="timeline-line" />}
-    </>
+    </div>
   ));
 
   return (

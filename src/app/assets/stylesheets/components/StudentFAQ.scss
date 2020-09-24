@@ -1,0 +1,22 @@
+.student-faq {
+  background-color: $off-white;
+
+  .student-faq-heading {
+    margin-bottom: 3.75rem !important;
+  }
+
+  .faq-question {
+    text-align: left;
+    font-family: $poppins;
+    font-weight: 500;
+    color: $black;
+    margin-bottom: 10px;
+  }
+
+  .faq-answer {
+    font-family: $sans-serif;
+    color: $black;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+}

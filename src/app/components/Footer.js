@@ -37,16 +37,16 @@ const studentLinks = [
     href: '/students',
     internal: true,
   },
-  {
-    linkText: 'FAQ',
-    href: '/students#FAQ',
-    internal: true,
-  },
-  {
-    linkText: 'Apply',
-    href: '/students#Apply',
-    internal: true,
-  },
+  // {
+  //   linkText: 'FAQ',
+  //   href: '/students#FAQ',
+  //   internal: true,
+  // },
+  // {
+  //   linkText: 'Apply',
+  //   href: '/students#Apply',
+  //   internal: true,
+  // },
 ];
 
 // const nonprofitLinks = [

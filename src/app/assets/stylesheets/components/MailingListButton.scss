@@ -1,0 +1,50 @@
+.mailing-list-button {
+  display: flex;
+  align-items: center;
+
+  .mailing-list-button-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0 !important;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .mailing-list-button-text {
+      font-family: $poppins;
+      font-weight: 500;
+      font-size: 1.25rem;
+      color: $black;
+      text-align: left;
+      max-width: 400px;
+
+      @media screen and (max-width: 768px) {
+        margin-bottom: 20px;
+      }
+    }
+
+    .mailing-list-button-form {
+      display: flex;
+      align-items: center;
+
+      .mailing-list-button-input {
+        font-family: $sans-serif;
+        font-size: 1rem;
+        border-radius: 3px;
+        margin-right: 20px;
+        background-color: $white;
+        border-width: 1px;
+        border-style: solid;
+        border-color: $gray;
+
+        @media screen and (max-width: 768px) {
+          margin-right: 10px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
