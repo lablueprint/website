@@ -33,7 +33,7 @@ const timeline = [
     </div>),
   },
   {
-    heading: 'Technical Interview',
+    heading: 'Interviews',
     date: 'Oct 20 - 23',
     body: (<div>
       An interview to learn more about your background and your experiences. This will be an
