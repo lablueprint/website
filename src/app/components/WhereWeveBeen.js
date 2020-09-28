@@ -3,14 +3,17 @@ import React from 'react';
 import { Col, Container, Row, Image } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 
-import Amazon from '../assets/images/companies/amazon.png';
-import Avantstay from '../assets/images/companies/avantstay.png';
-import CacheCDS from '../assets/images/companies/cache_cds.png';
-import GreenDot from '../assets/images/companies/green_dot.png';
-import IBM from '../assets/images/companies/ibm.png';
-import ImpactHK from '../assets/images/companies/impact_hk.png';
-import PPG from '../assets/images/companies/ppg.png';
-import Stripe from '../assets/images/companies/stripe.png';
+import Amazon from '../assets/images/companies/amazon.svg';
+import Avantstay from '../assets/images/companies/avantstay.svg';
+import Blizzard from '../assets/images/companies/blizzard.svg';
+import CacheCDS from '../assets/images/companies/cache_cds.svg';
+import Facebook from '../assets/images/companies/facebook.svg';
+import GreenDot from '../assets/images/companies/green_dot.svg';
+import IBM from '../assets/images/companies/ibm.svg';
+import ImpactHK from '../assets/images/companies/impact_hk.svg';
+import Microsoft from '../assets/images/companies/microsoft.svg';
+import PPG from '../assets/images/companies/ppg.svg';
+import Stripe from '../assets/images/companies/stripe.svg';
 
 const companyData = [
   {
@@ -22,8 +25,16 @@ const companyData = [
     link: 'https://avantstay.com/',
   },
   {
+    logo: Blizzard,
+    link: 'https://www.blizzard.com/',
+  },
+  {
     logo: CacheCDS,
     link: 'https://www.cachecds.com/',
+  },
+  {
+    logo: Facebook,
+    link: 'https://www.facebook.com/',
   },
   {
     logo: GreenDot,
@@ -36,6 +47,10 @@ const companyData = [
   {
     logo: ImpactHK,
     link: 'https://impacthk.org/',
+  },
+  {
+    logo: Microsoft,
+    link: 'https://www.microsoft.com/',
   },
   {
     logo: PPG,
