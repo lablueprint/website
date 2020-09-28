@@ -23,15 +23,19 @@
     font-size: 1rem;
   }
 
-  .logo {
-    font-family: $poppins;
-    font-size: 1.25rem;
-    font-weight: 600;
-    text-shadow: none;
-  }
+  .logo-container {
+    display: flex;
 
-  .logo-image {
-    margin-bottom: 5px;
+    .logo {
+      font-family: $poppins;
+      font-size: 1.25rem;
+      font-weight: 600;
+      text-shadow: none;
+    }
+
+    .logo-image {
+      margin-right: 0.5rem;
+    }
   }
 
   .social-icon {

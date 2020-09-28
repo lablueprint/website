@@ -25,7 +25,13 @@ export default function App() {
   return (
     <Router history={history}>
       {/* scrolls window to the top of the screen when changing routes */}
-      <Route component={() => { window.scrollTo(0, 0); return null; }} />
+      <Route component={() => {
+        if (!window.location.hash) {
+          window.scrollTo(0, 0);
+        }
+        return null;
+      }}
+      />
       <Routes onMount={onMount} />
     </Router>
   );

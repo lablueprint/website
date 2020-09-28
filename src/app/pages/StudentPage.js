@@ -36,12 +36,16 @@ export default function StudentPage() {
       <Fade>
         <ApplicationProcess />
       </Fade>
-      <Fade>
-        <StudentFAQ />
-      </Fade>
-      <Fade>
-        <MailingListButton />
-      </Fade>
+      <div id="FAQ">
+        <Fade>
+          <StudentFAQ />
+        </Fade>
+      </div>
+      <div id="Apply">
+        <Fade>
+          <MailingListButton />
+        </Fade>
+      </div>
     </>
   );
 }

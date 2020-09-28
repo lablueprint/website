@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import ClassNames from 'classnames';
 
-import LogoWhite from '../assets/images/branding/logo_white.png';
+import LogoWhite from '../assets/images/branding/logo_white.svg';
 
 export default function CommonNavbar({ className }) {
   const [expanded, setExpanded] = useState(false);
