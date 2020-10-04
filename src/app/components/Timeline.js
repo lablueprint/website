@@ -6,17 +6,18 @@ import TimelineImage from '../assets/images/students/timeline.svg';
 /* eslint-disable */
 const timeline = [
   {
-    heading: 'Applications Open!',
+    heading: 'Applications Open',
     date: 'Oct 5',
     body: (<div>
-      Applications will open <b>Week 1 of Fall Quarter</b>. Sign up for our mailing list and check
-      out our <a href="https://facebook.com/lablueprint">Facebook</a> and <a
-      href="https://instagram.com/lablueprint">Instagram</a> to stay updated!
+      <a href="https://airtable.com/shrlSddk7PCH8Cc05">Applications are now
+      open!</a> Check out our <a href="https://facebook.com/lablueprint">
+      Facebook</a> and <a href="https://instagram.com/lablueprint">Instagram
+      </a> to stay updated.
     </div>),
   },
   {
     heading: 'Infosessions',
-    date: 'Oct 13 & Oct 15 8 – 9:30 PM',
+    date: 'Oct 13 & Oct 15 8 – 9:30 PM PST',
     body: (<div>
       <b>Learn more about our club and our projects during our infosessions!</b> During this time,
       we will be presenting about what you can expect when you join Blueprint and ask any questions
@@ -25,11 +26,11 @@ const timeline = [
   },
   {
     heading: 'Applications Due',
-    date: 'Oct 16 11:59 PM',
+    date: 'Oct 16 11:59 PM PST',
     body: (<div>
       The application includes <b>2 short questions</b> to help us understand your background and
       your reasons for joining Blueprint. The deadline to turn in applications is <b>Oct 16 11:59
-      PM.</b> Decisions will be released on <b>Oct 18 by 11:59 PM.</b>
+      PM PST.</b> Decisions will be released on <b>Oct 18 by 11:59 PM PST.</b>
     </div>),
   },
   {
