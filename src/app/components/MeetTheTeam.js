@@ -8,15 +8,15 @@ import LeoLiu from '../assets/images/team/leo_liu.png';
 import TiffanyFeng from '../assets/images/team/tiffany_feng.png';
 import CelineSung from '../assets/images/team/celine_sung.png';
 import BillLiu from '../assets/images/team/bill_liu.png';
+import KarenTan from '../assets/images/team/karen_tan.png';
+import RyanTran from '../assets/images/team/ryan_tran.png';
+import VivianNguyen from '../assets/images/team/vivian_nguyen.png';
 import BiancaVillamor from '../assets/images/team/bianca_villamor.png';
 import CodyDo from '../assets/images/team/cody_do.png';
 import HelenWang from '../assets/images/team/helen_wang.png';
-import KarenTan from '../assets/images/team/karen_tan.png';
 import LinusLam from '../assets/images/team/linus_lam.png';
 import RachelLu from '../assets/images/team/rachel_lu.png';
-import RyanTran from '../assets/images/team/ryan_tran.png';
 import VanessaTa from '../assets/images/team/vanessa_ta.png';
-import VivianNguyen from '../assets/images/team/vivian_nguyen.png';
 
 const members = [
   {
@@ -44,6 +44,24 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/bill-liu-profile/',
   },
   {
+    image: KarenTan,
+    name: 'Karen Tan',
+    position: 'Project Lead',
+    linkedInURL: 'https://www.linkedin.com/in/karen-m-tan/',
+  },
+  {
+    image: RyanTran,
+    name: 'Ryan Tran',
+    position: 'Project Lead',
+    linkedInURL: 'https://www.linkedin.com/in/ryan-m-tran/',
+  },
+  {
+    image: VivianNguyen,
+    name: 'Vivian Nguyen',
+    position: 'Project Lead',
+    linkedInURL: 'https://www.linkedin.com/in/vivianngn/',
+  },
+  {
     image: BiancaVillamor,
     name: 'Bianca Villamor',
     position: 'Developer',
@@ -61,12 +79,6 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/helenwangj/',
   },
   {
-    image: KarenTan,
-    name: 'Karen Tan',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/karen-m-tan/',
-  },
-  {
     image: LinusLam,
     name: 'Linus Lam',
     position: 'Developer',
@@ -79,22 +91,10 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/rachel-lu-778700172/',
   },
   {
-    image: RyanTran,
-    name: 'Ryan Tran',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/ryan-m-tran/',
-  },
-  {
     image: VanessaTa,
     name: 'Vanessa Ta',
     position: 'Designer',
     linkedInURL: 'https://www.linkedin.com/in/vanessa-ta-574aa6172/',
-  },
-  {
-    image: VivianNguyen,
-    name: 'Vivian Nguyen',
-    position: 'Designer',
-    linkedInURL: 'https://www.linkedin.com/in/vivianngn/',
   },
 ];
 
