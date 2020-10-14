@@ -19,9 +19,10 @@ const timeline = [
     heading: 'Infosessions',
     date: 'Oct 13 & Oct 15 8 – 9:30 PM PST',
     body: (<div>
-      <b>Learn more about our club and our projects during our infosessions!</b> During this time,
-      we will be presenting about what you can expect when you join Blueprint and ask any questions
-      you may have.
+      <a href="https://ucla.zoom.us/j/92491682534?pwd=KzBES2JKQm1rcVJ1aHZXdDlMTHFZQT09">Learn more
+      about our club and our projects during our infosessions!</a> During this time, we will be
+      presenting about what you can expect when you join Blueprint and ask any questions you may
+      have.
     </div>),
   },
   {
