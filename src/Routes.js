@@ -17,7 +17,8 @@ import StudentPage from './app/pages/StudentPage';
 
 const projectNames = [
   'ptv',
-  'harmony',
+  'harmonyproject',
+  'farm2people',
 ];
 
 const transparentPages = [

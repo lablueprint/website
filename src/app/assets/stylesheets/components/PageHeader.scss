@@ -109,8 +109,12 @@
         @include background-gradient($white-95, $white-75, $white-75, 'ptv.jpg');
       }
 
-      &.harmony {
-        @include background-gradient($white-95, $white-75, $white-75, 'harmony.jpg');
+      &.harmonyproject {
+        @include background-gradient($white-95, $white-75, $white-75, 'harmonyproject.jpg');
+      }
+
+      &.farm2people {
+        @include background-gradient($white-95, $white-75, $white-75, 'farm2people.jpg');
       }
     }
 

@@ -11,18 +11,17 @@ import PageHeader from './PageHeader';
 const projects = {
   ptv: {
     title: 'Program for Torture Victims',
+    /* eslint-disable */
     render: () => (
       <>
         <div className="mb-3">
-          Program for Torture Victims helps support refugees escaping violence and human rights
-          abuse.
+          Program for Torture Victims helps support refugees escaping violence and human rights abuse.
         </div>
         <Button className="blue" size="md" href="https://github.com/lablueprint/ptv-web-console">
           View Github Repository
         </Button>
       </>
     ),
-    /* eslint-disable */
     body: (
       <>
         <SectionHeading>
@@ -50,20 +49,20 @@ const projects = {
     ),
     /* eslint-enable */
   },
-  harmony: {
+  harmonyproject: {
     title: 'Harmony Project',
+    /* eslint-disable */
     render: () => (
       <>
         <div className="mb-3">
-          Harmony Project uses music education to provide students with the skills and resources
-          needed to thrive in school, in their community, and in life.
+          Harmony Project uses music education to provide students with the skills and resources needed to thrive in
+          school, in their community, and in life.
         </div>
         <Button className="blue" size="md" href="https://github.com/lablueprint/harmony-project">
           View Github Repository
         </Button>
       </>
     ),
-    /* eslint-disable */
     body: (
       <>
         <SectionHeading>
@@ -89,6 +88,43 @@ const projects = {
           data from instructors and for students to submit assignments and receive feedback. The project will greatly
           reduce the burden of reviewing and organizing documents by hand and increase efficiency by moving and
           centralizing information to an online platform accessible by the nonprofit staff, children, and parents.
+        </SectionParagraph>
+      </>
+    ),
+    /* eslint-enable */
+  },
+  farm2people: {
+    title: 'Farm2People',
+    /* eslint-disable */
+    render: () => (
+      <>
+        <div className="mb-3">
+          Farm2People is a team of food professionals and volunteers dedicated to fixing the recent disruption to our
+          food supply chain and promoting a more sustainable food system for the future.
+        </div>
+      </>
+    ),
+    body: (
+      <>
+        <SectionHeading>
+          Background
+        </SectionHeading>
+        <SectionParagraph>
+          The ongoing COVID-19 pandemic has severely disrupted our food supply chain, leaving both food producers and
+          essential providers such as hospitals with problems that must be solved. The closure of schools, venues, and
+          restaurants has left food producers with surplus of perishable goods that must be taken off their hands, while
+          essential providers such as hospitals and food banks continue to experience an increase in food demand.
+        </SectionParagraph>
+        <SectionHeading>
+          Solution
+        </SectionHeading>
+        <SectionParagraph>
+          <a href="https://www.farm2people.org/">Farm2People</a> aims to secure harvests and jobs for farmers and
+          transport organically grown local produce to underserved communities. Beyond this, they strive to grow a
+          resilient and community-driven food network that can be replicated in other urban areas. To advance
+          Farm2People’s initiative, our project will focus on building a web application that facilitates an online
+          marketplace that establishes a communication pathway between farmers and local food providers, so that the
+          food producers’ surpluses can be efficiently located by and distributed to providers in need.
         </SectionParagraph>
       </>
     ),
