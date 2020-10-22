@@ -71,6 +71,7 @@ const members = [
     image: CodyDo,
     name: 'Cody Do',
     position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/cody-do/',
   },
   {
     image: HelenWang,
