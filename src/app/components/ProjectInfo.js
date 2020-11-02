@@ -17,8 +17,14 @@ const projects = {
         <div className="mb-3">
           Program for Torture Victims helps support refugees escaping violence and human rights abuse.
         </div>
+        <div className="ptv-text">
+          View Github Repositories
+        </div>
+        <Button className="blue" size="md" href="https://github.com/lablueprint/ptv-mobile-app">
+          Mobile App
+        </Button>
         <Button className="blue" size="md" href="https://github.com/lablueprint/ptv-web-console">
-          View Github Repository
+          Web Console
         </Button>
       </>
     ),

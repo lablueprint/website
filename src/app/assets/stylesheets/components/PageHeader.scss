@@ -107,6 +107,17 @@
 
       &.ptv {
         @include background-gradient($white-95, $white-75, $white-75, 'ptv.jpg');
+
+        .ptv-text {
+          margin-top: 50px;
+          margin-bottom: 1rem;
+          font-size: 1.25rem;
+          font-weight: 500;
+        }
+
+        .btn {
+          margin-right: 20px;
+        }
       }
 
       &.harmonyproject {
