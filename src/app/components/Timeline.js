@@ -9,19 +9,16 @@ const timeline = [
     heading: 'Applications Open',
     date: 'Oct 5',
     body: (<div>
-      <a href="https://airtable.com/shrlSddk7PCH8Cc05">Applications are now
-      open!</a> Check out our <a href="https://facebook.com/lablueprint">
-      Facebook</a> and <a href="https://instagram.com/lablueprint">Instagram
-      </a> to stay updated.
+      Applications are currently closed. Check out our <a href="https://facebook.com/lablueprint">
+      Facebook</a> and <a href="https://instagram.com/lablueprint">Instagram</a> to stay updated.
     </div>),
   },
   {
     heading: 'Infosessions',
     date: 'Oct 13 & Oct 15 8 – 9:30 PM PST',
     body: (<div>
-      <a href="https://ucla.zoom.us/j/92491682534?pwd=KzBES2JKQm1rcVJ1aHZXdDlMTHFZQT09">Learn more
-      about our club and our projects during our infosessions!</a> During this time, we will be
-      presenting about what you can expect when you join Blueprint and ask any questions you may
+      Learn more about our club and our projects during our infosessions! During this time, we will
+      be presenting about what you can expect when you join Blueprint and ask any questions you may
       have.
     </div>),
   },
