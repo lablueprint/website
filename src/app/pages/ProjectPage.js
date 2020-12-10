@@ -6,7 +6,7 @@ import ProjectCard from '../components/ProjectCard';
 import SectionContainer from '../components/SectionContainer';
 
 import ptv from '../assets/images/projects/ptv.jpg';
-import harmonyproject from '../assets/images/projects/harmonyproject.png';
+import harmonyProject from '../assets/images/projects/harmony-project.png';
 import farm2people from '../assets/images/projects/farm2people.png';
 
 const projects = [
@@ -18,10 +18,10 @@ const projects = [
     link: 'ptv',
   },
   {
-    image: harmonyproject,
+    image: harmonyProject,
     title: 'Harmony Project',
     desc: 'Harmony Project uses music education to provide students with the skills and resources needed to thrive in school, in their community, and in life.',
-    link: 'harmonyproject',
+    link: 'harmony-project',
   },
   {
     image: farm2people,

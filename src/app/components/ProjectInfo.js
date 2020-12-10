@@ -8,10 +8,10 @@ import SectionHeading from './SectionHeading';
 import SectionParagraph from './SectionParagraph';
 import PageHeader from './PageHeader';
 
+/* eslint-disable */
 const projects = {
-  ptv: {
+  'ptv': {
     title: 'Program for Torture Victims',
-    /* eslint-disable */
     render: () => (
       <>
         <div className="mb-3">
@@ -53,11 +53,9 @@ const projects = {
         </SectionParagraph>
       </>
     ),
-    /* eslint-enable */
   },
-  harmonyproject: {
+  'harmony-project': {
     title: 'Harmony Project',
-    /* eslint-disable */
     render: () => (
       <>
         <div className="mb-3">
@@ -97,11 +95,9 @@ const projects = {
         </SectionParagraph>
       </>
     ),
-    /* eslint-enable */
   },
-  farm2people: {
+  'farm2people': {
     title: 'Farm2People',
-    /* eslint-disable */
     render: () => (
       <>
         <div className="mb-3">
@@ -134,9 +130,9 @@ const projects = {
         </SectionParagraph>
       </>
     ),
-    /* eslint-enable */
   },
 };
+/* eslint-enable */
 
 export default function ProjectInfo({ projectName }) {
   const project = projects[projectName];
