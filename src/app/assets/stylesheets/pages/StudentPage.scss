@@ -12,6 +12,7 @@
     height: 46px;
     background-color: $white;
     border-style: none;
+    outline: none;
 
     @media screen and (max-width: 576px) {
       font-size: 1rem;

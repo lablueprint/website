@@ -47,6 +47,7 @@
         border-width: 1px;
         border-style: solid;
         border-color: $gray;
+        outline: none;
 
         @media screen and (max-width: 768px) {
           margin-right: 10px;
