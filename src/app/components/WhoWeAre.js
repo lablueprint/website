@@ -27,7 +27,7 @@ export default function WhoWeAre() {
 
         {/* eslint-disable */}
         <SectionParagraph className="last">
-          Blueprint is a multinational organization founded in 2012 at the <a href="https://www.calblueprint.org">University of California, Berkeley</a>.
+          Blueprint is a multinational organization founded in 2013 at the <a href="https://www.calblueprint.org">University of California, Berkeley</a>.
           Our UCLA chapter is the third established chapter after the <a href="https://www.uwblueprint.org">University of Waterloo</a>.
         </SectionParagraph>
         {/* eslint-enable */}
