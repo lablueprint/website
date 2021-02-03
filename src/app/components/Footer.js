@@ -4,7 +4,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import {
-  FaGithub, FaFacebookF, FaLinkedinIn, FaInstagram,
+  FaGithub, FaFacebookF, FaLinkedinIn, FaInstagram, FaMedium,
 } from 'react-icons/fa';
 
 import LogoWhite from '../assets/images/branding/logo_white.svg';
@@ -95,6 +95,12 @@ const socialLinks = [
     icon: FaLinkedinIn,
     internal: false,
   },
+  {
+    linkText: 'Medium',
+    href: 'https://medium.com/@lablueprint',
+    icon: FaMedium,
+    internal: false,
+  },
 ];
 
 export default function Footer() {
@@ -105,7 +111,9 @@ export default function Footer() {
           {item.icon ? (
             <item.icon className="mr-1 social-icon" />
           ) : null}
-          {item.linkText}
+          <div className="text">
+            {item.linkText}
+          </div>
         </>
       );
 
@@ -154,7 +162,7 @@ export default function Footer() {
         </Row>
         <Row>
           <Col md={4} className="copyright">
-            &copy; Blueprint 2020
+            &copy; Blueprint 2021
           </Col>
         </Row>
       </Container>
