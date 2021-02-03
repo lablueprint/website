@@ -104,6 +104,9 @@ const projects = {
           Farm2People is a team of food professionals and volunteers dedicated to fixing the recent disruption to our
           food supply chain and promoting a more sustainable food system for the future.
         </div>
+        <Button className="blue" size="md" href="https://github.com/lablueprint/farm2people-web-app">
+          View Github Repository
+        </Button>
       </>
     ),
     body: (
