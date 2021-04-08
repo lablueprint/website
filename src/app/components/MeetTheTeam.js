@@ -17,6 +17,21 @@ import HelenWang from '../assets/images/team/helen_wang.png';
 import LinusLam from '../assets/images/team/linus_lam.png';
 import RachelLu from '../assets/images/team/rachel_lu.png';
 import VanessaTa from '../assets/images/team/vanessa_ta.png';
+import AliceChang from '../assets/images/team/alice_chang.png';
+import AnanWang from '../assets/images/team/anan_wang.png';
+import AndyZeff from '../assets/images/team/andy_zeff.png';
+import ChandraSuresh from '../assets/images/team/chandra_suresh.png';
+import ChantalTan from '../assets/images/team/chantal_tan.png';
+import DiyaBaliga from '../assets/images/team/diya_baliga.png';
+import ElwynCruz from '../assets/images/team/elwyn_cruz.png';
+import JiaminXu from '../assets/images/team/jiamin_xu.png';
+import KendrakeTsui from '../assets/images/team/kendrake_tsui.png';
+import MichaelShi from '../assets/images/team/michael_shi.png';
+import RaphaelGatchalian from '../assets/images/team/raphael_gatchalian.png';
+import RayHuang from '../assets/images/team/ray_huang.png';
+import SolaineZhao from '../assets/images/team/solaine_zhao.png';
+import VivianWong from '../assets/images/team/vivian_wong.png';
+import YoshinoGoto from '../assets/images/team/yoshino_goto.png';
 
 const members = [
   {
@@ -97,12 +112,102 @@ const members = [
     position: 'Designer',
     linkedInURL: 'https://www.linkedin.com/in/vanessa-ta-574aa6172/',
   },
+  {
+    image: AliceChang,
+    name: 'Alice Chang',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/alice-chang-chien-tzu/',
+  },
+  {
+    image: AnanWang,
+    name: 'Anan Wang',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/menganwang/',
+  },
+  {
+    image: AndyZeff,
+    name: 'Andy Zeff',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/andy-zeff-25b54651/',
+  },
+  {
+    image: ChandraSuresh,
+    name: 'Chandra Suresh',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/chandra-suresh-47b278196/',
+  },
+  {
+    image: ChantalTan,
+    name: 'Chantal Tan',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/chantal-tan-a49121172/',
+  },
+  {
+    image: DiyaBaliga,
+    name: 'Diya Baliga',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/diya-baliga-7049881ab/',
+  },
+  {
+    image: ElwynCruz,
+    name: 'Elwyn Cruz',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/elwyn-c-143b16ba/',
+  },
+  {
+    image: JiaminXu,
+    name: 'Jiamin Xu',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/jiamin-xu-9046b7196/',
+  },
+  {
+    image: KendrakeTsui,
+    name: 'Kendrake Tsui',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/kendraketsui/',
+  },
+  {
+    image: MichaelShi,
+    name: 'Michael Shi',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/michaelbshi/',
+  },
+  {
+    image: RaphaelGatchalian,
+    name: 'Raphael Gatchalian',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/raphaelg09/',
+  },
+  {
+    image: RayHuang,
+    name: 'Ray Huang',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/ray-cj-huang/',
+  },
+  {
+    image: SolaineZhao,
+    name: 'Solaine Zhao',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/solaine-zhao-5aa04a1b1/',
+  },
+  {
+    image: VivianWong,
+    name: 'Vivian Wong',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/vivian-wong-b03189189/',
+  },
+  {
+    image: YoshinoGoto,
+    name: 'Yoshino Goto',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/ygoto/',
+  },
 ];
 
 export default function MeetTheTeam() {
   const memberProfiles = members.map((item, index) => {
-    const xsCol = { span: 6 };
-    const mdCol = { span: 4 };
+    const xsCol = { span: 6, offset: 0 };
+    const mdCol = { span: 4, offset: 0 };
 
     if (index === members.length - 2 && members.length % 3 === 2) {
       mdCol.offset = 2;
