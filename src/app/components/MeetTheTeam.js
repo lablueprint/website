@@ -4,77 +4,79 @@ import Fade from 'react-reveal/Fade';
 
 import MemberProfile from './MemberProfile';
 
-import LeoLiu from '../assets/images/team/leo_liu.png';
-import TiffanyFeng from '../assets/images/team/tiffany_feng.png';
-import CelineSung from '../assets/images/team/celine_sung.png';
-import BillLiu from '../assets/images/team/bill_liu.png';
-import KarenTan from '../assets/images/team/karen_tan.png';
 import RyanTran from '../assets/images/team/ryan_tran.png';
-import VivianNguyen from '../assets/images/team/vivian_nguyen.png';
-import BiancaVillamor from '../assets/images/team/bianca_villamor.png';
 import CodyDo from '../assets/images/team/cody_do.png';
-import HelenWang from '../assets/images/team/helen_wang.png';
-import LinusLam from '../assets/images/team/linus_lam.png';
-import RachelLu from '../assets/images/team/rachel_lu.png';
-import VanessaTa from '../assets/images/team/vanessa_ta.png';
-import AliceChang from '../assets/images/team/alice_chang.png';
-import AnanWang from '../assets/images/team/anan_wang.png';
-import AndyZeff from '../assets/images/team/andy_zeff.png';
-import ChandraSuresh from '../assets/images/team/chandra_suresh.png';
+import RayHuang from '../assets/images/team/ray_huang.png';
+import KarenTan from '../assets/images/team/karen_tan.png';
+import VivianNguyen from '../assets/images/team/vivian_nguyen.png';
 import ChantalTan from '../assets/images/team/chantal_tan.png';
 import DiyaBaliga from '../assets/images/team/diya_baliga.png';
-import ElwynCruz from '../assets/images/team/elwyn_cruz.png';
+import MichaelShi from '../assets/images/team/michael_shi.png';
+import VivianWong from '../assets/images/team/vivian_wong.png';
+import BiancaVillamor from '../assets/images/team/bianca_villamor.png';
+import BillLiu from '../assets/images/team/bill_liu.png';
+import HelenWang from '../assets/images/team/helen_wang.png';
+import AnanWang from '../assets/images/team/anan_wang.png';
+import ChandraSuresh from '../assets/images/team/chandra_suresh.png';
 import JiaminXu from '../assets/images/team/jiamin_xu.png';
 import KendrakeTsui from '../assets/images/team/kendrake_tsui.png';
-import MichaelShi from '../assets/images/team/michael_shi.png';
 import RaphaelGatchalian from '../assets/images/team/raphael_gatchalian.png';
-import RayHuang from '../assets/images/team/ray_huang.png';
 import SolaineZhao from '../assets/images/team/solaine_zhao.png';
-import VivianWong from '../assets/images/team/vivian_wong.png';
-import YoshinoGoto from '../assets/images/team/yoshino_goto.png';
 
 const members = [
   {
-    image: LeoLiu,
-    name: 'Leo Liu',
+    image: RyanTran,
+    name: 'Ryan Tran',
     position: 'President',
-    linkedInURL: 'https://www.linkedin.com/in/leoliuu/',
+    linkedInURL: 'https://www.linkedin.com/in/ryan-m-tran/',
   },
   {
-    image: TiffanyFeng,
-    name: 'Tiffany Feng',
-    position: 'VP of Marketing',
-    linkedInURL: 'https://www.linkedin.com/in/tiffany-feng-b12219162/',
+    image: CodyDo,
+    name: 'Cody Do',
+    position: 'Internal Vice President',
+    linkedInURL: 'https://www.linkedin.com/in/cody-do/',
   },
   {
-    image: CelineSung,
-    name: 'Celine Sung',
-    position: 'VP of Communications',
-    linkedInURL: 'https://www.linkedin.com/in/celine-sung-421944148/',
-  },
-  {
-    image: BillLiu,
-    name: 'Bill Liu',
-    position: 'Project Lead',
-    linkedInURL: 'https://www.linkedin.com/in/bill-liu-profile/',
+    image: RayHuang,
+    name: 'Ray Huang',
+    position: 'External Vice President',
+    linkedInURL: 'https://www.linkedin.com/in/ray-cj-huang/',
   },
   {
     image: KarenTan,
     name: 'Karen Tan',
-    position: 'Project Lead',
+    position: 'Vice President of Technology',
     linkedInURL: 'https://www.linkedin.com/in/karen-m-tan/',
-  },
-  {
-    image: RyanTran,
-    name: 'Ryan Tran',
-    position: 'Project Lead',
-    linkedInURL: 'https://www.linkedin.com/in/ryan-m-tran/',
   },
   {
     image: VivianNguyen,
     name: 'Vivian Nguyen',
-    position: 'Project Lead',
+    position: 'Vice President of Design',
     linkedInURL: 'https://www.linkedin.com/in/vivianngn/',
+  },
+  {
+    image: ChantalTan,
+    name: 'Chantal Tan',
+    position: 'Project Lead',
+    linkedInURL: 'https://www.linkedin.com/in/chantal-tan-a49121172/',
+  },
+  {
+    image: DiyaBaliga,
+    name: 'Diya Baliga',
+    position: 'Project Lead',
+    linkedInURL: 'https://www.linkedin.com/in/diya-baliga-7049881ab/',
+  },
+  {
+    image: MichaelShi,
+    name: 'Michael Shi',
+    position: 'Project Lead',
+    linkedInURL: 'https://www.linkedin.com/in/michaelbshi/',
+  },
+  {
+    image: VivianWong,
+    name: 'Vivian Wong',
+    position: 'Project Lead',
+    linkedInURL: 'https://www.linkedin.com/in/vivian-wong-b03189189/',
   },
   {
     image: BiancaVillamor,
@@ -83,10 +85,10 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/biancavillamor/',
   },
   {
-    image: CodyDo,
-    name: 'Cody Do',
+    image: BillLiu,
+    name: 'Bill Liu',
     position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/cody-do/',
+    linkedInURL: 'https://www.linkedin.com/in/bill-liu-profile/',
   },
   {
     image: HelenWang,
@@ -95,64 +97,16 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/helenwangj/',
   },
   {
-    image: LinusLam,
-    name: 'Linus Lam',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/linuslyt/',
-  },
-  {
-    image: RachelLu,
-    name: 'Rachel Lu',
-    position: 'Designer',
-    linkedInURL: 'https://www.linkedin.com/in/rachel-lu-778700172/',
-  },
-  {
-    image: VanessaTa,
-    name: 'Vanessa Ta',
-    position: 'Designer',
-    linkedInURL: 'https://www.linkedin.com/in/vanessa-ta-574aa6172/',
-  },
-  {
-    image: AliceChang,
-    name: 'Alice Chang',
-    position: 'Designer',
-    linkedInURL: 'https://www.linkedin.com/in/alice-chang-chien-tzu/',
-  },
-  {
     image: AnanWang,
     name: 'Anan Wang',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/menganwang/',
   },
   {
-    image: AndyZeff,
-    name: 'Andy Zeff',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/andy-zeff-25b54651/',
-  },
-  {
     image: ChandraSuresh,
     name: 'Chandra Suresh',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/chandra-suresh-47b278196/',
-  },
-  {
-    image: ChantalTan,
-    name: 'Chantal Tan',
-    position: 'Designer',
-    linkedInURL: 'https://www.linkedin.com/in/chantal-tan-a49121172/',
-  },
-  {
-    image: DiyaBaliga,
-    name: 'Diya Baliga',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/diya-baliga-7049881ab/',
-  },
-  {
-    image: ElwynCruz,
-    name: 'Elwyn Cruz',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/elwyn-c-143b16ba/',
   },
   {
     image: JiaminXu,
@@ -167,40 +121,16 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/kendraketsui/',
   },
   {
-    image: MichaelShi,
-    name: 'Michael Shi',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/michaelbshi/',
-  },
-  {
     image: RaphaelGatchalian,
     name: 'Raphael Gatchalian',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/raphaelg09/',
   },
   {
-    image: RayHuang,
-    name: 'Ray Huang',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/ray-cj-huang/',
-  },
-  {
     image: SolaineZhao,
     name: 'Solaine Zhao',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/solaine-zhao-5aa04a1b1/',
-  },
-  {
-    image: VivianWong,
-    name: 'Vivian Wong',
-    position: 'Designer',
-    linkedInURL: 'https://www.linkedin.com/in/vivian-wong-b03189189/',
-  },
-  {
-    image: YoshinoGoto,
-    name: 'Yoshino Goto',
-    position: 'Designer',
-    linkedInURL: 'https://www.linkedin.com/in/ygoto/',
   },
 ];
 
@@ -214,6 +144,7 @@ export default function MeetTheTeam() {
     } else if (index === members.length - 1) {
       if (members.length % 2 === 1) {
         xsCol.offset = 3;
+        mdCol.offset = 0;
       }
       if (members.length % 3 === 1) {
         mdCol.offset = 4;

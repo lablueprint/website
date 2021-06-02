@@ -4,20 +4,90 @@ import Fade from 'react-reveal/Fade';
 
 import MemberProfile from './MemberProfile';
 
+import AliceChang from '../assets/images/alumni/alice_chang.png';
+import AndyZeff from '../assets/images/alumni/andy_zeff.png';
+import ElwynCruz from '../assets/images/alumni/elwyn_cruz.png';
+import YoshinoGoto from '../assets/images/alumni/yoshino_goto.png';
+import LinusLam from '../assets/images/alumni/linus_lam.png';
+import RachelLu from '../assets/images/alumni/rachel_lu.png';
+import VanessaTa from '../assets/images/alumni/vanessa_ta.png';
+import CelineSung from '../assets/images/alumni/celine_sung.png';
 import YinyinWen from '../assets/images/alumni/yinyin_wen.png';
+import EdwardChu from '../assets/images/alumni/edward_chu.png';
+import TiffanyFeng from '../assets/images/alumni/tiffany_feng.png';
 import JonathanFan from '../assets/images/alumni/jonathan_fan.png';
 import VincentCheung from '../assets/images/alumni/vincent_cheung.png';
 import RaymondPhan from '../assets/images/alumni/raymond_phan.png';
 import DerekChu from '../assets/images/alumni/derek_chu.png';
-import EdwardChu from '../assets/images/alumni/edward_chu.png';
 import SummerSiu from '../assets/images/alumni/summer_siu.png';
+import LeoLiu from '../assets/images/alumni/leo_liu.png';
 
 const members = [
+  {
+    image: AliceChang,
+    name: 'Alice Chang',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/alice-chang-chien-tzu/',
+  },
+  {
+    image: AndyZeff,
+    name: 'Andy Zeff',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/andy-zeff-25b54651/',
+  },
+  {
+    image: ElwynCruz,
+    name: 'Elwyn Cruz',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/elwyn-c-143b16ba/',
+  },
+  {
+    image: YoshinoGoto,
+    name: 'Yoshino Goto',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/ygoto/',
+  },
+  {
+    image: LinusLam,
+    name: 'Linus Lam',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/linuslyt/',
+  },
+  {
+    image: RachelLu,
+    name: 'Rachel Lu',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/rachel-lu-778700172/',
+  },
+  {
+    image: VanessaTa,
+    name: 'Vanessa Ta',
+    position: 'UX Researcher',
+    linkedInURL: 'https://www.linkedin.com/in/vanessa-ta-574aa6172/',
+  },
+  {
+    image: CelineSung,
+    name: 'Celine Sung',
+    position: 'VP of Communications',
+    linkedInURL: 'https://www.linkedin.com/in/celine-sung-421944148/',
+  },
   {
     image: YinyinWen,
     name: 'Yinyin Wen',
     position: 'Designer',
     linkedInURL: 'https://www.linkedin.com/in/yinyinwen/',
+  },
+  {
+    image: EdwardChu,
+    name: 'Edward Chu',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/edwardchu08/',
+  },
+  {
+    image: TiffanyFeng,
+    name: 'Tiffany Feng',
+    position: 'VP of Marketing',
+    linkedInURL: 'https://www.linkedin.com/in/tiffany-feng-b12219162/',
   },
   {
     image: JonathanFan,
@@ -38,12 +108,6 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/derekchu98/',
   },
   {
-    image: EdwardChu,
-    name: 'Edward Chu',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/edwardchu08/',
-  },
-  {
     image: RaymondPhan,
     name: 'Raymond Phan',
     position: 'Developer',
@@ -54,6 +118,12 @@ const members = [
     name: 'Summer Siu',
     position: 'Director of Outreach',
     linkedInURL: 'https://www.linkedin.com/in/summer-siu-997824149/',
+  },
+  {
+    image: LeoLiu,
+    name: 'Leo Liu',
+    position: 'Founder / President',
+    linkedInURL: 'https://www.linkedin.com/in/leoliuu/',
   },
 ];
 
@@ -67,6 +137,7 @@ export default function Alumni() {
     } else if (index === members.length - 1) {
       if (members.length % 2 === 1) {
         xsCol.offset = 3;
+        mdCol.offset = 0;
       }
       if (members.length % 3 === 1) {
         mdCol.offset = 4;
