@@ -4,6 +4,7 @@ import { Col, Container, Row, Image } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 
 import Amazon from '../assets/images/companies/amazon.svg';
+import Apple from '../assets/images/companies/apple.svg';
 import Avantstay from '../assets/images/companies/avantstay.svg';
 import Blizzard from '../assets/images/companies/blizzard.svg';
 import CacheCDS from '../assets/images/companies/cache_cds.svg';
@@ -12,13 +13,22 @@ import GreenDot from '../assets/images/companies/green_dot.svg';
 import IBM from '../assets/images/companies/ibm.svg';
 import ImpactHK from '../assets/images/companies/impact_hk.svg';
 import Microsoft from '../assets/images/companies/microsoft.svg';
+import Oracle from '../assets/images/companies/oracle.svg';
 import PPG from '../assets/images/companies/ppg.svg';
+import Roblox from '../assets/images/companies/roblox.svg';
+import Slack from '../assets/images/companies/slack.svg';
+import Snap from '../assets/images/companies/snap.svg';
 import Stripe from '../assets/images/companies/stripe.svg';
+import Tesla from '../assets/images/companies/tesla.svg';
 
 const companyData = [
   {
     logo: Amazon,
     link: 'https://www.amazon.com/',
+  },
+  {
+    logo: Apple,
+    link: 'https://www.apple.com/',
   },
   {
     logo: Avantstay,
@@ -53,12 +63,32 @@ const companyData = [
     link: 'https://www.microsoft.com/',
   },
   {
+    logo: Oracle,
+    link: 'https://www.oracle.com/',
+  },
+  {
     logo: PPG,
     link: 'http://corporate.ppg.com/Home.aspx',
   },
   {
+    logo: Roblox,
+    link: 'https://www.roblox.com/',
+  },
+  {
+    logo: Slack,
+    link: 'https://www.slack.com/',
+  },
+  {
+    logo: Snap,
+    link: 'https://www.snap.com/',
+  },
+  {
     logo: Stripe,
     link: 'https://stripe.com/',
+  },
+  {
+    logo: Tesla,
+    link: 'https://www.tesla.com/',
   },
 ];
 
