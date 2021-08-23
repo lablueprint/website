@@ -50,9 +50,9 @@ export default function CommonNavbar({ className }) {
                 <Link className="nav-link" to="/students">
                   Students
                 </Link>
-                {/* <Link className="nav-link" to="/nonprofits">
+                <Link className="nav-link" to="/nonprofits">
                   Nonprofits
-                </Link> */}
+                </Link>
                 <Link className="nav-link" to="/contact">
                   Contact
                 </Link>
