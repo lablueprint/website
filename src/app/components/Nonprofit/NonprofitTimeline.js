@@ -15,7 +15,7 @@ const timeline = [
       find our yearlong partners!
       <br />
       If you are interested to partner with us, please feel free to email us at <a href="mailto: team@lablueprint.org">team@lablueprint.org</a>!
-      We also will love to shoutout any non-profit organizations on our <a href="https://instagram.com/lablueprint">
+      We also will love to shout out any non-profit organizations on our <a href="https://instagram.com/lablueprint">
       social media</a>. If you are interested, fill this <a href="https://airtable.com/shr61J2kygF9LUmMl">
       form</a> out!
     </div>),
@@ -32,8 +32,8 @@ const timeline = [
   {
     heading: 'Non-profit Application',
     body: (<div>
-      The <a href="https://airtable.com/shrlUDcvtvksS5b3h">application</a> includes contact informations,
-      project scoping, and other considerations for our partnership. This should be filled sonn after our
+      The <a href="https://airtable.com/shrlUDcvtvksS5b3h">application</a> includes contact information,
+      project scoping, and other considerations for our partnership. This should be filled soon after our
       scoping call!
     </div>),
   },
@@ -41,17 +41,17 @@ const timeline = [
     heading: 'Deliberation',
     body: (<div>
       As a whole organization, we will discuss all the applications and see which ones will be
-      the best fit for our partnerhip! This will include criterias mentioned above and also
-      indiviudal interest from our project leads. We may also contact each nonprofit for additional
+      the best fit for our partnership! This will include criteria mentioned above and also
+      individual interest from our project leads. We may also contact each nonprofit for additional
       information before continuing to the next step!
     </div>),
   },
   {
-    heading: 'Annoucement',
+    heading: 'Announcement',
     body: (<div>
-      Soon after our deliberation, we will be annoucing our partnerships to everyone!
+      Soon after our deliberation, we will be announcing our partnerships to everyone!
       We will also schedule more calls to strength our communications in order to
-      headstart our partnership.
+      head start our partnership.
       <br />
       Our project leads will also get to show interests in
       which projects they are interested in leading for this upcoming year!

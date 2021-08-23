@@ -60,7 +60,7 @@ export default function NonprofitWhat() {
           <br />
           We understand that this is difficult to achieve as a non-profit with limited resources,
           so we will keep our project as bug-free code as possible during development.
-          However, we stil need to keep in mind on how the project can be maintained
+          However, we still need to keep in mind on how the project can be maintained
           after delivery, so the intended users can benefit the most from our work.
         </SectionParagraph>
 
