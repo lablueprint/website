@@ -24,7 +24,7 @@ export default function NonprofitWhen() {
           Our goal is to recruit multiple nonprofits before end of August.
           <br />
           Feel free to send us an
-          <a href="team@lablueprint.org"><nobr> email </nobr></a>
+          <a href="mailto: team@lablueprint.org"><nobr> email </nobr></a>
           if you are interested, and we will respond to you as fast as possible.
         </SectionParagraph>
 

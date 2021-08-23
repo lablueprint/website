@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Button } from 'react-bootstrap';
+
 import PageHeader from '../components/PageHeader';
 
 import NonprofitWhat from '../components/Nonprofit/NonprofitWhat';
@@ -12,7 +14,17 @@ export default function NonprofitPage() {
       <PageHeader
         className="nonprofits"
         title="For Nonprofits"
-        render={() => 'As a nonprofit partner, Blueprint will work with you to develop software that will bring your vision to life.'}
+        render={() => (
+          <>
+            <div className="mb-3">
+              As a nonprofit partner, Blueprint will work with you to develop software
+              that will bring your vision to life.
+            </div>
+            <Button size="md" href="/contact">
+              Work with Us
+            </Button>
+          </>
+        )}
       />
       <NonprofitWhat />
       <NonprofitTimeline />
