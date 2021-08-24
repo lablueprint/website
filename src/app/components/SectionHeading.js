@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import ClassNames from 'classnames';
 
 export default function SectionHeading({ className, children }) {
-  const sectionClass = ClassNames(className, 'my-4', 'section-heading');
+  const sectionClass = ClassNames(className, 'mt-5', 'section-heading');
 
   return (
     <h1 className={sectionClass}>
