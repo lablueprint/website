@@ -14,16 +14,11 @@ export default function WhoWeAre() {
         <SectionHeading>About</SectionHeading>
 
         <SectionSubtitle>
-          Blueprint strives to make technology accessible and useful for
-          those who assist communities and promote public welfare.
-        </SectionSubtitle>
-
-        <SectionParagraph>
           Blueprint is committed to building and promoting tech for
           social good&mdash;free of charge. We collaborate with nonprofit
           organizations in Southern California to build mobile and web
           applications.
-        </SectionParagraph>
+        </SectionSubtitle>
 
         {/* eslint-disable */}
         <SectionParagraph className="last">
