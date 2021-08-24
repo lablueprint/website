@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 
 import {
-  FaHeart, FaCrosshairs, FaTools, FaCarAlt, FaLayerGroup,
+  FaHeart, FaCrosshairs, FaTools, FaCarAlt,
 } from 'react-icons/fa';
 
 import SectionContainer from '../SectionContainer';
@@ -45,9 +45,9 @@ export default function NonprofitWhat() {
         </SectionSubtitle>
 
         <SectionParagraph>
-          Will the project be maintained after it is delivered? We do keep in mind that non-profits
+          Will the project be maintained after it is delivered? We understand that non-profits
           may be restricted by limited resources, so it is our intention to deliver a project as
-          bug-fresh as possible to our partner.
+          bug-free as possible to our partner.
         </SectionParagraph>
 
         <SectionSubtitle>
@@ -57,7 +57,7 @@ export default function NonprofitWhat() {
 
         <SectionParagraph>
           Does your non-profit have a demonstrated passion in actualizing this project? Consistent
-          communication with out team throughout the development process ensures that your vision
+          communication with our team throughout the development process ensures that your vision
           and our team’s efforts are aligned.
         </SectionParagraph>
 
