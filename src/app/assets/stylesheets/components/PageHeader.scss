@@ -126,7 +126,7 @@
       }
 
       &.farm2people {
-        @include background-gradient($white-95, $white-75, $white-75, 'farm2people.jpg');
+        background-image: linear-gradient(#F5F5F5 57%, white 50%);
       }
     }
 

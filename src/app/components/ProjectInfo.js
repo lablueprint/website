@@ -1,12 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container, Button } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import ClassNames from 'classnames';
 
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
+
 import SectionContainer from './SectionContainer';
 import SectionHeading from './SectionHeading';
+import SectionHeading2 from './SectionHeading2';
+import SectionHeading3 from './SectionHeading3';
 import SectionParagraph from './SectionParagraph';
+import SectionUnorderedList from './SectionUnorderedList';
 import PageHeader from './PageHeader';
+
+import f2pWebapp from '../assets/images/projects/farm2people/F2P_Thumbnail.png';
+
+import ptv from '../markdown/ptv.md';
+import harmonyProject from '../markdown/harmony_project.md';
+import farm2people from '../markdown/farm2people.md';
 
 /* eslint-disable */
 const projects = {
@@ -97,42 +110,13 @@ const projects = {
     ),
   },
   'farm2people': {
-    title: 'Farm2People',
+    title: '',
     render: () => (
       <>
-        <div className="mb-3">
-          Farm2People is a team of food professionals and volunteers dedicated to fixing the recent disruption to our
-          food supply chain and promoting a more sustainable food system for the future.
-        </div>
-        <Button className="blue" size="md" href="https://github.com/lablueprint/farm2people-web-app">
-          View Github Repository
-        </Button>
+        <img src={f2pWebapp} width="100%"></img>
       </>
     ),
-    body: (
-      <>
-        <SectionHeading>
-          Background
-        </SectionHeading>
-        <SectionParagraph>
-          The ongoing COVID-19 pandemic has severely disrupted our food supply chain, leaving both food producers and
-          essential providers such as hospitals with problems that must be solved. The closure of schools, venues, and
-          restaurants has left food producers with surplus of perishable goods that must be taken off their hands, while
-          essential providers such as hospitals and food banks continue to experience an increase in food demand.
-        </SectionParagraph>
-        <SectionHeading>
-          Solution
-        </SectionHeading>
-        <SectionParagraph>
-          <a href="https://www.farm2people.org/">Farm2People</a> aims to secure harvests and jobs for farmers and
-          transport organically grown local produce to underserved communities. Beyond this, they strive to grow a
-          resilient and community-driven food network that can be replicated in other urban areas. To advance
-          Farm2People’s initiative, our project will focus on building a web application that facilitates an online
-          marketplace that establishes a communication pathway between farmers and local food providers, so that the
-          food producers’ surpluses can be efficiently located by and distributed to providers in need.
-        </SectionParagraph>
-      </>
-    ),
+    body: farm2people,
   },
 };
 /* eslint-enable */
@@ -141,6 +125,26 @@ export default function ProjectInfo({ projectName }) {
   const project = projects[projectName];
   const headerClass = ClassNames('inverse', projectName);
   const projectClass = ClassNames('project-info', projectName);
+  const [projectInfo, setProjectInfo] = useState(null);
+
+  useEffect(() => {
+    if (projectName === 'ptv') {
+      fetch(ptv)
+        .then((res) => res.text())
+        .then((text) => setProjectInfo(text))
+        .catch((err) => console.warn(err));
+    } else if (projectName === 'harmony-project') {
+      fetch(harmonyProject)
+        .then((res) => res.text())
+        .then((text) => setProjectInfo(text))
+        .catch((err) => console.warn(err));
+    } else if (projectName === 'farm2people') {
+      fetch(farm2people)
+        .then((res) => res.text())
+        .then((text) => setProjectInfo(text))
+        .catch((err) => console.warn(err));
+    }
+  }, [projectName]);
 
   return (
     <>
@@ -151,7 +155,20 @@ export default function ProjectInfo({ projectName }) {
       />
       <SectionContainer className={projectClass}>
         <Container>
-          {project.body}
+          <ReactMarkdown
+            components={{
+              h1: SectionHeading,
+              h2: SectionHeading2,
+              h3: SectionHeading3,
+              p: SectionParagraph,
+              ul: SectionUnorderedList,
+              button: Button,
+            }}
+            remarkPlugins={[remarkGfm]}
+            rehypePlugins={[rehypeRaw]}
+          >
+            {projectInfo}
+          </ReactMarkdown>
         </Container>
       </SectionContainer>
     </>

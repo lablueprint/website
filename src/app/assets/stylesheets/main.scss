@@ -11,6 +11,11 @@ h1 {
   }
 }
 
+h2, h3 {
+  color: $black;
+  font-family: $poppins;
+}
+
 h4 {
   color: $gray;
   font-weight: 400;
@@ -36,7 +41,6 @@ h4 {
   &.btn {
     background-color: $white;
     background-image: none;
-    border: 1px solid transparent !important;
     border-radius: 3px;
     color: $black;
     font-family: $poppins;
@@ -65,6 +69,27 @@ h4 {
       &:active {
         background-color: $bp-blue !important;
         color: $white !important;
+      }
+    }
+
+    &.white {
+      border: 1px solid $bp-blue;
+      background-color: $white;
+      color: $bp-blue;
+
+      &:hover {
+        background-color: $white;
+        color: $bp-blue;
+      }
+
+      &:focus {
+        background-color: $white;
+        color: $bp-blue;
+      }
+
+      &:active {
+        background-color: $white !important;
+        color: $bp-blue !important;
       }
     }
 

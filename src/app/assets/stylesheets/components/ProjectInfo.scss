@@ -1,0 +1,62 @@
+.project-info {
+
+    .title {
+        color: $black;
+        font-family: $poppins;
+        font-size: 3rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+  
+        @media (max-width: 39.99rem) {
+          font-size: 10.3vw;
+        }
+  
+        @media (min-width: 72rem) {
+          font-size: 3.5rem;
+        }
+    }
+
+    &.section-container {
+        padding-top: 0; 
+    }
+
+    div {
+        img {
+            width: 95%;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+    
+    .btn {
+        @extend .raised-button;
+        margin-right: 20px;
+    }
+    
+    .flex-row {
+        display: flex; 
+        justify-content: space-around;
+    }
+
+    th, tr td strong {
+        font-family: $poppins;
+        color: $black;
+    }
+
+    table {
+        margin: 1.5rem 0; 
+    }
+
+    td {
+        padding: 0.4rem 0;
+    }
+
+    hr {
+        margin: 2.2rem 0;
+    }
+
+    #duration-table table {
+        width: 100%; 
+    }
+}
+
