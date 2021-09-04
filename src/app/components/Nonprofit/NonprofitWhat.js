@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 
 import {
-  FaHeart, FaCrosshairs, FaTools, FaCarAlt, FaLayerGroup,
+  FaHeart, FaCrosshairs, FaTools, FaCarAlt,
 } from 'react-icons/fa';
 
 import SectionContainer from '../SectionContainer';

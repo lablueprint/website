@@ -21,7 +21,7 @@ export default function NonprofitPage() {
               that will bring your vision to life.
             </div>
             <Button size="md" href="/contact">
-              Work with Us
+              Work with us
             </Button>
           </>
         )}

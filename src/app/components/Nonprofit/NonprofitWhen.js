@@ -1,11 +1,11 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 
 import SectionContainer from '../SectionContainer';
 import SectionHeading from '../SectionHeading';
 import SectionSubtitle from '../SectionSubtitle';
 import SectionParagraph from '../SectionParagraph';
-
+/* eslint-disable */
 export default function NonprofitWhen() {
   return (
     <SectionContainer className="off-white">
@@ -17,17 +17,14 @@ export default function NonprofitWhen() {
         </SectionSubtitle>
 
         <SectionParagraph>
-          We are reaching out to nonprofits
-          <strong> RIGHT NOW</strong>
-          !
-          <br />
-          Our goal is to recruit multiple nonprofits before end of August.
-          <br />
-          Feel free to send us an
-          <a href="mailto: team@lablueprint.org"><nobr> email </nobr></a>
-          if you are interested, and we will respond to you as fast as possible.
+          We are looking for nonprofit partnerships <strong>now</strong> for the 2021-2022 school year!
+          <br/>
+          Interested in partnering/working with us? We'd love to hear from you.
         </SectionParagraph>
-
+        
+        <Button size="md" href="/contact">
+          Work with us
+        </Button>
       </Container>
     </SectionContainer>
   );
