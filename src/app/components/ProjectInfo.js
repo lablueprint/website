@@ -11,11 +11,15 @@ import SectionContainer from './SectionContainer';
 import SectionHeading from './SectionHeading';
 import SectionHeading2 from './SectionHeading2';
 import SectionHeading3 from './SectionHeading3';
+import SectionOrderedList from './SectionOrderedList';
 import SectionParagraph from './SectionParagraph';
 import SectionUnorderedList from './SectionUnorderedList';
+import SectionTable from './SectionTable';
 import PageHeader from './PageHeader';
 
 import f2pWebapp from '../assets/images/projects/farm2people/F2P_Thumbnail.png';
+import hpLogo from '../assets/images/projects/HarmonyProject/harmony-project.png';
+import hpMobileApp from '../assets/images/projects/HarmonyProject/HP_Thumbnail.png';
 
 import ptv from '../markdown/ptv.md';
 import harmonyProject from '../markdown/harmony_project.md';
@@ -68,46 +72,13 @@ const projects = {
     ),
   },
   'harmony-project': {
-    title: 'Harmony Project',
+    title: '',
     render: () => (
-      <>
-        <div className="mb-3">
-          Harmony Project uses music education to provide students with the skills and resources needed to thrive in
-          school, in their community, and in life.
-        </div>
-        <Button className="blue" size="md" href="https://github.com/lablueprint/harmony-project">
-          View Github Repository
-        </Button>
-      </>
-    ),
-    body: (
-      <>
-        <SectionHeading>
-          Background
-        </SectionHeading>
-        <SectionParagraph>
-          From 2015–2017, Los Angeles County had the
-          <a href="https://www.ppic.org/publication/child-poverty-in-california/"> highest amount of children living
-          under poverty level in California.</a> 12.2% of children who come from impoverished communities in the Los
-          Angeles County do not graduate high school and are dissuaded to pursue their career aspirations due to
-          their <a href="http://laschoolreport.com/californias-graduation-rate-rises-but-theres-no-improvement-in-getting-students-eligible-for-state-universities/">
-          socioeconomic status.</a>
-        </SectionParagraph>
-        <SectionHeading>
-          Solution
-        </SectionHeading>
-        <SectionParagraph>
-          <a href="https://www.harmony-project.org/">Harmony Project</a> uses music education as an avenue to inspire
-          3,500 underserved children to graduate high school, attain higher education, and pursue their career
-          aspirations. Harmony Project accomplishes this by pairing children with an instructor who teaches them how to
-          play a musical instrument. Our project will create a platform that will serve as the primary means for
-          communicating with students and parents as well as collecting enrollment documents, surveys, and evaluation
-          data from instructors and for students to submit assignments and receive feedback. The project will greatly
-          reduce the burden of reviewing and organizing documents by hand and increase efficiency by moving and
-          centralizing information to an online platform accessible by the nonprofit staff, children, and parents.
-        </SectionParagraph>
-      </>
-    ),
+      <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-around', alignItems: 'center'}}>
+        <img src={hpLogo} style={{width: '30%', height: '30%'}}></img>
+        <img src={hpMobileApp} style={{width: '50%'}}></img>
+      </div>
+    )
   },
   'farm2people': {
     title: '',
@@ -162,7 +133,9 @@ export default function ProjectInfo({ projectName }) {
               h3: SectionHeading3,
               p: SectionParagraph,
               ul: SectionUnorderedList,
+              ol: SectionOrderedList,
               button: Button,
+              table: SectionTable,
             }}
             remarkPlugins={[remarkGfm]}
             rehypePlugins={[rehypeRaw]}

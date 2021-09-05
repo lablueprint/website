@@ -39,7 +39,6 @@
     }
 
     th, tr td strong {
-        font-family: $poppins;
         color: $black;
     }
 
@@ -48,7 +47,7 @@
     }
 
     td {
-        padding: 0.4rem 0;
+        padding: 0.4rem;
     }
 
     hr {
@@ -57,6 +56,22 @@
 
     #duration-table table {
         width: 100%; 
+    }
+
+    &.harmony-project {
+        .hp-gif-demo p {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+            img {
+                width: 30%;
+            }
+        }
+
+        #hp-expand-announcements {
+            width: 50%
+        }
     }
 }
 

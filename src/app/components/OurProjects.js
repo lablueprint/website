@@ -8,8 +8,8 @@ import SectionSubtitle from './SectionSubtitle';
 import ProjectCard from './ProjectCard';
 
 import ptv from '../assets/images/projects/ptv.jpg';
-import harmonyProject from '../assets/images/projects/harmony-project.png';
-import farm2people from '../assets/images/projects/farm2people.png';
+import harmonyProject from '../assets/images/projects/HarmonyProject/HP_Thumbnail.png';
+import farm2people from '../assets/images/projects/farm2people/F2P_Thumbnail.png';
 
 const projects = [
   {
