@@ -25,7 +25,7 @@ export default function NonprofitWhat() {
 
         <SectionParagraph>
           Will the project be impactful for the nonprofit? It is important for us to
-          evaluate how transformative this application is to your non-profit’s end-to-end processes.
+          evaluate how transformative this application is to your nonprofit’s end-to-end processes.
         </SectionParagraph>
 
         <SectionSubtitle>
@@ -36,7 +36,7 @@ export default function NonprofitWhat() {
         <SectionParagraph>
           Is this project feasible given our one year time frame? Dreaming big is great, but we
           value delivering results over making empty promises. Our team is dedicated to working
-          alongside you in scoping 1-2 impactful features that best support your non-profit.
+          alongside you in scoping 1-2 impactful features that best support your nonprofit.
         </SectionParagraph>
 
         <SectionSubtitle>

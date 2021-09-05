@@ -9,72 +9,46 @@ import TimelineImage from '../../assets/images/students/timeline.svg';
 /* eslint-disable */
 const timeline = [
   {
-    heading: 'Reaching Out',
+    heading: 'Outreach',
     body: (<div>
-      Before the start of Fall quarter (July/August), we will be contacting various non-profits to
-      find our yearlong partners!
-      <br />
-      If you are interested to partner with us, please feel free to email us at <a href="mailto: team@lablueprint.org">team@lablueprint.org</a>!
-      We also will love to shout out any non-profit organizations on our <a href="https://instagram.com/lablueprint">
-      social media</a>. If you are interested, fill this <a href="https://airtable.com/shr61J2kygF9LUmMl">
-      form</a> out!
+      Before the start of Fall quarter (August/September), we will be conducting outreach to find our yearlong partners!
+      <br/>
+      If your nonprofit is interested in an application, free of charge, email us at <a href="mailto: team@lablueprint.org">team@lablueprint.org</a>!
     </div>),
   },
   {
     heading: 'Scoping Call',
     body: (<div>
-      After initalizing interest, we will get on a call to scope out the project together.
-      This is the perfect place to ask any question on both side and start examining what application
-      we will be building. The general timeline will be set together, so we can sketch possible
-      features for the app!
+      Our team will set up a call to learn more about your nonprofit’s technical goals.
+      We are dedicated to hearing about your organization’s current approach to driving social good and how we might help you.
     </div>),
   },
   {
-    heading: 'Non-profit Application',
+    heading: 'Nonprofit Project Proposal Application',
     body: (<div>
-      The <a href="https://airtable.com/shrlUDcvtvksS5b3h">application</a> includes contact information,
-      project scoping, and other considerations for our partnership. This should be filled soon after our
-      scoping call!
+      After our scoping call, we ask you to fill out this project proposal <a href="https://airtable.com/shrlUDcvtvksS5b3h">application</a> by
+      <strong> September 16</strong>. Our team is committed to answering any questions or setting up additional meetings to support you.
     </div>),
   },
   {
     heading: 'Deliberation',
     body: (<div>
-      As a whole organization, we will discuss all the applications and see which ones will be
-      the best fit for our partnership! This will include criteria mentioned above and also
-      individual interest from our project leads. We may also contact each nonprofit for additional
-      information before continuing to the next step!
-    </div>),
-  },
-  {
-    heading: 'Announcement',
-    body: (<div>
-      Soon after our deliberation, we will be announcing our partnerships to everyone!
-      We will also schedule more calls to strength our communications in order to
-      head start our partnership.
-      <br />
-      Our project leads will also get to show interests in
-      which projects they are interested in leading for this upcoming year!
+      Our executive team and project leads will read through your project proposals and select the three applications we feel we can best support.
+      We may also contact each nonprofit for additional information before continuing to the next step.
     </div>),
   },
   {
     heading: 'Development',
     body: (<div>
-      After our recruitment season, we will begin our project development! This will
-      happen after our student recruitment (September), so a project lead with a full
-      team (mix of developers and designers) will be assigned to complete the project!
-      There should be a <strong>constant</strong> communication setup between the person
-      of contact from the non-profit and the project lead from Blueprint.
+      Our partnership has been initialized! Project development begins in October. Each nonprofit will have a team of 2 project leads, 4-6 developers,
+      and 2-3 designers dedicated to your project. Project leads will be in contact with your team regularly to ensure our application best captures your team’s vision.
     </div>),
   },
   {
-    heading: 'Completion & Next Step',
+    heading: 'Project handoff',
     body: (<div>
-      After multiple rounds of scrum sprints and user testing, we will be deploying the
-      project <strong>live</strong>! Before that We will go through rounds of bug splash to
-      make sure our work is production-ready. We will finish up a detailed documentation on
-      how to maintain and even expand the application for the future. A team or an individual
-      from the non-profit should be assigned as the owner or maintainer for the application.
+      After many iterations of user testing, development, and bug-amelioration, we will hand off our application to you. Our team is committed to making
+      the handoff process as seamless as possible, so we will provide your team detailed documentation and guidance on project maintenance.
     </div>),
   },
 ];
