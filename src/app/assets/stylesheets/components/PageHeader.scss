@@ -121,13 +121,13 @@
         }
       }
 
-      &.harmony-project {
-        @include background-gradient($white-95, $white-75, $white-75, 'harmony-project.jpg');
+      /* &.harmony-project {
+        background-image: linear-gradient(#F5F5F5 57%, white 50%);
       }
 
       &.farm2people {
         background-image: linear-gradient(#F5F5F5 57%, white 50%);
-      }
+      } */
     }
 
     .content {

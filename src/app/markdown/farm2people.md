@@ -18,7 +18,7 @@ The Farm2People website application features a marketplace and inventory manager
 
 | Duration | Tools & Tech |
 | - | - |
-| Nov 2020 - Aug 2021 (10 months) | Figma; React, Airtable, Airlock |
+| November 2020 - August 2021 (10 months) | Figma; React, Airtable, Airlock |
 
 </div>
 

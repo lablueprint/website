@@ -6,8 +6,8 @@ import ProjectCard from '../components/ProjectCard';
 import SectionContainer from '../components/SectionContainer';
 
 import ptv from '../assets/images/projects/ptv.jpg';
-import harmonyProject from '../assets/images/projects/harmony-project.png';
-import farm2people from '../assets/images/projects/farm2people.png';
+import harmonyProject from '../assets/images/projects/HP_Thumbnail.png';
+import farm2people from '../assets/images/projects/F2P_Thumbnail.png';
 
 const projects = [
   {
