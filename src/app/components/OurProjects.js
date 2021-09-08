@@ -7,7 +7,7 @@ import SectionHeading from './SectionHeading';
 import SectionSubtitle from './SectionSubtitle';
 import ProjectCard from './ProjectCard';
 
-import ptv from '../assets/images/projects/PTV_Thumbnail.jpeg';
+import ptv from '../assets/images/projects/ptv.jpg';
 import harmonyProject from '../assets/images/projects/HP_Thumbnail.png';
 import farm2people from '../assets/images/projects/F2P_Thumbnail.png';
 
