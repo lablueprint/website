@@ -141,10 +141,11 @@
   &.inverse {
     &.background {
       background-color: $white;
+      background-image: linear-gradient(to right, $light-blue 1px, transparent 1px),   linear-gradient(to bottom, $light-blue 1px, transparent 1px);
+
 
       &.ptv {
-        @include background-gradient($white-95, $white-75, $white-75, 'ptv.jpg');
-
+        
         .ptv-text {
           margin-top: 50px;
           margin-bottom: 1rem;
