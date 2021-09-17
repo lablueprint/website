@@ -1,8 +1,10 @@
 // colors
-$bp-blue:   #187be5;
+$bp-blue:   #0078E8;
 $bp-blue-95:  rgba($bp-blue, 0.95);
 $bp-blue-80:  rgba($bp-blue, 0.8);
 $bp-blue-75:  rgba($bp-blue, 0.75);
+
+$bp-blue-2: #93C9FE;
 
 $white:     #fff;
 $white-95:    rgba($white, 0.95);
@@ -15,14 +17,25 @@ $off-white: #f8f8f8;
 
 $black:     #2c3e50;
 
+$light-gray: #d4d4d4; 
 $gray:      #7e8893;
+$dark-gray: #333333;
 
-$dark-gray: #2c3e50;
+$pink: #E83274;
+
+$light-blue: #c4e2ff;
+$dark-blue: #0B2538;
+
+$grid-line-blue: #122D42;
+
+$transparent: rgba(0, 0, 0, 0);
 
 $timeline-number:   #93c9fe;
 $timeline-date:     #818181;
 
 // fonts
 $poppins:     'Poppins', sans-serif;
+$syne:     'Syne', sans-serif;
 
-$sans-serif:  'Nunito Sans', sans-serif;
+$sans-serif:  'Work Sans', sans-serif;
+// $sans-serif:  'Nunito Sans', sans-serif;

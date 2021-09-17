@@ -20,7 +20,7 @@ export default function NonprofitPage() {
               As a nonprofit partner, Blueprint will work with you to develop software
               that will bring your vision to life.
             </div>
-            <Button size="md" href="/contact">
+            <Button className="outline-white" size="md" href="/contact">
               Work with us
             </Button>
           </>

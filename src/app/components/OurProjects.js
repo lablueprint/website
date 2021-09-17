@@ -44,7 +44,7 @@ export default function OurProjects() {
     />
   ));
   return (
-    <SectionContainer className="our-projects">
+    <SectionContainer className="our-projects off-white">
       <Container>
         <SectionHeading>Our Projects</SectionHeading>
 

@@ -11,10 +11,13 @@
     $navbar-height: 72px;
     $collapsed-navbar-height: 56px;
 
-    background-color: $bp-blue;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: $dark-blue;
+    background-size: 40px 40px;
+    background-image: linear-gradient(to right, $grid-line-blue 1px, transparent 1px),   linear-gradient(to bottom, $grid-line-blue 1px, transparent 1px); 
+    background-repeat: repeat; 
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
     width: 100%;
     height: calc(100% + #{$navbar-height});
     padding-top: $navbar-height;
@@ -28,32 +31,65 @@
       height: calc(100% + #{$collapsed-navbar-height});
     }
 
-    &.home {
-      background-image: header-images-url('home.png');
-      background-position: right;
-      background-size: contain;
+    .content-container {
+      display: flex; 
+      flex-direction: row; 
+      justify-content: 'space-between'; 
 
-      @media screen and (max-width: 992px) {
-        @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'home.png');
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
       }
     }
 
-    &.projects {
-      @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'projects.jpg');
+    &.home {
+      &.text {
+        width: '50%'
+      }
+
+      .home-image {
+        width: 50%; 
+        padding-left: 50px;
+        object-fit: contain; 
+
+        @media screen and (max-width: 1000px) {
+            display: none; 
+        }
+      }  
     }
 
-    &.nonprofits {
+    /* &.projects {
+      @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'projects.jpg');
+    } */
+
+    /* &.nonprofits {
       @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'nonprofits.jpg');
-    }
+    } */
 
     &.students {
-      @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'students.png');
+      .students-image {
+        width: 55%; 
+        padding-left: 50px;
+        object-fit: contain; 
+      }    
     }
 
     &.about {
-      @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'about.jpg');
+      // @include background-gradient($bp-blue-95, $bp-blue-75, $bp-blue-75, 'about.jpg');
 
       background-position: center 20%;
+
+      .about-image {
+        width: 55%; 
+        padding-left: 50px;
+        object-fit: contain; 
+      }  
+
+      @media screen and (max-width: 768px) {
+        .about-image {
+          padding: 20px 0 0 0; 
+          width: 100%; 
+        }
+      }
 
       @media screen and (max-aspect-ratio: 4/3) {
         background-position: top;
@@ -65,7 +101,7 @@
     align-items: center;
     color: $white;
     display: flex;
-    font-family: $poppins;
+    font-family: $syne;
     padding-bottom: 4rem;
     padding-top: 3rem;
     min-height: 55vh;
@@ -85,9 +121,10 @@
     }
 
     .body {
-      font-size: 1.5rem;
-      line-height: 2rem;
-      opacity: 0.7;
+      font-size: 1.2rem;
+      line-height: 3rem;
+      // opacity: 0.7;
+      width: 50%;
     }
   }
 
@@ -104,10 +141,11 @@
   &.inverse {
     &.background {
       background-color: $white;
+      background-image: linear-gradient(to right, $light-blue 1px, transparent 1px),   linear-gradient(to bottom, $light-blue 1px, transparent 1px);
+
 
       &.ptv {
-        @include background-gradient($white-95, $white-75, $white-75, 'ptv.jpg');
-
+        
         .ptv-text {
           margin-top: 50px;
           margin-bottom: 1rem;

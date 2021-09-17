@@ -7,6 +7,8 @@ import WhereWeveBeen from '../components/WhereWeveBeen';
 import PageHeader from '../components/PageHeader';
 import OurValues from '../components/OurValues';
 
+import about from '../assets/images/headers/about2.png';
+
 export default function AboutPage() {
   return (
     <>
@@ -16,6 +18,9 @@ export default function AboutPage() {
         // eslint-disable-next-line no-multi-str
         render={() => "We're a group of friendly folks at the University of California, Los Angeles \
         dedicated to building technology for the greater good."}
+        image={about}
+        imageAlt="LA Blueprint at the 2021 End of the Year Banquet"
+        imageClass="about-image"
       />
       <Fade>
         <OurValues />

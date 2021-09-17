@@ -7,6 +7,8 @@ import ApplicationProcess from '../components/ApplicationProcess';
 import StudentFAQ from '../components/StudentFAQ';
 import MailingListButton from '../components/MailingListButton';
 
+import studentImage from '../assets/images/headers/students.png';
+
 const MAILCHIMP_URL = 'https://lablueprint.us4.list-manage.com/subscribe/post?u=223f2f7d67a9bd0b9f9172a69&amp;id=70cbf4957b';
 
 export default function StudentPage() {
@@ -33,12 +35,15 @@ export default function StudentPage() {
             </div>
             <form action={MAILCHIMP_URL} method="post" className="mailing-list">
               <input className="mailing-list-input" name="EMAIL" placeholder="example@email.com" />
-              <Button type="submit" size="md">
+              <Button className="outline-white" type="submit" size="md">
                 Submit
               </Button>
             </form>
           </>
         )}
+        image={studentImage}
+        imageAlt="Zoom screenshot from an online social"
+        imageClass="students-image"
       />
       <Fade>
         <ApplicationProcess />
