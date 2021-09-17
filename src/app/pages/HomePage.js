@@ -10,6 +10,8 @@ import ContactButton from '../components/ContactButton';
 
 import SectionSubtitle from '../components/SectionSubtitle';
 
+import funShapes from '../assets/images/headers/fun-shapes.png';
+
 export default function HomePage() {
   return (
     <>
@@ -23,12 +25,15 @@ export default function HomePage() {
               those who assist communities and promote public welfare.
             </SectionSubtitle>
             <Link to="/about">
-              <Button size="md">
+              <Button className="outline-white" size="md">
                 Learn More
               </Button>
             </Link>
           </>
         )}
+        image={funShapes}
+        imageAlt="Colorful shapes with smiley faces"
+        imageClass="home-image"
       />
       <Fade>
         <WhoWeAre />

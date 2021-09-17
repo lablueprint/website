@@ -4,13 +4,13 @@ import { Container } from 'react-bootstrap';
 import SectionContainer from './SectionContainer';
 import ValuesTemplate from './ValuesTemplate';
 
-import Presentation from '../assets/images/values/presentation.png';
-import Couple from '../assets/images/values/couple.png';
-import Innovation from '../assets/images/values/innovation.png';
+import darkBlueSmiley from '../assets/images/shapes/dark-blue-smiley.png';
+import lightBlueSmiley from '../assets/images/shapes/light-blue-smiley.png';
+import pinkSmiley from '../assets/images/shapes/pink-smiley.png';
 
 const values = [
   {
-    image: Innovation,
+    image: darkBlueSmiley,
     title: 'Innovation',
     text:
       // eslint-disable-next-line no-multi-str
@@ -18,7 +18,7 @@ const values = [
       Our creative developments are fueled by our enthusiasm and our eagerness to learn.',
   },
   {
-    image: Presentation,
+    image: lightBlueSmiley,
     title: 'Quality',
     text:
       // eslint-disable-next-line no-multi-str
@@ -26,7 +26,7 @@ const values = [
       choose projects that create a lasting impact.',
   },
   {
-    image: Couple,
+    image: pinkSmiley,
     title: 'Community',
     text:
       // eslint-disable-next-line no-multi-str

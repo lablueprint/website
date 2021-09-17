@@ -9,7 +9,7 @@ import SectionParagraph from './SectionParagraph';
 
 export default function WhoWeAre() {
   return (
-    <SectionContainer className="who-we-are off-white">
+    <SectionContainer className="who-we-are">
       <Container>
         <SectionHeading>About</SectionHeading>
 

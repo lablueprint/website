@@ -4,7 +4,7 @@
 
 h1 {
   color: $black;
-  font-family: $poppins;
+  font-family: $syne;
 
   .header {
     color: $white;
@@ -13,7 +13,7 @@ h1 {
 
 h2, h3 {
   color: $black;
-  font-family: $poppins;
+  font-family: $syne;
 }
 
 h4 {
@@ -43,7 +43,7 @@ h4 {
     background-image: none;
     border-radius: 3px;
     color: $black;
-    font-family: $poppins;
+    font-family: $syne;
     font-weight: 600;
     padding: 10px 15px;
     text-decoration: none;
@@ -69,6 +69,27 @@ h4 {
       &:active {
         background-color: $bp-blue !important;
         color: $white !important;
+      }
+    }
+
+    &.outline-white {
+      border: 1px solid $white; 
+      background-color: $transparent;
+      color: $white;
+
+      &:hover {
+        background-color: $transparent;
+        color: $white;
+      }
+
+      &:focus {
+        background-color: $transparent;
+        color: $white;
+      }
+
+      &:active {
+        background-color: $transparent !important; 
+        color: $white !important; 
       }
     }
 
