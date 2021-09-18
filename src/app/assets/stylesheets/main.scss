@@ -73,6 +73,27 @@ h4 {
       }
     }
 
+    &.white {
+      border: 1px solid $bp-blue;
+      background-color: $white;
+      color: $bp-blue;
+
+      &:hover {
+        background-color: $white;
+        color: $bp-blue;
+      }
+
+      &:focus {
+        background-color: $white;
+        color: $bp-blue;
+      }
+
+      &:active {
+        background-color: $white !important;
+        color: $bp-blue !important;
+      }
+    }
+
     &.outline-white {
       border: 1px solid $white;
       background-color: $transparent;
@@ -94,24 +115,45 @@ h4 {
       }
     }
 
-    &.white {
-      border: 1px solid $bp-blue;
-      background-color: $white;
-      color: $bp-blue;
+    &.pink {
+      border: 1px solid $pink;
+      background-color: $pink;
+      color: $white;
 
       &:hover {
-        background-color: $white;
-        color: $bp-blue;
+        background-color: $pink;
+        color: $white;
       }
 
       &:focus {
-        background-color: $white;
-        color: $bp-blue;
+        background-color: $pink;
+        color: $white;
       }
 
       &:active {
-        background-color: $white !important;
-        color: $bp-blue !important;
+        background-color: $pink !important;
+        color: $white !important;
+      }
+    }
+
+    &.pink-outline {
+      border: 1px solid $pink;
+      background-color: $transparent;
+      color: $pink;
+
+      &:hover {
+        background-color: $transparent;
+        color: $pink;
+      }
+
+      &:focus {
+        background-color: $transparent;
+        color: $pink;
+      }
+
+      &:active {
+        background-color: $transparent !important;
+        color: $pink !important;
       }
     }
 

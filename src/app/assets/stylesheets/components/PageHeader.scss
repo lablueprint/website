@@ -34,7 +34,7 @@
     .content-container {
       display: flex; 
       flex-direction: row; 
-      justify-content: 'space-between'; 
+      justify-content: center; 
 
       @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -145,6 +145,11 @@
 
 
       &.ptv {
+
+        .body {
+            display: flex; 
+            justify-content: center; 
+        }
         
         .ptv-text {
           margin-top: 50px;
@@ -159,13 +164,12 @@
         }
       }
 
-      /* &.harmony-project {
-        background-image: linear-gradient(#F5F5F5 57%, white 50%);
+      &.harmony-project {
+        .body {
+          display: flex; 
+          justify-content: center; 
+        }
       }
-
-      &.farm2people {
-        background-image: linear-gradient(#F5F5F5 57%, white 50%);
-      } */
     }
 
     .content {

@@ -5,7 +5,7 @@ import PageHeader from '../components/PageHeader';
 import ProjectCard from '../components/ProjectCard';
 import SectionContainer from '../components/SectionContainer';
 
-import ptv from '../assets/images/projects/PTV_Thumbnail.jpeg';
+import ptv from '../assets/images/projects/PTV_Thumbnail.png';
 import harmonyProject from '../assets/images/projects/HP_Thumbnail.png';
 import farm2people from '../assets/images/projects/F2P_Thumbnail.png';
 
