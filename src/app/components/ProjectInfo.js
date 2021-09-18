@@ -17,9 +17,9 @@ import SectionUnorderedList from './SectionUnorderedList';
 import SectionTable from './SectionTable';
 import PageHeader from './PageHeader';
 
+import ptvMobileApp from '../assets/images/projects/PTV_Thumbnail.png';
 import f2pWebapp from '../assets/images/projects/farm2people/F2P_Thumbnail.png';
-import hpLogo from '../assets/images/projects/HarmonyProject/harmony-project.png';
-import hpMobileApp from '../assets/images/projects/HarmonyProject/HP_Thumbnail.png';
+import hpMobileApp from '../assets/images/projects/HP_Thumbnail.png';
 
 import ptv from '../markdown/ptv.md';
 import harmonyProject from '../markdown/harmony_project.md';
@@ -28,56 +28,17 @@ import farm2people from '../markdown/farm2people.md';
 /* eslint-disable */
 const projects = {
   'ptv': {
-    title: 'Program for Torture Victims',
+    title: '',
     render: () => (
       <>
-        <div className="mb-3">
-          Program for Torture Victims helps support refugees escaping violence and human rights abuse.
-        </div>
-        <div className="ptv-text">
-          View Github Repositories
-        </div>
-        <Button className="blue" size="md" href="https://github.com/lablueprint/ptv-mobile-app">
-          Mobile App
-        </Button>
-        <Button className="blue" size="md" href="https://github.com/lablueprint/ptv-web-console">
-          Web Console
-        </Button>
+        <img src={ptvMobileApp} width="75%"></img>
       </>
-    ),
-    body: (
-      <>
-        <SectionHeading>
-          Background
-        </SectionHeading>
-        <SectionParagraph>
-          Roughly 70,000–90,000 individuals seek asylum <a
-          href="https://www.dhs.gov/sites/default/files/publications/Refugees_Asylees_2017.pdf">every year.</a> These
-          asylum seekers range from individuals wanting to find a better life, avoiding political prosecution, or
-          escaping torture and persecution for their beliefs. Many of these asylum seekers arrive to the United States
-          with nothing else besides what they can carry in their suitcases and have no connections to resources when
-          they first arrive.
-        </SectionParagraph>
-        <SectionHeading>
-          Solution
-        </SectionHeading>
-        <SectionParagraph>
-          <a href="https://ptvla.org">Program for Torture Victims (PTV)</a> aims to rebuild the lives of survivors of
-          torture and persecution from over 70 countries. PTV does this by connecting survivors to resources and
-          rehabilitation to help restore their health and dignity. To better serve and increase awareness of available
-          resources for PTV’s service recipients, our project will develop a mobile application that will direct
-          survivors to resources specific to their needs and provide an online community.
-        </SectionParagraph>
-      </>
-    ),
+    )
   },
   'harmony-project': {
     title: '',
     render: () => (
-      <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-around', alignItems: 'center'}}>
-        <img src={hpLogo} style={{width: '30%', height: '30%'}}></img>
-        <img src={hpMobileApp} style={{width: '50%'}}></img>
-      </div>
+      <img src={hpMobileApp} width="75%"></img>
     )
   },
   'farm2people': {
