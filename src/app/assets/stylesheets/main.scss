@@ -11,7 +11,8 @@ h1 {
   }
 }
 
-h2, h3 {
+h2,
+h3 {
   color: $black;
   font-family: $syne;
 }
@@ -73,7 +74,7 @@ h4 {
     }
 
     &.outline-white {
-      border: 1px solid $white; 
+      border: 1px solid $white;
       background-color: $transparent;
       color: $white;
 
@@ -88,8 +89,8 @@ h4 {
       }
 
       &:active {
-        background-color: $transparent !important; 
-        color: $white !important; 
+        background-color: $transparent !important;
+        color: $white !important;
       }
     }
 
@@ -111,6 +112,27 @@ h4 {
       &:active {
         background-color: $white !important;
         color: $bp-blue !important;
+      }
+    }
+
+    &.outline-black {
+      border: 1px solid $black;
+      background-color: $transparent;
+      color: $black;
+
+      &:hover {
+        background-color: $transparent;
+        color: $black;
+      }
+
+      &:focus {
+        background-color: $transparent;
+        color: $black;
+      }
+
+      &:active {
+        background-color: $transparent !important;
+        color: $black !important;
       }
     }
 

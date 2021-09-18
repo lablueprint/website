@@ -10,11 +10,12 @@ export default function ContactUs() {
         <h1>Contact Us</h1>
         <h4 className="subheader">Have a question? Message us here!</h4>
         <Link to="/contact">
-          <Button className="raised-button">
-            Email Us
-          </Button>
+          <Button className="raised-button outline-black">Email Us</Button>
         </Link>
-        <Button className="raised-button blue" href="https://facebook.com/lablueprint">
+        <Button
+          className="raised-button blue"
+          href="https://facebook.com/lablueprint"
+        >
           Facebook Page
         </Button>
       </Container>

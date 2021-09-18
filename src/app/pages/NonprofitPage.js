@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Fade from 'react-reveal';
 import { Button } from 'react-bootstrap';
 
 import PageHeader from '../components/PageHeader';
@@ -17,8 +17,8 @@ export default function NonprofitPage() {
         render={() => (
           <>
             <div className="mb-3">
-              As a nonprofit partner, Blueprint will work with you to develop software
-              that will bring your vision to life.
+              As a nonprofit partner, Blueprint will work with you to develop
+              software that will bring your vision to life.
             </div>
             <Button className="outline-white" size="md" href="/contact">
               Work with us
@@ -26,9 +26,19 @@ export default function NonprofitPage() {
           </>
         )}
       />
-      <NonprofitWhat />
-      <NonprofitTimeline />
-      <NonprofitWhen />
+      <div id="FAQ">
+        <Fade>
+          <NonprofitWhat />
+        </Fade>
+      </div>
+      <Fade>
+        <NonprofitTimeline />
+      </Fade>
+      <div id="Apply">
+        <Fade>
+          <NonprofitWhen />
+        </Fade>
+      </div>
     </>
   );
 }

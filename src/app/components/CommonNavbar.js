@@ -14,8 +14,13 @@ export default function CommonNavbar({ className }) {
     setExpanded(!expanded);
   }
 
-  const navbarClass = ClassNames(className, { expanded }, 'container-fluid', 'common-navbar');
-  const variant = (className.includes('inverse')) ? 'light' : 'dark';
+  const navbarClass = ClassNames(
+    className,
+    { expanded },
+    'container-fluid',
+    'common-navbar',
+  );
+  const variant = className.includes('inverse') ? 'light' : 'dark';
 
   return (
     <div className={navbarClass}>
@@ -37,9 +42,12 @@ export default function CommonNavbar({ className }) {
               </Navbar.Brand>
             </Link>
           </Fade>
-          <Navbar.Toggle onClick={toggleExpanded} aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle
+            onClick={toggleExpanded}
+            aria-controls="responsive-navbar-nav"
+          />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ml-auto nav-link">
+            <Nav className="ml-auto navbar-nav">
               <Fade down>
                 <Link className="nav-link" to="/about">
                   About
@@ -53,7 +61,10 @@ export default function CommonNavbar({ className }) {
                 <Link className="nav-link" to="/nonprofits">
                   Nonprofits
                 </Link>
-                <Link className="nav-link" to="/contact">
+                <Link
+                  className="contact-btn contact-btn--outline"
+                  to="/contact"
+                >
                   Contact
                 </Link>
               </Fade>

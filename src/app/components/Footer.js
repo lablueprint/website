@@ -4,7 +4,11 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import {
-  FaGithub, FaFacebookF, FaLinkedinIn, FaInstagram, FaMedium,
+  FaGithub,
+  FaFacebookF,
+  FaLinkedinIn,
+  FaInstagram,
+  FaMedium,
 } from 'react-icons/fa';
 
 import LogoWhite from '../assets/images/branding/logo_white.svg';
@@ -52,23 +56,25 @@ const studentLinks = [
   // },
 ];
 
-// const nonprofitLinks = [
-//   {
-//     linkText: 'About',
-//     href: '/nonprofits',
-//     internal: true,
-//   },
-//   {
-//     linkText: 'FAQ',
-//     href: '/nonprofits',
-//     internal: true,
-//   },
-//   {
-//     linkText: 'Apply',
-//     href: '/nonprofits',
-//     internal: true,
-//   },
-// ];
+const nonprofitLinks = [
+  {
+    linkText: 'About',
+    href: '/nonprofits',
+    internal: true,
+  },
+  {
+    linkText: 'FAQ',
+    href: '/nonprofits#FAQ',
+    internal: true,
+    hash: true,
+  },
+  {
+    linkText: 'Apply',
+    href: '/nonprofits#Apply',
+    internal: true,
+    hash: true,
+  },
+];
 
 const socialLinks = [
   {
@@ -108,27 +114,35 @@ export default function Footer() {
     const navItems = links.map((item) => {
       const body = (
         <>
-          {item.icon ? (
-            <item.icon className="mr-1 social-icon" />
-          ) : null}
-          <div className="text">
-            {item.linkText}
-          </div>
+          {item.icon ? <item.icon className="mr-1 social-icon" /> : null}
+          <div className="text">{item.linkText}</div>
         </>
       );
 
       let listItem = null;
       if (!item.internal) {
-        listItem = <a href={item.href} className="link">{body}</a>;
+        listItem = (
+          <a href={item.href} className="link">
+            {body}
+          </a>
+        );
       } else if (!item.hash) {
-        listItem = <Link to={item.href} className="link">{body}</Link>;
+        listItem = (
+          <Link to={item.href} className="link">
+            {body}
+          </Link>
+        );
       } else {
-        listItem = <HashLink to={item.href} className="link">{body}</HashLink>;
+        listItem = (
+          <HashLink to={item.href} className="link">
+            {body}
+          </HashLink>
+        );
       }
 
       return (
         <li key={JSON.stringify(item)} className="nav-item pt-1">
-          { listItem }
+          {listItem}
         </li>
       );
     });
@@ -142,8 +156,8 @@ export default function Footer() {
 
   const generalNavItems = generateNavItems('General', generalLinks);
   const socialNavItems = generateNavItems('Social Media', socialLinks);
-  const studentNavItems = generateNavItems('Students', studentLinks);
-  // const nonprofitNavItems = generateNavItems('Nonprofits', nonprofitLinks);
+  const studentNavItems = generateNavItems('For Students', studentLinks);
+  const nonprofitNavItems = generateNavItems('For Nonprofits', nonprofitLinks);
 
   return (
     <div className="container-fluid py-5 footer">
@@ -151,13 +165,11 @@ export default function Footer() {
         <Row>
           <Col sm={12} md={4} className="mb-5 logo-container">
             <Image src={LogoWhite} height={30} className="logo-image" />
-            <div className="d-inline-block logo">
-              blueprint
-            </div>
+            <div className="d-inline-block logo">blueprint</div>
           </Col>
           {generalNavItems}
           {studentNavItems}
-          {/* {nonprofitNavItems} */}
+          {nonprofitNavItems}
           {socialNavItems}
         </Row>
         <Row>
