@@ -43,6 +43,10 @@
       border-radius: 0.125rem;
       margin-left: 1rem;
       margin-right: 1rem;
+
+      @media screen and (max-width: 768px) {
+        color: $white;
+      }
     }
 
     .contact-btn--outline {
@@ -51,6 +55,14 @@
       padding: 0.5rem 1.25rem;
       border: 0.063rem solid;
       transition: all 0.3s ease-out;
+
+      @media screen and (max-width: 768px) {
+        background-color: transparent;
+        color: $white;
+        padding: 0rem 0rem;
+        border: 0rem solid;
+        transition: none;
+      }
     }
 
     .contact-btn:hover {
@@ -59,6 +71,13 @@
       border: 0.063rem solid $white;
       transition: all 0.3s ease-out;
       text-decoration: none;
+
+      @media screen and (max-width: 768px) {
+        background: transparent;
+        color: transparent;
+        border: 0rem solid;
+        transition: none;
+      }
     }
   }
 
@@ -71,7 +90,7 @@
     transition: background 2.5s;
 
     &.expanded {
-      background-color: $bp-blue;
+      background-color: $dark-blue;
       transition: background 0s;
       // background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba($bp-blue, 0) 56px, rgba($bp-blue, 1) 56px, rgba($bp-blue, 1) 100%);
     }
@@ -92,8 +111,53 @@
       .nav-link {
         font-family: $syne;
         font-size: 0.9rem;
-        font-weight: 500;
+        font-weight: bold;
+        margin-left: 1rem;
+        margin-right: 1rem;
         color: $bp-blue-80;
+      }
+      .contact-btn {
+        font-family: $syne;
+        font-size: 0.9rem;
+        font-weight: bold;
+        border-radius: 0.125rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+        @media screen and (max-width: 768px) {
+          color: $bp-blue-80;
+        }
+      }
+
+      .contact-btn--outline {
+        background-color: $bp-blue-80;
+        color: $white;
+        padding: 0.5rem 1.25rem;
+        border: 0.063rem solid;
+        transition: all 0.3s ease-out;
+
+        @media screen and (max-width: 768px) {
+          background-color: transparent;
+          color: $bp-blue-80;
+          padding: 0rem 0rem;
+          border: 0rem solid;
+          transition: none;
+        }
+      }
+
+      .contact-btn:hover {
+        background: transparent;
+        color: $bp-blue-80;
+        border: 0.063rem solid $bp-blue-80;
+        transition: all 0.3s ease-out;
+        text-decoration: none;
+
+        @media screen and (max-width: 768px) {
+          background: transparent;
+          color: $bp-blue-80;
+          border: 0rem solid;
+          transition: none;
+        }
       }
     }
 
