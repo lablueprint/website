@@ -31,14 +31,14 @@ const projects = {
     title: '',
     render: () => (
       <>
-        <img src={ptvMobileApp} width="75%"></img>
+        <img src={ptvMobileApp} width="75%" style={{objectFit: 'contain'}}></img>
       </>
     )
   },
   'harmony-project': {
     title: '',
     render: () => (
-      <img src={hpMobileApp} width="75%"></img>
+      <img src={hpMobileApp} width="75%" style={{objectFit: 'contain'}}></img>
     )
   },
   'farm2people': {
