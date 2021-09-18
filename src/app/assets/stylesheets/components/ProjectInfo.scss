@@ -31,6 +31,14 @@
     .btn {
         @extend .raised-button;
         margin-right: 20px;
+
+        &.blue {
+            margin-bottom: 20px;
+        }
+
+        &.white {
+            margin-bottom: 20px;
+        }
     }
     
     .flex-row {
