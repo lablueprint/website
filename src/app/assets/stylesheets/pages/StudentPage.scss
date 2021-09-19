@@ -1,3 +1,7 @@
+.btn {
+  @extend .raised-button;
+}
+
 .mailing-list {
   display: flex;
   flex-direction: row;

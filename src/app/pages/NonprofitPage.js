@@ -3,6 +3,7 @@ import Fade from 'react-reveal';
 import { Button } from 'react-bootstrap';
 
 import PageHeader from '../components/PageHeader';
+import SectionSubtitle from '../components/SectionSubtitle';
 
 import NonprofitWhat from '../components/Nonprofit/NonprofitWhat';
 import NonprofitTimeline from '../components/Nonprofit/NonprofitTimeline';
@@ -16,10 +17,10 @@ export default function NonprofitPage() {
         title="For Nonprofits"
         render={() => (
           <>
-            <div className="mb-3">
+            <SectionSubtitle>
               As a nonprofit partner, Blueprint will work with you to develop
               software that will bring your vision to life.
-            </div>
+            </SectionSubtitle>
             <Button className="outline-white" size="md" href="/contact">
               Work with us
             </Button>

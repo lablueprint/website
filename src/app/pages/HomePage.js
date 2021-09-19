@@ -17,7 +17,8 @@ export default function HomePage() {
     <>
       <PageHeader
         className="home"
-        title="Tech for Social Good"
+        title="Tech for"
+        subtitle="Social Good"
         render={() => (
           <>
             <SectionSubtitle>

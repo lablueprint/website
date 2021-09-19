@@ -7,6 +7,8 @@ import WhereWeveBeen from '../components/WhereWeveBeen';
 import PageHeader from '../components/PageHeader';
 import OurValues from '../components/OurValues';
 
+import SectionSubtitle from '../components/SectionSubtitle';
+
 import about from '../assets/images/headers/about2.png';
 
 export default function AboutPage() {
@@ -16,8 +18,12 @@ export default function AboutPage() {
         className="about"
         title="Meet Blueprint"
         // eslint-disable-next-line no-multi-str
-        render={() => "We're a group of friendly folks at the University of California, Los Angeles \
-        dedicated to building technology for the greater good."}
+        render={() => (
+          <SectionSubtitle>
+            We&apos;re a group of friendly folks at the University of California, Los Angeles
+            dedicated to building technology for the greater good.
+          </SectionSubtitle>
+        )}
         image={about}
         imageAlt="LA Blueprint at the 2021 End of the Year Banquet"
         imageClass="about-image"
