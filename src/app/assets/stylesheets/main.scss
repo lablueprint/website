@@ -12,7 +12,8 @@ h1 {
   }
 }
 
-h2, h3 {
+h2,
+h3 {
   color: $black;
   font-family: $syne;
   font-weight: 700;
@@ -20,7 +21,7 @@ h2, h3 {
 
 h4 {
   color: $gray;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .container {
