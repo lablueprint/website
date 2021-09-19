@@ -5,6 +5,8 @@ import PageHeader from '../components/PageHeader';
 import ProjectCard from '../components/ProjectCard';
 import SectionContainer from '../components/SectionContainer';
 
+import SectionSubtitle from '../components/SectionSubtitle';
+
 import ptv from '../assets/images/projects/PTV_Thumbnail.png';
 import harmonyProject from '../assets/images/projects/HP_Thumbnail.png';
 import farm2people from '../assets/images/projects/F2P_Thumbnail.png';
@@ -48,10 +50,10 @@ export default function ProjectPage() {
         title="Our Projects"
         render={() => (
           <>
-            <div className="mb-3">
+            <SectionSubtitle>
               All of Blueprint&#39;s work is open source because we believe in
               building technology that makes us more open and connected.
-            </div>
+            </SectionSubtitle>
             <Button className="outline-white" size="md" href="https://github.com/lablueprint">
               See our GitHub
             </Button>

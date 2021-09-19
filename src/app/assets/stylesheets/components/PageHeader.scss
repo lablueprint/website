@@ -13,11 +13,9 @@
 
     background-color: $dark-blue;
     background-size: 40px 40px;
-    background-image: linear-gradient(to right, $grid-line-blue 1px, transparent 1px),   linear-gradient(to bottom, $grid-line-blue 1px, transparent 1px); 
-    background-repeat: repeat; 
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
+    background-image: linear-gradient(to right, $grid-line-blue 1px, transparent 1px),   
+    linear-gradient(to bottom, $grid-line-blue 1px, transparent 1px);
+    
     width: 100%;
     height: calc(100% + #{$navbar-height});
     padding-top: $navbar-height;
@@ -108,7 +106,20 @@
 
     .title {
       font-size: 3rem;
-      font-weight: 500;
+      font-weight: 700;
+
+      @media (max-width: 39.99rem) {
+        font-size: 10.3vw;
+      }
+
+      @media (min-width: 72rem) {
+        font-size: 4rem;
+      }
+    }
+
+    .subtitle {
+      font-size: 3rem;
+      font-weight: 700;
       margin-bottom: 1rem;
 
       @media (max-width: 39.99rem) {
@@ -116,7 +127,7 @@
       }
 
       @media (min-width: 72rem) {
-        font-size: 3.5rem;
+        font-size: 4rem;
       }
     }
 
@@ -141,7 +152,7 @@
   &.inverse {
     &.background {
       background-color: $white;
-      background-image: linear-gradient(to right, $light-blue 1px, transparent 1px),   linear-gradient(to bottom, $light-blue 1px, transparent 1px);
+      background-image: linear-gradient(to right, $light-blue 1px, transparent 1px), linear-gradient(to bottom, $light-blue 1px, transparent 1px);
 
 
       &.ptv {
