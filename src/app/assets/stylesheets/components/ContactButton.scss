@@ -3,6 +3,8 @@
   color: $black;
   font-family: $sans-serif;
   min-height: 30vh;
+  display: flex;
+  flex-direction: row;
 
   .btn {
     display: inline-block;
@@ -15,13 +17,28 @@
     // }
   }
 
-  .subheader {
-    display: inline-block;
-    padding-bottom: 20px;
-    margin-right: 5vw;
+  .flex-container {
+    display: flex;
+    width: 100%;
 
-    @media screen and (min-width: 768px) {
-      margin-right: 100px;
+    .subheader-container {
+      flex: 1;
+    }
+
+    .buttons-container {
+      align-self: flex-end;
+      align-items: flex-end;
+
+      @media screen and (max-width: 510px) {
+        padding-left: 15px;
+      }
+
+      .raised-button {
+        min-width: 10vw;
+        @media screen and (max-width: 415px) {
+          margin: 1vw;
+        }
+      }
     }
   }
 }

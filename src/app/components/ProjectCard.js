@@ -18,7 +18,6 @@ export default function ProjectCard({
             {desc}
           </Card.Text>
         </Card.Body>
-        <div className="blue">Learn More</div>
       </Link>
     </Card>
   );

@@ -1,5 +1,21 @@
 .our-projects {
   background-color: $off-white;
+  text-align: center;
+
+  .pink-half-circle {
+    $radius: 3em;
+    $diameter: 2*$radius;
+
+    margin: auto;
+    width: $diameter;
+    height: $radius;
+    border-radius: $diameter $diameter 0 0;
+    background-color: $pink;
+  }
+
+  .project-button {
+    justify-content: center;
+  }
   
   .card-deck {
     display: flex;

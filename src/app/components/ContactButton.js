@@ -8,16 +8,22 @@ export default function ContactUs() {
     <div className="container-fluid py-5 contact-button">
       <Container>
         <h1>Contact Us</h1>
-        <h4 className="subheader">Have a question? Message us here!</h4>
-        <Link to="/contact">
-          <Button className="raised-button outline-black">Email Us</Button>
-        </Link>
-        <Button
-          className="raised-button blue"
-          href="https://facebook.com/lablueprint"
-        >
-          Facebook Page
-        </Button>
+        <div className="flex-container">
+          <div className="subheader-container">
+            <h4>Have a question? Message us here!</h4>
+          </div>
+          <div className="buttons-container">
+            <Link to="/contact">
+              <Button className="raised-button outline-black">Email</Button>
+            </Link>
+            <Button
+              className="raised-button blue"
+              href="https://facebook.com/lablueprint"
+            >
+              Facebook
+            </Button>
+          </div>
+        </div>
       </Container>
     </div>
   );
