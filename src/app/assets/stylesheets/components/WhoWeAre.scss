@@ -1,4 +1,8 @@
 .who-we-are {
+    a {
+        color: $pink;
+    }
+
     &.container {
         padding: 0;
         display: flex;
