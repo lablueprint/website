@@ -69,6 +69,13 @@
         padding-left: 50px;
         object-fit: contain; 
       }    
+
+      @media screen and (max-width: 768px) {
+        .students-image {
+          padding: 20px 0 0 0; 
+          width: 100%; 
+        }
+      }
     }
 
     &.about {
