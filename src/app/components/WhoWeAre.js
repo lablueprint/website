@@ -20,7 +20,7 @@ export default function WhoWeAre() {
               Blueprint is committed to building and promoting tech for social good—free of charge. We collaborate with nonprofit organizations in Southern California to build mobile and web applications. 
               <br/>
               <br/>
-              Blueprint is a multinational organization founded in 2013 at <a href="https://www.calblueprint.org">the University of California, Berkeley</a>. Our UCLA chapter is the third established chapter after <a href="https://www.uwblueprint.org">the University of Waterloo</a>.
+              Blueprint is a multinational organization founded in 2013 at the <a href="https://www.calblueprint.org">University of California, Berkeley</a>. Our UCLA chapter is the third established chapter after the <a href="https://www.uwblueprint.org">University of Waterloo</a>.
             </p>
           </SectionParagraph>
           {/* eslint-enable */}
