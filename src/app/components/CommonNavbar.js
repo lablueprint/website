@@ -50,7 +50,7 @@ export default function CommonNavbar({ className }) {
             <Nav className="ml-auto navbar-nav">
               <Fade down>
                 <Link className="nav-link" to="/about">
-                  About
+                  About Us
                 </Link>
                 <Link className="nav-link" to="/projects">
                   Projects

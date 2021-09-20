@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import SectionContainer from './SectionContainer';
@@ -46,18 +46,26 @@ export default function OurProjects() {
   return (
     <SectionContainer className="our-projects off-white">
       <Container>
+        <div className="pink-half-circle" />
+
         <SectionHeading>Our Projects</SectionHeading>
 
         <SectionSubtitle>
-          Every year, our teams of student developers and designers work with nonprofits to deliver
-          an application that best suits their needs.
+          Every year, our teams of student developers and designers work with nonprofits
+          to deliver an application that best suits their needs.
         </SectionSubtitle>
 
-        <h3 className="subtitle-blue">
+        <SectionSubtitle className="project-button">
+          <Link to="/projects">
+            <Button className="raised-button outline-black">Check out our current projects</Button>
+          </Link>
+        </SectionSubtitle>
+
+        {/* <h3 className="subtitle-blue">
           <Link className="link" to="/projects">
             Check out our current projects ➜
           </Link>
-        </h3>
+        </h3> */}
         <div className="card-deck">{projectCards}</div>
       </Container>
     </SectionContainer>

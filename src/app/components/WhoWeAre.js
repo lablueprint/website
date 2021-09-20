@@ -1,36 +1,38 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import WhoWeAreImg from '../assets/images/home/who-we-are.png';
 
 import SectionContainer from './SectionContainer';
 import SectionHeading from './SectionHeading';
-import SectionSubtitle from './SectionSubtitle';
 import SectionParagraph from './SectionParagraph';
 
 export default function WhoWeAre() {
   return (
     <SectionContainer className="who-we-are">
       <Container>
-        <SectionHeading>About</SectionHeading>
+        <SectionHeading>Who are we?</SectionHeading>
 
-        <SectionSubtitle>
-          Blueprint is committed to building and promoting tech for
-          social good&mdash;free of charge. We collaborate with nonprofit
-          organizations in Southern California to build mobile and web
-          applications.
-        </SectionSubtitle>
-
-        {/* eslint-disable */}
-        <SectionParagraph className="last">
-          Blueprint is a multinational organization founded in 2013 at the <a href="https://www.calblueprint.org">University of California, Berkeley</a>.
-          Our UCLA chapter is the third established chapter after the <a href="https://www.uwblueprint.org">University of Waterloo</a>.
-        </SectionParagraph>
-        {/* eslint-enable */}
+        <div className="who-we-are container">
+          {/* eslint-disable */}
+          <SectionParagraph className="who-we-are body">
+            <p>
+              Blueprint is committed to building and promoting tech for social good—free of charge. We collaborate with nonprofit organizations in Southern California to build mobile and web applications. 
+              <br/>
+              <br/>
+              Blueprint is a multinational organization founded in 2013 at <a href="https://www.calblueprint.org">the University of California, Berkeley</a>. Our UCLA chapter is the third established chapter after <a href="https://www.uwblueprint.org">the University of Waterloo</a>.
+            </p>
+          </SectionParagraph>
+          {/* eslint-enable */}
+          <div className="who-we-are imgContainer">
+            <img src={WhoWeAreImg} alt="who-we-are" className="who-we-are img" />
+          </div>
+        </div>
 
         <h3 className="subtitle-blue">
-          <Link to="/about">
+          <Link to="/contact">
             <Button className="raised-button blue">
-              Read More
+              Contact
             </Button>
           </Link>
         </h3>
