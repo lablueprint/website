@@ -7,46 +7,38 @@ import TimelineImage from '../assets/images/students/timeline.svg';
 const timeline = [
   {
     heading: 'Applications Open',
-    date: 'Oct 5',
+    date: 'September 20',
     body: (<div>
-      Applications are currently closed. Check out our <a href="https://facebook.com/lablueprint">
-      Facebook</a> and <a href="https://instagram.com/lablueprint">Instagram</a> to stay updated.
+      Applications are <a href="https://bit.ly/LABlueprintMemberAppFall21">open</a>! Follow our <a href="https://facebook.com/lablueprint">
+      Facebook</a> and <a href="https://instagram.com/lablueprint">Instagram</a> to stay updated with all things recruitment.
     </div>),
   },
   {
     heading: 'Infosessions',
-    date: 'Oct 13 & Oct 15 8 – 9:30 PM PST',
+    date: 'Oct 5th and Oct 6 (7 - 8 PM PST)',
     body: (<div>
-      Learn more about our club and our projects during our infosessions! During this time, we will
-      be presenting about what you can expect when you join Blueprint and ask any questions you may
-      have.
+      Learn more about our club and our projects during our infosessions! We will be talking about what you can expect when you join Blueprint and answer any questions you may have.
     </div>),
   },
   {
     heading: 'Applications Due',
-    date: 'Oct 16 11:59 PM PST',
+    date: 'Oct 8 (11:59 PM PST)',
     body: (<div>
-      The application includes <b>2 short questions</b> to help us understand your background and
-      your reasons for joining Blueprint. The deadline to turn in applications is <b>Oct 16 11:59
-      PM PST.</b> Decisions will be released on <b>Oct 18 by 11:59 PM PST.</b>
+      The application includes <b>2 short questions</b> to help us understand your background and your motivations for joining Blueprint. The deadline to turn in applications is <b>Oct 8 11:59 PM PST</b>. Decisions will be released on <b>Oct 10 by 11:59 PM PST</b>.
     </div>),
   },
   {
     heading: 'Interviews',
-    date: 'Oct 20 - 23',
+    date: 'Oct 11 - 15',
     body: (<div>
-      An interview to learn more about your background and your experiences. This will be an
-      opportunity to <b>show what you've done in the past and your ability to problem solve.
-      </b> Invited candidates will be emailed to sign up for an interview slot.
+     An interview to learn more about your background and your experiences. This will be an opportunity to <b>show your passion for social good and ability to problem solve</b>. Invited candidates will be emailed to sign up for an interview slot.
     </div>),
   },
   {
     heading: 'Chat with us',
-    date: 'Oct 27 - 30',
+    date: 'Oct 18 - 21',
     body: (<div>
-      Let's chat! <b>We will send out invites on Oct 25 to schedule a time to chat.</b> This will
-      be a casual conversation between you and some of our members. We want to learn more about you
-      and answer any more questions you may have!
+      Let’s chat! We will send out invites on Oct 17 to schedule a time to talk. At Blueprint, we want to know what inspires you most, allow you to meet our team, and answer any questions you may have!
     </div>),
   },
 ];
