@@ -160,8 +160,8 @@ const members = [
   {
     image: CarolineDebBaruah,
     name: 'Caroline DebBaruah ',
-    position: 'Designer',
-    linkedInURL: '',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/caroline-debbaruah/',
   },
   {
     image: ChristinePark,
@@ -202,7 +202,7 @@ const members = [
   {
     image: IsaacWen,
     name: 'Isaac Wen ',
-    position: '',
+    position: 'Designer',
     linkedInURL: 'https://www.linkedin.com/in/isaac-wen/',
   },
   {
@@ -275,7 +275,7 @@ const members = [
     image: RyanKim,
     name: 'Ryan Kim ',
     position: 'Developer',
-    linkedInURL: '',
+    linkedInURL: 'https://www.linkedin.com/in/ryan-kim-466b871aa/',
   },
   {
     image: RyanYeo,
