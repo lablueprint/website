@@ -22,6 +22,31 @@ import JiaminXu from '../assets/images/team/jiamin_xu.png';
 import KendrakeTsui from '../assets/images/team/kendrake_tsui.png';
 import RaphaelGatchalian from '../assets/images/team/raphael_gatchalian.png';
 import SolaineZhao from '../assets/images/team/solaine_zhao.png';
+import AaronShi from '../assets/images/team/aaron_shi.png';
+import AvnishSengupta from '../assets/images/team/anvish_sengupta.png';
+import AyePyae from '../assets/images/team/aye_pyae.png';
+import CarolineDebBaruah from '../assets/images/team/caroline_debBaruah.png';
+import ChristinePark from '../assets/images/team/christine_park.png';
+import DanLee from '../assets/images/team/dan_lee.png';
+import DerekWang from '../assets/images/team/derek_wang.png';
+import GalenHeuer from '../assets/images/team/galen_heuer.png';
+import GenevieveChin from '../assets/images/team/genevieve_chin.png';
+import GraceMa from '../assets/images/team/grace_ma.png';
+import IsaacWen from '../assets/images/team/isaac_wen.png';
+import JamesHe from '../assets/images/team/james_he.png';
+import JeffLu from '../assets/images/team/jeff_lu.png';
+import JerryXu from '../assets/images/team/jerry_xu.png';
+import KayleeTran from '../assets/images/team/kaylee_tran.png';
+import LauraLu from '../assets/images/team/laura_lu.png';
+import MichelleKou from '../assets/images/team/michelle_kou.png';
+import MichelleTranBui from '../assets/images/team/michelle_tran_bui.png';
+import NasserElhajjaoui from '../assets/images/team/nasser_elhajjaoui.png';
+import RaqeebChang from '../assets/images/team/raqeeb_chang.png';
+import RyanKim from '../assets/images/team/ryan_kim.png';
+import RyanYeo from '../assets/images/team/ryan_yeo.png';
+import SarahChang from '../assets/images/team/sarah_chang.png';
+import SiddharthNandy from '../assets/images/team/siddharth_nandy.png';
+import SoliaValentine from '../assets/images/team/solia_valentine.png';
 
 const members = [
   {
@@ -55,6 +80,12 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/vivianngn/',
   },
   {
+    image: ChandraSuresh,
+    name: 'Chandra Suresh',
+    position: 'Project Lead',
+    linkedInURL: 'https://www.linkedin.com/in/chandra-suresh-47b278196/',
+  },
+  {
     image: ChantalTan,
     name: 'Chantal Tan',
     position: 'Project Lead',
@@ -67,16 +98,52 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/diya-baliga-7049881ab/',
   },
   {
+    image: HelenWang,
+    name: 'Helen Wang',
+    position: 'Project Lead',
+    linkedInURL: 'https://www.linkedin.com/in/helenwangj/',
+  },
+  {
     image: MichaelShi,
     name: 'Michael Shi',
     position: 'Project Lead',
     linkedInURL: 'https://www.linkedin.com/in/michaelbshi/',
   },
   {
+    image: MichelleKou,
+    name: 'Michelle Kou ',
+    position: 'Project Lead',
+    linkedInURL: 'https://www.linkedin.com/in/michelle-kou-850a651b9/',
+  },
+  {
     image: VivianWong,
     name: 'Vivian Wong',
     position: 'Project Lead',
     linkedInURL: 'https://www.linkedin.com/in/vivian-wong-b03189189/',
+  },
+  {
+    image: AaronShi,
+    name: 'Aaron Shi',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/aaronshi53/',
+  },
+  {
+    image: AnanWang,
+    name: 'Anan Wang',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/menganwang/',
+  },
+  {
+    image: AvnishSengupta,
+    name: 'Avnish Sengupta',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/avnish-sengupta/',
+  },
+  {
+    image: AyePyae,
+    name: 'Aye Pyae ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/apyae/',
   },
   {
     image: BiancaVillamor,
@@ -91,22 +158,70 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/bill-liu-profile/',
   },
   {
-    image: HelenWang,
-    name: 'Helen Wang',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/helenwangj/',
+    image: CarolineDebBaruah,
+    name: 'Caroline DebBaruah ',
+    position: 'Designer',
+    linkedInURL: '',
   },
   {
-    image: AnanWang,
-    name: 'Anan Wang',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/menganwang/',
+    image: ChristinePark,
+    name: 'Christine Park ',
+    position: 'Designer',
+    linkedInURL: '',
   },
   {
-    image: ChandraSuresh,
-    name: 'Chandra Suresh',
+    image: DanLee,
+    name: 'Dan Lee ',
     position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/chandra-suresh-47b278196/',
+    linkedInURL: 'https://www.linkedin.com/in/danxlee/',
+  },
+  {
+    image: DerekWang,
+    name: 'Derek Wang ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/derekwang99/',
+  },
+  {
+    image: GalenHeuer,
+    name: 'Galen Heuer ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/galenheuer/',
+  },
+  {
+    image: GenevieveChin,
+    name: 'Genevieve Chin ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/genevieve-chin ',
+  },
+  {
+    image: GraceMa,
+    name: 'Grace Ma ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/gracelma/',
+  },
+  {
+    image: IsaacWen,
+    name: 'Isaac Wen ',
+    position: '',
+    linkedInURL: 'https://www.linkedin.com/in/isaac-wen/',
+  },
+  {
+    image: JamesHe,
+    name: 'James He ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/he-is-james/',
+  },
+  {
+    image: JeffLu,
+    name: 'Jeff Lu ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/jeffreylukr/',
+  },
+  {
+    image: JerryXu,
+    name: 'Jerry Xu ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/chujun-jerry-xu/',
   },
   {
     image: JiaminXu,
@@ -115,16 +230,76 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/jiamin-xu-9046b7196/',
   },
   {
+    image: KayleeTran,
+    name: 'Kaylee Tran ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/kayleemtran',
+  },
+  {
     image: KendrakeTsui,
     name: 'Kendrake Tsui',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/kendraketsui/',
   },
   {
+    image: LauraLu,
+    name: 'Laura Lu ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/lauralu201/',
+  },
+  {
+    image: MichelleTranBui,
+    name: 'Michelle Tran Bui ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/michelletranbui/',
+  },
+  {
+    image: NasserElhajjaoui,
+    name: 'Nasser Elhajjaoui ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/nasser-elhajjaoui-9a00a0213/',
+  },
+  {
     image: RaphaelGatchalian,
     name: 'Raphael Gatchalian',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/raphaelg09/',
+  },
+  {
+    image: RaqeebChang,
+    name: 'Raqeeb Chang ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/raqeeb-chang-abb2061b9/',
+  },
+  {
+    image: RyanKim,
+    name: 'Ryan Kim ',
+    position: 'Developer',
+    linkedInURL: '',
+  },
+  {
+    image: RyanYeo,
+    name: 'Ryan Yeo ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/ryan-yeo-ab5010217/',
+  },
+  {
+    image: SarahChang,
+    name: 'Sarah Chang ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/sarah-chang-240795199/',
+  },
+  {
+    image: SiddharthNandy,
+    name: 'Siddharth Nandy ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/siddnandy/',
+  },
+  {
+    image: SoliaValentine,
+    name: 'Solia Valentine ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/solia-valentine-4961a9228/',
   },
   {
     image: SolaineZhao,
