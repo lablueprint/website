@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d6edf52dcc1f53b6f5475c4567ed806",
+    "revision": "b4d8b1402af771d54c71a51ab087f675",
     "url": "/index.html"
   },
   {
-    "revision": "8a34a019cf5ac864a233",
+    "revision": "2160039a7792102c1f29",
     "url": "/static/css/2.fa6c921b.chunk.css"
   },
   {
-    "revision": "3020b02faa2bc5a7698f",
-    "url": "/static/css/main.3c7b5fa1.chunk.css"
+    "revision": "08418f36eada43c56c0a",
+    "url": "/static/css/main.a4761a4b.chunk.css"
   },
   {
-    "revision": "8a34a019cf5ac864a233",
-    "url": "/static/js/2.9819acca.chunk.js"
+    "revision": "2160039a7792102c1f29",
+    "url": "/static/js/2.22636688.chunk.js"
   },
   {
     "revision": "570a6c509886458ea0b3883ac48f98fb",
-    "url": "/static/js/2.9819acca.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.22636688.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3020b02faa2bc5a7698f",
-    "url": "/static/js/main.d90e80d5.chunk.js"
+    "revision": "08418f36eada43c56c0a",
+    "url": "/static/js/main.d4641120.chunk.js"
   },
   {
     "revision": "ba126735810163618457",
@@ -44,12 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/NunitoSans-400.1321ef46.eot"
   },
   {
-    "revision": "49ffe17ecbcd39ee72e4646616db3d80",
-    "url": "/static/media/NunitoSans-400.49ffe17e.ttf"
+    "revision": "1f005fadccfe58a4ea544e6ef5715827",
+    "url": "/static/media/NunitoSans-400.1f005fad.svg"
   },
   {
-    "revision": "59c1b87f1eac29e3e490fbb39f368e0f",
-    "url": "/static/media/NunitoSans-400.59c1b87f.svg"
+    "revision": "49ffe17ecbcd39ee72e4646616db3d80",
+    "url": "/static/media/NunitoSans-400.49ffe17e.ttf"
   },
   {
     "revision": "8ace450709844437a579d4f4c7c37b42",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9c6a1ff29aaba0c21496eac04be062df",
     "url": "/static/media/NunitoSans-400.9c6a1ff2.woff2"
+  },
+  {
+    "revision": "1c9f75fe1b3e93c26e78c8949591eac3",
+    "url": "/static/media/NunitoSans-600.1c9f75fe.svg"
   },
   {
     "revision": "5a71131c00b436beb97dd2c570768f05",
@@ -72,20 +76,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/NunitoSans-600.c3d733f9.ttf"
   },
   {
-    "revision": "d6b9e54092636851d74edc2c892382e0",
-    "url": "/static/media/NunitoSans-600.d6b9e540.svg"
-  },
-  {
     "revision": "dfce475225a9c7c34d0ef7e15bada97c",
     "url": "/static/media/NunitoSans-600.dfce4752.eot"
   },
   {
-    "revision": "1aa5d63eca4940fbbb5181895e9bc008",
-    "url": "/static/media/NunitoSans-700.1aa5d63e.woff"
+    "revision": "146dd4ceb63f8a0628e385ab8f5008b9",
+    "url": "/static/media/NunitoSans-700.146dd4ce.svg"
   },
   {
-    "revision": "1ca1c743e167b1b702801c64febda0a7",
-    "url": "/static/media/NunitoSans-700.1ca1c743.svg"
+    "revision": "1aa5d63eca4940fbbb5181895e9bc008",
+    "url": "/static/media/NunitoSans-700.1aa5d63e.woff"
   },
   {
     "revision": "39273678b9c1075df2e148a6ba31e42f",
@@ -120,8 +120,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Poppins-400.6eb27505.ttf"
   },
   {
-    "revision": "a2ed588ba986f48bab85d75d51fd80fb",
-    "url": "/static/media/Poppins-400.a2ed588b.svg"
+    "revision": "74955fcba4d3cb051de366faff68660b",
+    "url": "/static/media/Poppins-400.74955fcb.svg"
   },
   {
     "revision": "0fef99131e912538adde521430338e0d",
@@ -136,24 +136,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Poppins-500.84780596.woff2"
   },
   {
-    "revision": "acb3d87c4057a509e16256ee6adac348",
-    "url": "/static/media/Poppins-500.acb3d87c.svg"
-  },
-  {
     "revision": "cb0ab582f002a81c36124125778cb15f",
     "url": "/static/media/Poppins-500.cb0ab582.woff"
+  },
+  {
+    "revision": "fee799c6a584b48124b4e9fe82521a31",
+    "url": "/static/media/Poppins-500.fee799c6.svg"
   },
   {
     "revision": "20cfc5c81c67573c98375b695e6a45c7",
     "url": "/static/media/Poppins-600.20cfc5c8.ttf"
   },
   {
-    "revision": "aa4405ed937295296cf8510f437628e0",
-    "url": "/static/media/Poppins-600.aa4405ed.woff2"
+    "revision": "437844ee60c122bea4bea58e74389280",
+    "url": "/static/media/Poppins-600.437844ee.svg"
   },
   {
-    "revision": "c2b154f61de0c3278da5cfb2a3440371",
-    "url": "/static/media/Poppins-600.c2b154f6.svg"
+    "revision": "aa4405ed937295296cf8510f437628e0",
+    "url": "/static/media/Poppins-600.aa4405ed.woff2"
   },
   {
     "revision": "cf8e52f3dbc3bdaf571623e67df160a7",
@@ -176,20 +176,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Poppins-700.a0f595e0.eot"
   },
   {
-    "revision": "b36aa291a196158c551f6fc353f39634",
-    "url": "/static/media/Poppins-700.b36aa291.svg"
-  },
-  {
     "revision": "f4f17fd53c7d040e56f91a3ecb692b22",
     "url": "/static/media/Poppins-700.f4f17fd5.woff2"
+  },
+  {
+    "revision": "f6bc01e16fbc5487d4a60387d3ac7726",
+    "url": "/static/media/Poppins-700.f6bc01e1.svg"
   },
   {
     "revision": "13bcc6ad6f4e233c672f49ce9fe3567c",
     "url": "/static/media/Poppins-italic.13bcc6ad.ttf"
   },
   {
-    "revision": "1ec56713239a711a13eb9bb6382fa0ed",
-    "url": "/static/media/Poppins-italic.1ec56713.svg"
+    "revision": "512d267197892d9204a359067b981709",
+    "url": "/static/media/Poppins-italic.512d2671.svg"
   },
   {
     "revision": "91c207dd2e4d2972af11fa6c73165464",
@@ -204,32 +204,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Poppins-italic.c8844b25.woff2"
   },
   {
+    "revision": "291debd8926e079e38c685bf96a45da3",
+    "url": "/static/media/aaron_shi.291debd8.png"
+  },
+  {
     "revision": "1778481ae1a3650cc05a4bd74569abf3",
     "url": "/static/media/about2.1778481a.png"
   },
   {
-    "revision": "f21bdf5e7e59780153b3d80d91dc9b81",
-    "url": "/static/media/alice_chang.f21bdf5e.png"
+    "revision": "7765a3ea4b609c0ba4a51751f5b8162c",
+    "url": "/static/media/alice_chang.7765a3ea.png"
   },
   {
-    "revision": "31aa952779948c3ae03aa76a173ca0b3",
-    "url": "/static/media/amazon.31aa9527.svg"
+    "revision": "2d1d58c5a218745079ab93c5f0ec7afe",
+    "url": "/static/media/amazon.2d1d58c5.svg"
   },
   {
     "revision": "6a9d695cbbb53902bf64620c7e764bbc",
     "url": "/static/media/anan_wang.6a9d695c.png"
   },
   {
-    "revision": "e50218264a354ce37855d4f6dc8c4c46",
-    "url": "/static/media/andy_zeff.e5021826.png"
+    "revision": "7c74683594e20c0119d974e68162abcb",
+    "url": "/static/media/andy_zeff.7c746835.png"
+  },
+  {
+    "revision": "09971f7ced90faa1ac16a41fb72234ca",
+    "url": "/static/media/anvish_sengupta.09971f7c.png"
   },
   {
     "revision": "87e1741a7110839588f63bb48a59628d",
     "url": "/static/media/apple.87e1741a.svg"
   },
   {
-    "revision": "6d97bf65e98a5d66e7a75f3018284b7a",
-    "url": "/static/media/avantstay.6d97bf65.svg"
+    "revision": "67338688da18d817b4c947af5de4f1f6",
+    "url": "/static/media/avantstay.67338688.svg"
+  },
+  {
+    "revision": "1c89bb8e0e54a2a42f3f930fdef6e1f7",
+    "url": "/static/media/aye_pyae.1c89bb8e.png"
   },
   {
     "revision": "d1454672cf397e20684c38750d135986",
@@ -240,32 +252,48 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bill_liu.3b7b4115.png"
   },
   {
-    "revision": "552b4cbdc945509c49fe8fc4ee60d1e3",
-    "url": "/static/media/blizzard.552b4cbd.svg"
+    "revision": "ed1c6299f07eea0e9848ca5632061b69",
+    "url": "/static/media/blizzard.ed1c6299.svg"
   },
   {
-    "revision": "69132fb26987cd216dd1a3628c24e084",
-    "url": "/static/media/cache_cds.69132fb2.svg"
+    "revision": "98985b61ad3fc873d13873d31b7e89aa",
+    "url": "/static/media/cache_cds.98985b61.svg"
   },
   {
-    "revision": "5c72b82a512655b6fd5098ca94054fdd",
-    "url": "/static/media/celine_sung.5c72b82a.png"
+    "revision": "650b6d9de2f16334afc669d824c52a52",
+    "url": "/static/media/caroline_debBaruah.650b6d9d.png"
   },
   {
-    "revision": "c3bf47d022dbb9361c8c9a0164e92227",
-    "url": "/static/media/chandra_suresh.c3bf47d0.png"
+    "revision": "a5ce80942e5187cab67f4edebf9211c2",
+    "url": "/static/media/celine_sung.a5ce8094.png"
+  },
+  {
+    "revision": "218243aa14bc874a5c21788ce99fa507",
+    "url": "/static/media/chandra_suresh.218243aa.png"
   },
   {
     "revision": "d0f455c66f7fa3dbc3e3ed37c3e90e18",
     "url": "/static/media/chantal_tan.d0f455c6.png"
   },
   {
+    "revision": "447a269d5d5c183adf99723882d29aea",
+    "url": "/static/media/christine_park.447a269d.png"
+  },
+  {
     "revision": "efaa67312b9bde21d0f9c0eb3a9d0c77",
     "url": "/static/media/cody_do.efaa6731.png"
   },
   {
+    "revision": "5bc56f47f0f50ab95946c1293beff8bc",
+    "url": "/static/media/dan_lee.5bc56f47.png"
+  },
+  {
     "revision": "79309efa396d3d747ea04d479dc8a90a",
     "url": "/static/media/derek_chu.79309efa.png"
+  },
+  {
+    "revision": "2787038a87619bd01915d20661a4f385",
+    "url": "/static/media/derek_wang.2787038a.png"
   },
   {
     "revision": "d8f2d566a1d51edafcabaa27b4700838",
@@ -276,28 +304,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/edward_chu.60b26810.png"
   },
   {
-    "revision": "c5e1509b9f7e4f9526c685c1c5bb7401",
-    "url": "/static/media/elwyn_cruz.c5e1509b.png"
+    "revision": "dfec4408265a2002d8a9e8f00f927623",
+    "url": "/static/media/elwyn_cruz.dfec4408.png"
   },
   {
     "revision": "665dd80e557128ca83c069e756e8a687",
     "url": "/static/media/facebook.665dd80e.svg"
   },
   {
-    "revision": "9e590f36304d1a14c69eebe7540d0770",
-    "url": "/static/media/farm2people.9e590f36.md"
+    "revision": "8eca436396896f58a9ba92ac83c862e8",
+    "url": "/static/media/farm2people.8eca4363.md"
   },
   {
     "revision": "9f53dd4586b659ef917e855971fbde1d",
     "url": "/static/media/fun-shapes.9f53dd45.png"
   },
   {
-    "revision": "980319f27a143d92acca352e980a45b5",
-    "url": "/static/media/green_dot.980319f2.svg"
+    "revision": "86b024891c803f40f75d16180d1b7f3c",
+    "url": "/static/media/galen_heuer.86b02489.png"
   },
   {
-    "revision": "dc2cb1a3972f115c96c93dbd7da2ee97",
-    "url": "/static/media/harmony_project.dc2cb1a3.md"
+    "revision": "24e86d21775ab396bd76ca0e28cda2d6",
+    "url": "/static/media/genevieve_chin.24e86d21.png"
+  },
+  {
+    "revision": "ce188e1c8e68e69db3304ed25b4e5280",
+    "url": "/static/media/grace_ma.ce188e1c.png"
+  },
+  {
+    "revision": "f33d7ea719fa2fcec30ea57df03fed05",
+    "url": "/static/media/green_dot.f33d7ea7.svg"
+  },
+  {
+    "revision": "9ce205686cb9baae7be024ffe6192b5c",
+    "url": "/static/media/harmony_project.9ce20568.md"
   },
   {
     "revision": "76cc4b0d550e56e3a1ca975424091b97",
@@ -308,8 +348,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ibm.b3fc3749.svg"
   },
   {
-    "revision": "aedf6576b5a3de36551721ada0816bd5",
-    "url": "/static/media/impact_hk.aedf6576.svg"
+    "revision": "972e21a74e619aafb434110aea97f4ae",
+    "url": "/static/media/impact_hk.972e21a7.svg"
+  },
+  {
+    "revision": "1fc843e48c67dc70fb7aef1ead5d76a2",
+    "url": "/static/media/isaac_wen.1fc843e4.png"
+  },
+  {
+    "revision": "5e82391bda2fe5e29a018f14e4243540",
+    "url": "/static/media/james_he.5e82391b.png"
+  },
+  {
+    "revision": "c81d76f9b6224b6c606a954a712f32a4",
+    "url": "/static/media/jeff_lu.c81d76f9.png"
+  },
+  {
+    "revision": "4812f515d4bf8f50abba59c3b87d4e6a",
+    "url": "/static/media/jerry_xu.4812f515.png"
   },
   {
     "revision": "49b88cf335b60d155c7bdd68fc5b404a",
@@ -324,52 +380,76 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/karen_tan.8846d611.png"
   },
   {
+    "revision": "29b833cdd5badbb560b76ca412853b6b",
+    "url": "/static/media/kaylee_tran.29b833cd.png"
+  },
+  {
     "revision": "fb77db6c80fe9504e41e2779e3c2a7e7",
     "url": "/static/media/kendrake_tsui.fb77db6c.png"
   },
   {
-    "revision": "ca42a690d8e44cb0665e9fe33994e826",
-    "url": "/static/media/leo_liu.ca42a690.png"
+    "revision": "e03284cd51322f321dc06f543700216f",
+    "url": "/static/media/laura_lu.e03284cd.png"
   },
   {
-    "revision": "113d5418236bbacc56418180e58e5242",
-    "url": "/static/media/linus_lam.113d5418.png"
+    "revision": "dd7c9fb308f1de1713e9ad250fc595d7",
+    "url": "/static/media/leo_liu.dd7c9fb3.png"
   },
   {
-    "revision": "76a22523d76cfa35446d9f16c9a5631d",
-    "url": "/static/media/logo.76a22523.svg"
+    "revision": "1163a48f1d89e2597b838b29fbda2c6f",
+    "url": "/static/media/linus_lam.1163a48f.png"
   },
   {
-    "revision": "56b7b0cfb78823a1d613c5a267a39469",
-    "url": "/static/media/logo_white.56b7b0cf.svg"
+    "revision": "1ab0ee8efce8467ffc4ba098e41211b8",
+    "url": "/static/media/logo.1ab0ee8e.svg"
+  },
+  {
+    "revision": "26588e1bbb37a783dc40973847dc4af9",
+    "url": "/static/media/logo_white.26588e1b.svg"
   },
   {
     "revision": "cf579bb7c562eb207839bacb8c587f51",
     "url": "/static/media/michael_shi.cf579bb7.png"
   },
   {
+    "revision": "659889be27d4e7435eba8b63ee624dad",
+    "url": "/static/media/michelle_kou.659889be.png"
+  },
+  {
+    "revision": "81370f4c1840413f22a37fd799537752",
+    "url": "/static/media/michelle_tran_bui.81370f4c.png"
+  },
+  {
     "revision": "8307ca44b2d9e25deb301690cf146039",
     "url": "/static/media/microsoft.8307ca44.svg"
   },
   {
-    "revision": "c00bdcb6e485fc3f2a18817bfe789ad7",
-    "url": "/static/media/oracle.c00bdcb6.svg"
+    "revision": "21314886773c60e9d95518a1f6746619",
+    "url": "/static/media/nasser_elhajjaoui.21314886.png"
   },
   {
-    "revision": "9bc4092d7a3b9b322d96eda75d5bbe0e",
-    "url": "/static/media/ppg.9bc4092d.svg"
+    "revision": "7058eee903571bb91402dc0fc10ee385",
+    "url": "/static/media/oracle.7058eee9.svg"
   },
   {
-    "revision": "ccd4924f2360c1a95e362fad964fa7c2",
-    "url": "/static/media/ptv.ccd4924f.md"
+    "revision": "eb93acc3e472d881669ff58cc1d554f7",
+    "url": "/static/media/ppg.eb93acc3.svg"
   },
   {
-    "revision": "7768e07aedec40860cceeb1d1c9d3b2d",
-    "url": "/static/media/rachel_lu.7768e07a.png"
+    "revision": "abc3533f46b6818cd62863502e1d99d6",
+    "url": "/static/media/ptv.abc3533f.md"
+  },
+  {
+    "revision": "2eb82f2a8d0025df751e91df1b0f8279",
+    "url": "/static/media/rachel_lu.2eb82f2a.png"
   },
   {
     "revision": "5bc197c4efbed2db326e483ea4860b64",
     "url": "/static/media/raphael_gatchalian.5bc197c4.png"
+  },
+  {
+    "revision": "a305b57c040fbc4f24b79ce43aacde41",
+    "url": "/static/media/raqeeb_chang.a305b57c.png"
   },
   {
     "revision": "4f4c801118929d9862fb2823bce186cb",
@@ -380,16 +460,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/raymond_phan.5572e2d2.png"
   },
   {
-    "revision": "c3e1ed9e06b0aeddd746906f21d40ddf",
-    "url": "/static/media/roblox.c3e1ed9e.svg"
+    "revision": "fbf426d98c966373ff639126d0795f4d",
+    "url": "/static/media/roblox.fbf426d9.svg"
   },
   {
-    "revision": "e90fc16f05caf8719ab7cab6810da4c7",
-    "url": "/static/media/ryan_tran.e90fc16f.png"
+    "revision": "a2c4a64efb256619c542b31902f64324",
+    "url": "/static/media/ryan_kim.a2c4a64e.png"
   },
   {
-    "revision": "715ff720eba044d5cbca92f7eb9df8f3",
-    "url": "/static/media/slack.715ff720.svg"
+    "revision": "44c89b1af09f6692da554478113c091a",
+    "url": "/static/media/ryan_tran.44c89b1a.png"
+  },
+  {
+    "revision": "817aa79dd06cf0c80e02247f9c93f5c4",
+    "url": "/static/media/ryan_yeo.817aa79d.png"
+  },
+  {
+    "revision": "190214c93e90b2e9a578360584787626",
+    "url": "/static/media/sarah_chang.190214c9.png"
+  },
+  {
+    "revision": "57304e9dd02cbedf7cb0178905612c71",
+    "url": "/static/media/siddharth_nandy.57304e9d.png"
+  },
+  {
+    "revision": "b97b8a2792b4cdcb6f0c350806e3ab93",
+    "url": "/static/media/slack.b97b8a27.svg"
   },
   {
     "revision": "903b5ac190ad0666fb54b1549f301497",
@@ -400,8 +496,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/solaine_zhao.c3f6be14.png"
   },
   {
-    "revision": "e4590c1a8965385e21eac0f0bff9c585",
-    "url": "/static/media/stripe.e4590c1a.svg"
+    "revision": "0823a2520b5b323d2696e347bc91e209",
+    "url": "/static/media/solia_valentine.0823a252.png"
+  },
+  {
+    "revision": "f5060050fef81e93d0b13c439354e4b0",
+    "url": "/static/media/stripe.f5060050.svg"
   },
   {
     "revision": "149d1c30fb871a725eef2aa1d6fc24e0",
@@ -492,20 +592,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/syne-v3-latin-regular.f9309db0.ttf"
   },
   {
-    "revision": "ec8a9c73db2ea4361d78e76a2e7d0cc0",
-    "url": "/static/media/tesla.ec8a9c73.svg"
+    "revision": "ac591edaa706d70703a2db61045650e9",
+    "url": "/static/media/tesla.ac591eda.svg"
   },
   {
-    "revision": "d41d6e0e974a3a76caf4381bb130b9c4",
-    "url": "/static/media/tiffany_feng.d41d6e0e.png"
+    "revision": "0ecc610d4833a3d9d89599d70df76dcd",
+    "url": "/static/media/tiffany_feng.0ecc610d.png"
   },
   {
-    "revision": "5eda3594304c9ef135ed68376aa02169",
-    "url": "/static/media/timeline.5eda3594.svg"
+    "revision": "d1b50aa3e0ef6d6d6df5a4b7f1576b2e",
+    "url": "/static/media/timeline.d1b50aa3.svg"
   },
   {
-    "revision": "daed5da37c9d88e4459d10c962a27a72",
-    "url": "/static/media/vanessa_ta.daed5da3.png"
+    "revision": "86d046eb3ed8283ee65173711fe217c7",
+    "url": "/static/media/vanessa_ta.86d046eb.png"
   },
   {
     "revision": "c40fdb44de6f43fef55f64c4dbdc6269",
@@ -648,7 +748,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/yinyin_wen.5a40db6d.png"
   },
   {
-    "revision": "a15bfa956456cf6eba2675d7d1a896bf",
-    "url": "/static/media/yoshino_goto.a15bfa95.png"
+    "revision": "34d9080bde0e57c40059367a2e34512b",
+    "url": "/static/media/yoshino_goto.34d9080b.png"
   }
 ]);
