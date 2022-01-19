@@ -3,7 +3,7 @@ import { Button, Container } from 'react-bootstrap';
 
 import SectionContainer from '../SectionContainer';
 import SectionHeading from '../SectionHeading';
-import SectionSubtitle from '../SectionSubtitle';
+// import SectionSubtitle from '../SectionSubtitle';
 import SectionParagraph from '../SectionParagraph';
 /* eslint-disable */
 export default function NonprofitWhen() {
@@ -12,15 +12,17 @@ export default function NonprofitWhen() {
       <Container>
         <SectionHeading>When are we looking for new nonprofits?</SectionHeading>
 
-        <SectionSubtitle>
-          For Fall 2021:
-        </SectionSubtitle>
-
         <SectionParagraph>
-          We are looking for nonprofit partnerships <strong>now</strong> for the 2021-2022 school year!
+          We will be looking for nonprofit partnerships <strong>Summer 2022</strong> for the 2022-2023 school year!
           <br/>
           Interested in working with us? We'd love to hear from you.
         </SectionParagraph>
+
+        {/* <SectionParagraph>
+          We are looking for nonprofit partnerships <strong>now</strong> for the 2021-2022 school year!
+          <br/>
+          Interested in working with us? We'd love to hear from you.
+        </SectionParagraph> */}
         
         <Button size="lg" href="/contact">
           Work with us

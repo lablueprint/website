@@ -6,10 +6,10 @@ import TimelineImage from '../assets/images/students/timeline.svg';
 /* eslint-disable */
 const timeline = [
   {
-    heading: 'Applications Open',
+    heading: 'Applications Closed',
     date: 'September 20',
     body: (<div>
-      Applications are <a href="https://bit.ly/LABlueprintMemberAppFall21">open</a>! Follow our <a href="https://facebook.com/lablueprint">
+      Applications are current closed. {/* <a href="https://bit.ly/LABlueprintMemberAppFall21">open</a> !*/} Follow our <a href="https://facebook.com/lablueprint">
       Facebook</a> and <a href="https://instagram.com/lablueprint">Instagram</a> to stay updated with all things recruitment.
     </div>),
   },
@@ -24,7 +24,7 @@ const timeline = [
     heading: 'Applications Due',
     date: 'Oct 8 (11:59 PM PST)',
     body: (<div>
-      The application includes <b>2 short questions</b> to help us understand your background and your motivations for joining Blueprint. The deadline to turn in applications is <b>Oct 8 11:59 PM PST</b>. Decisions will be released on <b>Oct 10 by 11:59 PM PST</b>.
+      The application includes <b>2 short questions</b> to help us understand your background and your motivations for joining Blueprint. {/* The deadline to turn in applications is <b>Oct 8 11:59 PM PST</b>. Decisions will be released on <b>Oct 10 by 11:59 PM PST</b>. */}
     </div>),
   },
   {
@@ -38,7 +38,7 @@ const timeline = [
     heading: 'Chat with us',
     date: 'Oct 18 - 21',
     body: (<div>
-      Let’s chat! We will send out invites on Oct 17 to schedule a time to talk. At Blueprint, we want to know what inspires you most, allow you to meet our team, and answer any questions you may have!
+      Let’s chat! We will send out invites{/*  on Oct 17 */} to schedule a time to talk. At Blueprint, we want to know what inspires you most, allow you to meet our team, and answer any questions you may have!
     </div>),
   },
 ];
@@ -56,9 +56,9 @@ export default function Timeline() {
             <div className="timeline-heading">
               {timelineItem.heading}
             </div>
-            <div className="timeline-date">
+            {/* <div className="timeline-date">
               {timelineItem.date}
-            </div>
+            </div> */}
           </div>
           <div className="timeline-body">
             {timelineItem.body}

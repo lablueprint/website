@@ -13,13 +13,9 @@ import ChantalTan from '../assets/images/team/chantal_tan.png';
 import DiyaBaliga from '../assets/images/team/diya_baliga.png';
 import MichaelShi from '../assets/images/team/michael_shi.png';
 import VivianWong from '../assets/images/team/vivian_wong.png';
-import BiancaVillamor from '../assets/images/team/bianca_villamor.png';
-import BillLiu from '../assets/images/team/bill_liu.png';
 import HelenWang from '../assets/images/team/helen_wang.png';
-import AnanWang from '../assets/images/team/anan_wang.png';
 import ChandraSuresh from '../assets/images/team/chandra_suresh.png';
 import JiaminXu from '../assets/images/team/jiamin_xu.png';
-import KendrakeTsui from '../assets/images/team/kendrake_tsui.png';
 import RaphaelGatchalian from '../assets/images/team/raphael_gatchalian.png';
 import SolaineZhao from '../assets/images/team/solaine_zhao.png';
 import AaronShi from '../assets/images/team/aaron_shi.png';
@@ -37,6 +33,7 @@ import JamesHe from '../assets/images/team/james_he.png';
 import JeffLu from '../assets/images/team/jeff_lu.png';
 import JerryXu from '../assets/images/team/jerry_xu.png';
 import KayleeTran from '../assets/images/team/kaylee_tran.png';
+import KevinAntony from '../assets/images/team/kevin_antony.png';
 import LauraLu from '../assets/images/team/laura_lu.png';
 import MichelleKou from '../assets/images/team/michelle_kou.png';
 import MichelleTranBui from '../assets/images/team/michelle_tran_bui.png';
@@ -128,12 +125,6 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/aaronshi53/',
   },
   {
-    image: AnanWang,
-    name: 'Anan Wang',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/menganwang/',
-  },
-  {
     image: AvnishSengupta,
     name: 'Avnish Sengupta',
     position: 'Developer',
@@ -146,18 +137,6 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/apyae/',
   },
   {
-    image: BiancaVillamor,
-    name: 'Bianca Villamor',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/biancavillamor/',
-  },
-  {
-    image: BillLiu,
-    name: 'Bill Liu',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/bill-liu-profile/',
-  },
-  {
     image: CarolineDebBaruah,
     name: 'Caroline DebBaruah ',
     position: 'Developer',
@@ -167,7 +146,7 @@ const members = [
     image: ChristinePark,
     name: 'Christine Park ',
     position: 'Designer',
-    linkedInURL: '',
+    linkedInURL: 'https://www.linkedin.com/in/cpark222/',
   },
   {
     image: DanLee,
@@ -236,10 +215,10 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/kayleemtran',
   },
   {
-    image: KendrakeTsui,
-    name: 'Kendrake Tsui',
+    image: KevinAntony,
+    name: 'Kevin Antony',
     position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/kendraketsui/',
+    linkedInURL: 'https://www.linkedin.com/in/kevantony/',
   },
   {
     image: LauraLu,
@@ -260,12 +239,6 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/nasser-elhajjaoui-9a00a0213/',
   },
   {
-    image: RaphaelGatchalian,
-    name: 'Raphael Gatchalian',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/raphaelg09/',
-  },
-  {
     image: RaqeebChang,
     name: 'Raqeeb Chang ',
     position: 'Designer',
@@ -275,7 +248,7 @@ const members = [
     image: RyanKim,
     name: 'Ryan Kim ',
     position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/ryan-kim-466b871aa/',
+    linkedInURL: 'www.linkedin.com/in/ryan-sw-kim',
   },
   {
     image: RyanYeo,

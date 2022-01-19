@@ -4,6 +4,11 @@ import Fade from 'react-reveal/Fade';
 
 import MemberProfile from './MemberProfile';
 
+import AnanWang from '../assets/images/alumni/anan_wang.png';
+import BiancaVillamor from '../assets/images/alumni/bianca_villamor.png';
+import BillLiu from '../assets/images/alumni/bill_liu.png';
+import KendrakeTsui from '../assets/images/alumni/kendrake_tsui.png';
+import RaphaelGatchalian from '../assets/images/alumni/raphael_gatchalian.png';
 import AliceChang from '../assets/images/alumni/alice_chang.png';
 import AndyZeff from '../assets/images/alumni/andy_zeff.png';
 import ElwynCruz from '../assets/images/alumni/elwyn_cruz.png';
@@ -24,6 +29,12 @@ import LeoLiu from '../assets/images/alumni/leo_liu.png';
 
 const members = [
   {
+    image: AnanWang,
+    name: 'Anan Wang',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/menganwang/',
+  },
+  {
     image: AliceChang,
     name: 'Alice Chang',
     position: 'Designer',
@@ -36,10 +47,34 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/andy-zeff-25b54651/',
   },
   {
+    image: BiancaVillamor,
+    name: 'Bianca Villamor',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/biancavillamor/',
+  },
+  {
+    image: BillLiu,
+    name: 'Bill Liu',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/bill-liu-profile/',
+  },
+  {
     image: ElwynCruz,
     name: 'Elwyn Cruz',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/elwyn-c-143b16ba/',
+  },
+  {
+    image: KendrakeTsui,
+    name: 'Kendrake Tsui',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/kendraketsui/',
+  },
+  {
+    image: RaphaelGatchalian,
+    name: 'Raphael Gatchalian',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/raphaelg09/',
   },
   {
     image: YoshinoGoto,
