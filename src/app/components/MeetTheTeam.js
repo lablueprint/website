@@ -248,7 +248,7 @@ const members = [
     image: RyanKim,
     name: 'Ryan Kim ',
     position: 'Developer',
-    linkedInURL: 'linkedin.com/in/ryanswkim2003',
+    linkedInURL: 'www.linkedin.com/in/ryan-sw-kim',
   },
   {
     image: RyanYeo,
