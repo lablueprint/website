@@ -3,7 +3,7 @@ import Fade from 'react-reveal';
 import { Button } from 'react-bootstrap';
 
 import PageHeader from '../components/PageHeader';
-// import ApplicationProcess from '../components/ApplicationProcess';
+import ApplicationProcess from '../components/ApplicationProcess';
 import StudentFAQ from '../components/StudentFAQ';
 import MailingListButton from '../components/MailingListButton';
 
@@ -47,9 +47,9 @@ export default function StudentPage() {
         imageAlt="Zoom screenshot from an online social"
         imageClass="students-image"
       />
-      {/* <Fade>
+      <Fade>
         <ApplicationProcess />
-      </Fade> */}
+      </Fade>
       <div id="FAQ">
         <Fade>
           <StudentFAQ />

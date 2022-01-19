@@ -26,8 +26,8 @@ const timeline = [
   {
     heading: 'Nonprofit Project Proposal Application',
     body: (<div>
-      After our scoping call, we ask you to fill out this project proposal <a href="https://airtable.com/shrlUDcvtvksS5b3h">application</a> by
-      <strong> September 16</strong>. Our team is committed to answering any questions or setting up additional meetings to support you.
+      After our scoping call, we ask you to fill out this project proposal <a href="https://airtable.com/shrlUDcvtvksS5b3h">application</a>{/* by
+      <strong> September 16</strong> */}. Our team is committed to answering any questions or setting up additional meetings to support you.
     </div>),
   },
   {
