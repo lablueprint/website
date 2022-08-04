@@ -31,7 +31,7 @@ const timeline = [
   {
     heading: 'Final Interview',
     body: (<div>
-     Between <strong style={{color: "#3599fd"}}>Aug 22 - Sept 2</strong>, the final interview will be a meeting with members of our exec team and project leads. Together, we'll go into more detail on your proposed project, discuss how it can be designed to best fit your needs, and really get to know what we can do for you.
+     Between <strong style={{color: "#3599fd"}}>Aug 22nd - Sept 2nd</strong>, the final interview will be a meeting with members of our exec team and project leads. Together, we'll go into more detail on your proposed project, discuss how it can be designed to best fit your needs, and really get to know what we can do for you.
     </div>),
   },
   {
