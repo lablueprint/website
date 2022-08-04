@@ -17,11 +17,6 @@ export default function App() {
     ReactGA.pageview(location.pathname);
   });
 
-  // callback function when App is mounted
-  function onMount() {
-    ReactGA.pageview(window.location.pathname);
-  }
-
   return (
     <Router history={history}>
       {/* scrolls window to the top of the screen when changing routes */}
@@ -32,7 +27,8 @@ export default function App() {
         return null;
       }}
       />
-      <Routes onMount={onMount} />
+      {/* callback function when App is mounted */}
+      <Routes onMount={() => ReactGA.pageview(window.location.pathname)} />
     </Router>
   );
 }

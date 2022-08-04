@@ -10,10 +10,6 @@ import LogoWhite from '../assets/images/branding/logo_white.svg';
 export default function CommonNavbar({ className }) {
   const [expanded, setExpanded] = useState(false);
 
-  function toggleExpanded() {
-    setExpanded(!expanded);
-  }
-
   const navbarClass = ClassNames(
     className,
     { expanded },
@@ -43,7 +39,7 @@ export default function CommonNavbar({ className }) {
             </Link>
           </Fade>
           <Navbar.Toggle
-            onClick={toggleExpanded}
+            onClick={() => setExpanded(!expanded)}
             aria-controls="responsive-navbar-nav"
           />
           <Navbar.Collapse id="responsive-navbar-nav">

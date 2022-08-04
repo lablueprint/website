@@ -11,44 +11,36 @@ const timeline = [
   {
     heading: 'Outreach',
     body: (<div>
-      Before the start of Fall quarter (August/September), we will be conducting outreach to find our yearlong partners!
+      Before the start of our fall quarter around <strong style={{color: "#3599fd"}}>June / July</strong>, we will be conducting this outreach to find our yearlong partners! 
       <br/>
       If your nonprofit is interested in an application, free of charge, email us at <a href="mailto: team@lablueprint.org">team@lablueprint.org</a>!
     </div>),
   },
   {
-    heading: 'Scoping Call',
+    heading: 'Informational Call',
     body: (<div>
-      Our team will set up a call to learn more about your nonprofit’s technical goals.
-      We are dedicated to hearing about your organization’s current approach to driving social good and how we might help you.
+     If you'd like to learn more about us, please respond to our outreach email anytime between <strong style={{color: "#3599fd"}}>July 14th - August 16th</strong>. Our exec team will schedule a quick 30 minute informational call so we can get to know each other the better! We'll also be able to answer any questions you have about the application process and our organization.
     </div>),
   },
   {
-    heading: 'Nonprofit Project Proposal Application',
+    heading: 'Written Application',
     body: (<div>
-      After our scoping call, we ask you to fill out this project proposal <a href="https://airtable.com/shrlUDcvtvksS5b3h">application</a>{/* by
-      <strong> September 16</strong> */}. Our team is committed to answering any questions or setting up additional meetings to support you.
+       If you decide that you're interested in working with us and we agree that Blueprint has the ability to fit your needs, please submit an application <a href="https://airtable.com/shraZAR9YMmxxOJ3t">here</a> by <strong style={{color: "#3599fd"}}> August 19th</strong>. This part of our process helps us understand how Blueprint can best serve your organization. You'll have the chance to fully explain how we can help you, identify any points of need in your current operations, and expand on what you'd like us to build for you. If your proposed project sounds like something we can create, we'll be in touch for a final interview.
     </div>),
   },
   {
-    heading: 'Deliberation',
+    heading: 'Final Interview',
     body: (<div>
-      Our executive team and project leads will read through your project proposals and select the three applications we feel we can best support.
-      We may also contact each nonprofit for additional information before continuing to the next step.
+     Between <strong style={{color: "#3599fd"}}>Aug 22 - Sept 2</strong>, the final interview will be a meeting with members of our exec team and project leads. Together, we'll go into more detail on your proposed project, discuss how it can be designed to best fit your needs, and really get to know what we can do for you.
     </div>),
   },
   {
-    heading: 'Development',
-    body: (<div>
-      Our partnership has been initialized! Project development begins in October. Each nonprofit will have a team of 2 project leads, 4-6 developers,
-      and 2-3 designers dedicated to your project. Project leads will be in contact with your team regularly to ensure our application best captures your team’s vision.
-    </div>),
-  },
-  {
-    heading: 'Project handoff',
-    body: (<div>
-      After many iterations of user testing, development, and bug-amelioration, we will hand off our application to you. Our team is committed to making
-      the handoff process as seamless as possible, so we will provide your team detailed documentation and guidance on project maintenance.
+    heading: 'Decisions Released',
+    body: (<div>  
+      We’ll reach out by <strong style={{color: "#3599fd"}}> September 6th</strong> and let you know if your organization has been selected to work with Blueprint! 
+
+      If chosen, your nonprofit will have the opportunity to work with us on a project through the course of our academic year (September - June). Our project leads will decide which project they’re most passionate about and best suited for, and will work with you through September to finalize the plans for your project.
+
     </div>),
   },
 ];
@@ -79,7 +71,7 @@ export default function NonprofitTimeline() {
   return (
     <SectionContainer className="application-process">
       <Container className="application-process-container mb-5 text-center">
-        <SectionHeading className="application-process-heading">Nonprofit Collaboration</SectionHeading>
+        <SectionHeading className="application-process-heading">Nonprofit Collaboration Timeline</SectionHeading>
         <div className="timeline">
           {timelineItems}
         </div>
