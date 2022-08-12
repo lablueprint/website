@@ -46,7 +46,7 @@ updated**, which can be frustrating for a client trying to place an order.
 
 # Challenge 
 
-**How might we minimize Food Root’s manual intervention, accurately reflect inventory updates, and allow clients to easily find the produce they need?**
+*How might we minimize Food Root’s manual intervention, accurately reflect inventory updates, and allow clients to easily find the produce they need?*
 
 # Proposed Solution
 
@@ -59,14 +59,16 @@ We proposed a **mobile app that automates and streamlines the produce-ordering p
 
 [Skip to Final Solution](hyperlink to section)
 
+
 # Process
 ![Design Process](/Design_Process.png)
 
-## Research 
 
-### Survey - what are people's experiences with online grocery shopping?
+# Research 
 
-We conducted an online survey to get more insights on food shopping behavior and how potential users utilize technology to purchase groceries.
+## Competitive Analysis
+
+To gather inspiration for our design, we first performed a competitive analysis on 9 grocery / produce delivery apps, comparing their features and noting their respective strengths and weaknesses. The features we examined included saved orders, product details, and delivery date selection, just to name a few.
 
 <div class="flex-row">
 
@@ -76,163 +78,163 @@ We conducted an online survey to get more insights on food shopping behavior and
 
 </div>
 
-From **97 responses** from college students, their parents, and family members, we found that:
-- **14.8% face mild or moderate food insecurity**
-- With **54.5% of people shopping for food 3-4 times a month**, it’s important to make a website that can be easily renavigated for consistent and frequent use.
-- **22.7% have shopped online for groceries before**, so most shop in-person at stores instead of using online platforms. We must make the UI simple and clear as a result of this unfamiliarity with online grocery shopping.
-- For those who have shopped for food online, the **top websites used were: Instacart, Amazon, and Target**. We can refer to the structures and UI elements of these websites when designing our website.
+We found that:
 
-### Interviews - what do buyers expect from an online shopping experience?
+1. The marketplace where items are listed is almost always broken down into **categories** or at least **filterable**.
+2. Many apps have adopted a **subscription model** for products that a user would need **frequent shipments** of.
+3. Users typically are able to save **favorite items** or **access previous purchases** through an order history or “buy again” page.
+4. Some apps with more limited stock only allow **orders for the coming week**. If an item is only available on certain days, **changing the delivery date** prompts a **warning message**.
+5. Visually, **white space** is necessary to help **reduce clutter** and the user’s **cognitive load**, especially on screens like the marketplace that contain a great number of products.
 
-We conducted **3 individual, in-depth interviews** on students experiencing mild food security to gain insights on how they get food now and how to create a helpful and pleasant online food shopping experience with our website.
+## User Interviews
 
-![Interview Notes](/F2P_Interview_Notes.png)
+To better understand who our users were, we conducted **5 user interviews** with current clients of Food Roots. Our participants came from a range of occupations, such as **restaurant owners, chefs, cooking instructors, and community organizers**. Each 30-minute interview consisted of general questions about their current experience working with Food Roots, like:
 
-We found that: 
-- **Users prefer shopping in-person because it allows buyers to see the freshness of the food** they buy. So, we want to make sure images of produce will be visible.
-- Buyers expect an online shopping process to be:
-    - **Easy** in terms of signing up and selecting items
-    - **Fast, but also flexible** if they want to go back to decide what they want to buy
-    - **Reliable**
-    - **Allowing for price comparisons** and showing price changes
+- Why do you order with Food Roots?
+- During what days or occasions do you order produce?
+- Can you walk us through your current process of ordering with Food Roots?
 
-### Competitive Analysis -  what are the pain points of Farm2People's competitors, and how can we improve on that?
+#### Affinity Mapping
 
-We conducted **heuristics analyses on 4 competitor websites**, which included marketplaces that display produce from local farmers or imperfect produce.
+After we wrapped up our user interviews, we drew an affinity map to group our findings into categories such as delivery patterns, tech literacy, order frequency, and purpose, just to name a few. Through examining these categories, we were able to identify common themes and recurring trends, using them to extract key problems to prioritize.
+
+#### Key Takeaways
+
+From our user research, we recognized four major trends:
+
+1. Order dates don’t change that much, but the **quantity and contents** of the order **do change** occasionally.
+2. Users want to be able to **see more items** at once and to select **frequently-purchased** items easily.
+3. Users want to see which items are **available,** especially seasonal ones, and see **real-time updates.**
+4. Users choose to use Food Roots because it aligns with their **belief in supporting their community**, but they **don’t feel a connection to the local API farms** they purchase from.
 
 
-<div class="flex-row">
+# Ideation
 
-![Competitors: Open Food Network, LocalHarvest, Imperfect Foods, Food Roots](/F2P_Competitor_Thumbnails.png)
+## Initial Brainstorming
 
-![Notes on Imperfect Foods](/F2P_Competitor_Notes.png)
+After synthesizing our research insights, we proceeded to brainstorm some features that would directly address the patterns we noticed. 
 
-</div>
+1. **Subscription:** enables editable recurring orders that are delivered on the same day
+2. **List View:** allows for a broader view and quicker selection of desired items for busy users
+3. **Filter & Favorites:** identify seasonal produce, sift through sizable catalog, and access frequently purchased items
+4. **Farm Information**: include farm information in product details to reinforce community support
 
-![Competitor Analysis](/F2P_Competitor_Analysis.png)
+## User Personas
 
-### Literature Reviews -  what can previous research tell us about our users?
+Based on our user interviews, we created 2 user personas that matched our user demographic. This helped us understand our audience’s goals, needs, and pain points more thoroughly.
 
-By reading existing articles and research about online shopping platforms, particularly those that sell produce, we wanted to get a rough idea of what kinds of problems farmers and customers have on online buying & selling platforms.
-
-In online selling platforms, **farmers want...**
-- **Strong personal support**
-    - Farmers may not always be up to date with the newest technology, so they want the ability to contact staff to ask any questions they have.
-- **Flexibility to accommodate buyers in any situation**
-    - For example, if products go bad before the farmers can deliver them, they want to be able to refund the money back to the buyer.
-    - If the platform is across multiple states, a tax integration system to manage different tax codes and regulations.
-- **Integration with systems they already have**
-    - Farmers want to be able to integrate information from other systems they already have, such as accounting software like Quickbooks.
-
-On the other hand, in online selling platforms, **buyers want...**
-- **A mobile website**
-    - Another online selling platform called Barn2Door reports that 65% of their orders is completed through their mobile site. So, a mobile website, or a responsive website is crucial for buyers.
-- **Ability to shop as a guest**
-    - Buyers often see it as a huge hassle if they have to go through a long sign-up process. Alternatively, if we have to create a sign-up process, designers must think about how to make the process as seamless as possible.
-- **To save time!**
-    - One of the biggest reasons many buyers shop online is to save time. Designers have to make it easy for them to find what they're looking for.
-
-## Ideation
-
-### User Personas
-
-Based on our research and conversations with Farm2People, we created three personas for the three types of users the platform will be catered to: buyer, special buyer (non-profit) and seller.
+#### The Pragmatist
 
 ![Buyer Persona](/F2P_Buyer.png)
 
+#### The Entrepreneur
 ![Seller Persona](/F2P_Seller.png)
 
 ![Non-profit Persona](/F2P_Nonprofit.png)
 
-### User Flows
+## Working With Constraints
 
-With these users in mind, our project lead ideated the user flows for the website.
+Before we began designing, our team was informed of some important constraints we had to work around:
 
-![User Flows](/F2P_User_Flows.png)
+1. First, because of a limited number of employees, Food Roots **could only deliver on Mondays and Fridays**. As a result, there were two order deadlines ever week. This meant that it was imperative for us to **remind the user when they must order by** to have their shipments arrive on time. 
+2. Due to a tight timeline, our development team **did not have the bandwidth** to develop a **search bar**. For us, this meant that we had to come up with a **precise filtering system** to allows the user to narrow down the catalog efficiently.
 
-### Features
+## Low Fidelity Wireframes
 
-During our ideation process, we had to keep in mind the users we were designing for. After our wireframing and iterations, the users are distinguished by these features:
-
-![User Features Chart](/F2P_Features_Chart.png)
-
-# Low Fidelity Wireframes
-
-After ideating the features, we created low fidelity wireframes. Throughout this process, we made iterations based on Farm2People’s feedback and changes in vision (particularly for the marketplace and inventory manager).
-
+Keeping these constraints in mind, we began creating lo-fi wireframes to get a better sense of what some of our core features would look like. For each screen, we focused on the general layout, information hierarchy, and its potential interactions with other screens. 
 ![Lofi Screenshots](/F2P_Lofi_screenshots.png)
 
-# User Testing
-We conducted usability testing over Zoom and used Google Forms to to test if users can navigate and use the high fidelity application as intended. Out of **7 interviews**, interviewees represented these user profiles:
+##### Calendar
 
-<div class="flex-row">
+##### Marketplace
 
-![User Testing Profiles](/F2P_User_Testing_Profiles.png)
+##### Cart
 
-![User Testing](/F2P_User_Testing.gif)
+##### Subscription
 
-</div>
+## Mid-Fidelity Wireframes
 
-## Iterations 
+Once we had the foundations of our mobile app visualized, we began creating in-between screens, exploring alternate versions of layouts, and building a cohesive visual identity.
 
-Based on the user interviews, we proposed iterations for areas of confusion. We ranked the severity of the changes and discussed the level of need for each. We also considered the feasibility of the iterations tangentially to the developers' progress. 
+## Unexpected Challenges 
 
-![Iterations](/F2P_Iterations.png)
+However, after speaking with Food Roots, we were faced with an unforeseen challenge. Since produce availability is always changing, users could not order one week in advance, making repeated orders or subscriptions difficult to implement. Thus, we had to repurpose our subscription feature into a past orders page that enables users to edit and reorder previous purchases.
+
+## Usability Testing
+
+Upon making the appropriate changes, our team was able to recruit **3 participants** for usability testing. Ideally, we would’ve liked more participants, but since the app is only meant to be used by Food Root’s existing pool of customers, there was a limited number of users we could potentially recruit.
+
+Our usability test consisted of a series of tasks that tested how the user interacted with the app’s core features. These tasks included:
+
+1. Add a list of items and their specified quantities to the cart.
+2. Favorite items and switch to list view.
+3. Filtering for only seasonal produce.
+4. Editing order content and quantity from the cart.
+5. Access, edit, and reorder a previous purchase.
+
+#### Key Findings & Suggestions
+
+Overall, the app is **efficient**, easy to use, and visually appealing. It felt **familiar** to most participants, as it shared some similarities to other major shopping or grocery apps. This was done intentionally to lower the learning curve for new users. Participants also appreciated the visuals of the app, saying the it represented Food Roots and its culture well.
+
+However, there were definitely areas of improvement. Users informed us that…
+
+1. The text was a little small, making it hard for users to click on the correct buttons. 
+2. Since restaurant inventories are always changing, although they may need the same item, the quantity varies weekly by what is still available in their stock. 
+    1. To fix this, we made the **quantity flow in “Past Orders” editable**. If an item in a reorder is no longer available, a **warning message** pops up.
+3. For the quantity count of total items in the cart, the number should represent the **total pounds of items** ordered, and not a count of unique items. This is because it’s more helpful for users to know how many pounds worth of produce they’ve ordered in total.
 
 # Final Designs
 
-After 8 months of design work and 10 months of development, Farm2People’s website was ready to deploy! Here are the final designs as well as the Github repository and Figma prototype.
+After 6 months of design work and 8 months of development, Food Roots Harvest was ready to deploy! Here are the final designs as well as the Github repository and Figma prototype.
 
-## Public Pages 
+## Branding 
 
 ![Public Pages](/F2P_Public_Pages.gif)
 
-## Onboarding
+## Sign Up
+
+When users first open the app, they will be directed to the Onboarding process to make an account. Users will be prompted to add personal information necessary for the purchasing process, as well as delivery details and reading the Terms of Conditions. Once users are finished signing up, their accounts will be pending approval by Food Roots Harvest before they can start browsing the mobile app.
 
 ![Onboarding](/F2P_Onboarding.gif)
 
-## Registration
+## Calendar
 
-![Registration](/F2P_Registration.gif)
+Before the user can begin shopping, a calendar prompts the user to select a delivery date. This step is crucial as the produce offered varies according to the delivery date. Once selected, the app generates an order deadline reminder for the user.
 
 ## Marketplace
 
-Nonprofits and other buyers can purchase produce from different farms around their area
+The Marketplace is where users can browse, favorite, and purchase produce from Food Roots Harvest.
+
+Our design team implemented a few features to help smoothen the user experience, such as:
+
+- Sort & Filter: categorize and organize items in different ways.
+- List View: helps users view multiple items quickly.
+- Favorites: enables buyers to find frequently-purchased items.
 
 ![Marketplace](/F2P_Marketplace.gif)
 
-## Checkout
+## Cart
 
-Buyers can request a quote through the checkout system
+The Cart is where the buyer can see all of the produce they added to purchase, and where they can finalize checkout details.
 
-![Checkout](/F2P_Checkout.gif)
+Within the Cart, users are given multiple opportunities to review their items and respective costs before finalizing their purchase, and are able to edit item quantity, remove unwanted produce, and edit/add delivery addresses.
 
-## Orders 
+## Past Orders 
 
-Once buyers have requested a quote, they can review their orders and approve or cancel them
+In the case that customers have similar orders every week, they can quicken their purchasing process by accessing Past Orders.
+
+Here, all of the users’ past orders will be stored and customers can place the same order again, with the ability to remove items or adjust the quantity if needed.
+
+Past orders can also be ordered on a different day of the week, but customers must be wary as some items are only available for specific delivery dates.
 
 ![Orders](/F2P_Orders.gif)
 
 ## Profile
 
-![Profile](/F2P_Profile.png)
+If a user needs to change any of the personal information that was first inputted during the Onboarding process, they can do so through their Profile.
 
-## Seller's Dashboard
+Contact information, delivery addresses, and avatar images can be edited here. The avatar images were designed and created by our own team!
 
-![Seller's Dashboard](/F2P_Sellers_Dashboard.png)
-
-## Inventory Manager 
-
-Farmers can manage their inventory throughout different harvesting seasons
-
-![Inventory Manager](/F2P_Inventory_Manager1.gif)
-
-![Inventory Manager](/F2P_Inventory_Manager2.gif)
-
-![Inventory Manager](/F2P_Inventory_Manager3.gif)
-
-## Notifications
-![Notifications](/F2P_Notifications.png)
 
 # Next Steps 
 
