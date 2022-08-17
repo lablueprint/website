@@ -151,7 +151,7 @@ Keeping these constraints in mind, we began creating lo-fi wireframes to get a b
 ## Mid-Fidelity Wireframes
 
 Once we had the foundations of our mobile app visualized, we began creating in-between screens, exploring alternate versions of layouts, and building a cohesive visual identity.
-![Midfi] https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Midfi.png
+![Midfi](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Midfi.png)
 
 ## Unexpected Challenges 
 
