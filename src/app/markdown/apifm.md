@@ -29,12 +29,14 @@ APIFM is a food hub, where they coordinate orders between farmers and the local 
 | **_Designers_** | Isaac Wen, Michelle Tran Bui, Sarah Chang |
 | **_Developers_** | Aaron Shi, Grace Ma, Genevieve Chin, James He, Jeff Lu, Kaylee Tran |
 
+
 # Background
 
 Our project specifically works with the Food Roots Harvest program of APIFM, which works to connect local and sustainably grown Asian specialty foods 
 to communities and businesses in the greater LA area while supporting Asian American small farms and other farmers of color in California. Food Roots 
 Harvest is currently working with a network of 4 farms and 15+ clients, including nonprofits, restaurants, hospitals, and schools. Any revenue made 
 from these sales goes right into supporting the programs they produce to cultivate healthy API communities.
+
 
 # Problem 
 
@@ -43,6 +45,7 @@ Currently, Food Roots orders can only be placed through a spreadsheet, which can
 With a large number of orders coming in each week, the **entire** **ordering process must be monitored manually**––from updating inventory to 
 keeping track of delivery dates, **making room for** **human error**. As a result, sometimes, the **inventory changes may not be immediately 
 updated**, which can be frustrating for a client trying to place an order.
+
 
 # Challenge 
 
@@ -66,7 +69,7 @@ We proposed a **mobile app that automates and streamlines the produce-ordering p
 
 To gather inspiration for our design, we first performed a competitive analysis on 9 grocery / produce delivery apps, comparing their features and noting their respective strengths and weaknesses. The features we examined included saved orders, product details, and delivery date selection, just to name a few.
 
-![Competitors](assets/images/projects/APIFM/Competitors.png)
+![Competitors](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Competitors.png)
 
 We found that:
 
@@ -87,6 +90,8 @@ To better understand who our users were, we conducted **5 user interviews** with
 #### Affinity Mapping
 
 After we wrapped up our user interviews, we drew an affinity map to group our findings into categories such as delivery patterns, tech literacy, order frequency, and purpose, just to name a few. Through examining these categories, we were able to identify common themes and recurring trends, using them to extract key problems to prioritize.
+
+![Affinity Map](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Affinity_Map.png)
 
 #### Key Takeaways
 
@@ -115,12 +120,10 @@ Based on our user interviews, we created 2 user personas that matched our user d
 
 #### The Pragmatist
 
-![Buyer Persona](/F2P_Buyer.png)
+![Persona 1](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Persona_1.png)
 
 #### The Entrepreneur
-![Seller Persona](/F2P_Seller.png)
-
-![Non-profit Persona](/F2P_Nonprofit.png)
+![Persona 2](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Persona_2.png)
 
 ## Working With Constraints
 
@@ -132,19 +135,23 @@ Before we began designing, our team was informed of some important constraints w
 ## Low Fidelity Wireframes
 
 Keeping these constraints in mind, we began creating lo-fi wireframes to get a better sense of what some of our core features would look like. For each screen, we focused on the general layout, information hierarchy, and its potential interactions with other screens. 
-![Lofi Screenshots](/F2P_Lofi_screenshots.png)
 
 ##### Calendar
+![Lofi Calendar](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Lofi_Calendar.png)
 
 ##### Marketplace
+![Lofi Marketplace](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Lofi_Marketplace.png)
 
 ##### Cart
+![Lofi Cart](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Lofi_Cart.png)
 
 ##### Subscription
+![Lofi Subscription](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Lofi_Subscription.png)
 
 ## Mid-Fidelity Wireframes
 
 Once we had the foundations of our mobile app visualized, we began creating in-between screens, exploring alternate versions of layouts, and building a cohesive visual identity.
+![Midfi] https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Midfi.png
 
 ## Unexpected Challenges 
 
@@ -173,19 +180,18 @@ However, there were definitely areas of improvement. Users informed us that…
     1. To fix this, we made the **quantity flow in “Past Orders” editable**. If an item in a reorder is no longer available, a **warning message** pops up.
 3. For the quantity count of total items in the cart, the number should represent the **total pounds of items** ordered, and not a count of unique items. This is because it’s more helpful for users to know how many pounds worth of produce they’ve ordered in total.
 
+
 # Final Designs
 
 After 6 months of design work and 8 months of development, Food Roots Harvest was ready to deploy! Here are the final designs as well as the Github repository and Figma prototype.
 
 ## Branding 
 
-![Public Pages](/F2P_Public_Pages.gif)
+![Branding](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Branding.png)
 
 ## Sign Up
 
 When users first open the app, they will be directed to the Onboarding process to make an account. Users will be prompted to add personal information necessary for the purchasing process, as well as delivery details and reading the Terms of Conditions. Once users are finished signing up, their accounts will be pending approval by Food Roots Harvest before they can start browsing the mobile app.
-
-![Onboarding](/F2P_Onboarding.gif)
 
 ## Calendar
 
@@ -201,8 +207,6 @@ Our design team implemented a few features to help smoothen the user experience,
 - List View: helps users view multiple items quickly.
 - Favorites: enables buyers to find frequently-purchased items.
 
-![Marketplace](/F2P_Marketplace.gif)
-
 ## Cart
 
 The Cart is where the buyer can see all of the produce they added to purchase, and where they can finalize checkout details.
@@ -217,14 +221,11 @@ Here, all of the users’ past orders will be stored and customers can place the
 
 Past orders can also be ordered on a different day of the week, but customers must be wary as some items are only available for specific delivery dates.
 
-![Orders](/F2P_Orders.gif)
-
 ## Profile
 
 If a user needs to change any of the personal information that was first inputted during the Onboarding process, they can do so through their Profile.
 
 Contact information, delivery addresses, and avatar images can be edited here. The avatar images were designed and created by our own team!
-
 
 # Next Steps 
 
