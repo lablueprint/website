@@ -228,5 +228,3 @@ If a user needs to change any of the personal information that was first inputte
 Contact information, delivery addresses, and avatar images can be edited here. The avatar images were designed and created by our own team!
 
 # Next Steps 
-
-Because of the large scope of the project, we handed off a few undeveloped features for the Farm2People development team to implement. If we had more time, the designers would have tested the seller’s dashboard and onboarding as well as conducted usability testing on more farmers and nonprofits.
