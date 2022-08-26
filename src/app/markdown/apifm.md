@@ -216,21 +216,15 @@ Our design team implemented a few features to help smoothen the user experience,
 
 ## Cart
 
-The Cart is where the buyer can see all of the produce they added to purchase, and where they can finalize checkout details.
-
-Within the Cart, users are given multiple opportunities to review their items and respective costs before finalizing their purchase, and are able to edit item quantity, remove unwanted produce, and edit/add delivery addresses.
+The Cart is where the buyer can see all of the produce they added to purchase, and where they can finalize checkout details. Within the Cart, users are given multiple opportunities to review their items and respective costs before finalizing their purchase, and are able to edit item quantity, remove unwanted produce, and edit/add delivery addresses.
 
 ![Cart](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Cart_gif.gif)
 
 ## Past Orders 
 
-In the case that customers have similar orders every week, they can quicken their purchasing process by accessing Past Orders.
+In the case that customers have similar orders every week, they can quicken their purchasing process by accessing Past Orders. Here, all of the users’ past orders will be stored and customers can place the same order again, with the ability to remove items or adjust the quantity if needed. Past orders can also be ordered on a different day of the week, but customers must be wary as some items are only available for specific delivery dates.
 
 ![Past Orders](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Pastorders_gif.gif)
-
-Here, all of the users’ past orders will be stored and customers can place the same order again, with the ability to remove items or adjust the quantity if needed.
-
-Past orders can also be ordered on a different day of the week, but customers must be wary as some items are only available for specific delivery dates.
 
 ## Profile
 
