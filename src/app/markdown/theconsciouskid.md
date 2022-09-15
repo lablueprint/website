@@ -55,7 +55,7 @@ We proposed a **web app that acts as an educational hub** for parents, educators
 
 ## Competitive Analysis
 We began our research by analyzing competing products & spaces to understand what already exists in the market.
-<img src="./TCK Competitors.png">
+![Competitors](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK Competitors.png)
 For each competitor, we noted particular things we liked and disliked about each site on virtual sticky notes and tried to think about how they fit into the three features TCK wanted (a Book Search, Quiz, and Dictionary).
 <img src="./TCK comp analysis screenshot.png">
 
