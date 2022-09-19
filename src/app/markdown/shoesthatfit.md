@@ -4,12 +4,12 @@ Shoes That Fit
 
 Shoes That Fit tackles one of the most visible signs of poverty by giving kids in need new athletic shoes to attend school with dignity and joy. Since their founding in 1992, they’ve provided over 2 million pairs of brand new shoes and other necessities to children across the United States.
 
-<Button className="blue" size="md" href="https://github.com/lablueprint/farm2people-web-app">
+<Button className="blue" size="md" href="https://github.com/lablueprint/shoes-that-fit">
     Github Repository
 </Button>
 
 
-<Button className="white" size="md" href="https://www.figma.com/proto/RMj6iCOWuUG4UpfjrykCUL/Farm-2-People?node-id=3687%3A1639&scaling=scale-down-width&page-id=1384%3A2">
+<Button className="white" size="md" href="https://www.figma.com/proto/NqxmgvfwdYYGW647pM5he6/Shoes-That-Fit?page-id=1674%3A9273&node-id=1674%3A9410&viewport=-3637%2C-736%2C0.16&scaling=scale-down-width&starting-point-node-id=1674%3A9410">
     Figma Prototype
 </Button>
 
@@ -138,6 +138,7 @@ However, we were able to identify some issues with the design and usability of t
     - Making fonts bigger for user clarity
     - Enlarging button touch targets for easier usability
     - Allowing users to “refresh” the page using the navigation bar
+    - Editing Filters button to include the word "filter"
 - Adding more flexibility with the school database
     - Giving users the option to delete schools
 
@@ -149,21 +150,19 @@ However, we were able to identify some issues with the design and usability of t
 <img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Dashboard.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Recent%20Activity.png" width=50% />
 
 ## Inventory Catalog
-<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Inventory.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/inventory%20with%20filter.png" width=50% />
-
-<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Inventory%20search%20filter.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Add%20inventory%20populated.png" width=50% />
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Inventory.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/inventory%20with%20filter.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Inventory%20search%20filter2.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Add%20inventory%20populated.png" width=25% />
 
 
 ## Orders Inflow
-![Orders Inflow](
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20Summary.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20(Mark%20as%20Complete).png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20Details%20(Admin%20View).png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20Details%20(Educator%20View).png" width=25% />
 
 ## Donations Inflow
-![Donations Inflow](
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/start.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/log%20donation%2011.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/log%20donation%2018.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/log%20donation%206.png" width=25% />
 
 ## Schools
-![Schools](
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Schools%20Home.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Add%20new%20school.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Add%20new%20school-1.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Schools%20Home-1.png" width=25% />
 
 ## Educator Dashboard
-![Educator Dashboard](
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/HOME%20Order%20History.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20History.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20History-1.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20Details%20(Educator%20View).png" width=25% />
 
 
