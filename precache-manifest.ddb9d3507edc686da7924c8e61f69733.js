@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fbd1553c23ff78d36749ef7b1a3bc70c",
+    "revision": "ecae98036d9af9905aed3da9185c0052",
     "url": "/index.html"
   },
   {
-    "revision": "8b08963519af208c4663",
+    "revision": "36f6421dd3fe84719722",
     "url": "/static/css/2.80f479d8.chunk.css"
   },
   {
-    "revision": "808fa9c3213021e74bf8",
+    "revision": "79ddd3a11296204eedea",
     "url": "/static/css/main.7e4d7a7a.chunk.css"
   },
   {
-    "revision": "8b08963519af208c4663",
-    "url": "/static/js/2.7a7ad13f.chunk.js"
+    "revision": "36f6421dd3fe84719722",
+    "url": "/static/js/2.da572017.chunk.js"
   },
   {
     "revision": "570a6c509886458ea0b3883ac48f98fb",
-    "url": "/static/js/2.7a7ad13f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.da572017.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "808fa9c3213021e74bf8",
-    "url": "/static/js/main.f83bd1b7.chunk.js"
+    "revision": "79ddd3a11296204eedea",
+    "url": "/static/js/main.8c25bffc.chunk.js"
   },
   {
     "revision": "e5d4fc46478d256b5188",
@@ -228,8 +228,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/anvish_sengupta.09971f7c.png"
   },
   {
-    "revision": "666289c69305c756fef2cd45d30eaa4d",
-    "url": "/static/media/apifm.666289c6.md"
+    "revision": "b372642bbcb98e1e87ef9ecf85ee601c",
+    "url": "/static/media/apifm.b372642b.md"
+  },
+  {
+    "revision": "e877afb02b399f43c1e1e729f27fc69d",
+    "url": "/static/media/apifmgraphic.e877afb0.png"
   },
   {
     "revision": "87e1741a7110839588f63bb48a59628d",
@@ -480,6 +484,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/sarah_chang.190214c9.png"
   },
   {
+    "revision": "456892b07c37532ebf9a24dfa8457e8b",
+    "url": "/static/media/shoesthatfit.456892b0.md"
+  },
+  {
     "revision": "57304e9dd02cbedf7cb0178905612c71",
     "url": "/static/media/siddharth_nandy.57304e9d.png"
   },
@@ -488,8 +496,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/slack.715ff720.svg"
   },
   {
-    "revision": "903b5ac190ad0666fb54b1549f301497",
-    "url": "/static/media/snap.903b5ac1.svg"
+    "revision": "f8ac4af0d0590f9babb138133f90ce49",
+    "url": "/static/media/snap.f8ac4af0.svg"
   },
   {
     "revision": "0823a2520b5b323d2696e347bc91e209",
@@ -596,8 +604,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/tesla.ec8a9c73.svg"
   },
   {
-    "revision": "21a12c2826cd504cba31cfa7ab2862f5",
-    "url": "/static/media/theconsciouskid.21a12c28.md"
+    "revision": "14a8adb2a3093812babd92a169723b4c",
+    "url": "/static/media/theconsciouskid.14a8adb2.md"
   },
   {
     "revision": "0ecc610d4833a3d9d89599d70df76dcd",

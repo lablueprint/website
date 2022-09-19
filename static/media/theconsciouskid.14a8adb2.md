@@ -50,7 +50,7 @@ We proposed a **web app that acts as an educational hub** for parents, educators
 [Skip to Final Solution](hyperlink to section)
 
 # Process
-![Process](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20Process.png)
+![Process](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20Process.png?raw=true)
 
 
 # Research
@@ -58,11 +58,11 @@ We proposed a **web app that acts as an educational hub** for parents, educators
 ## Competitive Analysis
 We began our research by analyzing competing products & spaces to understand what already exists in the market.
 
-![Competitors](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20Competitors.png) 
+![Competitors](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20Competitors.png?raw=true) 
 
 For each competitor, we noted particular things we liked and disliked about each site on virtual sticky notes and tried to think about how they fit into the three features TCK wanted (a Book Search, Quiz, and Dictionary).
 
-![Competitive Analysis](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20comp%20analysis%20screenshot.png)
+![Competitive Analysis](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20comp%20analysis%20screenshot.png?raw=true)
 
 ### Key Takeaways
 
@@ -103,32 +103,32 @@ For the other research questions we couldn’t answer through user interviews, w
 We then created 3 user persona with our targeted audience groups: kids, teachers, and parents. This helped us understand and empathize with our audience and their pain points.
 
 ### Kid
-![Kid Persona](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Kid%20Persona.jpg)
+![Kid Persona](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Kid%20Persona.jpg?raw=true)
 
 ### Educator
-![Educator Persona](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Educator%20Persona.jpg)
+![Educator Persona](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Educator%20Persona.jpg?raw=true)
 
 ### Parent
-![Parent Persona](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Parent%20Persona.jpg)
+![Parent Persona](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Parent%20Persona.jpg?raw=true)
 
 ## Journey Map
 To supplement our understanding of our users, we included a user journey map of Darla’s persona. This map details the feelings, thoughts, and pain points that Darla has as a result of using the original TCK site.
 
-![Journey Map](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Journey%20Map.jpg)
+![Journey Map](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Journey%20Map.jpg?raw=true)
 
 # Ideation
 ## Information Architecture
 In order to understand what information we would be putting on the website, we created an information architecture. Here we determined what filters to include and how to prioritize them in the book search based on our user research and nonprofit calls.
 
-![Information Architecture](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Information%20Architecture.png)
+![Information Architecture](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Information%20Architecture.png?raw=true)
 
 ## Quiz Logic and Copywriting
 We also created different quiz flows to create more personalized experience within the book finder quiz, where different questions were presented to the user based on variables such as their user group or mood. Based on these questions, kids and adults can view questions written appropriately for them. 
 
 For kids, we split up the genres into “fun” and “serious” categories and   included a mood question that asks users to self-reflect on their personality. Depending on their answer, the quiz displays the serious genres, fun genres, or both for the user to choose from.
 
-![Quiz Diagram 1](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Quiz%20Diagram%20(1).png)
-![Quiz Diagram 2](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Quiz%20Diagram%20(2).png)
+![Quiz Diagram 1](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Quiz%20Diagram%20(1).png?raw=true)
+![Quiz Diagram 2](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Quiz%20Diagram%20(2).png?raw=true)
 
 
 ## Low-Fidelity Prototypes
@@ -138,43 +138,43 @@ Our first step in creating the design was sketching out rough ideas of what each
 
 ### Book Search
 <p align="center">
-<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20lofi%20book%20search.png" width=75%>
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20lofi%20book%20search.png?raw=true" width=75%>
   </p>
   
 ### Dictionary
 <p align="center">
-<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20lofi%20dictionary.png" width=50%>
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20lofi%20dictionary.png?raw=true" width=50%>
   </p>
   
 ### Book Recommendation Quiz
 <p align="center">
-<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20lofi%20quiz%202.png" width=75% />
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20lofi%20quiz%202.png?raw=true" width=75% />
   </p>
 
 # Mid-Fidelity Wireframes
 Mid-fidelity wireframes were created whilst in the middle of also creating a design system. Here are a few explorations we created during this process!
 
 ### Book Search
-![Midfi book search](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20midfi%20book%20search.png)
+![Midfi book search](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20midfi%20book%20search.png?raw=true)
 
 ### Author Page
-![Midfi author page](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20midfi%20author%20page.png)
+![Midfi author page](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20midfi%20author%20page.png?raw=true)
 
 ### Quiz Questions
-![Midfi quiz](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20midfi%20quiz.png)
+![Midfi quiz](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20midfi%20quiz.png?raw=true)
 
 ### Racial Literacy Dictionary
-![Midfi dictionary](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20midfi%20dictionary.png)
+![Midfi dictionary](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20midfi%20dictionary.png?raw=true)
 
 ### Collections
-![Midfi collections](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20midfi%20collection.png)
+![Midfi collections](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20midfi%20collection.png?raw=true)
 
 
 # Usability Testing
 We were able to get ahold of **4 participants** to test out our website prototype which consisted of 2 students, 1 parent, and 1 educator. 3 of the 4 participants have used the original site before, so they had a comparative point of reference. The average age of our participants was 36.25.
 
 <p align="center">
-<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20UT.png" width=50% >
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20UT.png?raw=true" width=50% >
     </p>
 
 After the test, we gave participants a System Usability Scoring (SUS) questionnaire, where participants answered 10 questions and averaged the scores to assess the overall usability. The prototype received a score of 77.5, which meant that it is quite usable, but that there is room for marginal improvement.
@@ -188,20 +188,20 @@ After the test, we gave participants a System Usability Scoring (SUS) questionna
 ## Design System
 When creating the branding for this website, we wanted to create fun, vibrant, and inclusive illustrations. We used inviting typography and colorful illustrations to do so!
 
-![Design System](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Design%20System%20Summary%20DW.png)
+![Design System](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Design%20System%20Summary%20DW.png?raw=true)
 
 ## Book Search
 Parents, educators, and children can start their search by browsing our carousels or using the Book Search to filter for relevant books. Users can search by keywords, authors/illustrators, and titles as well as filter by age range, race/ethnicity, religion, book format, and more. 
 
 <p align="center">
-![Book Search Filter Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20Book%20Search%20Gif.gif)
+![Book Search Filter Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20Book%20Search%20Gif.gif?raw=true)
   </p>
   
 ## Author/Illustrator Bio
 Within each book page, users can find an author or illustrator bio to further support their work.
 
 <p align="center">
-![Creator Page](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Creator%20Bio%20(Most%20Recent).png)
+![Creator Page](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Creator%20Bio%20(Most%20Recent).png?raw=true)
   </p>
 
 ## Book Finder Quiz
@@ -215,14 +215,14 @@ For a quick and fun way to discover new books, users can take our Book Finder Qu
 To browse books by relevant themes such as Martin Luther King Jr. books, books by AAPI authors, or books by Latinx authors, users can browse curated collections of books. 
 
 <p align="center">
-![Collections Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Collections%20gif.gif)
+![Collections Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Collections%20gif.gif?raw=true)
   </p>
 
 ## Racial Literacy Dictionary
 Sometimes it can be difficult to have conversations about race, so knowing key racial literacy terms can equip individuals to create awareness around racism and advocate for topics surrounding identity, race, and racism. The dictionary sorts terms by alphabetical order and links associated resources to help parents or educators teach their kids about anti-racism.
 
 <p align="center">
-![Dictionary Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20Dictionary%20Gif.gif)
+![Dictionary Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20Dictionary%20Gif.gif?raw=true)
   </p>
 
 # Next Steps

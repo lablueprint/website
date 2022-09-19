@@ -69,7 +69,7 @@ We proposed a **mobile app that automates and streamlines the produce-ordering p
 
 To gather inspiration for our design, we first performed a competitive analysis on 9 grocery / produce delivery apps, comparing their features and noting their respective strengths and weaknesses. The features we examined included saved orders, product details, and delivery date selection, just to name a few.
 
-![Competitors](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Competitors.png)
+![Competitors](/src/app/assets/images/projects/APIFM/Competitors.png)
 
 We found that:
 
@@ -91,7 +91,7 @@ To better understand who our users were, we conducted **5 user interviews** with
 
 After we wrapped up our user interviews, we drew an affinity map to group our findings into categories such as delivery patterns, tech literacy, order frequency, and purpose, just to name a few. Through examining these categories, we were able to identify common themes and recurring trends, using them to extract key problems to prioritize.
 
-![Affinity Map](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Affinity_Map.png)
+![Affinity Map](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Affinity_Map.png?raw=true)
 
 #### Key Takeaways
 
@@ -120,10 +120,10 @@ Based on our user interviews, we created 2 user personas that matched our user d
 
 #### The Pragmatist
 
-![Persona 1](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Persona_1.png)
+![Persona 1](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Persona_1.png?raw=true)
 
 #### The Entrepreneur
-![Persona 2](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Persona_2.png)
+![Persona 2](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Persona_2.png?raw=true)
 
 ## Working With Constraints
 
@@ -137,21 +137,21 @@ Before we began designing, our team was informed of some important constraints w
 Keeping these constraints in mind, we began creating lo-fi wireframes to get a better sense of what some of our core features would look like. For each screen, we focused on the general layout, information hierarchy, and its potential interactions with other screens. 
 
 ##### Calendar
-![Lofi Calendar](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Lofi_Calendar.png)
+![Lofi Calendar](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Lofi_Calendar.png?raw=true)
 
 ##### Marketplace
-![Lofi Marketplace](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Lofi_Marketplace.png)
+![Lofi Marketplace](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Lofi_Marketplace.png?raw=true)
 
 ##### Cart
-![Lofi Cart](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Lofi_Cart.png)
+![Lofi Cart](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Lofi_Cart.png?raw=true)
 
 ##### Subscription
-![Lofi Subscription](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Lofi_Subscription.png)
+![Lofi Subscription](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Lofi_Subscription.png?raw=true)
 
 ## Mid-Fidelity Wireframes
 
 Once we had the foundations of our mobile app visualized, we began creating in-between screens, exploring alternate versions of layouts, and building a cohesive visual identity.
-![Midfi](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Midfi.png)
+![Midfi](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Midfi.png?raw=true)
 
 ## Unexpected Challenges 
 
@@ -178,7 +178,7 @@ However, there were definitely areas of improvement. Users informed us that…
 1. The text was a little small, making it hard for users to click on the correct buttons. 
 2. Since restaurant inventories are always changing, although they may need the same item, the quantity varies weekly by what is still available in their stock. 
     1. To fix this, we made the **quantity flow in “Past Orders” editable**. If an item in a reorder is no longer available, a **warning message** pops up.
-    ![Warning Message](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Warning_Message.png)
+    ![Warning Message](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Warning_Message.png?raw=true)
 3. For the quantity count of total items in the cart, the number should represent the **total pounds of items** ordered, and not a count of unique items. This is because it’s more helpful for users to know how many pounds worth of produce they’ve ordered in total.
 
 
@@ -188,19 +188,19 @@ After 6 months of design work and 8 months of development, Food Roots Harvest wa
 
 ## Branding 
 
-![Branding](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Branding.png)
+![Branding](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Branding.png?raw=true)
 
 ## Sign Up
 
 When users first open the app, they will be directed to the Onboarding process to make an account. Users will be prompted to add personal information necessary for the purchasing process, as well as delivery details and reading the Terms of Conditions. Once users are finished signing up, their accounts will be pending approval by Food Roots Harvest before they can start browsing the mobile app.
 
-![Sign Up](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Signup_gif.gif)
+![Sign Up](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Signup_gif.gif?raw=true)
 
 ## Calendar
 
 Before the user can begin shopping, a calendar prompts the user to select a delivery date. This step is crucial as the produce offered varies according to the delivery date. Once selected, the app generates an order deadline reminder for the user.
 
-![Calendar](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Calendar.gif)
+![Calendar](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Calendar.gif?raw=true)
 
 ## Marketplace
 
@@ -212,22 +212,22 @@ Our design team implemented a few features to help smoothen the user experience,
 - List View: helps users view multiple items quickly.
 - Favorites: enables buyers to find frequently-purchased items.
 
-![Marketplace](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Marketplace_gif.gif)
+![Marketplace](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Marketplace_gif.gif?raw=true)
 
 ## Cart
 
 The Cart is where the buyer can see all of the produce they added to purchase, and where they can finalize checkout details. Within the Cart, users are given multiple opportunities to review their items and respective costs before finalizing their purchase, and are able to edit item quantity, remove unwanted produce, and edit/add delivery addresses.
 
-![Cart](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Cart_gif.gif)
+![Cart](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Cart_gif.gif?raw=true)
 
 ## Past Orders 
 
 In the case that customers have similar orders every week, they can quicken their purchasing process by accessing Past Orders. Here, all of the users’ past orders will be stored and customers can place the same order again, with the ability to remove items or adjust the quantity if needed. Past orders can also be ordered on a different day of the week, but customers must be wary as some items are only available for specific delivery dates.
 
-![Past Orders](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Pastorders_gif.gif)
+![Past Orders](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Pastorders_gif.gif?raw=true)
 
 ## Profile
 
 If a user needs to change any of the personal information that was first inputted during the Onboarding process, they can do so through their Profile. Contact information, delivery addresses, and avatar images can be edited here. The avatar images were designed and created by our own team!
 
-![Profile](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Profile.gif)
+![Profile](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Profile.gif?raw=true)
