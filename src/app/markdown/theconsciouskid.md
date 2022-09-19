@@ -137,15 +137,19 @@ After our first round of research and identifying preliminary requirements for e
 Our first step in creating the design was sketching out rough ideas of what each feature could look like. We basically included what information to display on each page as well as a general visual layout.
 
 ### Book Search
-![Lofi book search](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20lofi%20book%20search.png)
-
+<p align="center">
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20lofi%20book%20search.png" width=75%>
+  </p>
+  
 ### Dictionary
-![Lofi dictionary](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20lofi%20dictionary.png)
-
+<p align="center">
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20lofi%20dictionary.png" width=50%>
+  </p>
+  
 ### Book Recommendation Quiz
-![Lofi quiz 1](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20lofi%20quiz%201.png)
-![Lofi quiz 2](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20lofi%20quiz%202.png)
-
+<p align="center">
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20lofi%20quiz%202.png" width=75% />
+  </p>
 
 # Mid-Fidelity Wireframes
 Mid-fidelity wireframes were created whilst in the middle of also creating a design system. Here are a few explorations we created during this process!
@@ -187,29 +191,37 @@ When creating the branding for this website, we wanted to create fun, vibrant, a
 ## Book Search
 Parents, educators, and children can start their search by browsing our carousels or using the Book Search to filter for relevant books. Users can search by keywords, authors/illustrators, and titles as well as filter by age range, race/ethnicity, religion, book format, and more. 
 
+<p align="center">
 ![Book Search Filter Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20Book%20Search%20Gif.gif)
-
+  </p>
+  
 ## Author/Illustrator Bio
 Within each book page, users can find an author or illustrator bio to further support their work.
 
+<p align="center">
 ![Creator Page](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Creator%20Bio%20(Most%20Recent).png)
+  </p>
 
 ## Book Finder Quiz
 For a quick and fun way to discover new books, users can take our Book Finder Quiz to receive five personalized book recommendations! 
 
-![Quiz Gif 1](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/ezgif.com-gif-maker%20(1)%20(1).gif)
-![Quiz Gif 2](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/ezgif.com-gif-maker%20(4).gif)
+<p align="center">
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/ezgif.com-gif-maker%20(1)%20(1).gif" width=48% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/ezgif.com-gif-maker%20(4).gif" width=48% />
+  </p>
 
 ## Curated Collections
 To browse books by relevant themes such as Martin Luther King Jr. books, books by AAPI authors, or books by Latinx authors, users can browse curated collections of books. 
 
+<p align="center">
 ![Collections Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Collections%20gif.gif)
+  </p>
 
 ## Racial Literacy Dictionary
 Sometimes it can be difficult to have conversations about race, so knowing key racial literacy terms can equip individuals to create awareness around racism and advocate for topics surrounding identity, race, and racism. The dictionary sorts terms by alphabetical order and links associated resources to help parents or educators teach their kids about anti-racism.
 
+<p align="center">
 ![Dictionary Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20Dictionary%20Gif.gif)
-
+  </p>
 
 # Next Steps
 After months of hard work, the website is set to launch in Fall 2022! We are currently in the process of cleaning up the development and implementing a mobile-friendly version while The Conscious Kid uploads all their books into their database.
