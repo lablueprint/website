@@ -37,7 +37,7 @@ const projects = {
     title: '',
     render: () => (
       <>
-        <img src={apifmApp} width="75%" style={{objectFit: 'contain'}}></img>
+        <img src={apifmApp} width="100%" style={{objectFit: 'contain'}}></img>
       </>
     )
   },
@@ -45,7 +45,7 @@ const projects = {
     title: '',
     render: () => (
       <>
-        <img src={stfApp} width="75%" style={{objectFit: 'contain'}}></img>
+        <img src={stfApp} width="100%" style={{objectFit: 'contain'}}></img>
       </>
     )
   },
@@ -53,7 +53,7 @@ const projects = {
     title: '',
     render: () => (
       <>
-        <img src={tckApp} width="75%" style={{objectFit: 'contain'}}></img>
+        <img src={tckApp} width="100%" style={{objectFit: 'contain'}}></img>
       </>
     )
   },
