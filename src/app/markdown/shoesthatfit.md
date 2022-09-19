@@ -84,26 +84,26 @@ From our initial interviews with users, we identified several different issues a
 ![Donations Inflow Lofi](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/donationsinflow.png)
 
 ### Orders Inflow
-![Orders Inflow Lofi](
+![Orders Inflow Lofi](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/ordersinflow.png)
 
-### Dashboard & Inventory Catalog
-![Dashboard & Inventory Catalog Lofi](
+### Inventory Catalog
+![Inventory Catalog Lofi](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/dashboardandinv.png)
 
 ### Order Form & History
-![Order Form & History Lofi](
+![Order Form & History Lofi](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/orderformandhis.png)
 
 # Mid Fidelity Wireframes
 ### Donations Inflow
-![Donations Inflow Midfi](
+![Donations Inflow Midfi](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/midfidonations.png)
 
 ### Orders Inflow
-![Orders Inflow Midfi](
+![Orders Inflow Midfi](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/midfiorders.png)
 
 ### Dashboard & Inventory Catalog
-![Dashboard & Inventory Catalog MIdfi](
+![Dashboard & Inventory Catalog Midfi](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/midfisdashbaord.png)
 
 ### Order Form & History
-![Order Form & History MIdfi](
+![Order Form & History Midfi](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/midfisorderform.png)
 
 # Usability Testing
 We were able to recruit 4 participants, including 2 educators and 2 ShoesThatFit administrators, for usability testing. Our usability testing consisted of presenting the users with different tasks to complete on the prototype web application.
