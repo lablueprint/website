@@ -55,9 +55,12 @@ We proposed a **web app that acts as an educational hub** for parents, educators
 
 ## Competitive Analysis
 We began our research by analyzing competing products & spaces to understand what already exists in the market.
-<img src="./TCK Competitors.png">
+
+![Competitors](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20Competitors.png) 
+
 For each competitor, we noted particular things we liked and disliked about each site on virtual sticky notes and tried to think about how they fit into the three features TCK wanted (a Book Search, Quiz, and Dictionary).
-<img src="./TCK comp analysis screenshot.png">
+
+![Competitive Analysis](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20comp%20analysis%20screenshot.png)
 
 #### Key Takeaways
 
@@ -98,29 +101,33 @@ For the other research questions we couldn’t answer through user interviews, w
 We then created 3 user persona with our targeted audience groups: kids, teachers, and parents. This helped us understand and empathize with our audience and their pain points.
 
 ### Kid
-<img src="./Kid Persona.jpg">
+![Kid Persona](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Kid%20Persona.jpg)
 
 ### Educator
-<img src="./Educator Persona.jpg">
+![Educator Persona](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Educator%20Persona.jpg)
 
 ### Parent
-<img src="./Parent Persona.jpg">
+![Parent Persona](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Parent%20Persona.jpg)
 
 ## Journey Map
 To supplement our understanding of our users, we included a user journey map of Darla’s persona. This map details the feelings, thoughts, and pain points that Darla has as a result of using the original TCK site.
-<img src="./Journey Map.jpg">
+
+![Journey Map](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Journey%20Map.jpg)
 
 # Ideation
 ## Information Architecture
 In order to understand what information we would be putting on the website, we created an information architecture. Here we determined what filters to include and how to prioritize them in the book search based on our user research and nonprofit calls.
-<img src="./Information Architecture.png">
+
+![Information Architecture](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Information%20Architecture.png)
 
 ## Quiz Logic and Copywriting
 We also created different quiz flows to create more personalized experience within the book finder quiz, where different questions were presented to the user based on variables such as their user group or mood. Based on these questions, kids and adults can view questions written appropriately for them. 
 
 For kids, we split up the genres into “fun” and “serious” categories and   included a mood question that asks users to self-reflect on their personality. Depending on their answer, the quiz displays the serious genres, fun genres, or both for the user to choose from.
-<img src="./Quiz Diagram (1).png">
-<img src="./Quiz Diagram (2).png">
+
+![Quiz Diagram 1](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Quiz%20Diagram%20(1).png)
+![Quiz Diagram 2](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Quiz%20Diagram%20(2).png)
+
 
 ## Low-Fidelity Prototypes
 After our first round of research and identifying preliminary requirements for each feature, we had a frame of reference to start designing a method of book searching, a book finder quiz, and a racial literacy dictionary.
@@ -128,32 +135,34 @@ After our first round of research and identifying preliminary requirements for e
 Our first step in creating the design was sketching out rough ideas of what each feature could look like. We basically included what information to display on each page as well as a general visual layout.
 
 ### Book Search
-<img src="./TCK lofi book search.png">
+![Lofi book search](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20lofi%20book%20search.png)
 
 ### Dictionary
-<img src="./TCK lofi dictionary.png">
+![Lofi dictionary](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20lofi%20dictionary.png)
 
 ### Book Recommendation Quiz
-<img src="./TCK lofi quiz 1.png">
-<img src="./TCK lofi quiz 2.png">
+![Lofi quiz 1](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20lofi%20quiz%201.png)
+![Lofi quiz 2](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20lofi%20quiz%202.png)
+
 
 # Mid-Fidelity Wireframes
 Mid-fidelity wireframes were created whilst in the middle of also creating a design system. Here are a few explorations we created during this process!
 
 ### Book Search
-<img src="./TCK midfi book search.png">
+![Midfi book search](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20midfi%20book%20search.png)
 
 ### Author Page
-<img src="./TCK midfi author page.png">
+![Midfi author page](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20midfi%20author%20page.png)
 
 ### Quiz Questions
-<img src="./TCK midfi quiz.png">
+![Midfi quiz](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20midfi%20quiz.png)
 
 ### Racial Literacy Dictionary
-<img src="./TCK midfi dictionary.png">
+![Midfi dictionary](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20midfi%20dictionary.png)
 
 ### Collections
-<img src="./TCK midfi collection.png">
+![Midfi collections](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20midfi%20collection.png)
+
 
 # Usability Testing
 We were able to get ahold of **4 participants** to test out our website prototype which consisted of 2 students, 1 parent, and 1 educator. 3 of the 4 participants have used the original site before, so they had a comparative point of reference. The average age of our participants was 36.25.
