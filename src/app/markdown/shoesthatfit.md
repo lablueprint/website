@@ -146,7 +146,8 @@ However, we were able to identify some issues with the design and usability of t
 ![Branding Photos](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/branding.png)
 
 ## Dashboard
-![Dashboard)(
+![Dashboard)(https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Dashboard.png)
+!(Recent Activity)(https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Recent%20Activity.png)
 
 ## Inventory Catalog
 ![Inventory Catalog](
