@@ -21,12 +21,15 @@ import ptvMobileApp from '../assets/images/projects/PTV_Thumbnail.png';
 import f2pWebapp from '../assets/images/projects/farm2people/F2P_Thumbnail.png';
 import hpMobileApp from '../assets/images/projects/HP_Thumbnail.png';
 import tckApp from '../assets/images/projects/tckgraphic.png';
+import stfApp from '../assets/images/projects/stfgraphic.png';
+import apifmApp from '../assets/images/projects/apifmgraphic.png';
 
 import ptv from '../markdown/ptv.md';
 import harmonyProject from '../markdown/harmony_project.md';
 import farm2people from '../markdown/farm2people.md';
 import apifm from '../markdown/apifm.md';
 import tck from '../markdown/theconsciouskid.md';
+import stf from '../markdown/shoesthatfit.md';
 
 /* eslint-disable */
 const projects = {
@@ -34,7 +37,15 @@ const projects = {
     title: '',
     render: () => (
       <>
-        <img src={tckApp} width="75%" style={{objectFit: 'contain'}}></img>
+        <img src={apifmApp} width="75%" style={{objectFit: 'contain'}}></img>
+      </>
+    )
+  },
+  'stf': {
+    title: '',
+    render: () => (
+      <>
+        <img src={stfApp} width="75%" style={{objectFit: 'contain'}}></img>
       </>
     )
   },
@@ -86,6 +97,11 @@ export default function ProjectInfo({ projectName }) {
         .catch((err) => console.warn(err));
     } else if (projectName === 'tck') {
       fetch(tck)
+        .then((res) => res.text())
+        .then((text) => setProjectInfo(text))
+        .catch((err) => console.warn(err));
+    } else if (projectName === 'stf') {
+      fetch(stf)
         .then((res) => res.text())
         .then((text) => setProjectInfo(text))
         .catch((err) => console.warn(err));

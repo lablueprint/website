@@ -15,10 +15,11 @@ import farm2people from '../assets/images/projects/F2P_Thumbnail.png';
 // import apfim from '../assets/images/projects/';
 import tck from '../assets/images/projects/tckgraphic.png';
 import stf from '../assets/images/projects/stfgraphic.png';
+import apifm from '../assets/images/projects/apifmgraphic.png';
 
 const projects2021_22 = [
   {
-    image: tck,
+    image: apifm,
     title: 'Asian and Pacific Islander Forward Movement',
     desc:
       'Asian Pacific Islander Forward Movement is an organization that envisions a world where Asian and Pacific Islander communities have full access to good health through grassroots initiatives.',
@@ -34,7 +35,7 @@ const projects2021_22 = [
     image: stf,
     title: 'Shoes That Fit',
     desc: 'Shoes That Fit tackles one of the most visible signs of poverty by giving kids in need new athletic shoes to attend school with dignity and joy',
-    link: 'farm2people',
+    link: 'stf',
   },
 ];
 
