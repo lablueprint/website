@@ -173,7 +173,9 @@ Mid-fidelity wireframes were created whilst in the middle of also creating a des
 # Usability Testing
 We were able to get ahold of **4 participants** to test out our website prototype which consisted of 2 students, 1 parent, and 1 educator. 3 of the 4 participants have used the original site before, so they had a comparative point of reference. The average age of our participants was 36.25.
 
-![Testing](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20UT.png)
+<p align="center">
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20UT.png" width=50% >
+    </p>
 
 After the test, we gave participants a System Usability Scoring (SUS) questionnaire, where participants answered 10 questions and averaged the scores to assess the overall usability. The prototype received a score of 77.5, which meant that it is quite usable, but that there is room for marginal improvement.
 
