@@ -64,7 +64,7 @@ For each competitor, we noted particular things we liked and disliked about each
 
 ![Competitive Analysis](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20comp%20analysis%20screenshot.png)
 
-#### Key Takeaways
+### Key Takeaways
 
 1. Sites geared towards children are **colorful** and abundant in **interesting illustrations & shapes.**
 2. Newer sites are adopting **clickable carousels**, a more interactive way of browsing that simultaneously allows pages to contain more content.
@@ -76,7 +76,7 @@ Therefore we hope to create a colorful, yet minimalist site that allows users to
 ## User Interviews
 We conducted **8 45-minute user interviews**. Our interviewees included educators, parents, and children from a variety of backgrounds. During these sessions, perform tasks on websites with similar functionality to what we wanted to achieve while voicing out their thought processes. After conducting these sessions, we were able to identify features of these pages that we wanted to reference as well as elements that we definitely wanted to avoid in our designs.
 
-#### Key Takeaways 
+### Key Takeaways 
 **Book Search**
 
 - Users will go to the bookstore or library if they already have a book in mind.
@@ -193,7 +193,7 @@ After the test, we gave participants a System Usability Scoring (SUS) questionna
 ![Collections Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Collections%20gif.gif)
 
 ## Racial Literacy Dictionary
-[Dictionary Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20Dictionary%20Gif.gif)
+![Dictionary Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20Dictionary%20Gif.gif)
 
 # Next Steps
 After months of hard work, the website is set to launch in Fall 2022! We are currently in the process of cleaning up the development and implementing a mobile-friendly version while The Conscious Kid uploads all their books into their database.
