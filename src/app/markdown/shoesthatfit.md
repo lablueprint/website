@@ -4,12 +4,12 @@ Shoes That Fit
 
 Shoes That Fit tackles one of the most visible signs of poverty by giving kids in need new athletic shoes to attend school with dignity and joy. Since their founding in 1992, they’ve provided over 2 million pairs of brand new shoes and other necessities to children across the United States.
 
-<Button className="blue" size="md" href="https://github.com/lablueprint/farm2people-web-app">
+<Button className="blue" size="md" href="https://github.com/lablueprint/shoes-that-fit">
     Github Repository
 </Button>
 
 
-<Button className="white" size="md" href="https://www.figma.com/proto/RMj6iCOWuUG4UpfjrykCUL/Farm-2-People?node-id=3687%3A1639&scaling=scale-down-width&page-id=1384%3A2">
+<Button className="white" size="md" href="https://www.figma.com/proto/NqxmgvfwdYYGW647pM5he6/Shoes-That-Fit?page-id=1674%3A9273&node-id=1674%3A9410&viewport=-3637%2C-736%2C0.16&scaling=scale-down-width&starting-point-node-id=1674%3A9410">
     Figma Prototype
 </Button>
 
