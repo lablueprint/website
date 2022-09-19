@@ -146,12 +146,13 @@ However, we were able to identify some issues with the design and usability of t
 ![Branding Photos](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/branding.png)
 
 ## Dashboard
-![Dashboard](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Dashboard.png)
-
-![Recent Activity](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Recent%20Activity.png)
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Dashboard.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Recent%20Activity.png" width=50% />
 
 ## Inventory Catalog
-![Inventory Catalog](
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Inventory.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/inventory%20with%20filter.png" width=50% />
+
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Inventory%20search%20filter.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Add%20inventory%20populated.png" width=50% />
+
 
 ## Orders Inflow
 ![Orders Inflow](
