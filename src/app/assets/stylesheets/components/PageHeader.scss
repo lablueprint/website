@@ -65,14 +65,14 @@
 
     &.students {
       .students-image {
-        width: 55%; 
-        padding-left: 50px;
+        width: 70%; 
+        padding-left: 30px;
         object-fit: contain; 
       }    
 
       @media screen and (max-width: 768px) {
         .students-image {
-          padding: 20px 0 0 0; 
+          padding: 15px 0 0 0; 
           width: 100%; 
         }
       }
@@ -84,14 +84,14 @@
       background-position: center 20%;
 
       .about-image {
-        width: 55%; 
+        width: 65%; 
         padding-left: 50px;
         object-fit: contain; 
       }  
 
       @media screen and (max-width: 768px) {
         .about-image {
-          padding: 20px 0 0 0; 
+          padding: 15px 0 0 0; 
           width: 100%; 
         }
       }

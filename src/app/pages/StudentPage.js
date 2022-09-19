@@ -7,7 +7,7 @@ import ApplicationProcess from '../components/ApplicationProcess';
 import StudentFAQ from '../components/StudentFAQ';
 import MailingListButton from '../components/MailingListButton';
 
-import studentImage from '../assets/images/headers/students.png';
+import studentImage from '../assets/images/headers/for-students.png';
 
 import SectionSubtitle from '../components/SectionSubtitle';
 

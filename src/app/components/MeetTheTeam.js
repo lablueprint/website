@@ -94,7 +94,7 @@ const members = [
   {
     image: SarahChang,
     name: 'Sarah Chang ',
-    position: 'Designer',
+    position: 'Project Lead',
     linkedInURL: 'https://www.linkedin.com/in/sarah-chang-240795199/',
   },
   {

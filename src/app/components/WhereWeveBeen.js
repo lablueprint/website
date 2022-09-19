@@ -5,21 +5,20 @@ import Fade from 'react-reveal/Fade';
 
 import Amazon from '../assets/images/companies/amazon.svg';
 import Apple from '../assets/images/companies/apple.svg';
-import Avantstay from '../assets/images/companies/avantstay.svg';
 import Blizzard from '../assets/images/companies/blizzard.svg';
-import CacheCDS from '../assets/images/companies/cache_cds.svg';
 import Facebook from '../assets/images/companies/facebook.svg';
-import GreenDot from '../assets/images/companies/green_dot.svg';
+import Instagram from '../assets/images/companies/instagram.svg';
+import Disney from '../assets/images/companies/disney.svg';
 import IBM from '../assets/images/companies/ibm.svg';
-import ImpactHK from '../assets/images/companies/impact_hk.svg';
 import Microsoft from '../assets/images/companies/microsoft.svg';
 import Oracle from '../assets/images/companies/oracle.svg';
-import PPG from '../assets/images/companies/ppg.svg';
+import Qualcomm from '../assets/images/companies/qualcomm.svg';
 import Roblox from '../assets/images/companies/roblox.svg';
 import Slack from '../assets/images/companies/slack.svg';
 import Snap from '../assets/images/companies/snap.svg';
 import Stripe from '../assets/images/companies/stripe.svg';
 import Tesla from '../assets/images/companies/tesla.svg';
+import Zoom from '../assets/images/companies/zoom.svg';
 
 const companyData = [
   {
@@ -31,32 +30,24 @@ const companyData = [
     link: 'https://www.apple.com/',
   },
   {
-    logo: Avantstay,
-    link: 'https://avantstay.com/',
-  },
-  {
     logo: Blizzard,
     link: 'https://www.blizzard.com/',
   },
   {
-    logo: CacheCDS,
-    link: 'https://www.cachecds.com/',
+    logo: Disney,
+    link: 'https://www.disney.com/',
   },
   {
     logo: Facebook,
     link: 'https://www.facebook.com/',
   },
   {
-    logo: GreenDot,
-    link: 'https://www.greendot.com/',
+    logo: Instagram,
+    link: 'https://www.instagram.com/',
   },
   {
     logo: IBM,
     link: 'https://www.ibm.com/us-en/',
-  },
-  {
-    logo: ImpactHK,
-    link: 'https://impacthk.org/',
   },
   {
     logo: Microsoft,
@@ -67,8 +58,8 @@ const companyData = [
     link: 'https://www.oracle.com/',
   },
   {
-    logo: PPG,
-    link: 'http://corporate.ppg.com/Home.aspx',
+    logo: Qualcomm,
+    link: 'https://www.qualcomm.com/',
   },
   {
     logo: Roblox,
@@ -89,6 +80,10 @@ const companyData = [
   {
     logo: Tesla,
     link: 'https://www.tesla.com/',
+  },
+  {
+    logo: Zoom,
+    link: 'https://www.zoom.com/',
   },
 ];
 

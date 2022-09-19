@@ -9,7 +9,7 @@ import OurValues from '../components/OurValues';
 
 import SectionSubtitle from '../components/SectionSubtitle';
 
-import about from '../assets/images/headers/about2.png';
+import about from '../assets/images/headers/meet-blueprint.png';
 
 export default function AboutPage() {
   return (

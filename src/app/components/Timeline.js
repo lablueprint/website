@@ -6,39 +6,38 @@ import TimelineImage from '../assets/images/students/timeline.svg';
 /* eslint-disable */
 const timeline = [
   {
-    heading: 'Applications Closed',
-    date: 'September 20',
+    heading: 'Applications Are Currently Open!',
+    date: 'Sept 19',
     body: (<div>
-      Applications are current closed. {/* <a href="https://bit.ly/LABlueprintMemberAppFall21">open</a> !*/} Follow our <a href="https://facebook.com/lablueprint">
-      Facebook</a> and <a href="https://instagram.com/lablueprint">Instagram</a> to stay updated with all things recruitment.
+      Applications for our Fall 2022 recruitment are open! You can find a link to our application on our <a href="https://linktr.ee/lablueprint">Linktree</a> or you can fill one out <a href="https://airtable.com/shrwfhrjiKIcI2Ny5">here</a>. Fill out our recruitment interest form, and check our <a href="https://facebook.com/lablueprint">Facebook</a> and <a href="https://instagram.com/lablueprint">Instagram</a> out to be notified about everything recruitment related!
     </div>),
   },
   {
     heading: 'Infosessions',
-    date: 'Oct 5th and Oct 6 (7 - 8 PM PST)',
+    date: 'Sept 27th and Sept 28',
     body: (<div>
-      Learn more about our club and our projects during our infosessions! We will be talking about what you can expect when you join Blueprint and answer any questions you may have.
+      We will be having an in-person infosession on Tuesday, September 27th, and an online one on Wednesday, September 28th! Learn more about our club and our projects during these infosessions! We will be talking about what you can expect when you join Blueprint and answer any questions you may have.
     </div>),
   },
   {
     heading: 'Applications Due',
-    date: 'Oct 8 (11:59 PM PST)',
+    date: 'Sept 30 (11:59 PM PST)',
     body: (<div>
-      The application includes <b>2 short questions</b> to help us understand your background and your motivations for joining Blueprint. {/* The deadline to turn in applications is <b>Oct 8 11:59 PM PST</b>. Decisions will be released on <b>Oct 10 by 11:59 PM PST</b>. */}
+      Applications close on September 30th at 11:59pm! The application includes 2 short questions to help us understand your background and your motivations for joining Blueprint.
     </div>),
   },
   {
     heading: 'Interviews',
-    date: 'Oct 11 - 15',
+    date: 'Week 2',
     body: (<div>
-     An interview to learn more about your background and your experiences. This will be an opportunity to <b>show your passion for social good and ability to problem solve</b>. Invited candidates will be emailed to sign up for an interview slot.
+      We will be inviting some applicants back for an interview to learn more about your background and your experiences. This will be an opportunity to <b>show your passion for social good and ability to problem solve</b>. Invited candidates will be emailed to sign up for an interview slot. Invites will tentatively be sent out during Week 2!
     </div>),
   },
   {
     heading: 'Chat with us',
-    date: 'Oct 18 - 21',
+    date: 'Week 3',
     body: (<div>
-      Let’s chat! We will send out invites{/*  on Oct 17 */} to schedule a time to talk. At Blueprint, we want to know what inspires you most, allow you to meet our team, and answer any questions you may have!
+      After interviews, we will send out invites to schedule a time to talk. At Blueprint, we want to know what inspires you most, allow you to meet our team, and answer any questions you may have! Invites will tentatively be sent out during Week 3!
     </div>),
   },
 ];

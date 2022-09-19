@@ -57,13 +57,13 @@ export default function OurProjects() {
 
         <SectionSubtitle className="project-button">
           <Link to="/projects">
-            <Button className="raised-button outline-black">Check out our current projects</Button>
+            <Button className="raised-button outline-black">Check Out Our Work</Button>
           </Link>
         </SectionSubtitle>
 
         {/* <h3 className="subtitle-blue">
           <Link className="link" to="/projects">
-            Check out our current projects ➜
+            Check out our past projects ➜
           </Link>
         </h3> */}
         <div className="card-deck">{projectCards}</div>

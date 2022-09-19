@@ -24,9 +24,18 @@ import hpMobileApp from '../assets/images/projects/HP_Thumbnail.png';
 import ptv from '../markdown/ptv.md';
 import harmonyProject from '../markdown/harmony_project.md';
 import farm2people from '../markdown/farm2people.md';
+import apifm from '../markdown/apifm.md';
 
 /* eslint-disable */
 const projects = {
+  'apifm': {
+    title: '',
+    render: () => (
+      <>
+        <img src={ptvMobileApp} width="75%" style={{objectFit: 'contain'}}></img>
+      </>
+    )
+  },
   'ptv': {
     title: '',
     render: () => (
@@ -60,7 +69,12 @@ export default function ProjectInfo({ projectName }) {
   const [projectInfo, setProjectInfo] = useState(null);
 
   useEffect(() => {
-    if (projectName === 'ptv') {
+    if (projectName === 'apifm') {
+      fetch(apifm)
+        .then((res) => res.text())
+        .then((text) => setProjectInfo(text))
+        .catch((err) => console.warn(err));
+    } else if (projectName === 'ptv') {
       fetch(ptv)
         .then((res) => res.text())
         .then((text) => setProjectInfo(text))

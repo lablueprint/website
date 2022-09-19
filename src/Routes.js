@@ -16,6 +16,9 @@ import ProjectPage from './app/pages/ProjectPage';
 import StudentPage from './app/pages/StudentPage';
 
 const projectNames = [
+  'apifm',
+  'tck',
+  'stf',
   'ptv',
   'harmony-project',
   'farm2people',

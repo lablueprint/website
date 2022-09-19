@@ -33,7 +33,6 @@ import KarenTan from '../assets/images/team/karen_tan.png';
 import VivianNguyen from '../assets/images/team/vivian_nguyen.png';
 import MichaelShi from '../assets/images/team/michael_shi.png';
 import ChandraSuresh from '../assets/images/team/chandra_suresh.png';
-import SolaineZhao from '../assets/images/team/solaine_zhao.png';
 import DerekWang from '../assets/images/team/derek_wang.png';
 import VivianWong from '../assets/images/team/vivian_wong.png';
 import MichelleKou from '../assets/images/team/michelle_kou.png';
@@ -44,56 +43,56 @@ const members = [
   {
     image: RyanTran,
     name: 'Ryan Tran',
-    position: 'President',
+    position: 'President \'21',
     linkedInURL: 'https://www.linkedin.com/in/ryan-m-tran/',
   },
   {
     image: CodyDo,
     name: 'Cody Do',
-    position: 'Internal Vice President',
+    position: 'Advisor + Internal Vice President \'21',
     linkedInURL: 'https://www.linkedin.com/in/cody-do/',
   },
   {
     image: RayHuang,
     name: 'Ray Huang',
-    position: 'External Vice President',
+    position: 'Advisor + External Vice President \'21',
     linkedInURL: 'https://www.linkedin.com/in/ray-cj-huang/',
   },
   {
     image: KarenTan,
     name: 'Karen Tan',
-    position: 'Vice President of Technology',
+    position: 'Vice President of Technology \'21',
     linkedInURL: 'https://www.linkedin.com/in/karen-m-tan/',
   },
   {
     image: VivianNguyen,
     name: 'Vivian Nguyen',
-    position: 'Vice President of Design',
+    position: 'Advisor + Vice President of Design \'21',
     linkedInURL: 'https://www.linkedin.com/in/vivianngn/',
   },
   {
     image: ChandraSuresh,
     name: 'Chandra Suresh',
-    position: 'Project Lead',
+    position: 'Advisor + Project Lead \'21',
     linkedInURL: 'https://www.linkedin.com/in/chandra-suresh-47b278196/',
-  },
-  {
-    image: DerekWang,
-    name: 'Derek Wang',
-    position: 'Designer',
-    linkedInURL: 'https://www.linkedin.com/in/derekwang99/',
   },
   {
     image: MichaelShi,
     name: 'Michael Shi',
-    position: 'Project Lead',
+    position: 'Advisor + Project Lead \'21',
     linkedInURL: 'https://www.linkedin.com/in/michaelbshi/',
   },
   {
     image: MichelleKou,
     name: 'Michelle Kou',
-    position: 'Project Lead',
+    position: 'Project Lead \'21',
     linkedInURL: 'https://www.linkedin.com/in/michelle-kou-850a651b9/',
+  },
+  {
+    image: VivianWong,
+    name: 'Vivian Wong',
+    position: 'Project Lead \'21',
+    linkedInURL: 'https://www.linkedin.com/in/vivian-wong-b03189189/',
   },
   {
     image: MichelleTranBui,
@@ -102,22 +101,16 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/michelletranbui/',
   },
   {
+    image: DerekWang,
+    name: 'Derek Wang',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/derekwang99/',
+  },
+  {
     image: RaqeebChang,
     name: 'Raqeeb Chang',
     position: 'Designer',
     linkedInURL: 'https://www.linkedin.com/in/raqeeb-chang-abb2061b9/',
-  },
-  {
-    image: SolaineZhao,
-    name: 'Solaine Zhao',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/solaine-zhao-5aa04a1b1/',
-  },
-  {
-    image: VivianWong,
-    name: 'Vivian Wong',
-    position: 'Project Lead',
-    linkedInURL: 'https://www.linkedin.com/in/vivian-wong-b03189189/',
   },
   {
     image: AnanWang,
