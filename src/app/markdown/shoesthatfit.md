@@ -143,7 +143,7 @@ However, we were able to identify some issues with the design and usability of t
 
 # Final Solution
 ## Branding
-![Branding Photos]
+![Branding Photos](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/branding.png)
 
 ## Dashboard
 ![Dashboard)(
