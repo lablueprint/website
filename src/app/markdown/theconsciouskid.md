@@ -50,6 +50,8 @@ We proposed a **web app that acts as an educational hub** for parents, educators
 [Skip to Final Solution](hyperlink to section)
 
 # Process
+![Process](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20Process.png)
+
 
 # Research
 
@@ -167,7 +169,7 @@ Mid-fidelity wireframes were created whilst in the middle of also creating a des
 # Usability Testing
 We were able to get ahold of **4 participants** to test out our website prototype which consisted of 2 students, 1 parent, and 1 educator. 3 of the 4 participants have used the original site before, so they had a comparative point of reference. The average age of our participants was 36.25.
 
-[image]
+![Testing](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20UT.png)
 
 After the test, we gave participants a System Usability Scoring (SUS) questionnaire, where participants answered 10 questions and averaged the scores to assess the overall usability. The prototype received a score of 77.5, which meant that it is quite usable, but that there is room for marginal improvement.
 
@@ -178,21 +180,22 @@ After the test, we gave participants a System Usability Scoring (SUS) questionna
 
 # Final Designs
 ## Design System
-[image]
+![Design System](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Design%20System%20Summary%20DW.png)
 
 ## Book Search
-[gif]
+![Book Search Filter Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Filter%20V3%20(online-video-cutter.com)%20(1).gif)
 
 ## Book Finder Quiz
-[gif]
+![Quiz Gif 1](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/ezgif.com-gif-maker%20(1)%20(1).gif)
+![Quiz Gif 2](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/ezgif.com-gif-maker%20(4).gif)
 
 ## Curated Collections
-[gif]
+![Collections Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Collections%20gif.gif)
 
 ## Racial Literacy Dictionary
-[gif]
+[Dictionary Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20Dictionary%20Gif.gif)
 
 # Next Steps
-After months of hard work, the website is set to launch in September 2022! We are currently in the process of cleaning up the development and implementing a mobile-friendly version while The Conscious Kid uploads all their books into their database.
+After months of hard work, the website is set to launch in Fall 2022! We are currently in the process of cleaning up the development and implementing a mobile-friendly version while The Conscious Kid uploads all their books into their database.
 
 If we had more time, the designers would have conducted more usability tests on kids and educators as well as designed a profile feature for the users.
