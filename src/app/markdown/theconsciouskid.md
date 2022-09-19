@@ -180,20 +180,36 @@ After the test, we gave participants a System Usability Scoring (SUS) questionna
 
 # Final Designs
 ## Design System
+When creating the branding for this website, we wanted to create fun, vibrant, and inclusive illustrations. We used inviting typography and colorful illustrations to do so!
+
 ![Design System](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Design%20System%20Summary%20DW.png)
 
 ## Book Search
-![Book Search Filter Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Filter%20V3%20(online-video-cutter.com)%20(1).gif)
+Parents, educators, and children can start their search by browsing our carousels or using the Book Search to filter for relevant books. Users can search by keywords, authors/illustrators, and titles as well as filter by age range, race/ethnicity, religion, book format, and more. 
+
+![Book Search Filter Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20Book%20Search%20Gif.gif)
+
+## Author/Illustrator Bio
+Within each book page, users can find an author or illustrator bio to further support their work.
+
+![Creator Page](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Creator%20Bio%20(Most%20Recent).png)
 
 ## Book Finder Quiz
+For a quick and fun way to discover new books, users can take our Book Finder Quiz to receive five personalized book recommendations! 
+
 ![Quiz Gif 1](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/ezgif.com-gif-maker%20(1)%20(1).gif)
 ![Quiz Gif 2](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/ezgif.com-gif-maker%20(4).gif)
 
 ## Curated Collections
+To browse books by relevant themes such as Martin Luther King Jr. books, books by AAPI authors, or books by Latinx authors, users can browse curated collections of books. 
+
 ![Collections Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/Collections%20gif.gif)
 
 ## Racial Literacy Dictionary
+Sometimes it can be difficult to have conversations about race, so knowing key racial literacy terms can equip individuals to create awareness around racism and advocate for topics surrounding identity, race, and racism. The dictionary sorts terms by alphabetical order and links associated resources to help parents or educators teach their kids about anti-racism.
+
 ![Dictionary Gif](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20Dictionary%20Gif.gif)
+
 
 # Next Steps
 After months of hard work, the website is set to launch in Fall 2022! We are currently in the process of cleaning up the development and implementing a mobile-friendly version while The Conscious Kid uploads all their books into their database.
