@@ -1,5 +1,5 @@
 <div class="title">
-Asian Pacific Forward Movement
+Asian Pacific Islander Forward Movement
 </div>
 
 Asian Pacific Islander Forward Movement (APIFM) is a nonprofit local to LA that aims to empower Asian and Pacific Islander communities.  
