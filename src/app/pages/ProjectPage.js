@@ -21,14 +21,14 @@ const projects2021_22 = [
     image: tck,
     title: 'Asian and Pacific Islander Forward Movement',
     desc:
-      'Asian Pacific Islander Forward Movement is an organization that envisions a world where Asian and Pacific Islander communities have full access to good health through grassroots initiatives. One such program involves collaborating with local farmers of color to distribute produce to small corner stores in LA’s low-income neighborhoods.',
+      'Asian Pacific Islander Forward Movement is an organization that envisions a world where Asian and Pacific Islander communities have full access to good health through grassroots initiatives.',
     link: 'apifm',
   },
   {
     image: tck,
     title: 'The Conscious Kid',
     desc: 'The Conscious Kid encourages healthy racial identity development in kids ages 0-18 through research, curating representative book lists, and sharing anti-racist educational resources.',
-    link: 'harmony-project',
+    link: 'tck',
   },
   {
     image: stf,
