@@ -138,6 +138,7 @@ However, we were able to identify some issues with the design and usability of t
     - Making fonts bigger for user clarity
     - Enlarging button touch targets for easier usability
     - Allowing users to “refresh” the page using the navigation bar
+    - Editing Filters button to include the word "filter"
 - Adding more flexibility with the school database
     - Giving users the option to delete schools
 
@@ -151,7 +152,7 @@ However, we were able to identify some issues with the design and usability of t
 ## Inventory Catalog
 <img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Inventory.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/inventory%20with%20filter.png" width=50% />
 
-<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Inventory%20search%20filter.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Add%20inventory%20populated.png" width=50% />
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Inventory%20search%20filter2.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Add%20inventory%20populated.png" width=50% />
 
 
 ## Orders Inflow
@@ -161,9 +162,13 @@ However, we were able to identify some issues with the design and usability of t
 ![Donations Inflow](
 
 ## Schools
-![Schools](
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Schools%20Home.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Add%20new%20school.png" width=50% />
+
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Add%20new%20school-1.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Schools%20Home-1.png" width=50% />
 
 ## Educator Dashboard
-![Educator Dashboard](
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/HOME%20Order%20History.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20History.png" width=50% />
+
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20History-1.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20Details%20(Educator%20View).png" width=50% />
 
 
