@@ -156,10 +156,14 @@ However, we were able to identify some issues with the design and usability of t
 
 
 ## Orders Inflow
-![Orders Inflow](
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20Summary.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20(Mark%20as%20Complete).png" width=50% />
+
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20Details%20(Admin%20View).png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20Details%20(Educator%20View).png" width=50% />
 
 ## Donations Inflow
-![Donations Inflow](
+<img src="" width=50% /><img src="" width=50% />
+
+<img src="" width=50% /><img src="" width=50% />
 
 ## Schools
 <img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Schools%20Home.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Add%20new%20school.png" width=50% />
