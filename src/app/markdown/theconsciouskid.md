@@ -36,7 +36,7 @@ As their reach and social media presence has grown, they have received an increa
 
 # The Challenge
 
-*How might we create a centralized channel that allows parents, educators, and kids to easily navigate children’s book resources and recommendations?*
+***How might we create a centralized channel that allows parents, educators, and kids to easily navigate children’s book resources and recommendations?***
 
 # Solution
 
