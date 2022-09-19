@@ -150,29 +150,19 @@ However, we were able to identify some issues with the design and usability of t
 <img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Dashboard.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Recent%20Activity.png" width=50% />
 
 ## Inventory Catalog
-<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Inventory.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/inventory%20with%20filter.png" width=50% />
-
-<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Inventory%20search%20filter2.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Add%20inventory%20populated.png" width=50% />
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Inventory.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/inventory%20with%20filter.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Inventory%20search%20filter2.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Add%20inventory%20populated.png" width=25% />
 
 
 ## Orders Inflow
-<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20Summary.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20(Mark%20as%20Complete).png" width=50% />
-
-<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20Details%20(Admin%20View).png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20Details%20(Educator%20View).png" width=50% />
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20Summary.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20(Mark%20as%20Complete).png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20Details%20(Admin%20View).png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20Details%20(Educator%20View).png" width=25% />
 
 ## Donations Inflow
-<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/start.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/log%20donation%2011.png" width=50% />
-
-<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/log%20donation%2018.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/log%20donation%206.png" width=50% />
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/start.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/log%20donation%2011.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/log%20donation%2018.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/log%20donation%206.png" width=25% />
 
 ## Schools
-<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Schools%20Home.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Add%20new%20school.png" width=50% />
-
-<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Add%20new%20school-1.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Schools%20Home-1.png" width=50% />
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Schools%20Home.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Add%20new%20school.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Add%20new%20school-1.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Schools%20Home-1.png" width=25% />
 
 ## Educator Dashboard
-<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/HOME%20Order%20History.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20History.png" width=50% />
-
-<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20History-1.png" width=50% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20Details%20(Educator%20View).png" width=50% />
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/HOME%20Order%20History.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20History.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20History-1.png" width=25% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Order%20Form%20Details%20(Educator%20View).png" width=25% />
 
 
