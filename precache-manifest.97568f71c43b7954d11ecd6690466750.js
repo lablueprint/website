@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ecae98036d9af9905aed3da9185c0052",
+    "revision": "fc3ec330c3b9200971fced1852ed64ab",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.80f479d8.chunk.css"
   },
   {
-    "revision": "79ddd3a11296204eedea",
+    "revision": "fe5461d82670194c93f0",
     "url": "/static/css/main.7e4d7a7a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.da572017.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "79ddd3a11296204eedea",
-    "url": "/static/js/main.8c25bffc.chunk.js"
+    "revision": "fe5461d82670194c93f0",
+    "url": "/static/js/main.ce48f2a3.chunk.js"
   },
   {
     "revision": "e5d4fc46478d256b5188",
@@ -228,8 +228,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/anvish_sengupta.09971f7c.png"
   },
   {
-    "revision": "b372642bbcb98e1e87ef9ecf85ee601c",
-    "url": "/static/media/apifm.b372642b.md"
+    "revision": "8ec7868a077c13ba17344f0c9482992d",
+    "url": "/static/media/apifm.8ec7868a.md"
   },
   {
     "revision": "e877afb02b399f43c1e1e729f27fc69d",
@@ -604,8 +604,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/tesla.ec8a9c73.svg"
   },
   {
-    "revision": "14a8adb2a3093812babd92a169723b4c",
-    "url": "/static/media/theconsciouskid.14a8adb2.md"
+    "revision": "d078aeb03921fc2bb505b40d91bd8676",
+    "url": "/static/media/theconsciouskid.d078aeb0.md"
   },
   {
     "revision": "0ecc610d4833a3d9d89599d70df76dcd",
