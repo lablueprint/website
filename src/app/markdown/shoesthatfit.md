@@ -56,9 +56,6 @@ To gain insight into the users involved with the order process, we conducted **5
 - For Educators: Can you walk us through the process of placing an order with ShoesThatFit?
 - For Administrators: Can you walk us through the process of updating the inventory when an order or donation is received?
 
-## Affinity Mapping
-![image]
-
 ### Key Takeaways
 From our initial interviews with users, we identified several different issues and goals:
 
@@ -78,13 +75,13 @@ From our initial interviews with users, we identified several different issues a
 
 # Ideation
 ## User Flow
-![User Flow](
+![User Flow](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/Untitled.png)
 
-![Information Architecture](
+![Information Architecture](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/information%20architecture.png)
 
 # Low Fidelity Prototypes
 ### Donations Inflow
-![Donations Inflow Lofi](
+![Donations Inflow Lofi](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/shoesthatfit/donationsinflow.png)
 
 ### Orders Inflow
 ![Orders Inflow Lofi](
