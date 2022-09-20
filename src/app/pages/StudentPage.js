@@ -32,8 +32,10 @@ export default function StudentPage() {
               Check out our applications
             </Button> */}
             <SectionSubtitle className="sign-up mb-3">
-              Applications are currently closed. Sign up for our mailing list to
-              get an email when our next recruitment cycle begins!
+              Applications are currently open! Sign up for our mailing list to
+              get updates about our current recruitment cycle!
+              {/* Applications are currently open. Sign up for our mailing list to
+              get an email when our next recruitment cycle begins! */}
             </SectionSubtitle>
             <form action={MAILCHIMP_URL} method="post" className="mailing-list">
               <input className="mailing-list-input" name="EMAIL" placeholder="example@email.com" />
