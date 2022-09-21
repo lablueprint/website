@@ -203,7 +203,7 @@ Within each book page, users can find an author or illustrator bio to further su
 ## Book Finder Quiz
 For a quick and fun way to discover new books, users can take our Book Finder Quiz to receive five personalized book recommendations! 
 
-<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/ezgif.com-gif-maker%20(1)%20(1).gif" width=48% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/ezgif.com-gif-maker%20(4).gif" width=48% />
+<img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/ezgif.com-gif-maker%20(1)%20(1).gif?raw=true" width=48% /><img src="https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/ezgif.com-gif-maker%20(4).gif?raw=true" width=48% />
   </p>
 
 ## Curated Collections
