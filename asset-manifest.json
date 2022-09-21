@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.7e4d7a7a.chunk.css",
-    "main.js": "/static/js/main.b9a3c893.chunk.js",
-    "main.js.map": "/static/js/main.b9a3c893.chunk.js.map",
+    "main.js": "/static/js/main.8b18a14b.chunk.js",
+    "main.js.map": "/static/js/main.8b18a14b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f3bce04e.js",
     "runtime-main.js.map": "/static/js/runtime-main.f3bce04e.js.map",
     "static/css/2.80f479d8.chunk.css": "/static/css/2.80f479d8.chunk.css",
     "static/js/2.cbca0f07.chunk.js": "/static/js/2.cbca0f07.chunk.js",
     "static/js/2.cbca0f07.chunk.js.map": "/static/js/2.cbca0f07.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.dc4e892ae85d981c45c282a0e9069dc1.js": "/precache-manifest.dc4e892ae85d981c45c282a0e9069dc1.js",
+    "precache-manifest.c75f0e83858a0e1ab52f0fcc3a036ca4.js": "/precache-manifest.c75f0e83858a0e1ab52f0fcc3a036ca4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.80f479d8.chunk.css.map": "/static/css/2.80f479d8.chunk.css.map",
     "static/css/main.7e4d7a7a.chunk.css.map": "/static/css/main.7e4d7a7a.chunk.css.map",
@@ -97,7 +97,7 @@
     "static/media/summer_siu.png": "/static/media/summer_siu.a7bb3755.png",
     "static/media/tckgraphic.png": "/static/media/tckgraphic.656332e1.png",
     "static/media/tesla.svg": "/static/media/tesla.ec8a9c73.svg",
-    "static/media/theconsciouskid.md": "/static/media/theconsciouskid.d078aeb0.md",
+    "static/media/theconsciouskid.md": "/static/media/theconsciouskid.223befe9.md",
     "static/media/tiffany_feng.png": "/static/media/tiffany_feng.0ecc610d.png",
     "static/media/timeline.svg": "/static/media/timeline.5eda3594.svg",
     "static/media/vanessa_ta.png": "/static/media/vanessa_ta.86d046eb.png",
@@ -114,6 +114,6 @@
     "static/css/2.80f479d8.chunk.css",
     "static/js/2.cbca0f07.chunk.js",
     "static/css/main.7e4d7a7a.chunk.css",
-    "static/js/main.b9a3c893.chunk.js"
+    "static/js/main.8b18a14b.chunk.js"
   ]
 }
