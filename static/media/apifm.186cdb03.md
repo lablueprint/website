@@ -69,7 +69,7 @@ We proposed a **mobile app that automates and streamlines the produce-ordering p
 
 To gather inspiration for our design, we first performed a competitive analysis on 9 grocery / produce delivery apps, comparing their features and noting their respective strengths and weaknesses. The features we examined included saved orders, product details, and delivery date selection, just to name a few.
 
-![Competitors](/src/app/assets/images/projects/APIFM/Competitors.png)
+![Competitors](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/APIFM/Competitors.png?raw=true)
 
 We found that:
 
