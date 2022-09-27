@@ -5,14 +5,18 @@ import Fade from 'react-reveal/Fade';
 
 import Amazon from '../assets/images/companies/amazon.svg';
 import Apple from '../assets/images/companies/apple.svg';
+import Bloomberg from '../assets/images/companies/bloomberg.svg';
 import Blizzard from '../assets/images/companies/blizzard.svg';
+import Disney from '../assets/images/companies/disney.svg';
 import Facebook from '../assets/images/companies/facebook.svg';
 import Instagram from '../assets/images/companies/instagram.svg';
-import Disney from '../assets/images/companies/disney.svg';
 import IBM from '../assets/images/companies/ibm.svg';
+import Figma from '../assets/images/companies/figma.svg';
+import Google from '../assets/images/companies/google.svg';
 import Microsoft from '../assets/images/companies/microsoft.svg';
 import Oracle from '../assets/images/companies/oracle.svg';
 import Qualcomm from '../assets/images/companies/qualcomm.svg';
+import Reddit from '../assets/images/companies/reddit.svg';
 import Roblox from '../assets/images/companies/roblox.svg';
 import Slack from '../assets/images/companies/slack.svg';
 import Snap from '../assets/images/companies/snap.svg';
@@ -28,6 +32,10 @@ const companyData = [
   {
     logo: Apple,
     link: 'https://www.apple.com/',
+  },
+  {
+    logo: Bloomberg,
+    link: 'https://www.bloomberg.com/',
   },
   {
     logo: Blizzard,
@@ -50,6 +58,14 @@ const companyData = [
     link: 'https://www.ibm.com/us-en/',
   },
   {
+    logo: Figma,
+    link: 'https://www.figma.com/',
+  },
+  {
+    logo: Google,
+    link: 'https://www.google.com/',
+  },
+  {
     logo: Microsoft,
     link: 'https://www.microsoft.com/',
   },
@@ -60,6 +76,10 @@ const companyData = [
   {
     logo: Qualcomm,
     link: 'https://www.qualcomm.com/',
+  },
+  {
+    logo: Reddit,
+    link: 'https://www.reddit.com/',
   },
   {
     logo: Roblox,
