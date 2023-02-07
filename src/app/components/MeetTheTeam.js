@@ -2,33 +2,55 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 
-import MemberProfile from './MemberProfile';
-
+// exec
 import ChantalTan from '../assets/images/team/chantal_tan.png';
 import DiyaBaliga from '../assets/images/team/diya_baliga.png';
 import HelenWang from '../assets/images/team/helen_wang.png';
 import JiaminXu from '../assets/images/team/jiamin_xu.png';
-import AaronShi from '../assets/images/team/aaron_shi.png';
 import AvnishSengupta from '../assets/images/team/anvish_sengupta.png';
+import IsaacWen from '../assets/images/team/isaac_wen.png';
+
+// PLs
 import AyePyae from '../assets/images/team/aye_pyae.png';
+import JamesHe from '../assets/images/team/james_he.png';
+import JerryXu from '../assets/images/team/jerry_xu.png';
+import NasserElhajjaoui from '../assets/images/team/nasser_elhajjaoui.png';
+import SarahChang from '../assets/images/team/sarah_chang.png';
+import SoliaValentine from '../assets/images/team/solia_valentine.png';
+
+import AaronShi from '../assets/images/team/aaron_shi.png';
+import AlanNguyen from '../assets/images/team/alan_nguyen.png';
+import AndrewHuynh from '../assets/images/team/andrew_huynh.png';
+import AngelaLing from '../assets/images/team/angela_ling.png';
+import AngelaHao from '../assets/images/team/angela_hao.png';
+import AngelaTan from '../assets/images/team/angela_tan.png';
+import AyubAli from '../assets/images/team/ayub_ali.png';
 import CarolineDebBaruah from '../assets/images/team/caroline_debBaruah.png';
 import ChristinePark from '../assets/images/team/christine_park.png';
 import DanLee from '../assets/images/team/dan_lee.png';
+import DanielKao from '../assets/images/team/daniel_kao.png';
+import DarleneKabigting from '../assets/images/team/darlene_kabigting.png';
+import DeyaRaghavan from '../assets/images/team/deya_raghavan.png';
+import DiyaIndoliya from '../assets/images/team/diya_indoliya.png';
+import ErinKwon from '../assets/images/team/erin_kwon.png';
 import GalenHeuer from '../assets/images/team/galen_heuer.png';
 import GraceMa from '../assets/images/team/grace_ma.png';
-import IsaacWen from '../assets/images/team/isaac_wen.png';
-import JamesHe from '../assets/images/team/james_he.png';
 import JeffLu from '../assets/images/team/jeff_lu.png';
-import JerryXu from '../assets/images/team/jerry_xu.png';
+import JimmyTang from '../assets/images/team/jimmy_tang.png';
+import JiyeonHan from '../assets/images/team/jiyeon_han.png';
+import JoyceChen from '../assets/images/team/joyce_chen.png';
+import JulietZhang from '../assets/images/team/juliet_zhang.png';
 import KayleeTran from '../assets/images/team/kaylee_tran.png';
+import KenFukuyama from '../assets/images/team/ken_fukuyama.png';
+import KennyWan from '../assets/images/team/kenny_wan.png';
 import KevinAntony from '../assets/images/team/kevin_antony.png';
 import LauraLu from '../assets/images/team/laura_lu.png';
-import NasserElhajjaoui from '../assets/images/team/nasser_elhajjaoui.png';
+import MeganTieu from '../assets/images/team/megan_tieu.png';
 import RyanKim from '../assets/images/team/ryan_kim.png';
 import RyanYeo from '../assets/images/team/ryan_yeo.png';
-import SarahChang from '../assets/images/team/sarah_chang.png';
 import SiddharthNandy from '../assets/images/team/siddharth_nandy.png';
-import SoliaValentine from '../assets/images/team/solia_valentine.png';
+
+import MemberProfile from './MemberProfile';
 
 const members = [
   {
@@ -105,9 +127,39 @@ const members = [
   },
   {
     image: AaronShi,
-    name: 'Aaron Shi',
+    name: 'Aaron Shi ',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/aaronshi53/',
+  },
+  {
+    image: AlanNguyen,
+    name: 'Alan Nguyen ',
+    position: 'Developer',
+  },
+  {
+    image: AndrewHuynh,
+    name: 'Andrew Huynh ',
+    position: 'Developer',
+  },
+  {
+    image: AngelaLing,
+    name: 'Angela Ling ',
+    position: 'Designer',
+  },
+  {
+    image: AngelaHao,
+    name: 'Angela Hao ',
+    position: 'Developer',
+  },
+  {
+    image: AngelaTan,
+    name: 'Angela Tan ',
+    position: 'Developer',
+  },
+  {
+    image: AyubAli,
+    name: 'Ayub Ali ',
+    position: 'Developer',
   },
   {
     image: CarolineDebBaruah,
@@ -128,6 +180,31 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/danxlee/',
   },
   {
+    image: DanielKao,
+    name: 'Daniel Kao ',
+    position: 'Developer',
+  },
+  {
+    image: DarleneKabigting,
+    name: 'Darlene Kabigting ',
+    position: 'Developer',
+  },
+  {
+    image: DeyaRaghavan,
+    name: 'Deya Raghavan ',
+    position: 'Designer',
+  },
+  {
+    image: DiyaIndoliya,
+    name: 'Diya Indoliya ',
+    position: 'Designer',
+  },
+  {
+    image: ErinKwon,
+    name: 'Erin Kwon ',
+    position: 'Developer',
+  },
+  {
     image: GalenHeuer,
     name: 'Galen Heuer ',
     position: 'Designer',
@@ -146,10 +223,40 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/jeffreylukr/',
   },
   {
+    image: JimmyTang,
+    name: 'Jimmy Tang ',
+    position: 'Designer',
+  },
+  {
+    image: JiyeonHan,
+    name: 'Jiyeon Han ',
+    position: 'Designer',
+  },
+  {
+    image: JoyceChen,
+    name: 'Joyce Chen ',
+    position: 'Developer',
+  },
+  {
+    image: JulietZhang,
+    name: 'Juliet Zhang ',
+    position: 'Developer',
+  },
+  {
     image: KayleeTran,
     name: 'Kaylee Tran ',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/kayleemtran',
+  },
+  {
+    image: KenFukuyama,
+    name: 'Ken Fukuyama ',
+    position: 'Developer',
+  },
+  {
+    image: KennyWan,
+    name: 'Kenny Wan ',
+    position: 'Developer',
   },
   {
     image: KevinAntony,
@@ -164,10 +271,15 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/lauralu201/',
   },
   {
+    image: MeganTieu,
+    name: 'Megan Tieu ',
+    position: 'Designer',
+  },
+  {
     image: RyanKim,
     name: 'Ryan Kim ',
     position: 'Developer',
-    linkedInURL: 'www.linkedin.com/in/ryan-sw-kim',
+    linkedInURL: 'https://www.linkedin.com/in/ryan-sw-kim',
   },
   {
     image: RyanYeo,

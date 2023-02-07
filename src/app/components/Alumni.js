@@ -4,10 +4,8 @@ import Fade from 'react-reveal/Fade';
 
 import MemberProfile from './MemberProfile';
 
-import AnanWang from '../assets/images/alumni/anan_wang.png';
 import BiancaVillamor from '../assets/images/alumni/bianca_villamor.png';
 import BillLiu from '../assets/images/alumni/bill_liu.png';
-import KendrakeTsui from '../assets/images/alumni/kendrake_tsui.png';
 import RaphaelGatchalian from '../assets/images/alumni/raphael_gatchalian.png';
 import AliceChang from '../assets/images/alumni/alice_chang.png';
 import AndyZeff from '../assets/images/alumni/andy_zeff.png';
@@ -113,12 +111,6 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/raqeeb-chang-abb2061b9/',
   },
   {
-    image: AnanWang,
-    name: 'Anan Wang',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/menganwang/',
-  },
-  {
     image: AliceChang,
     name: 'Alice Chang',
     position: 'Designer',
@@ -147,12 +139,6 @@ const members = [
     name: 'Elwyn Cruz',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/elwyn-c-143b16ba/',
-  },
-  {
-    image: KendrakeTsui,
-    name: 'Kendrake Tsui',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/kendraketsui/',
   },
   {
     image: RaphaelGatchalian,
