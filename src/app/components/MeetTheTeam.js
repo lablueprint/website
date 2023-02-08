@@ -135,21 +135,25 @@ const members = [
     image: AlanNguyen,
     name: 'Alan Nguyen ',
     position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/alan-nguyen-ucla/',
   },
   {
     image: AndrewHuynh,
     name: 'Andrew Huynh ',
     position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/andhuynh/',
   },
   {
     image: AngelaLing,
     name: 'Angela Ling ',
     position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/angela-ling/',
   },
   {
     image: AngelaHao,
     name: 'Angela Hao ',
     position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/angela-hao-5246801b3/',
   },
   {
     image: AngelaTan,
@@ -160,6 +164,7 @@ const members = [
     image: AyubAli,
     name: 'Ayub Ali ',
     position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/ayub-ali24/',
   },
   {
     image: CarolineDebBaruah,
@@ -183,26 +188,31 @@ const members = [
     image: DanielKao,
     name: 'Daniel Kao ',
     position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/daniel-kao14/',
   },
   {
     image: DarleneKabigting,
     name: 'Darlene Kabigting ',
     position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/darlene-kabigting/',
   },
   {
     image: DeyaRaghavan,
     name: 'Deya Raghavan ',
     position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/deya-raghavan/',
   },
   {
     image: DiyaIndoliya,
     name: 'Diya Indoliya ',
     position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/diya-indoliya/',
   },
   {
     image: ErinKwon,
     name: 'Erin Kwon ',
     position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/erinkwon01/',
   },
   {
     image: GalenHeuer,
@@ -231,16 +241,19 @@ const members = [
     image: JiyeonHan,
     name: 'Jiyeon Han ',
     position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/jiyeonhann/',
   },
   {
     image: JoyceChen,
     name: 'Joyce Chen ',
     position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/joycechen12/',
   },
   {
     image: JulietZhang,
     name: 'Juliet Zhang ',
     position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/zhang-juliet/',
   },
   {
     image: KayleeTran,
@@ -252,11 +265,13 @@ const members = [
     image: KenFukuyama,
     name: 'Ken Fukuyama ',
     position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/kenfukuyama/',
   },
   {
     image: KennyWan,
     name: 'Kenny Wan ',
     position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/kennethzwan/',
   },
   {
     image: KevinAntony,
@@ -274,6 +289,7 @@ const members = [
     image: MeganTieu,
     name: 'Megan Tieu ',
     position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/megan-tieu/',
   },
   {
     image: RyanKim,
