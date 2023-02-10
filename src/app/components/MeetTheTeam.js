@@ -193,7 +193,7 @@ const members = [
   {
     image: DarleneKabigting,
     name: 'Darlene Kabigting ',
-    position: 'Developer',
+    position: 'Designer',
     linkedInURL: 'https://www.linkedin.com/in/darlene-kabigting/',
   },
   {
@@ -217,7 +217,7 @@ const members = [
   {
     image: GalenHeuer,
     name: 'Galen Heuer ',
-    position: 'Designer',
+    position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/galenheuer/',
   },
   {
@@ -229,13 +229,14 @@ const members = [
   {
     image: JeffLu,
     name: 'Jeff Lu ',
-    position: 'Developer',
+    position: 'Designer',
     linkedInURL: 'https://www.linkedin.com/in/jeffreylukr/',
   },
   {
     image: JimmyTang,
     name: 'Jimmy Tang ',
     position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/jimmy-tang-34053422b/',
   },
   {
     image: JiyeonHan,
