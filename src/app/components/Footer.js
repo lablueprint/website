@@ -174,7 +174,7 @@ export default function Footer() {
         </Row>
         <Row>
           <Col md={4} className="copyright">
-            &copy; Blueprint 2021
+            &copy; Blueprint 2023
           </Col>
         </Row>
       </Container>
