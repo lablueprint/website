@@ -13,16 +13,10 @@ export default function NonprofitWhen() {
         <SectionHeading>When are we looking for new nonprofits?</SectionHeading>
 
         <SectionParagraph>
-          We're looking for nonprofit partnerships during <strong>Summer 2022</strong> for the 2022-2023 school year!
+          We're looking for nonprofit partnerships during <strong>Summer 2023</strong> for the 2023-2024 school year!
           <br/>
           Interested in working with us? We'd love to hear from you!
         </SectionParagraph>
-
-        {/* <SectionParagraph>
-          We are looking for nonprofit partnerships <strong>now</strong> for the 2021-2022 school year!
-          <br/>
-          Interested in working with us? We'd love to hear from you.
-        </SectionParagraph> */}
         
         <Button size="lg" href="/contact">
           Work with us
