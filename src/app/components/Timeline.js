@@ -33,7 +33,7 @@ const timeline = [
     //   Applications close on September 30th at 11:59pm! The application includes 2 short questions to help us understand your background and your motivations for joining Blueprint.
     // </div>),
     body: (<div>
-      Applications close on end of Week 1! The application includes 2 short questions to help us understand your background and your motivations for joining Blueprint.
+      Applications close at the end of Week 1! The application includes 2 short questions to help us understand your background and your motivations for joining Blueprint.
     </div>),
   },
   {
