@@ -174,7 +174,9 @@ export default function Footer() {
         </Row>
         <Row>
           <Col md={4} className="copyright">
-            &copy; Blueprint 2023
+            &copy; Blueprint
+            {' '}
+            { new Date().getFullYear() }
           </Col>
         </Row>
       </Container>
