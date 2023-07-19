@@ -19,6 +19,7 @@ import IsaacWen from '../assets/images/team/isaac_wen.png';
 import JeffLu from '../assets/images/team/jeff_lu.png';
 import RyanYeo from '../assets/images/team/ryan_yeo.png';
 
+// Team Members
 import AlanNguyen from '../assets/images/team/alan_nguyen.png';
 import AngelaHao from '../assets/images/team/angela_hao.png';
 import AngelaTan from '../assets/images/team/angela_tan.png';
@@ -31,9 +32,14 @@ import JoyceChen from '../assets/images/team/joyce_chen.png';
 import JulietZhang from '../assets/images/team/juliet_zhang.png';
 import KayleeTran from '../assets/images/team/kaylee_tran.png';
 import KennyWan from '../assets/images/team/kenny_wan.png';
-import LauraLu from '../assets/images/team/laura_lu.png';
 import MeganTieu from '../assets/images/team/megan_tieu.png';
-import RyanKim from '../assets/images/team/ryan_kim.png';
+
+//  Advisors
+import ChantalTan from '../assets/images/team/chantal_tan.png';
+import DiyaBaliga from '../assets/images/team/diya_baliga.png';
+import HelenWang from '../assets/images/team/helen_wang.png';
+import AvnishSengupta from '../assets/images/team/anvish_sengupta.png';
+import NasserElhajjaoui from '../assets/images/team/nasser_elhajjaoui.png';
 
 import MemberProfile from './MemberProfile';
 
@@ -41,13 +47,13 @@ const members = [
   {
     image: JamesHe,
     name: 'James He ',
-    position: 'President',
+    position: 'Co-President',
     linkedInURL: 'https://www.linkedin.com/in/he-is-james/',
   },
   {
     image: JerryXu,
     name: 'Jerry Xu ',
-    position: 'President',
+    position: 'Co-President',
     linkedInURL: 'https://www.linkedin.com/in/chujun-jerry-xu/',
   },
   {
@@ -181,19 +187,11 @@ const members = [
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/kayleemtran',
   },
-
   {
     image: KennyWan,
     name: 'Kenny Wan ',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/kennethzwan/',
-  },
-
-  {
-    image: LauraLu,
-    name: 'Laura Lu ',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/lauralu201/',
   },
   {
     image: MeganTieu,
@@ -202,10 +200,34 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/megan-tieu/',
   },
   {
-    image: RyanKim,
-    name: 'Ryan Kim ',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/ryan-sw-kim',
+    image: DiyaBaliga,
+    name: 'Diya Baliga ',
+    position: 'Advisor',
+    linkedInURL: 'https://www.linkedin.com/in/diya-baliga-7049881ab/',
+  },
+  {
+    image: AvnishSengupta,
+    name: 'Avnish Sengupta ',
+    position: 'Internal Vice President \'22',
+    linkedInURL: 'https://www.linkedin.com/in/avnish-sengupta/',
+  },
+  {
+    image: ChantalTan,
+    name: 'Chantal Tan ',
+    position: 'Advisor',
+    linkedInURL: 'https://www.linkedin.com/in/chantal-tan-a49121172/',
+  },
+  {
+    image: HelenWang,
+    name: 'Helen Wang ',
+    position: 'Advisor',
+    linkedInURL: 'https://www.linkedin.com/in/helenwangj/',
+  },
+  {
+    image: NasserElhajjaoui,
+    name: 'Nasser Elhajjaoui ',
+    position: 'Advisor',
+    linkedInURL: 'https://www.linkedin.com/in/nasser-elhajjaoui-9a00a0213/',
   },
 ];
 

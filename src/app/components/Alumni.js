@@ -36,13 +36,8 @@ import VivianWong from '../assets/images/alumni/vivian_wong.png';
 import MichelleKou from '../assets/images/alumni/michelle_kou.png';
 import MichelleTranBui from '../assets/images/alumni/michelle_tran_bui.png';
 import RaqeebChang from '../assets/images/alumni/raqeeb_chang.png';
-import ChantalTan from '../assets/images/alumni/chantal_tan.png';
-import DiyaBaliga from '../assets/images/alumni/diya_baliga.png';
-import HelenWang from '../assets/images/alumni/helen_wang.png';
 import JiaminXu from '../assets/images/alumni/jiamin_xu.png';
-import AvnishSengupta from '../assets/images/alumni/anvish_sengupta.png';
 import AyePyae from '../assets/images/alumni/aye_pyae.png';
-import NasserElhajjaoui from '../assets/images/alumni/nasser_elhajjaoui.png';
 import AndrewHuynh from '../assets/images/alumni/andrew_huynh.png';
 import ChristinePark from '../assets/images/alumni/christine_park.png';
 import DanLee from '../assets/images/alumni/dan_lee.png';
@@ -51,32 +46,10 @@ import DeyaRaghavan from '../assets/images/alumni/deya_raghavan.png';
 import GraceMa from '../assets/images/alumni/grace_ma.png';
 import KenFukuyama from '../assets/images/alumni/ken_fukuyama.png';
 import KevinAntony from '../assets/images/alumni/kevin_antony.png';
+import LauraLu from '../assets/images/alumni/laura_lu.png';
+import RyanKim from '../assets/images/alumni/ryan_kim.png';
 
 const members = [
-  {
-    image: ChantalTan,
-    name: 'Chantal Tan ',
-    position: 'President \'22',
-    linkedInURL: 'https://www.linkedin.com/in/chantal-tan-a49121172/',
-  },
-  {
-    image: HelenWang,
-    name: 'Helen Wang ',
-    position: 'President \'22',
-    linkedInURL: 'https://www.linkedin.com/in/helenwangj/',
-  },
-  {
-    image: DiyaBaliga,
-    name: 'Diya Baliga ',
-    position: 'Advisor + External Vice President \'22',
-    linkedInURL: 'https://www.linkedin.com/in/diya-baliga-7049881ab/',
-  },
-  {
-    image: AvnishSengupta,
-    name: 'Avnish Sengupta ',
-    position: 'Internal Vice President \'22',
-    linkedInURL: 'https://www.linkedin.com/in/avnish-sengupta/',
-  },
   {
     image: JiaminXu,
     name: 'Jiamin Xu ',
@@ -88,12 +61,6 @@ const members = [
     name: 'Aye Pyae ',
     position: 'Project Lead \'22',
     linkedInURL: 'https://www.linkedin.com/in/apyae/',
-  },
-  {
-    image: NasserElhajjaoui,
-    name: 'Nasser Elhajjaoui ',
-    position: 'Project Lead \'22',
-    linkedInURL: 'https://www.linkedin.com/in/nasser-elhajjaoui-9a00a0213/',
   },
   {
     image: AndrewHuynh,
@@ -144,6 +111,12 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/kevantony/',
   },
   {
+    image: RyanKim,
+    name: 'Ryan Kim ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/ryan-sw-kim',
+  },
+  {
     image: RyanTran,
     name: 'Ryan Tran',
     position: 'President \'21',
@@ -152,13 +125,13 @@ const members = [
   {
     image: CodyDo,
     name: 'Cody Do',
-    position: 'Advisor + Internal Vice President \'21',
+    position: 'Internal Vice President \'21',
     linkedInURL: 'https://www.linkedin.com/in/cody-do/',
   },
   {
     image: RayHuang,
     name: 'Ray Huang',
-    position: 'Advisor + External Vice President \'21',
+    position: 'External Vice President \'21',
     linkedInURL: 'https://www.linkedin.com/in/ray-cj-huang/',
   },
   {
@@ -170,19 +143,19 @@ const members = [
   {
     image: VivianNguyen,
     name: 'Vivian Nguyen',
-    position: 'Advisor + Vice President of Design \'21',
+    position: 'Vice President of Design \'21',
     linkedInURL: 'https://www.linkedin.com/in/vivianngn/',
   },
   {
     image: ChandraSuresh,
     name: 'Chandra Suresh',
-    position: 'Advisor + Project Lead \'21',
+    position: 'Project Lead \'21',
     linkedInURL: 'https://www.linkedin.com/in/chandra-suresh-47b278196/',
   },
   {
     image: MichaelShi,
     name: 'Michael Shi',
-    position: 'Advisor + Project Lead \'21',
+    position: 'Project Lead \'21',
     linkedInURL: 'https://www.linkedin.com/in/michaelbshi/',
   },
   {
@@ -214,6 +187,12 @@ const members = [
     name: 'Raqeeb Chang',
     position: 'Designer',
     linkedInURL: 'https://www.linkedin.com/in/raqeeb-chang-abb2061b9/',
+  },
+  {
+    image: LauraLu,
+    name: 'Laura Lu ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/lauralu201/',
   },
   {
     image: AliceChang,
