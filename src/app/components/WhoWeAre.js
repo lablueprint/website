@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import WhoWeAreImg from '../assets/images/home/who-we-are-updated.png';
+import WhoWeAreImg from '../assets/images/home/who-we-are-23-24.png';
 
 import SectionContainer from './SectionContainer';
 import SectionHeading from './SectionHeading';

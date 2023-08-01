@@ -3,7 +3,7 @@ import { Button, Container } from 'react-bootstrap';
 
 import SectionContainer from './SectionContainer';
 
-const MAILCHIMP_URL = 'https://lablueprint.us4.list-manage.com/subscribe/post?u=223f2f7d67a9bd0b9f9172a69&amp;id=70cbf4957b';
+const MAILCHIMP_URL = 'http://eepurl.com/hegxUv';
 
 export default function MailingListButton() {
   return (
