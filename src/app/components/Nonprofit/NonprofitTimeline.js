@@ -19,25 +19,25 @@ const timeline = [
   {
     heading: 'Informational Call',
     body: (<div>
-     If you'd like to learn more about us, please respond to our outreach email anytime between <strong style={{color: "#3599fd"}}>July 14th - August 16th</strong>. Our exec team will schedule a quick 30 minute informational call so we can get to know each other the better! We'll also be able to answer any questions you have about the application process and our organization.
+     If you'd like to learn more about us, please respond to our outreach email anytime between <strong style={{color: "#3599fd"}}>July 3rd - August 10th</strong>. Our exec team will schedule a quick 30 minute informational call so we can get to know each other the better! We'll also be able to answer any questions you have about the application process and our organization.
     </div>),
   },
   {
     heading: 'Written Application',
     body: (<div>
-       If you decide that you're interested in working with us and we agree that Blueprint has the ability to fit your needs, please submit an application <a href="https://airtable.com/shraZAR9YMmxxOJ3t">here</a> by <strong style={{color: "#3599fd"}}> August 19th</strong>. This part of our process helps us understand how Blueprint can best serve your organization. You'll have the chance to fully explain how we can help you, identify any points of need in your current operations, and expand on what you'd like us to build for you. If your proposed project sounds like something we can create, we'll be in touch for a final interview.
+       If you decide that you're interested in working with us and we agree that Blueprint has the ability to fit your needs, please submit an application <a href="https://airtable.com/shrjYsXai1PUrCsCx">here</a> by <strong style={{color: "#3599fd"}}> August 13th</strong>. This part of our process helps us understand how Blueprint can best serve your organization. You'll have the chance to fully explain how we can help you, identify any points of need in your current operations, and expand on what you'd like us to build for you. If your proposed project sounds like something we can create, we'll be in touch for a final interview.
     </div>),
   },
   {
     heading: 'Final Interview',
     body: (<div>
-     Between <strong style={{color: "#3599fd"}}>Aug 22nd - Sept 2nd</strong>, the final interview will be a meeting with members of our exec team and project leads. Together, we'll go into more detail on your proposed project, discuss how it can be designed to best fit your needs, and really get to know what we can do for you.
+     Between <strong style={{color: "#3599fd"}}>Aug 16th - Sept 3rd</strong>, the final interview will be a meeting with members of our exec team and project leads. Together, we'll go into more detail on your proposed project, discuss how it can be designed to best fit your needs, and really get to know what we can do for you.
     </div>),
   },
   {
     heading: 'Decisions Released',
     body: (<div>  
-      We’ll reach out by <strong style={{color: "#3599fd"}}> September 6th</strong> and let you know if your organization has been selected to work with Blueprint! 
+      We’ll reach out by <strong style={{color: "#3599fd"}}> September 7th</strong> and let you know if your organization has been selected to work with Blueprint! 
 
       If chosen, your nonprofit will have the opportunity to work with us on a project through the course of our academic year (September - June). Our project leads will decide which project they’re most passionate about and best suited for, and will work with you through September to finalize the plans for your project.
 

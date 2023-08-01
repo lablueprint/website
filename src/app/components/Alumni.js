@@ -24,20 +24,98 @@ import RaymondPhan from '../assets/images/alumni/raymond_phan.png';
 import DerekChu from '../assets/images/alumni/derek_chu.png';
 import SummerSiu from '../assets/images/alumni/summer_siu.png';
 import LeoLiu from '../assets/images/alumni/leo_liu.png';
-import RyanTran from '../assets/images/team/ryan_tran.png';
-import CodyDo from '../assets/images/team/cody_do.png';
-import RayHuang from '../assets/images/team/ray_huang.png';
-import KarenTan from '../assets/images/team/karen_tan.png';
-import VivianNguyen from '../assets/images/team/vivian_nguyen.png';
-import MichaelShi from '../assets/images/team/michael_shi.png';
-import ChandraSuresh from '../assets/images/team/chandra_suresh.png';
-import DerekWang from '../assets/images/team/derek_wang.png';
-import VivianWong from '../assets/images/team/vivian_wong.png';
-import MichelleKou from '../assets/images/team/michelle_kou.png';
-import MichelleTranBui from '../assets/images/team/michelle_tran_bui.png';
-import RaqeebChang from '../assets/images/team/raqeeb_chang.png';
+import RyanTran from '../assets/images/alumni/ryan_tran.png';
+import CodyDo from '../assets/images/alumni/cody_do.png';
+import RayHuang from '../assets/images/alumni/ray_huang.png';
+import KarenTan from '../assets/images/alumni/karen_tan.png';
+import VivianNguyen from '../assets/images/alumni/vivian_nguyen.png';
+import MichaelShi from '../assets/images/alumni/michael_shi.png';
+import ChandraSuresh from '../assets/images/alumni/chandra_suresh.png';
+import DerekWang from '../assets/images/alumni/derek_wang.png';
+import VivianWong from '../assets/images/alumni/vivian_wong.png';
+import MichelleKou from '../assets/images/alumni/michelle_kou.png';
+import MichelleTranBui from '../assets/images/alumni/michelle_tran_bui.png';
+import RaqeebChang from '../assets/images/alumni/raqeeb_chang.png';
+import JiaminXu from '../assets/images/alumni/jiamin_xu.png';
+import AyePyae from '../assets/images/alumni/aye_pyae.png';
+import AndrewHuynh from '../assets/images/alumni/andrew_huynh.png';
+import ChristinePark from '../assets/images/alumni/christine_park.png';
+import DanLee from '../assets/images/alumni/dan_lee.png';
+import DarleneKabigting from '../assets/images/alumni/darlene_kabigting.png';
+import DeyaRaghavan from '../assets/images/alumni/deya_raghavan.png';
+import GraceMa from '../assets/images/alumni/grace_ma.png';
+import KenFukuyama from '../assets/images/alumni/ken_fukuyama.png';
+import KevinAntony from '../assets/images/alumni/kevin_antony.png';
+import LauraLu from '../assets/images/alumni/laura_lu.png';
+import RyanKim from '../assets/images/alumni/ryan_kim.png';
 
 const members = [
+  {
+    image: JiaminXu,
+    name: 'Jiamin Xu ',
+    position: 'Vice President of Technology \'22',
+    linkedInURL: 'https://www.linkedin.com/in/jiamin-xu-9046b7196/',
+  },
+  {
+    image: AyePyae,
+    name: 'Aye Pyae ',
+    position: 'Project Lead \'22',
+    linkedInURL: 'https://www.linkedin.com/in/apyae/',
+  },
+  {
+    image: AndrewHuynh,
+    name: 'Andrew Huynh ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/andhuynh/',
+  },
+  {
+    image: ChristinePark,
+    name: 'Christine Park ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/cpark222/',
+  },
+  {
+    image: DanLee,
+    name: 'Dan Lee ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/danxlee/',
+  },
+  {
+    image: DarleneKabigting,
+    name: 'Darlene Kabigting ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/darlene-kabigting/',
+  },
+  {
+    image: DeyaRaghavan,
+    name: 'Deya Raghavan ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/deya-raghavan/',
+  },
+  {
+    image: GraceMa,
+    name: 'Grace Ma ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/gracelma/',
+  },
+  {
+    image: KenFukuyama,
+    name: 'Ken Fukuyama ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/kenfukuyama/',
+  },
+  {
+    image: KevinAntony,
+    name: 'Kevin Antony',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/kevantony/',
+  },
+  {
+    image: RyanKim,
+    name: 'Ryan Kim ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/ryan-sw-kim',
+  },
   {
     image: RyanTran,
     name: 'Ryan Tran',
@@ -47,13 +125,13 @@ const members = [
   {
     image: CodyDo,
     name: 'Cody Do',
-    position: 'Advisor + Internal Vice President \'21',
+    position: 'Internal Vice President \'21',
     linkedInURL: 'https://www.linkedin.com/in/cody-do/',
   },
   {
     image: RayHuang,
     name: 'Ray Huang',
-    position: 'Advisor + External Vice President \'21',
+    position: 'External Vice President \'21',
     linkedInURL: 'https://www.linkedin.com/in/ray-cj-huang/',
   },
   {
@@ -65,19 +143,19 @@ const members = [
   {
     image: VivianNguyen,
     name: 'Vivian Nguyen',
-    position: 'Advisor + Vice President of Design \'21',
+    position: 'Vice President of Design \'21',
     linkedInURL: 'https://www.linkedin.com/in/vivianngn/',
   },
   {
     image: ChandraSuresh,
     name: 'Chandra Suresh',
-    position: 'Advisor + Project Lead \'21',
+    position: 'Project Lead \'21',
     linkedInURL: 'https://www.linkedin.com/in/chandra-suresh-47b278196/',
   },
   {
     image: MichaelShi,
     name: 'Michael Shi',
-    position: 'Advisor + Project Lead \'21',
+    position: 'Project Lead \'21',
     linkedInURL: 'https://www.linkedin.com/in/michaelbshi/',
   },
   {
@@ -109,6 +187,12 @@ const members = [
     name: 'Raqeeb Chang',
     position: 'Designer',
     linkedInURL: 'https://www.linkedin.com/in/raqeeb-chang-abb2061b9/',
+  },
+  {
+    image: LauraLu,
+    name: 'Laura Lu ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/lauralu201/',
   },
   {
     image: AliceChang,

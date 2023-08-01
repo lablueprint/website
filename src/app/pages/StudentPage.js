@@ -7,11 +7,11 @@ import ApplicationProcess from '../components/ApplicationProcess';
 import StudentFAQ from '../components/StudentFAQ';
 import MailingListButton from '../components/MailingListButton';
 
-import studentImage from '../assets/images/headers/for-students.png';
+import studentImage from '../assets/images/headers/for-students-23-24.png';
 
 import SectionSubtitle from '../components/SectionSubtitle';
 
-const MAILCHIMP_URL = 'https://lablueprint.us4.list-manage.com/subscribe/post?u=223f2f7d67a9bd0b9f9172a69&amp;id=70cbf4957b';
+const MAILCHIMP_URL = 'http://eepurl.com/hegxUv';
 
 export default function StudentPage() {
   return (
@@ -32,10 +32,10 @@ export default function StudentPage() {
               Check out our applications
             </Button> */}
             <SectionSubtitle className="sign-up mb-3">
-              Applications are currently open! Sign up for our mailing list to
-              get updates about our current recruitment cycle!
-              {/* Applications are currently open. Sign up for our mailing list to
-              get an email when our next recruitment cycle begins! */}
+              {/* Applications are currently open! Sign up for our mailing list to
+              get updates about our current recruitment cycle! */}
+              Applications are currently closed. Sign up for our mailing list to
+              get an email when our next recruitment cycle begins!
             </SectionSubtitle>
             <form action={MAILCHIMP_URL} method="post" className="mailing-list">
               <input className="mailing-list-input" name="EMAIL" placeholder="example@email.com" />
