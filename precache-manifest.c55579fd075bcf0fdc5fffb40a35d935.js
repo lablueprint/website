@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac4943538909bfd612ecfb97e4ae42af",
+    "revision": "3887d11df2d73881144469f87d695906",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.80f479d8.chunk.css"
   },
   {
-    "revision": "046ec0b5d690724d198b",
+    "revision": "06d69595a30cd02fc109",
     "url": "/static/css/main.a78f84ee.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.3aba4c94.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "046ec0b5d690724d198b",
-    "url": "/static/js/main.2d74b9a3.chunk.js"
+    "revision": "06d69595a30cd02fc109",
+    "url": "/static/js/main.c54e9d9a.chunk.js"
   },
   {
     "revision": "e5d4fc46478d256b5188",
@@ -364,8 +364,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/figma.bfc8530d.svg"
   },
   {
-    "revision": "4a965a9e67d53df475f9c0d56042d471",
-    "url": "/static/media/for-students.4a965a9e.png"
+    "revision": "a4cbedc76892d70b9b96e6012822a928",
+    "url": "/static/media/for-students-23-24.a4cbedc7.png"
   },
   {
     "revision": "9f53dd4586b659ef917e855971fbde1d",
@@ -480,8 +480,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo_white.56b7b0cf.svg"
   },
   {
-    "revision": "4890d310a3f8c85e4cc47d53d85df409",
-    "url": "/static/media/meet-blueprint.4890d310.png"
+    "revision": "5dd35393e9e66d694271b57f9bb41465",
+    "url": "/static/media/meet-blueprint-23-24.5dd35393.png"
   },
   {
     "revision": "e6cfd464425c62f07522bc7074876256",
@@ -712,8 +712,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/vivian_wong.f8b36a68.png"
   },
   {
-    "revision": "5aec0e784cfe61691bf199cfa357683c",
-    "url": "/static/media/who-we-are-updated.5aec0e78.png"
+    "revision": "ff7cdac155fce98f72c26de589ace146",
+    "url": "/static/media/who-we-are-23-24.ff7cdac1.png"
   },
   {
     "revision": "7e9d19c1a600857ef828097635190342",
