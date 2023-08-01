@@ -208,7 +208,7 @@ const members = [
   {
     image: AvnishSengupta,
     name: 'Avnish Sengupta ',
-    position: 'Internal Vice President \'22',
+    position: 'Advisor',
     linkedInURL: 'https://www.linkedin.com/in/avnish-sengupta/',
   },
   {
