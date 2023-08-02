@@ -16,6 +16,9 @@ import ProjectPage from './app/pages/ProjectPage';
 import StudentPage from './app/pages/StudentPage';
 
 const projectNames = [
+  'fotc',
+  'sraa',
+  'tcw',
   'apifm',
   'tck',
   'stf',
