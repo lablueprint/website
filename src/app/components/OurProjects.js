@@ -15,7 +15,30 @@ import tck from '../assets/images/projects/tckgraphic.png';
 import stf from '../assets/images/projects/stfgraphic.png';
 import apifm from '../assets/images/projects/apifmgraphic.png';
 
+import fotc from '../assets/images/projects/fotcgraphic.png';
+import sraa from '../assets/images/projects/sraagraphic.png';
+import tcw from '../assets/images/projects/tcwgraphic.png';
+
 const projects = [
+  {
+    image: fotc,
+    title: 'Friends of the Children',
+    desc:
+      '[FOTC DESCRIPTION]',
+    link: 'fotc',
+  },
+  {
+    image: sraa,
+    title: 'Skid Row Arts Alliance',
+    desc: '[SRAA DESCRIPTION]',
+    link: 'sraa',
+  },
+  {
+    image: tcw,
+    title: 'Trans Can Work',
+    desc: '[TCW DESCRIPTION]',
+    link: 'tcw',
+  },
   {
     image: apifm,
     title: 'Asian and Pacific Islander Forward Movement',

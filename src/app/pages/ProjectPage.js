@@ -12,10 +12,35 @@ import ptv from '../assets/images/projects/PTV_Thumbnail.png';
 import harmonyProject from '../assets/images/projects/HP_Thumbnail.png';
 import farm2people from '../assets/images/projects/F2P_Thumbnail.png';
 
-// import apfim from '../assets/images/projects/';
 import tck from '../assets/images/projects/tckgraphic.png';
 import stf from '../assets/images/projects/stfgraphic.png';
 import apifm from '../assets/images/projects/apifmgraphic.png';
+
+import fotc from '../assets/images/projects/fotcgraphic.png';
+import sraa from '../assets/images/projects/sraagraphic.png';
+import tcw from '../assets/images/projects/tcwgraphic.png';
+
+const projects2022_23 = [
+  {
+    image: fotc,
+    title: 'Friends of the Children',
+    desc:
+      '[FOTC DESCRIPTION]',
+    link: 'fotc',
+  },
+  {
+    image: sraa,
+    title: 'Skid Row Arts Alliance',
+    desc: '[SRAA DESCRIPTION]',
+    link: 'sraa',
+  },
+  {
+    image: tcw,
+    title: 'Trans Can Work',
+    desc: '[TCW DESCRIPTION]',
+    link: 'tcw',
+  },
+];
 
 const projects2021_22 = [
   {
@@ -62,6 +87,15 @@ const projects2020_21 = [
 ];
 
 export default function ProjectPage() {
+  const project2022_23Cards = projects2022_23.map((item) => (
+    <ProjectCard
+      key={JSON.stringify(item)}
+      image={item.image}
+      title={item.title}
+      desc={item.desc}
+      link={item.link}
+    />
+  ));
   const project2021_22Cards = projects2021_22.map((item) => (
     <ProjectCard
       key={JSON.stringify(item)}
@@ -97,6 +131,18 @@ export default function ProjectPage() {
           </>
         )}
       />
+      <SectionContainer className="project-page">
+        <Container>
+          <div className="title">
+            <h1>2022 - 2023</h1>
+          </div>
+          <div className="projects">
+            <div className="card-deck">
+              {project2022_23Cards}
+            </div>
+          </div>
+        </Container>
+      </SectionContainer>
       <SectionContainer className="project-page">
         <Container>
           <div className="title">
