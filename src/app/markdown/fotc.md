@@ -271,4 +271,4 @@ Have all your messages and announcements compiled in one place instead of manual
 
 # Next Steps
 
-As of July 2023, we are actively preparing for the launch of our web app, scheduled for Summer 2023. Our development team is currently focused on refining the visual presentation, deploying, and finalizing the handoff to FOTC. Given additional time, our designers would have conducted extra interviews and usability tests to gather further feedback from actual users. Additionally, we would have dedicated time to enhance the overall cohesiveness of the website's interface across all screens.
+As of August 2023, we are actively preparing for the launch of our web app, scheduled for Summer 2023. Our development team is currently focused on finalizing the handoff to FOTC. Given additional time, our designers would have conducted extra interviews and usability tests to gather further feedback from actual users. Additionally, we would have dedicated time to enhance the overall cohesiveness of the website's interface across all screens. However, we are incredibly grateful and proud of this project and looking forward to deliver the final product to FOTC!
