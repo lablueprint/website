@@ -224,21 +224,31 @@ We iterated our hifi designs and made design decisions based on the feedback.
 
 ### Sign Up
 
+Sign up and log in as an admin, mentor, or caregiver based on the region.
+
 ![Final Designs - Sign Up](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-finaldesigns-signup.gif)
 
 ### Resources / Modules 
+
+Browse dozens of resources. Click, upload, and customize.
 
 ![Final Designs - Resources/Modules](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-finaldesigns-resources.gif)
 
 ### Calendar
 
+Manage event details in one place and export to your own calendar to never forget!
+
 ![Final Designs - Calendar](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-finaldesigns-calendar.gif)
 
 ### New User Sign-Up Requests
 
+Approve new users and delete unnecessary accounts to ensure only FOTC members sign up.
+
 ![Final Designs - New User Sign-Up Requests](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-finaldesigns-newusersignuprequests.gif)
 
 ### Notices / Message Wall
+
+Have all your messages and announcements compiled in one place instead of manually checking all the emails.
 
 ![Final Designs - Notices/Message Wall](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-finaldesigns-notices.gif)
 
