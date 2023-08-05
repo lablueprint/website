@@ -25,7 +25,7 @@ const projects2022_23 = [
     image: fotc,
     title: 'Friends of the Children',
     desc:
-      '[FOTC DESCRIPTION]',
+      'Friends of the Children-LA disrupts the cycle of generational poverty and supports families by assigning full-time, salaried mentors (Friends) for 12+ years to underserved youth such as those in foster care.',
     link: 'fotc',
   },
   {
