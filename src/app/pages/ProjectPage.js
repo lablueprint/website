@@ -59,7 +59,7 @@ const projects2021_22 = [
   {
     image: stf,
     title: 'Shoes That Fit',
-    desc: 'Shoes That Fit tackles one of the most visible signs of poverty by giving kids in need new athletic shoes to attend school with dignity and joy',
+    desc: 'Shoes That Fit tackles one of the most visible signs of poverty by giving kids in need new athletic shoes to attend school with dignity and joy.',
     link: 'stf',
   },
 ];
