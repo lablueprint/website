@@ -37,7 +37,7 @@ const projects2022_23 = [
   {
     image: tcw,
     title: 'Trans Can Work',
-    desc: '[TCW DESCRIPTION]',
+    desc: 'TransCanWork provides individualized support for trans and non-binary jobseekers, as well as DEI training for employers, in order to create a workforce that is more inclusive and welcoming to all.',
     link: 'tcw',
   },
 ];
