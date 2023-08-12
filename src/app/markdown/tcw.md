@@ -22,7 +22,7 @@ TransCanWork
 
 | Team Members | |
 | - | - |
-| **_Project Leads_** | Nasser Elhajjoui, Solia Valentine |
+| **_Project Leads_** | Nasser Elhajjoui, Solia Valentine (November 2022 - June 2023); Aaron Shi, Alan Nguyen, Jeff Lu (June 2023 - September 2023) |
 | **_Designers_** | Jeff Lu, Jiyeon Han, Megan Tieu |
 | **_Developers_** | Aaron Shi, Alan Nguyen, Angela Hao, Dan Lee, Diya Baliga, Jiamin Xu, Kaylee Tran, Kevin Antony, Ryan Yeo |
 
