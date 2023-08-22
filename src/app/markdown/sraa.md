@@ -7,7 +7,7 @@ Skid Row Arts Alliance
 </Button>
 
 
-<Button className="white" size="md" href="https://www.figma.com/files/project/69670464">
+<Button className="white" size="md" href="https://www.figma.com/file/xTqoSZo77qaLM38N8k9qW7/Designs?type=design&node-id=25%3A448&mode=design&t=4Wyent7o7qEylY35-1">
     Figma Prototype
 </Button>
 
