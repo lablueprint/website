@@ -16,7 +16,7 @@ TransCanWork
 
 | Duration | Tools & Tech |
 | - | - |
-| November 2022 - September 2023 (11 months) | Figma, React, Firebase |
+| November 2022 - September 2023 | Figma, React, Firebase |
 
 </div>
 

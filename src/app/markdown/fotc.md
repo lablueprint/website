@@ -16,7 +16,7 @@ Friends of the Children
 
 | Duration | Tools & Tech |
 | - | - |
-| November 2022 - September 2023 (11 months) | Figma, React, Firebase, nodeJS, AWS, EX, git, VS Code |
+| November 2022 - September 2023 | Figma, React, Firebase, AWS |
 
 </div>
 

@@ -31,7 +31,7 @@ const projects2022_23 = [
   {
     image: sraa,
     title: 'Skid Row Arts Alliance',
-    desc: '[SRAA DESCRIPTION]',
+    desc: 'SRAA provides residents with community-wide art projects, workshops, and events to present the neighborhood as a united front.',
     link: 'sraa',
   },
   {
