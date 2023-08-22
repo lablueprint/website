@@ -275,8 +275,17 @@ For the first time, TCW jobseekers can create profiles to show off their persona
 
 Our internal app, to be used by admins and jobseekers, had a more sleek and simple look. On the external side of things, we chose display fonts and custom color palettes for the most visually appealing and pirate-like experience possible!
 
-
-![DEsign System](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-design-system.png)
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="15%" ></td>
+            <td width="70%" colspan=2>
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-design-system.png" alt="Design System">
+            </td>
+            <td width="15%" ></td>
+        </tr>
+    </tbody>
+</table>
 
 # Next Steps
 
