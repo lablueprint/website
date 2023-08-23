@@ -50,7 +50,7 @@ Features:
 4. An **Admin Portal** where SRAA admins can easily update the map by adding and deleting events, resources, zines, and curating the gallery
 
 # Design Process
-![Design Process](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-process.jpeg)
+![Design Process](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-process.jpeg)
 
 # Research
 
@@ -58,7 +58,7 @@ Features:
 
 To gain inspiration for our designs, we took a look at other various apps sharing similar features that we planned on implementing. Some of these apps included Yelp, Canvas, Google Arts & Culture, and many others.
 
-![Competitive Analysis](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-comp-analysis.png)
+![Competitive Analysis](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-comp-analysis.png)
 
 After separating the features by their respective categories, we took note of the strengths and weaknesses within the apps, highlighting aspects that we liked in particular.
 
@@ -70,7 +70,7 @@ We conducted interviews with three artists in the community and two admins who w
 
 Following the interviews we created an affinity map to collectively synthesize our findings as a group. We sorted insights into different categories to understand the common trends and problems the community faced, allowing us to effectively address these issues head-on.
 
-![Affinity Mapping](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-aff-mapping.jpg)
+![Affinity Mapping](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-aff-mapping.jpg)
 
 ### Key Takeaways
 
@@ -80,17 +80,17 @@ Following the interviews we created an affinity map to collectively synthesize o
 4. Current map **not interactive** and **outdated**
 5. **Lack of communication** between organizations - overlapping events
 
-![Key Takeaways](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-key-takeaways.png)
+![Key Takeaways](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-key-takeaways.png)
 
 ## User Personas
 
 We then developed 2 personas for our targeted audience: artists and admins. This allowed us to empathize and gain a better understanding of our audience's needs and challenges.
 
 ### The Artist
-![User Personas - The Artists](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-userpersonas-artist.png)
+![User Personas - The Artists](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-userpersonas-artist.png)
 
 ### The Admin
-![User Personas - The Admin](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-userpersonas-admin.png)
+![User Personas - The Admin](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-userpersonas-admin.png)
 
 # Ideation
 
@@ -98,7 +98,7 @@ We then developed 2 personas for our targeted audience: artists and admins. This
 
 Before moving on to the early stages of designing the interface itself, we created an information architecture to provide a visual framework to outline the structure of the app.
 
-![Information Architecture](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-info-architecture.jpeg)
+![Information Architecture](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-info-architecture.jpeg)
 
 # Low-Fidelity Prototypes
 
@@ -108,24 +108,24 @@ With our initial drafts created, we began creating various mockups to explore it
     <tbody>
         <tr>
             <td width="33%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-lowfi-map.png" alt="Low-Fidelity Prototype - Map Screen">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-lowfi-map.png" alt="Low-Fidelity Prototype - Map Screen">
             </td>
             <td width="33%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-lowfi-event.png" alt="Low-Fidelity Prototype - Events Screen">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-lowfi-event.png" alt="Low-Fidelity Prototype - Events Screen">
             </td>
             <td width="33%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-lowfi-zinereader.png" alt="Low-Fidelity Prototype - Zine Reader">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-lowfi-zinereader.png" alt="Low-Fidelity Prototype - Zine Reader">
             </td>
         </tr>
         <tr>
             <td width="33%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-lowfi-profile.png" alt="Low-Fidelity Prototype - Profile Page">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-lowfi-profile.png" alt="Low-Fidelity Prototype - Profile Page">
             </td>
             <td width="33%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-lowfi-artsubmission.png" alt="Low-Fidelity Prototype - Art Submission Portal">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-lowfi-artsubmission.png" alt="Low-Fidelity Prototype - Art Submission Portal">
             </td>
             <td width="33%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-lowfi-artdetails.png" alt="Low-Fidelity Prototype - Art Details Screen">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-lowfi-artdetails.png" alt="Low-Fidelity Prototype - Art Details Screen">
             </td>
         </tr>
     </tbody>
@@ -137,24 +137,24 @@ With our initial drafts created, we began creating various mockups to explore it
     <tbody>
         <tr>
             <td width="33%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-midfi-map.png" alt="Mid-Fidelity Prototype - Map Screen">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-midfi-map.png" alt="Mid-Fidelity Prototype - Map Screen">
             </td>
             <td width="33%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-midfi-profile.png" alt="Mid-Fidelity Prototype - Profile Page">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-midfi-profile.png" alt="Mid-Fidelity Prototype - Profile Page">
             </td>
             <td width="33%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-midfi-gallery.png" alt="Mid-Fidelity Prototype - Art Gallery">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-midfi-gallery.png" alt="Mid-Fidelity Prototype - Art Gallery">
             </td>
         </tr>
         <tr>
             <td width="33%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-midfi-eventdetails.png" alt="Mid-Fidelity Prototype - Event Details Screen">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-midfi-eventdetails.png" alt="Mid-Fidelity Prototype - Event Details Screen">
             </td>
             <td width="33%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-midfi-artsubmission.png" alt="Mid-Fidelity Prototype - Art Submission Portal">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-midfi-artsubmission.png" alt="Mid-Fidelity Prototype - Art Submission Portal">
             </td>
             <td width="33%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-midfi-artdetails.png" alt="Mid-Fidelity Prototype - Art Details Screen">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-midfi-artdetails.png" alt="Mid-Fidelity Prototype - Art Details Screen">
             </td>
         </tr>
     </tbody>
@@ -168,10 +168,10 @@ In order to gain further insight and feedback for our app, we conducted usabilit
     <tbody>
         <tr>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-usabilitytesting-1.png" alt="Usability Testing Zoom Call with Map Screen">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-usabilitytesting-1.png" alt="Usability Testing Zoom Call with Map Screen">
             </td>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-usabilitytesting-2.png" alt="Usability Testing Zoom Call with Art Details Screen">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-usabilitytesting-2.png" alt="Usability Testing Zoom Call with Art Details Screen">
             </td>
         </tr>
     </tbody>
@@ -181,13 +181,13 @@ Overall, participants found that the app was straightforward and user-friendly. 
 
 A few examples include: An audio icon to quickly identify the media type uploaded, a calendar view for intuitive navigation of events, and an artist section for greater artist emphasis and discovery.
 
-![Usability Testing - Interface Changes](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-usabilitytesting-3.png)
+![Usability Testing - Interface Changes](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-usabilitytesting-3.png)
 
 ## Design System
 
 While designing the app, we opted for colors that brought more visibility within the interface, while maintaining pre-existing themes that SRAA had for their own branding.
 
-![Design System](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-designsystem.jpeg)
+![Design System](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-designsystem.jpeg)
 
 # Final Designs
 
@@ -199,10 +199,10 @@ Browse and filter upcoming events in the surrounding area. Tap event cards for m
     <tbody>
         <tr>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-final-map.gif" alt="Final Designs - Map Screen">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-final-map.gif" alt="Final Designs - Map Screen">
             </td>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-final-events.gif" alt="Final Designs - Event Screen">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-final-events.gif" alt="Final Designs - Event Screen">
             </td>
         </tr>
     </tbody>
@@ -216,10 +216,10 @@ Explore a community-submitted gallery of various mediums of art. Find further in
     <tbody>
         <tr>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-final-artgallery.gif" alt="Final Designs - Art Gallery">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-final-artgallery.gif" alt="Final Designs - Art Gallery">
             </td>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-final-artdetails.gif" alt="Final Designs - Art Details Screen">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-final-artdetails.gif" alt="Final Designs - Art Details Screen">
             </td>
         </tr>
     </tbody>
@@ -234,7 +234,7 @@ Access the latest and past collection of Zines anytime, anywhere through the Zin
         <tr>
             <td width="25%" ></td>
             <td width="50%" colspan=2>
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-final-zinereader.gif" alt="Final Designs - Zines Reader">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-final-zinereader.gif" alt="Final Designs - Zines Reader">
             </td>
             <td width="25%" ></td>
         </tr>
@@ -249,10 +249,10 @@ Introduce yourself to the community while managing your saved art pieces and eve
     <tbody>
         <tr>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-final-profile.gif" alt="Final Designs - Profile Page">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-final-profile.gif" alt="Final Designs - Profile Page">
             </td>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-final-editprofile.gif" alt="Final Designs - Edit Profile Screen">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-final-editprofile.gif" alt="Final Designs - Edit Profile Screen">
             </td>
         </tr>
     </tbody>
@@ -267,7 +267,7 @@ Share your passions with the community, whether it be visual or audio. Add detai
         <tr>
             <td width="25%" ></td>
             <td width="50%" colspan=2>
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/SRAA/sraa-final-artsubmission.gif" alt="Final Designs - Art Submission Portal">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-final-artsubmission.gif" alt="Final Designs - Art Submission Portal">
             </td>
             <td width="25%" ></td>
         </tr>

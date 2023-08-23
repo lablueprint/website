@@ -48,7 +48,7 @@ To achieve this, we propose a web application with these primary features:
 3. **Admin management capabilities** to monitor and maintain the app.
     
 # Process
-![Process](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-process.png)
+![Process](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-process.png)
 
 # Research
 
@@ -56,7 +56,7 @@ To achieve this, we propose a web application with these primary features:
 
 We conducted an analysis of three competitors which offer services similar to that of TCW’s: JibberJobber, Youth@Work, and Job Search Journey. We were then able to identify commonalities between the sites which suggested features we should incorporate in our own product, as well as things that stood out and that we’d like to avoid doing.
 
-![Competitive Analysis](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-competitive-analysis.png)
+![Competitive Analysis](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-competitive-analysis.png)
 
 ## User Interviews
 
@@ -69,10 +69,10 @@ We conducted interviews with two Navigators from TransCanWork who work closely w
     <tbody>
         <tr>
             <td width="50%">
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-user-interviews-1.png" alt="User Interview">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-user-interviews-1.png" alt="User Interview">
             </td>
             <td width="50%" style="vertical-align: top;" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-user-interviews-2.png" alt="User Interview">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-user-interviews-2.png" alt="User Interview">
             </td>
         </tr>
     </tbody>
@@ -82,7 +82,7 @@ We conducted interviews with two Navigators from TransCanWork who work closely w
 
 Lastly, we synthesized our findings from both the competitive audit and the preliminary user interviews to identify common themes and trends. The result was this web of ideas:
 
-![Affinity Mapping](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-affinity-mapping.png)
+![Affinity Mapping](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-affinity-mapping.png)
 
 ## Key Takeaways
 
@@ -96,7 +96,7 @@ In creating the designs, we wanted to allow for a more convenient, faster, and a
 
 ## User Flow
 
-![User Flow](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-user-flow.png)
+![User Flow](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-user-flow.png)
 
 **Admin**
 
@@ -127,18 +127,18 @@ These rough sketches aimed to convey the content of each screen, rather than its
     <tbody>
         <tr>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-lofi-clientinfo.png" alt="Low-Fidelity Mockups - Client Info Page">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-lofi-clientinfo.png" alt="Low-Fidelity Mockups - Client Info Page">
             </td>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-lofi-adminprofilepage.png" alt="Low-Fidelity Mockups - Admin Profile Page">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-lofi-adminprofilepage.png" alt="Low-Fidelity Mockups - Admin Profile Page">
             </td>
         </tr>
         <tr>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-lofi-profilepage.png" alt="Low-Fidelity Mockups - Jobseeker Profile Page">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-lofi-profilepage.png" alt="Low-Fidelity Mockups - Jobseeker Profile Page">
             </td>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-lofi-employmentroadmap.png" alt="Low-Fidelity Mockups - Employment Roadmap">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-lofi-employmentroadmap.png" alt="Low-Fidelity Mockups - Employment Roadmap">
             </td>
         </tr>
     </tbody>
@@ -152,18 +152,18 @@ Next, we started to formulate our design system to decide on the colors, typogra
     <tbody>
         <tr>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-midfi-signup.png" alt="Mid-Fidelity Prototypes - Sign Up Page">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-midfi-signup.png" alt="Mid-Fidelity Prototypes - Sign Up Page">
             </td>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-midfi-navdashboard.png" alt="Mid-Fidelity Prototypes - Navigator Dashboard">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-midfi-navdashboard.png" alt="Mid-Fidelity Prototypes - Navigator Dashboard">
             </td>
         </tr>
         <tr>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-midfi-navprofile.png" alt="Mid-Fidelity Prototypes - Navigator Profile Page">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-midfi-navprofile.png" alt="Mid-Fidelity Prototypes - Navigator Profile Page">
             </td>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-midfi-employmentroadmap.png" alt="Mid-Fidelity Prototypes - Employment Roadmap">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-midfi-employmentroadmap.png" alt="Mid-Fidelity Prototypes - Employment Roadmap">
             </td>
         </tr>
     </tbody>
@@ -177,10 +177,10 @@ We conducted usability tests with two Navigators and one Jobseeker from TransCan
     <tbody>
         <tr>
             <td width="50%">
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-usabilitytesting-zoom-1.png" alt="Usability Testing Call">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-usabilitytesting-zoom-1.png" alt="Usability Testing Call">
             </td>
             <td width="50%" style="vertical-align: top;" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-usabilitytesting-zoom-2.png" alt="Usability Testing Call">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-usabilitytesting-zoom-2.png" alt="Usability Testing Call">
             </td>
         </tr>
     </tbody>
@@ -202,10 +202,10 @@ The landing page allows users to sign up for an account, or log in if they have 
     <tbody>
         <tr>
             <td width="50%">
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-finaldesigns-login.png" alt="Final Design - Login Page">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-finaldesigns-login.png" alt="Final Design - Login Page">
             </td>
             <td width="50%" style="vertical-align: top;" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-finaldesigns-signup.png" alt="Final Design - Sig Up Page">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-finaldesigns-signup.png" alt="Final Design - Sig Up Page">
             </td>
         </tr>
     </tbody>
@@ -219,18 +219,18 @@ The dashboard seamlessly uses a shared interface for admins and navigators. For 
     <tbody>
         <tr>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-finaldesigns-admindashboard-1.png" alt="Final Design - Admin Dashboard">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-finaldesigns-admindashboard-1.png" alt="Final Design - Admin Dashboard">
             </td>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-finaldesigns-admindashboard-2.png" alt="Final Design - Admin Dashboard">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-finaldesigns-admindashboard-2.png" alt="Final Design - Admin Dashboard">
             </td>
         </tr>
         <tr>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-finaldesigns-admindashboard-3.png" alt="Final Design - Admin Dashboard">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-finaldesigns-admindashboard-3.png" alt="Final Design - Admin Dashboard">
             </td>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-finaldesigns-admindashboard-4.png" alt="Final Design - Admin Dashboard">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-finaldesigns-admindashboard-4.png" alt="Final Design - Admin Dashboard">
             </td>
         </tr>
     </tbody>
@@ -244,10 +244,10 @@ The profile tab of the profile system allows users to see how their public profi
     <tbody>
         <tr>
             <td width="50%">
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-finaldesigns-adminprofile-1.png" alt="Final Design - Admin Profile Page">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-finaldesigns-adminprofile-1.png" alt="Final Design - Admin Profile Page">
             </td>
             <td width="50%" style="vertical-align: top;" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-finaldesigns-adminprofile-2.png" alt="Final Design - Admin Edit Profile Page">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-finaldesigns-adminprofile-2.png" alt="Final Design - Admin Edit Profile Page">
             </td>
         </tr>
     </tbody>
@@ -257,19 +257,19 @@ The profile tab of the profile system allows users to see how their public profi
 
 To help guide jobseekers along their journey, the dotted line to the red X (in keeping with the pirate theme) provides a sense of direction. Islands will also start black-and-white, then fill in with color once their corresponding milestone is completed, so that progress feels more rewarding and interactive.
 
-![Final Design - Jobseeker Employment Roadmap](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-finaldesigns-roadmap.png)
+![Final Design - Jobseeker Employment Roadmap](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-finaldesigns-roadmap.png)
 
 ## Jobseeker Roadmap Details
 
 Clicking or tapping on an island reveals a popup with details about the milestone it represents. They can include forms to fill out, checklists to mull over, resources to check out, and more! These popups allow jobseekers to easily see and access tasks without having to wait for their next navigator check-in. As requested by TCW, bits of pirate lingo are also sprinkled throughout!
 
-![Final Design - Jobseeker Roadmap Details](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-finaldesigns-roadmapdetails.png)
+![Final Design - Jobseeker Roadmap Details](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-finaldesigns-roadmapdetails.png)
 
 ## Jobseeker Profile Page
 
 For the first time, TCW jobseekers can create profiles to show off their personality. Full profile customization, including avatar and banner image selection, provides jobseekers control over their job-hunting voyage. The profile page also acts as a way to easily reach your assigned navigator, if the need arises.
 
-![Final Design - Jobseeker Profile Page](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-finaldesigns-jobseekerprofile.png)
+![Final Design - Jobseeker Profile Page](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-finaldesigns-jobseekerprofile.png)
 
 ## Design System
 
@@ -280,7 +280,7 @@ Our internal app, to be used by admins and jobseekers, had a more sleek and simp
         <tr>
             <td width="15%" ></td>
             <td width="70%" colspan=2>
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-design-system.png" alt="Design System">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-design-system.png" alt="Design System">
             </td>
             <td width="15%" ></td>
         </tr>
@@ -297,10 +297,10 @@ If we had more time, the designers would have liked to conduct a few more interv
     <tbody>
         <tr>
             <td width="50%">
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-team-1.jpeg" alt="Blueprint TransCanWork Project Team">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-team-1.jpeg" alt="Blueprint TransCanWork Project Team">
             </td>
             <td width="50%" style="vertical-align: top;" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/TCW/tcw-team-2.png" alt="Blueprint TransCanWork Project Team">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/TCW/tcw-team-2.png" alt="Blueprint TransCanWork Project Team">
             </td>
         </tr>
     </tbody>

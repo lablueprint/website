@@ -49,7 +49,7 @@ To achieve this, we propose a web application with these primary features:
 3. **Message Wall / Email + Text system** allows Admin to make announcements, post them on a message wall, and make sure mentors and caregivers are notified via email or text.
 
 # Process
-![Process](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-process.png)
+![Process](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-process.png)
 
 # Research
 
@@ -59,16 +59,16 @@ Since the main feature of our app is the module system, we conducted an analysis
 
 ✏️ **Teacher / Admin Part**
 
-![Competitive Analysis - Teacher/Admin Part](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-comp-analysis-teacher-admin.png)
+![Competitive Analysis - Teacher/Admin Part](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-comp-analysis-teacher-admin.png)
 
 
 👩‍🎓 **Student Part**
 
-![Competitive Analysis - Student Part](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-comp-analysis-student.png)
+![Competitive Analysis - Student Part](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-comp-analysis-student.png)
 
 ### *Key Takeaways from Competitive Analysis*
 
-![Competitive Analysis - Key Takeaways](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-comp-analysis-key-takeaways.png)
+![Competitive Analysis - Key Takeaways](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-comp-analysis-key-takeaways.png)
 
 ## User Interviews
 
@@ -77,13 +77,13 @@ We conducted interviews with five FOTC members including admin (Program Director
 - *Asked about what kind of inconveniences occur when teaching and what organization system would be preferred*
 - *Showed a few lo-fi screens for feedback / evaluate tech familiarity / understand what resources are needed to operate*
 
-![User Interviews](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-user-interviews.png)
+![User Interviews](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-user-interviews.png)
 
-![User Interviews - Zoom Call 1](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-user-interviews-zoom-1.png)
+![User Interviews - Zoom Call 1](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-user-interviews-zoom-1.png)
 
-![User Interviews - Zoom Call 2](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-user-interviews-zoom-2.png)
+![User Interviews - Zoom Call 2](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-user-interviews-zoom-2.png)
 
-![User Interviews - Zoom Call 3](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-user-interviews-zoom-3.png)
+![User Interviews - Zoom Call 3](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-user-interviews-zoom-3.png)
 
 ## Insights
 
@@ -100,15 +100,15 @@ Lastly, we synthesized our findings from both the competitive audit and the prel
     - No easy direct link of communication between admin and mentors
 
 ## Key Takeaways / Iterated Final Solutions
-![User Interviews - Key Takeaways](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-user-interviews-key-takeaways.png)
+![User Interviews - Key Takeaways](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-user-interviews-key-takeaways.png)
 
 # Ideation
 
 ## User Flow
 
-![Ideation - Admin User Flow](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-ideation-user-flow-admin.png)
+![Ideation - Admin User Flow](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-ideation-user-flow-admin.png)
 
-![Ideation - Mentor User Flow](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-ideation-user-flow-mentor.png)
+![Ideation - Mentor User Flow](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-ideation-user-flow-mentor.png)
 
 **Admin**
 
@@ -134,24 +134,24 @@ Lastly, we synthesized our findings from both the competitive audit and the prel
     <tbody>
         <tr>
             <td width="50%" colspan=2>
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-lofi-signup.png" alt="Low-Fidelity Mockups - Sign Up">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-lofi-signup.png" alt="Low-Fidelity Mockups - Sign Up">
             </td>
             <td width="50%" colspan=2>
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-lofi-calendar.png" alt="Low-Fidelity Mockups - Calendar">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-lofi-calendar.png" alt="Low-Fidelity Mockups - Calendar">
             </td>
         </tr>
         <tr>
             <td width="50%" colspan=2>
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-lofi-announcements.png" alt="Low-Fidelity Mockups - Announcements">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-lofi-announcements.png" alt="Low-Fidelity Mockups - Announcements">
             </td>
             <td width="50%" colspan=2>
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-lofi-images.png" alt="Low-Fidelity Mockups - Images">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-lofi-images.png" alt="Low-Fidelity Mockups - Images">
             </td>
         </tr>
         <tr>
             <td width="25%" ></td>
             <td width="50%" colspan=2>
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-lofi-resources.png" alt="Low-Fidelity Mockups - Resources">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-lofi-resources.png" alt="Low-Fidelity Mockups - Resources">
             </td>
             <td width="25%" ></td>
         </tr>
@@ -164,32 +164,32 @@ Lastly, we synthesized our findings from both the competitive audit and the prel
     <tbody>
         <tr>
             <td width="50%" colspan=2>
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-midfi-my-mentees.png" alt="Mid-Fidelity Prototypes - Mentee Summary">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-midfi-my-mentees.png" alt="Mid-Fidelity Prototypes - Mentee Summary">
             </td>
             <td width="50%" colspan=2>
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-midfi-announcements.png" alt="Mid-Fidelity Prototypes - Announcements">
-            </td>
-        </tr>
-        <tr>
-            <td width="50%" colspan=2>
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-midfi-profile.png" alt="Mid-Fidelity Prototypes - Mentor Profile">
-            </td>
-            <td width="50%" colspan=2>
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-midfi-mentee-profile.png" alt="Mid-Fidelity Prototypes - Mentee Profile">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-midfi-announcements.png" alt="Mid-Fidelity Prototypes - Announcements">
             </td>
         </tr>
         <tr>
             <td width="50%" colspan=2>
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-midfi-resources.png" alt="Mid-Fidelity Prototypes - Resources">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-midfi-profile.png" alt="Mid-Fidelity Prototypes - Mentor Profile">
             </td>
             <td width="50%" colspan=2>
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-midfi-requests.png" alt="Mid-Fidelity Prototypes - Requests">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-midfi-mentee-profile.png" alt="Mid-Fidelity Prototypes - Mentee Profile">
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" colspan=2>
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-midfi-resources.png" alt="Mid-Fidelity Prototypes - Resources">
+            </td>
+            <td width="50%" colspan=2>
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-midfi-requests.png" alt="Mid-Fidelity Prototypes - Requests">
             </td>
         </tr>
         <tr>
             <td width="25%" ></td>
             <td width="50%" colspan=2>
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-midfi-calendar.png" alt="Mid-Fidelity Prototypes - Calendar">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-midfi-calendar.png" alt="Mid-Fidelity Prototypes - Calendar">
             </td>
             <td width="25%" ></td>
         </tr>
@@ -210,15 +210,15 @@ Users also pointed out significant issues that needed to be implemented:
 
 We iterated our hifi designs and made design decisions based on the feedback.
 
-![Usability Testing - Iterations / Design Decisions 1](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-usabilitytesting-designdecisions-1.png)
+![Usability Testing - Iterations / Design Decisions 1](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-usabilitytesting-designdecisions-1.png)
 
-![Usability Testing - Iterations / Design Decisions 2](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-usabilitytesting-designdecisions-2.png)
+![Usability Testing - Iterations / Design Decisions 2](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-usabilitytesting-designdecisions-2.png)
 
-![Usability Testing - Iterations / Design Decisions 3](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-usabilitytesting-designdecisions-3.png)
+![Usability Testing - Iterations / Design Decisions 3](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-usabilitytesting-designdecisions-3.png)
 
-![Usability Testing - Iterations / Design Decisions 4](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-usabilitytesting-designdecisions-4.png)
+![Usability Testing - Iterations / Design Decisions 4](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-usabilitytesting-designdecisions-4.png)
 
-![Usability Testing - Iterations / Design Decisions 5](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-usabilitytesting-designdecisions-5.png)
+![Usability Testing - Iterations / Design Decisions 5](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-usabilitytesting-designdecisions-5.png)
 
 # Final Designs
 
@@ -226,31 +226,31 @@ We iterated our hifi designs and made design decisions based on the feedback.
 
 Sign up and log in as an admin, mentor, or caregiver based on the region.
 
-![Final Designs - Sign Up](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-finaldesigns-signup.gif)
+![Final Designs - Sign Up](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-finaldesigns-signup.gif)
 
 ### Resources / Modules 
 
 Browse dozens of resources. Click, upload, and customize.
 
-![Final Designs - Resources/Modules](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-finaldesigns-resources.gif)
+![Final Designs - Resources/Modules](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-finaldesigns-resources.gif)
 
 ### Calendar
 
 Manage event details in one place and export to your own calendar to never forget!
 
-![Final Designs - Calendar](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-finaldesigns-calendar.gif)
+![Final Designs - Calendar](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-finaldesigns-calendar.gif)
 
 ### New User Sign-Up Requests
 
 Approve new users and delete unnecessary accounts to ensure only FOTC members sign up.
 
-![Final Designs - New User Sign-Up Requests](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-finaldesigns-newusersignuprequests.gif)
+![Final Designs - New User Sign-Up Requests](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-finaldesigns-newusersignuprequests.gif)
 
 ### Notices / Message Wall
 
 Have all your messages and announcements compiled in one place instead of manually checking all the emails.
 
-![Final Designs - Notices/Message Wall](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-finaldesigns-notices.gif)
+![Final Designs - Notices/Message Wall](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-finaldesigns-notices.gif)
 
 
 ### Design System
@@ -259,10 +259,10 @@ Have all your messages and announcements compiled in one place instead of manual
     <tbody>
         <tr>
             <td width="79%">
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-designsystem-1.png" alt="Design System - Colors and Typography">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-designsystem-1.png" alt="Design System - Colors and Typography">
             </td>
             <td width="21%" style="vertical-align: top;" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/FOTC/fotc-designsystem-2.png" alt="Design System - FOTC Logo">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/FOTC/fotc-designsystem-2.png" alt="Design System - FOTC Logo">
             </td>
         </tr>
     </tbody>
