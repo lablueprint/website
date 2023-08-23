@@ -23,6 +23,9 @@ import hpMobileApp from '../assets/images/projects/HP_Thumbnail.png';
 import tckApp from '../assets/images/projects/tckgraphic.png';
 import stfApp from '../assets/images/projects/stfgraphic.png';
 import apifmApp from '../assets/images/projects/apifmgraphic.png';
+import fotcApp from '../assets/images/projects/fotcgraphic.png';
+import sraaApp from '../assets/images/projects/sraagraphic.png';
+import tcwApp from '../assets/images/projects/tcwgraphic.png';
 
 import ptv from '../markdown/ptv.md';
 import harmonyProject from '../markdown/harmony_project.md';
@@ -30,9 +33,36 @@ import farm2people from '../markdown/farm2people.md';
 import apifm from '../markdown/apifm.md';
 import tck from '../markdown/theconsciouskid.md';
 import stf from '../markdown/shoesthatfit.md';
+import fotc from '../markdown/fotc.md';
+import sraa from '../markdown/sraa.md';
+import tcw from '../markdown/tcw.md';
 
 /* eslint-disable */
 const projects = {
+  'fotc': {
+    title: '',
+    render: () => (
+      <>
+        <img src={fotcApp} width="100%" style={{objectFit: 'contain'}}></img>
+      </>
+    )
+  },
+  'sraa': {
+    title: '',
+    render: () => (
+      <>
+        <img src={sraaApp} width="100%" style={{objectFit: 'contain'}}></img>
+      </>
+    )
+  },
+  'tcw': {
+    title: '',
+    render: () => (
+      <>
+        <img src={tcwApp} width="100%" style={{objectFit: 'contain'}}></img>
+      </>
+    )
+  },
   'apifm': {
     title: '',
     render: () => (
@@ -90,7 +120,22 @@ export default function ProjectInfo({ projectName }) {
   const [projectInfo, setProjectInfo] = useState(null);
 
   useEffect(() => {
-    if (projectName === 'apifm') {
+    if (projectName === 'fotc') {
+      fetch(fotc)
+        .then((res) => res.text())
+        .then((text) => setProjectInfo(text))
+        .catch((err) => console.warn(err));
+    } else if (projectName === 'sraa') {
+      fetch(sraa)
+        .then((res) => res.text())
+        .then((text) => setProjectInfo(text))
+        .catch((err) => console.warn(err));
+    } else if (projectName === 'tcw') {
+      fetch(tcw)
+        .then((res) => res.text())
+        .then((text) => setProjectInfo(text))
+        .catch((err) => console.warn(err));
+    } else if (projectName === 'apifm') {
       fetch(apifm)
         .then((res) => res.text())
         .then((text) => setProjectInfo(text))

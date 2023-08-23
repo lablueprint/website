@@ -15,7 +15,30 @@ import tck from '../assets/images/projects/tckgraphic.png';
 import stf from '../assets/images/projects/stfgraphic.png';
 import apifm from '../assets/images/projects/apifmgraphic.png';
 
+import fotc from '../assets/images/projects/fotcgraphic.png';
+import sraa from '../assets/images/projects/sraagraphic.png';
+import tcw from '../assets/images/projects/tcwgraphic.png';
+
 const projects = [
+  {
+    image: fotc,
+    title: 'Friends of the Children',
+    desc:
+      'Friends of the Children-LA disrupts the cycle of generational poverty and supports families by assigning full-time, salaried mentors (Friends) for 12+ years to underserved youth such as those in foster care.',
+    link: 'fotc',
+  },
+  {
+    image: sraa,
+    title: 'Skid Row Arts Alliance',
+    desc: 'SRAA provides residents with community-wide art projects, workshops, and events to present the neighborhood as a united front.',
+    link: 'sraa',
+  },
+  {
+    image: tcw,
+    title: 'Trans Can Work',
+    desc: 'TransCanWork provides individualized support for trans and non-binary jobseekers, as well as DEI training for employers, in order to create a workforce that is more inclusive and welcoming to all.',
+    link: 'tcw',
+  },
   {
     image: apifm,
     title: 'Asian and Pacific Islander Forward Movement',
