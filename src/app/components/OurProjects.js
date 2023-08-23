@@ -24,19 +24,19 @@ const projects = [
     image: fotc,
     title: 'Friends of the Children',
     desc:
-      '[FOTC DESCRIPTION]',
+      'Friends of the Children-LA disrupts the cycle of generational poverty and supports families by assigning full-time, salaried mentors (Friends) for 12+ years to underserved youth such as those in foster care.',
     link: 'fotc',
   },
   {
     image: sraa,
     title: 'Skid Row Arts Alliance',
-    desc: '[SRAA DESCRIPTION]',
+    desc: 'SRAA provides residents with community-wide art projects, workshops, and events to present the neighborhood as a united front.',
     link: 'sraa',
   },
   {
     image: tcw,
     title: 'Trans Can Work',
-    desc: '[TCW DESCRIPTION]',
+    desc: 'TransCanWork provides individualized support for trans and non-binary jobseekers, as well as DEI training for employers, in order to create a workforce that is more inclusive and welcoming to all.',
     link: 'tcw',
   },
   {
