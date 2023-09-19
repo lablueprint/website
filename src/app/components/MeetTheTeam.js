@@ -30,7 +30,6 @@ import JimmyTang from '../assets/images/team/jimmy_tang.png';
 import JiyeonHan from '../assets/images/team/jiyeon_han.png';
 import JoyceChen from '../assets/images/team/joyce_chen.png';
 import JulietZhang from '../assets/images/team/juliet_zhang.png';
-import KayleeTran from '../assets/images/team/kaylee_tran.png';
 import KennyWan from '../assets/images/team/kenny_wan.png';
 import MeganTieu from '../assets/images/team/megan_tieu.png';
 
@@ -180,12 +179,6 @@ const members = [
     name: 'Juliet Zhang ',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/zhang-juliet/',
-  },
-  {
-    image: KayleeTran,
-    name: 'Kaylee Tran ',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/kayleemtran',
   },
   {
     image: KennyWan,
