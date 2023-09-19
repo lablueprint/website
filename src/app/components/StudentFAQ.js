@@ -15,7 +15,7 @@ const faq = [
   },
   {
     question: 'How are the project teams structured?',
-    answer: 'Project teams typically consist of 1 project lead, 4-6 developers, and 1-2 designers. Our projects are developed and designed over Fall - Spring every year.',
+    answer: 'Project teams typically consist of 1 project lead, 6-7 developers, and 3-4 designers. Our projects are developed and designed over Fall - Spring every year.',
   },
   {
     question: 'Do I get to choose the team that I am on?',

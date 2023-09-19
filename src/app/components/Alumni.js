@@ -44,6 +44,7 @@ import DanLee from '../assets/images/alumni/dan_lee.png';
 import DarleneKabigting from '../assets/images/alumni/darlene_kabigting.png';
 import DeyaRaghavan from '../assets/images/alumni/deya_raghavan.png';
 import GraceMa from '../assets/images/alumni/grace_ma.png';
+import KayleeTran from '../assets/images/alumni/kaylee_tran.png';
 import KenFukuyama from '../assets/images/alumni/ken_fukuyama.png';
 import KevinAntony from '../assets/images/alumni/kevin_antony.png';
 import LauraLu from '../assets/images/alumni/laura_lu.png';
@@ -97,6 +98,12 @@ const members = [
     name: 'Grace Ma ',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/gracelma/',
+  },
+  {
+    image: KayleeTran,
+    name: 'Kaylee Tran ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/kayleemtran',
   },
   {
     image: KenFukuyama,
