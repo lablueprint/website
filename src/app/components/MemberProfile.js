@@ -6,9 +6,12 @@ import PropTypes from 'prop-types';
 export default function MemberProfile({
   image, name, position, linkedInURL,
 }) {
+  const imageStyle = {
+    borderRadius: '50%', // Adjust the value to control the roundness of the corners
+  };
   return (
     <div className="member-profile">
-      <Image src={image} width="200" height="200" fluid rounded />
+      <Image src={image} width="200" height="200" fluid style={imageStyle} />
       <div className="name">{name}</div>
       <div className="position">{position}</div>
       {linkedInURL && (
