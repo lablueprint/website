@@ -27,7 +27,7 @@ export default function StudentFAQ() {
   const faqItems = faq.map((faqItem) => (
     <div key={JSON.stringify(faqItem)}>
       <div className="faq-question">
-        {faqItem.question}
+        <b>{faqItem.question}</b>
       </div>
       <div className="faq-answer">
         {faqItem.answer}
