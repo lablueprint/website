@@ -7,7 +7,7 @@ export default function MemberProfile({
   image, name, position, linkedInURL,
 }) {
   const imageStyle = {
-    borderRadius: '50%', // Adjust the value to control the roundness of the corners
+    borderRadius: '50%',
   };
   return (
     <div className="member-profile">
