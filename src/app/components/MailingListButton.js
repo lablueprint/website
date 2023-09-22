@@ -14,7 +14,7 @@ export default function MailingListButton() {
           2023-24 Application
         </Button> */}
         <div className="mailing-list-button-text">
-          Fill out our interest form to get an email when applications open!
+          Fill out our interest form for more updates on recruitment!
         </div>
         <Button className="raised-button blue" href="https://airtable.com/appNXPLX16HDPNLLY/shrjFzXLVJ0vbGCSy">
           2023-24 Interest Form
