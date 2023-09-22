@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1fd72daba5d8705ab872b87b68fd3ce1",
+    "revision": "58802a77480d99e05bbde6a36ab1417f",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.80f479d8.chunk.css"
   },
   {
-    "revision": "93e097db2ca50cfcd94a",
+    "revision": "e975fbaf7611c28d8c72",
     "url": "/static/css/main.a78f84ee.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.0c9e2558.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "93e097db2ca50cfcd94a",
-    "url": "/static/js/main.dd605b4d.chunk.js"
+    "revision": "e975fbaf7611c28d8c72",
+    "url": "/static/js/main.8e9c6ad1.chunk.js"
   },
   {
     "revision": "e5d4fc46478d256b5188",
@@ -272,10 +272,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bill_liu.904cebab.png"
   },
   {
-    "revision": "552b4cbdc945509c49fe8fc4ee60d1e3",
-    "url": "/static/media/blizzard.552b4cbd.svg"
-  },
-  {
     "revision": "dbba445042420230e6a2cd1b401ca9b0",
     "url": "/static/media/bloomberg.dbba4450.svg"
   },
@@ -358,6 +354,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9e590f36304d1a14c69eebe7540d0770",
     "url": "/static/media/farm2people.9e590f36.md"
+  },
+  {
+    "revision": "15aee13c198c2bde686196ff9b79d6e7",
+    "url": "/static/media/fidelity.15aee13c.svg"
   },
   {
     "revision": "bfc8530d272f878aca3645d0faf615a4",

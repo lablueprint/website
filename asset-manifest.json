@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.a78f84ee.chunk.css",
-    "main.js": "/static/js/main.dd605b4d.chunk.js",
-    "main.js.map": "/static/js/main.dd605b4d.chunk.js.map",
+    "main.js": "/static/js/main.8e9c6ad1.chunk.js",
+    "main.js.map": "/static/js/main.8e9c6ad1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f3bce04e.js",
     "runtime-main.js.map": "/static/js/runtime-main.f3bce04e.js.map",
     "static/css/2.80f479d8.chunk.css": "/static/css/2.80f479d8.chunk.css",
     "static/js/2.0c9e2558.chunk.js": "/static/js/2.0c9e2558.chunk.js",
     "static/js/2.0c9e2558.chunk.js.map": "/static/js/2.0c9e2558.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5c7a9299be49fb0fd558e5d36aa537a3.js": "/precache-manifest.5c7a9299be49fb0fd558e5d36aa537a3.js",
+    "precache-manifest.2a253b94da03bb0df876a7726ba5a826.js": "/precache-manifest.2a253b94da03bb0df876a7726ba5a826.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.80f479d8.chunk.css.map": "/static/css/2.80f479d8.chunk.css.map",
     "static/css/main.a78f84ee.chunk.css.map": "/static/css/main.a78f84ee.chunk.css.map",
@@ -35,7 +35,6 @@
     "static/media/ayub_ali.png": "/static/media/ayub_ali.f53fba0d.png",
     "static/media/bianca_villamor.png": "/static/media/bianca_villamor.5ac4068a.png",
     "static/media/bill_liu.png": "/static/media/bill_liu.904cebab.png",
-    "static/media/blizzard.svg": "/static/media/blizzard.552b4cbd.svg",
     "static/media/bloomberg.svg": "/static/media/bloomberg.dbba4450.svg",
     "static/media/caroline_debBaruah.png": "/static/media/caroline_debBaruah.650b6d9d.png",
     "static/media/celine_sung.png": "/static/media/celine_sung.a5ce8094.png",
@@ -57,6 +56,7 @@
     "static/media/erin_kwon.png": "/static/media/erin_kwon.6f428c9e.png",
     "static/media/facebook.svg": "/static/media/facebook.665dd80e.svg",
     "static/media/farm2people.md": "/static/media/farm2people.9e590f36.md",
+    "static/media/fidelity.svg": "/static/media/fidelity.15aee13c.svg",
     "static/media/figma.svg": "/static/media/figma.bfc8530d.svg",
     "static/media/for-students-23-24.png": "/static/media/for-students-23-24.a4cbedc7.png",
     "static/media/fotc.md": "/static/media/fotc.d84c0854.md",
@@ -140,6 +140,6 @@
     "static/css/2.80f479d8.chunk.css",
     "static/js/2.0c9e2558.chunk.js",
     "static/css/main.a78f84ee.chunk.css",
-    "static/js/main.dd605b4d.chunk.js"
+    "static/js/main.8e9c6ad1.chunk.js"
   ]
 }
