@@ -6,9 +6,9 @@ import Fade from 'react-reveal/Fade';
 import Amazon from '../assets/images/companies/amazon.svg';
 import Apple from '../assets/images/companies/apple.svg';
 import Bloomberg from '../assets/images/companies/bloomberg.svg';
-import Blizzard from '../assets/images/companies/blizzard.svg';
 import Disney from '../assets/images/companies/disney.svg';
 import Facebook from '../assets/images/companies/facebook.svg';
+import Fidelity from '../assets/images/companies/fidelity.svg';
 import Instagram from '../assets/images/companies/instagram.svg';
 import IBM from '../assets/images/companies/ibm.svg';
 import Figma from '../assets/images/companies/figma.svg';
@@ -38,16 +38,16 @@ const companyData = [
     link: 'https://www.bloomberg.com/',
   },
   {
-    logo: Blizzard,
-    link: 'https://www.blizzard.com/',
-  },
-  {
     logo: Disney,
     link: 'https://www.disney.com/',
   },
   {
     logo: Facebook,
     link: 'https://www.facebook.com/',
+  },
+  {
+    logo: Fidelity,
+    link: 'https://www.fidelity.com/',
   },
   {
     logo: Instagram,
