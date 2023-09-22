@@ -177,7 +177,7 @@ const members = [
   {
     image: JulietZhang,
     name: 'Juliet Zhang ',
-    position: 'Developer',
+    position: 'Designer',
     linkedInURL: 'https://www.linkedin.com/in/zhang-juliet/',
   },
   {
@@ -189,7 +189,7 @@ const members = [
   {
     image: MeganTieu,
     name: 'Megan Tieu ',
-    position: 'Designer',
+    position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/megan-tieu/',
   },
   {
