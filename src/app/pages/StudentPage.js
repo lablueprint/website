@@ -11,8 +11,6 @@ import studentImage from '../assets/images/headers/for-students-23-24.png';
 
 import SectionSubtitle from '../components/SectionSubtitle';
 
-const MAILCHIMP_URL = 'http://eepurl.com/hegxUv';
-
 export default function StudentPage() {
   return (
     <>
@@ -25,24 +23,19 @@ export default function StudentPage() {
               Joining Blueprint is a great way to give back to your community. Help us build our
               applications and work with nonprofits!
             </SectionSubtitle>
-            {/* <SectionSubtitle className="sign-up mb-3">
-              Applications are currently open! The deadline is October 8th, 11:59 PM PST.
-            </SectionSubtitle>
-            <Button className="outline-white" size="md" href="https://bit.ly/LABlueprintMemberAppFall21">
-              Check out our applications
-            </Button> */}
             <SectionSubtitle className="sign-up mb-3">
-              {/* Applications are currently open! Sign up for our mailing list to
-              get updates about our current recruitment cycle! */}
-              Applications are currently closed. Sign up for our mailing list to
-              get an email when our next recruitment cycle begins!
+              Applications are currently open! The deadline is October 6th, 11:59 PM PST.
             </SectionSubtitle>
-            <form action={MAILCHIMP_URL} method="post" className="mailing-list">
-              <input className="mailing-list-input" name="EMAIL" placeholder="example@email.com" />
-              <Button className="outline-white" type="submit" size="md">
-                Submit
-              </Button>
-            </form>
+            <Button className="outline-white" size="md" href="https://airtable.com/appxZCTFmfmTz8hR0/shrLYrIOpBsVNZGtV">
+              Check out our applications
+            </Button>
+            {/* <SectionSubtitle className="sign-up mb-3">
+              Applications are currently closed. Fill out our interest form for more updates on
+              when our next recruitment cycle begins!
+            </SectionSubtitle>
+            <Button className="outline-white" href="https://airtable.com/appNXPLX16HDPNLLY/shrjFzXLVJ0vbGCSy">
+              2023-24 Interest Form
+            </Button> */}
           </>
         )}
         image={studentImage}
