@@ -10,7 +10,7 @@ const timeline = [
     // heading: 'Applications Open',
     // date: 'Sept 19',
     body: (<div>
-      Applications for our Fall 2023 recruitment are open! You can find a link to our application on our <a href="https://linktr.ee/lablueprint">Linktree</a> or you can fill one out <a href="https://airtable.com/appxZCTFmfmTz8hR0/shrLYrIOpBsVNZGtV">here</a>. Fill out our recruitment interest form, and check our <a href="https://facebook.com/lablueprint">Facebook</a> and <a href="https://instagram.com/lablueprint">Instagram</a> out to be notified about everything recruitment related!
+      Applications for our Fall 2023 recruitment are open! You can find a link to our application on our <a href="https://linktr.ee/lablueprint">Linktree</a>. Fill out our recruitment interest form, and check our <a href="https://facebook.com/lablueprint">Facebook</a> and <a href="https://instagram.com/lablueprint">Instagram</a> out to be notified about everything recruitment related!
     </div>),
     // body: (<div>
     //   Applications for our Fall 2023 recruitment will open in <b>Week 0</b>! Check our <a href="https://facebook.com/lablueprint">Facebook</a> and <a href="https://instagram.com/lablueprint">Instagram</a> out to be notified about everything recruitment related!
