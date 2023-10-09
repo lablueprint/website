@@ -23,19 +23,19 @@ export default function StudentPage() {
               Joining Blueprint is a great way to give back to your community. Help us build our
               applications and work with nonprofits!
             </SectionSubtitle>
-            <SectionSubtitle className="sign-up mb-3">
+            {/* <SectionSubtitle className="sign-up mb-3">
               Applications are currently open! The deadline is October 6th, 11:59 PM PST.
             </SectionSubtitle>
             <Button className="outline-white" size="md" href="https://airtable.com/appxZCTFmfmTz8hR0/shrLYrIOpBsVNZGtV">
               Check out our applications
-            </Button>
-            {/* <SectionSubtitle className="sign-up mb-3">
+            </Button> */}
+            <SectionSubtitle className="sign-up mb-3">
               Applications are currently closed. Fill out our interest form for more updates on
-              when our next recruitment cycle begins!
+              our other initiatives!
             </SectionSubtitle>
             <Button className="outline-white" href="https://airtable.com/appNXPLX16HDPNLLY/shrjFzXLVJ0vbGCSy">
               2023-24 Interest Form
-            </Button> */}
+            </Button>
           </>
         )}
         image={studentImage}

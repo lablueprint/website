@@ -6,6 +6,7 @@
 git clone https://github.com/lablueprint/website
 cd website
 npm install --save
+export NODE_OPTIONS=--openssl-legacy-provider
 ```
 
 ## ESLint
