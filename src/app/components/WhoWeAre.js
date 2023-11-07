@@ -17,7 +17,7 @@ export default function WhoWeAre() {
           {/* eslint-disable */}
           <SectionParagraph className="who-we-are body">
             <p>
-              Blueprint is committed to building and promoting tech for social good—free of charge. We collaborate with nonprofit organizations in Southern California to build mobile and web applications. 
+              LA Blueprint is student-run 501(c)(3) nonprofit committed to building and promoting tech for social good—free of charge. We collaborate with nonprofit organizations in Southern California and beyond to build mobile and web applications. 
               <br/>
               <br/>
               Blueprint is a multinational organization founded in 2013 at the <a href="https://www.calblueprint.org">University of California, Berkeley</a>. Our UCLA chapter is the third established chapter after the <a href="https://www.uwblueprint.org">University of Waterloo</a>.
