@@ -32,12 +32,13 @@ import JoyceChen from '../assets/images/team/joyce_chen.png';
 import JulietZhang from '../assets/images/team/juliet_zhang.png';
 import KennyWan from '../assets/images/team/kenny_wan.png';
 import MeganTieu from '../assets/images/team/megan_tieu.png';
+import RyanKim from '../assets/images/team/ryan_kim.png';
 
 //  Advisors
+import AvnishSengupta from '../assets/images/team/anvish_sengupta.png';
 import ChantalTan from '../assets/images/team/chantal_tan.png';
 import DiyaBaliga from '../assets/images/team/diya_baliga.png';
 import HelenWang from '../assets/images/team/helen_wang.png';
-import AvnishSengupta from '../assets/images/team/anvish_sengupta.png';
 import NasserElhajjaoui from '../assets/images/team/nasser_elhajjaoui.png';
 
 import MemberProfile from './MemberProfile';
@@ -137,6 +138,13 @@ const members = [
     image: AngelaTan,
     name: 'Angela Tan ',
     position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/angela-tan-221892251/',
+  },
+  {
+    image: null,
+    name: 'Antonio Cosio ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/acosio/',
   },
   {
     image: AyubAli,
@@ -145,16 +153,75 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/ayub-ali24/',
   },
   {
+    image: null,
+    name: 'Chancellor Richey ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/chancellororichey/',
+  },
+  {
+    image: null,
+    name: 'Cheryl Wu ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/cherylwu8/',
+  },
+  {
+    image: null,
+    name: 'Chinenye Eneh ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/chinenye-eneh-118778268/',
+  },
+  {
+    image: null,
+    name: 'Chizi Oranu ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/chizitelumoranu/',
+  },
+  {
+    image: null,
+    name: 'Daniel Chang ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/daniel-chang-457886248/',
+  },
+  {
     image: DanielKao,
     name: 'Daniel Kao ',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/daniel-kao14/',
   },
   {
+    image: null,
+    name: 'Daniel Ogura ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/danielogura/',
+  },
+  {
     image: DiyaIndoliya,
     name: 'Diya Indoliya ',
     position: 'Designer',
     linkedInURL: 'https://www.linkedin.com/in/diya-indoliya/',
+  },
+  {
+    image: null,
+    name: 'Edward Ng ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/edward-n/',
+  },
+  {
+    image: null,
+    name: 'Eric Zhou ',
+    position: 'Designer',
+  },
+  {
+    image: null,
+    name: 'Fiona Peng ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/fiona-peng-46b8a6228/',
+  },
+  {
+    image: null,
+    name: 'Jasmine Wongphatarakul ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/jasmine-wongphatarakul/',
   },
   {
     image: JimmyTang,
@@ -167,6 +234,12 @@ const members = [
     name: 'Jiyeon Han ',
     position: 'Designer',
     linkedInURL: 'https://www.linkedin.com/in/jiyeonhann/',
+  },
+  {
+    image: null,
+    name: 'Joy Cheng ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/joy-y-cheng/',
   },
   {
     image: JoyceChen,
@@ -187,16 +260,58 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/kennethzwan/',
   },
   {
+    image: null,
+    name: 'Kimberly Nguyen ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/kimberlynguyenh/',
+  },
+  {
+    image: null,
+    name: 'Mackenzie Smith ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/mackenzie-smith-3728a3220/',
+  },
+  {
+    image: null,
+    name: 'Mario Peng Lee ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/mariopenglee/',
+  },
+  {
     image: MeganTieu,
     name: 'Megan Tieu ',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/megan-tieu/',
   },
   {
-    image: DiyaBaliga,
-    name: 'Diya Baliga ',
-    position: 'Advisor',
-    linkedInURL: 'https://www.linkedin.com/in/diya-baliga-7049881ab/',
+    image: null,
+    name: 'Nicole Ju ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/nicoleju03/',
+  },
+  {
+    image: RyanKim,
+    name: 'Ryan Kim ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/ryan-sw-kim',
+  },
+  {
+    image: null,
+    name: 'Taruni Rao Manam ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/taruni-manam/',
+  },
+  {
+    image: null,
+    name: 'Victoria Choi ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/victoria-choi/',
+  },
+  {
+    image: null,
+    name: 'Yiming Zhang ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/yimingzhng/',
   },
   {
     image: AvnishSengupta,
@@ -209,6 +324,12 @@ const members = [
     name: 'Chantal Tan ',
     position: 'Advisor',
     linkedInURL: 'https://www.linkedin.com/in/chantal-tan-a49121172/',
+  },
+  {
+    image: DiyaBaliga,
+    name: 'Diya Baliga ',
+    position: 'Advisor',
+    linkedInURL: 'https://www.linkedin.com/in/diya-baliga-7049881ab/',
   },
   {
     image: HelenWang,
