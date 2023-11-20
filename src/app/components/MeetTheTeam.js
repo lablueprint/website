@@ -172,7 +172,7 @@ const members = [
   },
   {
     image: null,
-    name: 'Chizi Oranu ',
+    name: 'Chizitelum Oranu ',
     position: 'Designer',
     linkedInURL: 'https://www.linkedin.com/in/chizitelumoranu/',
   },
