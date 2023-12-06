@@ -132,7 +132,7 @@ const members = [
     image: JeffLu,
     name: 'Jeff Lu ',
     position: 'Project Lead',
-    linkedInURL: 'https://www.linkedin.com/in/jeffreylukr/',
+    linkedInURL: 'https://www.linkedin.com/in/thejefflu/',
   },
   {
     image: RyanYeo,
@@ -228,6 +228,7 @@ const members = [
     image: EricZhou,
     name: 'Eric Zhou ',
     position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/eric-zhou-648497251/',
   },
   {
     image: FionaPeng,
