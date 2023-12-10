@@ -48,7 +48,6 @@ import KayleeTran from '../assets/images/alumni/kaylee_tran.png';
 import KenFukuyama from '../assets/images/alumni/ken_fukuyama.png';
 import KevinAntony from '../assets/images/alumni/kevin_antony.png';
 import LauraLu from '../assets/images/alumni/laura_lu.png';
-import RyanKim from '../assets/images/alumni/ryan_kim.png';
 
 const members = [
   {
@@ -116,12 +115,6 @@ const members = [
     name: 'Kevin Antony',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/kevantony/',
-  },
-  {
-    image: RyanKim,
-    name: 'Ryan Kim ',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/ryan-sw-kim',
   },
   {
     image: RyanTran,
