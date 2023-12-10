@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b173c30009646a438b76aaebc59198f",
+    "revision": "e08941a4764191379dab57c65fe93e47",
     "url": "/index.html"
   },
   {
-    "revision": "a9cc8630a34b923d5605",
+    "revision": "44f2626c737a46a0ad20",
     "url": "/static/css/2.80f479d8.chunk.css"
   },
   {
-    "revision": "aa513d4d4ebbbd2c6b33",
+    "revision": "508c79bf53d6644296f7",
     "url": "/static/css/main.a78f84ee.chunk.css"
   },
   {
-    "revision": "a9cc8630a34b923d5605",
-    "url": "/static/js/2.0c9e2558.chunk.js"
+    "revision": "44f2626c737a46a0ad20",
+    "url": "/static/js/2.0f6177e6.chunk.js"
   },
   {
     "revision": "ea74ef8a94dcd293c2e229e41e3ec3b2",
-    "url": "/static/js/2.0c9e2558.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0f6177e6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aa513d4d4ebbbd2c6b33",
-    "url": "/static/js/main.b9b9916d.chunk.js"
+    "revision": "508c79bf53d6644296f7",
+    "url": "/static/js/main.8036d0e6.chunk.js"
   },
   {
     "revision": "e5d4fc46478d256b5188",
@@ -208,8 +208,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/aaron_shi.934caded.png"
   },
   {
-    "revision": "9dcd35070d4377deabae2440c8ee9861",
-    "url": "/static/media/alan_nguyen.9dcd3507.png"
+    "revision": "48642aeec85b940b8bef5c3c21150ce2",
+    "url": "/static/media/alan_nguyen.48642aee.png"
   },
   {
     "revision": "7765a3ea4b609c0ba4a51751f5b8162c",
@@ -232,20 +232,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/angela_hao.056aaab1.png"
   },
   {
-    "revision": "f9a506040b34e2b2dc47ab2842d39a55",
-    "url": "/static/media/angela_ling.f9a50604.png"
+    "revision": "9e7b21003e34e44b707db96c0633c2b9",
+    "url": "/static/media/angela_ling.9e7b2100.png"
   },
   {
     "revision": "8cc9ef21b105cc0ca5bb2f4cfda0d09f",
     "url": "/static/media/angela_tan.8cc9ef21.png"
   },
   {
+    "revision": "d599e0472fb1b9ed49580305cc41f35d",
+    "url": "/static/media/antonio_cosio.d599e047.png"
+  },
+  {
     "revision": "09971f7ced90faa1ac16a41fb72234ca",
     "url": "/static/media/anvish_sengupta.09971f7c.png"
   },
   {
-    "revision": "186cdb03019d43e4cfce80a042969b72",
-    "url": "/static/media/apifm.186cdb03.md"
+    "revision": "12e8331bb9880f18f1c689eb10f7622a",
+    "url": "/static/media/apifm.12e8331b.md"
   },
   {
     "revision": "e877afb02b399f43c1e1e729f27fc69d",
@@ -284,12 +288,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/celine_sung.a5ce8094.png"
   },
   {
+    "revision": "6ffbd21089c0e9d108f6609269f02f1d",
+    "url": "/static/media/chancellor_richey.6ffbd210.png"
+  },
+  {
     "revision": "218243aa14bc874a5c21788ce99fa507",
     "url": "/static/media/chandra_suresh.218243aa.png"
   },
   {
     "revision": "d0f455c66f7fa3dbc3e3ed37c3e90e18",
     "url": "/static/media/chantal_tan.d0f455c6.png"
+  },
+  {
+    "revision": "bd22744abfbb757f4997cff5f76a4fb1",
+    "url": "/static/media/cheryl_wu.bd22744a.png"
+  },
+  {
+    "revision": "49974fcaa889da06adbf09a36440b5d4",
+    "url": "/static/media/chinenye_eneh.49974fca.png"
+  },
+  {
+    "revision": "c31432799aaf7918c83a01ac55825cd4",
+    "url": "/static/media/chizitelum_oranu.c3143279.png"
   },
   {
     "revision": "447a269d5d5c183adf99723882d29aea",
@@ -304,8 +324,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/dan_lee.5bc56f47.png"
   },
   {
+    "revision": "6f9c7e8817f31755132f8f011b54ff9c",
+    "url": "/static/media/daniel_chang.6f9c7e88.png"
+  },
+  {
     "revision": "0e2e4b8ad1110cb95b0b58d2700cdd95",
     "url": "/static/media/daniel_kao.0e2e4b8a.png"
+  },
+  {
+    "revision": "8374c7b5684146d86441f59f0cf6ec79",
+    "url": "/static/media/daniel_ogura.8374c7b5.png"
   },
   {
     "revision": "386fcd759e204923f50b49f6073ce86e",
@@ -340,8 +368,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/edward_chu.60b26810.png"
   },
   {
+    "revision": "7271503a0ebc21e6ea81bda59c9b4dd6",
+    "url": "/static/media/edward_ng.7271503a.png"
+  },
+  {
     "revision": "dfec4408265a2002d8a9e8f00f927623",
     "url": "/static/media/elwyn_cruz.dfec4408.png"
+  },
+  {
+    "revision": "7c0a8f65e90e57d11687a88b6894bc37",
+    "url": "/static/media/eric_zhou.7c0a8f65.png"
   },
   {
     "revision": "6f428c9e14146702e6f5944ab4e27265",
@@ -362,6 +398,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bfc8530d272f878aca3645d0faf615a4",
     "url": "/static/media/figma.bfc8530d.svg"
+  },
+  {
+    "revision": "b434c742b26a2ccb1e470b7bc2c47d23",
+    "url": "/static/media/fiona_peng.b434c742.png"
   },
   {
     "revision": "a4cbedc76892d70b9b96e6012822a928",
@@ -408,16 +448,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/instagram.d49a6fa4.svg"
   },
   {
-    "revision": "0b91b467d52ddab107ea0496abe882eb",
-    "url": "/static/media/isaac_wen.0b91b467.png"
+    "revision": "31a7c28a4f23e545795805d68f2a4dc4",
+    "url": "/static/media/isaac_wen.31a7c28a.png"
   },
   {
     "revision": "5e82391bda2fe5e29a018f14e4243540",
     "url": "/static/media/james_he.5e82391b.png"
   },
   {
-    "revision": "6ea20e67f6b23fe0468636382e2918a6",
-    "url": "/static/media/jeff_lu.6ea20e67.png"
+    "revision": "91d8d380447b380397025b1871f7aa2d",
+    "url": "/static/media/jasmine_wongphatarakul.91d8d380.png"
+  },
+  {
+    "revision": "7f854da1574f73c3dff3c1cfd4e0fc02",
+    "url": "/static/media/jeff_lu.7f854da1.png"
   },
   {
     "revision": "4812f515d4bf8f50abba59c3b87d4e6a",
@@ -428,8 +472,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/jiamin_xu.49b88cf3.png"
   },
   {
-    "revision": "99ded32bba78252c509cb46810dcb9da",
-    "url": "/static/media/jimmy_tang.99ded32b.png"
+    "revision": "a7931783e84bc4a5634f9c7877d31872",
+    "url": "/static/media/jimmy_tang.a7931783.png"
   },
   {
     "revision": "5edeec12197fe55538a1ae220ade1562",
@@ -440,8 +484,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/jonathan_fan.a3f9f263.png"
   },
   {
-    "revision": "4bafb96ecc8ae526ad1ac3aebc63a050",
-    "url": "/static/media/joyce_chen.4bafb96e.png"
+    "revision": "fbb57aacb76b4c877bacdb847381d2a1",
+    "url": "/static/media/joy_cheng.fbb57aac.png"
+  },
+  {
+    "revision": "10a562938d1d0b7729215425299cc049",
+    "url": "/static/media/joyce_chen.10a56293.png"
   },
   {
     "revision": "9f4b74dae05cee5dbb303675cae14a8c",
@@ -468,6 +516,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/kevin_antony.adcc837a.png"
   },
   {
+    "revision": "c543b5baa28a8c0e7c3d0823035ee177",
+    "url": "/static/media/kimberly_nguyen.c543b5ba.png"
+  },
+  {
     "revision": "e03284cd51322f321dc06f543700216f",
     "url": "/static/media/laura_lu.e03284cd.png"
   },
@@ -486,6 +538,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "56b7b0cfb78823a1d613c5a267a39469",
     "url": "/static/media/logo_white.56b7b0cf.svg"
+  },
+  {
+    "revision": "854e9679e5a76a07c8757a542a8f0f26",
+    "url": "/static/media/mackenzie_smith.854e9679.png"
+  },
+  {
+    "revision": "1ee782c6fdc47efb65378903b0f61acd",
+    "url": "/static/media/mario_peng_lee.1ee782c6.png"
   },
   {
     "revision": "5dd35393e9e66d694271b57f9bb41465",
@@ -514,6 +574,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "21314886773c60e9d95518a1f6746619",
     "url": "/static/media/nasser_elhajjaoui.21314886.png"
+  },
+  {
+    "revision": "7159b452bd57dc256f345f77db2a1581",
+    "url": "/static/media/nicole_ju.7159b452.png"
   },
   {
     "revision": "c00bdcb6e485fc3f2a18817bfe789ad7",
@@ -568,16 +632,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ryan_yeo.8875c161.png"
   },
   {
-    "revision": "190214c93e90b2e9a578360584787626",
-    "url": "/static/media/sarah_chang.190214c9.png"
+    "revision": "fa7193c7a63775ae77736d6932b32a3e",
+    "url": "/static/media/sarah_chang.fa7193c7.png"
   },
   {
     "revision": "456892b07c37532ebf9a24dfa8457e8b",
     "url": "/static/media/shoesthatfit.456892b0.md"
   },
   {
-    "revision": "57304e9dd02cbedf7cb0178905612c71",
-    "url": "/static/media/siddharth_nandy.57304e9d.png"
+    "revision": "d44e27b890d8dfd518dfab5ab46eb080",
+    "url": "/static/media/siddharth_nandy.d44e27b8.png"
   },
   {
     "revision": "715ff720eba044d5cbca92f7eb9df8f3",
@@ -692,6 +756,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/syne-v3-latin-regular.f9309db0.ttf"
   },
   {
+    "revision": "8bf95f5b80ab389764506ef6dfdf5918",
+    "url": "/static/media/taruni_rao_manam.8bf95f5b.png"
+  },
+  {
     "revision": "656332e1eaedb5310394a42a613b2035",
     "url": "/static/media/tckgraphic.656332e1.png"
   },
@@ -708,8 +776,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/tesla.ec8a9c73.svg"
   },
   {
-    "revision": "223befe91b38ebefc0f06ebe46421282",
-    "url": "/static/media/theconsciouskid.223befe9.md"
+    "revision": "e5f999e48f06187358ba7b68115a4e29",
+    "url": "/static/media/theconsciouskid.e5f999e4.md"
   },
   {
     "revision": "0ecc610d4833a3d9d89599d70df76dcd",
@@ -722,6 +790,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "86d046eb3ed8283ee65173711fe217c7",
     "url": "/static/media/vanessa_ta.86d046eb.png"
+  },
+  {
+    "revision": "ed412d795319c4b27e88e795ce0a1f42",
+    "url": "/static/media/victoria_choi.ed412d79.png"
   },
   {
     "revision": "c40fdb44de6f43fef55f64c4dbdc6269",
@@ -858,6 +930,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c5db303c8e04c7b0ea83f5aa35f57a0f",
     "url": "/static/media/work-sans-v11-latin-regular.c5db303c.svg"
+  },
+  {
+    "revision": "3e1ac8b2437b34d02cf901bde6e54f17",
+    "url": "/static/media/yiming_zhang.3e1ac8b2.png"
   },
   {
     "revision": "5a40db6d860068a6194ea530f7f54a44",

@@ -47,8 +47,6 @@ We proposed a **web app that acts as an educational hub** for parents, educators
 3. **Curated collections** of books by theme & identity
 4. A **dictionary** of key racial literacy terms
 
-[Skip to Final Solution](hyperlink to section)
-
 # Process
 ![Process](https://github.com/lablueprint/website/blob/master/src/app/assets/images/projects/theconsciouskid/TCK%20Process.png?raw=true)
 

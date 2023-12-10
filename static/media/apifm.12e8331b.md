@@ -60,9 +60,6 @@ We proposed a **mobile app that automates and streamlines the produce-ordering p
 3. A **cart** where users can review and edit their items and shipping information
 4. A **past orders** page where users can **edit** and **reorder** previous purchases
 
-[Skip to Final Solution](hyperlink to section)
-
-
 # Research 
 
 ## Competitive Analysis
