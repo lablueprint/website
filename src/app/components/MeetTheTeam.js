@@ -23,6 +23,7 @@ import RyanYeo from '../assets/images/team/ryan_yeo.png';
 import AlanNguyen from '../assets/images/team/alan_nguyen.png';
 import AngelaHao from '../assets/images/team/angela_hao.png';
 import AngelaTan from '../assets/images/team/angela_tan.png';
+import AntonioCosio from '../assets/images/team/antonio_cosio.png';
 import AyubAli from '../assets/images/team/ayub_ali.png';
 import ChancellorRichey from '../assets/images/team/chancellor_richey.png';
 import CherylWu from '../assets/images/team/cheryl_wu.png';
@@ -159,7 +160,7 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/angela-tan-221892251/',
   },
   {
-    image: null,
+    image: AntonioCosio,
     name: 'Antonio Cosio ',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/acosio/',
