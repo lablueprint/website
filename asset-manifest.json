@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.a78f84ee.chunk.css",
-    "main.js": "/static/js/main.8036d0e6.chunk.js",
-    "main.js.map": "/static/js/main.8036d0e6.chunk.js.map",
+    "main.js": "/static/js/main.65a971fd.chunk.js",
+    "main.js.map": "/static/js/main.65a971fd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f3bce04e.js",
     "runtime-main.js.map": "/static/js/runtime-main.f3bce04e.js.map",
     "static/css/2.80f479d8.chunk.css": "/static/css/2.80f479d8.chunk.css",
     "static/js/2.0f6177e6.chunk.js": "/static/js/2.0f6177e6.chunk.js",
     "static/js/2.0f6177e6.chunk.js.map": "/static/js/2.0f6177e6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c28b4287c1ca86a65eab0ac4721dbd59.js": "/precache-manifest.c28b4287c1ca86a65eab0ac4721dbd59.js",
+    "precache-manifest.3db13eee7e016b4fd923b8fc81b9117f.js": "/precache-manifest.3db13eee7e016b4fd923b8fc81b9117f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.80f479d8.chunk.css.map": "/static/css/2.80f479d8.chunk.css.map",
     "static/css/main.a78f84ee.chunk.css.map": "/static/css/main.a78f84ee.chunk.css.map",
@@ -24,7 +24,7 @@
     "static/media/amazon.svg": "/static/media/amazon.31aa9527.svg",
     "static/media/andrew_huynh.png": "/static/media/andrew_huynh.ba051ecf.png",
     "static/media/andy_zeff.png": "/static/media/andy_zeff.7c746835.png",
-    "static/media/angela_hao.png": "/static/media/angela_hao.056aaab1.png",
+    "static/media/angela_hao.png": "/static/media/angela_hao.5802dc8e.png",
     "static/media/angela_ling.png": "/static/media/angela_ling.9e7b2100.png",
     "static/media/angela_tan.png": "/static/media/angela_tan.8cc9ef21.png",
     "static/media/antonio_cosio.png": "/static/media/antonio_cosio.d599e047.png",
@@ -104,7 +104,7 @@
     "static/media/mackenzie_smith.png": "/static/media/mackenzie_smith.854e9679.png",
     "static/media/mario_peng_lee.png": "/static/media/mario_peng_lee.1ee782c6.png",
     "static/media/meet-blueprint-23-24.png": "/static/media/meet-blueprint-23-24.5dd35393.png",
-    "static/media/megan_tieu.png": "/static/media/megan_tieu.e6cfd464.png",
+    "static/media/megan_tieu.png": "/static/media/megan_tieu.e1fe73b3.png",
     "static/media/michael_shi.png": "/static/media/michael_shi.cf579bb7.png",
     "static/media/michelle_kou.png": "/static/media/michelle_kou.659889be.png",
     "static/media/michelle_tran_bui.png": "/static/media/michelle_tran_bui.81370f4c.png",
@@ -159,6 +159,6 @@
     "static/css/2.80f479d8.chunk.css",
     "static/js/2.0f6177e6.chunk.js",
     "static/css/main.a78f84ee.chunk.css",
-    "static/js/main.8036d0e6.chunk.js"
+    "static/js/main.65a971fd.chunk.js"
   ]
 }
