@@ -13,7 +13,7 @@ const timeline = [
     body: (<div>
       Before the start of our fall quarter around <strong style={{color: "#3599fd"}}>June / July</strong>, we will be conducting this outreach to find our yearlong partners! 
       <br/>
-      If your nonprofit is interested in an application, free of charge, email us at <a href="mailto: team@lablueprint.org">team@lablueprint.org</a>!
+      If your nonprofit is interested in an application, free of charge, email us at <a href="mailto:outreach@lablueprint.org">outreach@lablueprint.org</a>!
     </div>),
   },
   {

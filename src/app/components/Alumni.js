@@ -38,6 +38,7 @@ import MichelleTranBui from '../assets/images/alumni/michelle_tran_bui.png';
 import RaqeebChang from '../assets/images/alumni/raqeeb_chang.png';
 import JiaminXu from '../assets/images/alumni/jiamin_xu.png';
 import AyePyae from '../assets/images/alumni/aye_pyae.png';
+import AyubAli from '../assets/images/alumni/ayub_ali.png';
 import AndrewHuynh from '../assets/images/alumni/andrew_huynh.png';
 import ChristinePark from '../assets/images/alumni/christine_park.png';
 import DanLee from '../assets/images/alumni/dan_lee.png';
@@ -67,6 +68,12 @@ const members = [
     name: 'Andrew Huynh ',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/andhuynh/',
+  },
+  {
+    image: AyubAli,
+    name: 'Ayub Ali ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/ayub-ali24/',
   },
   {
     image: ChristinePark,
