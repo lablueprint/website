@@ -110,6 +110,13 @@ export default class ContactForm extends Component {
     return (
       <div className="container-fluid py-5 contact-form">
         <h1>Contact Us</h1>
+        <p>
+          Contact us at
+          {' '}
+          <a href="team@lablueprint.org">team@lablueprint.org</a>
+          {' '}
+          or by filling out the form below!
+        </p>
         <br />
         <Form onSubmit={this.onSubmit}>
           <Form.Group controlId="formBasicName">
