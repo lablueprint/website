@@ -74,16 +74,6 @@ const nonprofitLinks = [
     internal: true,
     hash: true,
   },
-  {
-    linkText: 'Form 1023',
-    href: '/1023_Application.pdf',
-    internal: false,
-  },
-  {
-    linkText: 'Form Approval',
-    href: '/Approval_Letter.pdf',
-    internal: false,
-  },
 ];
 
 const socialLinks = [
