@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.a78f84ee.chunk.css",
-    "main.js": "/static/js/main.f32feb5a.chunk.js",
-    "main.js.map": "/static/js/main.f32feb5a.chunk.js.map",
+    "main.css": "/static/css/main.b91c0c3a.chunk.css",
+    "main.js": "/static/js/main.f133e1f6.chunk.js",
+    "main.js.map": "/static/js/main.f133e1f6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f3bce04e.js",
     "runtime-main.js.map": "/static/js/runtime-main.f3bce04e.js.map",
-    "static/css/2.80f479d8.chunk.css": "/static/css/2.80f479d8.chunk.css",
-    "static/js/2.0f6177e6.chunk.js": "/static/js/2.0f6177e6.chunk.js",
-    "static/js/2.0f6177e6.chunk.js.map": "/static/js/2.0f6177e6.chunk.js.map",
+    "static/css/2.7f1403ef.chunk.css": "/static/css/2.7f1403ef.chunk.css",
+    "static/js/2.e8395d6f.chunk.js": "/static/js/2.e8395d6f.chunk.js",
+    "static/js/2.e8395d6f.chunk.js.map": "/static/js/2.e8395d6f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8c4f3a5caea7764952f4d421dc69f146.js": "/precache-manifest.8c4f3a5caea7764952f4d421dc69f146.js",
+    "precache-manifest.1bc71c4ba0b3a5eb34b3578a6866f161.js": "/precache-manifest.1bc71c4ba0b3a5eb34b3578a6866f161.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.80f479d8.chunk.css.map": "/static/css/2.80f479d8.chunk.css.map",
-    "static/css/main.a78f84ee.chunk.css.map": "/static/css/main.a78f84ee.chunk.css.map",
-    "static/js/2.0f6177e6.chunk.js.LICENSE.txt": "/static/js/2.0f6177e6.chunk.js.LICENSE.txt",
+    "static/css/2.7f1403ef.chunk.css.map": "/static/css/2.7f1403ef.chunk.css.map",
+    "static/css/main.b91c0c3a.chunk.css.map": "/static/css/main.b91c0c3a.chunk.css.map",
+    "static/js/2.e8395d6f.chunk.js.LICENSE.txt": "/static/js/2.e8395d6f.chunk.js.LICENSE.txt",
     "static/media/F2P_Thumbnail.png": "/static/media/F2P_Thumbnail.aa2d3816.png",
     "static/media/HP_Thumbnail.png": "/static/media/HP_Thumbnail.c311ed7c.png",
     "static/media/main.scss": "/static/media/work-sans-v11-latin-regular.c5db303c.svg",
@@ -156,9 +156,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f3bce04e.js",
-    "static/css/2.80f479d8.chunk.css",
-    "static/js/2.0f6177e6.chunk.js",
-    "static/css/main.a78f84ee.chunk.css",
-    "static/js/main.f32feb5a.chunk.js"
+    "static/css/2.7f1403ef.chunk.css",
+    "static/js/2.e8395d6f.chunk.js",
+    "static/css/main.b91c0c3a.chunk.css",
+    "static/js/main.f133e1f6.chunk.js"
   ]
 }
