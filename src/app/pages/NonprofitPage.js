@@ -21,7 +21,13 @@ export default function NonprofitPage() {
               As a nonprofit partner, Blueprint will work with you to develop
               software that will bring your vision to life.
             </SectionSubtitle>
-            <Button className="outline-white" size="md" href="/contact">
+            {/* temporary change for 2024-25 npo recruitment
+            <Button className="outline-white" size="md" href="/contact"> */}
+            <Button
+              className="outline-white"
+              size="md"
+              href="https://airtable.com/appSmNIv5ZC7s20mv/shrKz1mjNa9GuSZX8"
+            >
               Work with us
             </Button>
           </>
