@@ -20,6 +20,30 @@ import fotc from '../assets/images/projects/fotcgraphic.png';
 import sraa from '../assets/images/projects/sraagraphic.png';
 import tcw from '../assets/images/projects/tcwgraphic.png';
 
+import writeGirl from '../assets/images/projects/wg_thumbnail.png';
+
+const projects2023_24 = [
+  // {
+  //   image: globalGreen,
+  //   title: 'Global Green',
+  //   desc:
+  //     '<desc>',
+  //   link: 'global-green',
+  // },
+  // {
+  //   image: idontmind,
+  //   title: 'IDONTMIND',
+  //   desc: '<desc>',
+  //   link: 'idontmind',
+  // },
+  {
+    image: writeGirl,
+    title: 'WriteGirl',
+    desc: 'SRAA provides residents with community-wide art projects, workshops, and events to present the neighborhood',
+    link: 'writegirl',
+  },
+];
+
 const projects2022_23 = [
   {
     image: fotc,
@@ -87,6 +111,16 @@ const projects2020_21 = [
 ];
 
 export default function ProjectPage() {
+  const project2023_24Cards = projects2023_24.map((item) => (
+    <ProjectCard
+      key={JSON.stringify(item)}
+      image={item.image}
+      title={item.title}
+      desc={item.desc}
+      link={item.link}
+    />
+  ));
+
   const project2022_23Cards = projects2022_23.map((item) => (
     <ProjectCard
       key={JSON.stringify(item)}
@@ -131,6 +165,18 @@ export default function ProjectPage() {
           </>
         )}
       />
+      <SectionContainer className="project-page">
+        <Container>
+          <div className="title">
+            <h1>2023 - 2024</h1>
+          </div>
+          <div className="projects">
+            <div className="card-deck">
+              {project2023_24Cards}
+            </div>
+          </div>
+        </Container>
+      </SectionContainer>
       <SectionContainer className="project-page">
         <Container>
           <div className="title">
