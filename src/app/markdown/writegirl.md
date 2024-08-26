@@ -160,7 +160,7 @@ A welcoming process that will excite users to pick up a pen and get started.
                 A welcoming process that will excite users to pick up a pen and get started.
             </td>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/SRAA/sraa-lowfi-event.png" alt="Low-Fidelity Prototype - Events Screen">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_final_1.png" alt="Low-Fidelity Prototype - Events Screen">
             </td>
         </tr>
     </tbody>

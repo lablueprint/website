@@ -141,7 +141,7 @@ In response to the feedback, we properly adjusted our prototype while maintainin
 
 ## Onboarding
 
-![Onboarding](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_onboarding.mov)
+<!-- ![Onboarding](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_onboarding.mov) -->
 
 ## Check-Ins
 
