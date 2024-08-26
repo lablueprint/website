@@ -67,28 +67,127 @@ As we hoped to target a large range of audiences, we interviewed participants fr
 
 # Ideation
 
-Key Design Decisions
+**Key Design Decisions**
 
-Roadmap Navigation
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/GlobalGreen/gg_keydesigndecisions0.png" alt="Key Design Decisions - start of course">
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/GlobalGreen/gg_keydesigndecisions1.png" alt="Key Design Decisions - end of course">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-Garden
+**Roadmap Navigation**
 
-Lesson Content + Quiz
+![Roadmap Navigation](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/GlobalGreen/gg_navigation.png)
 
-Branding
+**Garden**
+
+![Roadmap Navigation](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/GlobalGreen/gg_garden.png)
+
+**Lesson Content + Quiz**
+
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/GlobalGreen/gg_lesson.png" alt="Lesson Content">
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/GlobalGreen/gg_quiz.png" alt="Quiz Content">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+**Branding**
+
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/GlobalGreen/gg_branding0.png" alt="Branding Design 1">
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/GlobalGreen/gg_branding1.png" alt="Branding Design 2">
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/GlobalGreen/gg_branding2.png" alt="Branding Design 3">
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/GlobalGreen/gg_branding3.png" alt="Branding Design 4">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## Usability Testing
 
 To further refine the designs we conducted usability tests, using the feedback and insights gained from the interviews to find potential areas of improvement within our designs. While participants generally liked the designs of the platform, there were many areas where visual clarity and usability could be improved. A few examples are shown below.
 
-Navigation
+**Navigation**
 
-IMAGE
+![Navigation](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/GlobalGreen/gg_navigation.png)
 
 Users found it confusing when attempting to navigate between the course roadmap and lessons. To fix this, we removed the table of contents and added a back arrow, putting further emphasis and importance on the need to navigate back to the roadmap to move between lessons.
 
-Challenges
+**Challenges**
 
-IMAGE
+![Challenges](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/GlobalGreen/gg_challenges.png)
 
 Users also found it hard to recognize certain areas of the platform due to visual clarity. One example of this is on the challenges page, where participants expressed difficulty telling apart an uncompleted challenge versus a completed one. To fix this, additional color was added to the finished cards, along with a change in opacity within uncompleted ones.
+
+# Final Designs
+
+**Login Flow**
+
+Users can create a new account or sign in to an existing account.
+
+![Login Flow Gif](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/GlobalGreen/gg_loginflow.gif)
+
+**Garden Flow**
+
+When users finish a course, they earn points. They can use these points to buy accessories and backgrounds in the Store to decorate their Garden.
+
+![Garden Flow Gif](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/GlobalGreen/gg_gardenflow.gif)
+
+**Quiz Flow**
+
+Quizzes test users’ understanding of the course content in a fun, engaging way. A variety of question types appear, including multiple choice, true/false, matching, and select all.
+
+![Quiz Flow Gif](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/GlobalGreen/gg_quizflow.gif)
+
+**Final Quiz Flow**
+
+At the end of every course, users take a final quiz. Here we see an example quiz and congratulations screen.
+
+![Final Quiz Flow](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/GlobalGreen/gg_finalquizflow.gif)
+
+**Profile Flow**
+
+Users can view certificates they’ve earned and their current course progress, as well as logistical tasks such as changing passwords and deleting accounts.
+
+![Profile Flow](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/GlobalGreen/gg_profileflow.gif)
+
+**Challenges**
+
+Upon completing a task mentioned on this page, the user earns a challenges badge, as marked by the colorful cards here.
+
+![Challenges](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/GlobalGreen/gg_challenges.gif)
+
+**Lesson Flow**
+
+Courses utilize a variety of media formats and questions to engage the learner.
+
+![Lesson Flow](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/GlobalGreen/gg_lessonflow.gif)
+
+# Next Steps
+
+We are currently cleaning up development and are excited to announce that after months of hard work, the website is set to launch in Fall 2024! Given more time, the designers would have liked to integrate more custom animations and user interactions, while the developers would have liked to improve responsiveness on different screen sizes.
