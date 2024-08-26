@@ -20,26 +20,28 @@ import fotc from '../assets/images/projects/fotcgraphic.png';
 import sraa from '../assets/images/projects/sraagraphic.png';
 import tcw from '../assets/images/projects/tcwgraphic.png';
 
+import globalGreen from '../assets/images/projects/gg_thumbnail.png';
+import idontmind from '../assets/images/projects/idm_thumbnail.png';
 import writeGirl from '../assets/images/projects/wg_thumbnail.png';
 
 const projects2023_24 = [
-  // {
-  //   image: globalGreen,
-  //   title: 'Global Green',
-  //   desc:
-  //     '<desc>',
-  //   link: 'global-green',
-  // },
-  // {
-  //   image: idontmind,
-  //   title: 'IDONTMIND',
-  //   desc: '<desc>',
-  //   link: 'idontmind',
-  // },
+  {
+    image: globalGreen,
+    title: 'Global Green',
+    desc:
+      'Global Green incorporates awareness with empowering businesses to adopt impactful, profitable, and sustainable solutions that are scalable and drive positive change.',
+    link: 'globalgreen',
+  },
+  {
+    image: idontmind,
+    title: 'IDONTMIND',
+    desc: 'IDONTMIND inspires open conversations about mental health and provides free resources, education, and encouragement for anyone who needs it.',
+    link: 'idontmind',
+  },
   {
     image: writeGirl,
     title: 'WriteGirl',
-    desc: 'SRAA provides residents with community-wide art projects, workshops, and events to present the neighborhood',
+    desc: 'The WriteGirl mission is to promote creativity and self-expression to empower underserved girls and gender-expansive youth within a community of women writers.',
     link: 'writegirl',
   },
 ];

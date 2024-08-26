@@ -30,7 +30,7 @@ WriteGirl
 
 WriteGirl, based in Los Angeles, empowers underserved girls and gender-expansive youth by promoting creativity and self-expression through mentorship from a community of women writers. With over 200 volunteer women writers, WriteGirl serves more than 500 girls each year. They conduct numerous workshops, panel discussions, and special events annually, helping participants develop their creativity, succeed in high school, and prepare for college.
 
-![Background](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/WriteGirl/wg_background.png)
+![Background](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_background.png)
 
 # The Challenge
 
@@ -53,7 +53,7 @@ Key Features:
 
 # Process
 
-![Process](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/WriteGirl/wg_process.png)
+![Process](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_process.png)
 
 # Research
 
@@ -63,35 +63,35 @@ We conducted an audit of the strengths and weaknesses of 6 existing apps in the 
 
 Our prompts would be progressive and designed to engage users' senses, memories, and deeper emotions, creating a more meaningful and impactful writing experience.
 
-![Competitive Analysis](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/WriteGirl/wg_comp_analysis.png)
+![Competitive Analysis](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_comp_analysis.png)
 
 ## User Interviews
 
 With a clear understanding of what we wanted to achieve and how we planned to do it, it was time to understand who our users were. We conducted user interviews to gather insights into the challenges, processes, and motivations behind their creative writing experiences.
 
-![User Interviews](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/WriteGirl/wg_user_interviews.png)
+![User Interviews](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_user_interviews.png)
 
 ## Insight Synthesis
 
 Post-interviews, we created an affinity map to categorize the challenges, processes, and motivations shared by users.
 
-![Insight Synthesis](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/WriteGirl/wg_insight_synth_1.png)
+![Insight Synthesis](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_insight_synth_1.png)
 
 From these insights, we identified 4 main pain points:
 
-![Insight Synthesis - Main Pain Points](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/WriteGirl/wg_insight_synth_2.png)
+![Insight Synthesis - Main Pain Points](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_insight_synth_2.png)
 
 # Ideation
 
 With a thorough understanding of the problem space, we outlined opportunities to address these pain points while embodying WriteGirl's vision. We identified areas for innovation and value creation, ensuring our app would stand out.
 
-![Ideation](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/WriteGirl/wg_ideation.png)
+![Ideation](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_ideation.png)
 
 ## User Flow
 
 We used insights from our competitive analysis, interviews, and affinity mapping to create user journeys within our app. This process helped us design intuitive and engaging user flows that addressed the identified pain points and aligned with WriteGirl's mission.
 
-![User Flow](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/WriteGirl/wg_userflow.png)
+![User Flow](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_userflow.png)
 
 # Iterative Designs
 
@@ -100,10 +100,10 @@ As we transitioned to higher fidelity designs, we ensured our designers adhered 
 A space aspect of our design team was our ability to foster an environment where there were no “bad” ideas until they are put on a frame . This approach encouraged creativity, resulting in innovative ideas from spontaneous team huddles and a playful design process.
 
 Here are a few of our lo-fi screens:
-![Lofi](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/WriteGirl/wg_lofi.png)
+![Lofi](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_lofi.png)
 
 And a couple of our many mid-fi screens:
-![Midfi](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/WriteGirl/wg_midfi.png)
+![Midfi](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_midfi.png)
 
 ## Usability Testing
 
@@ -115,7 +115,7 @@ After conducting usability testing with seven users, we identified opportunities
 
 **Solution:** We made the history feature more accessible on end state pages, eliminating the need for backtracking and improving discoverability.
 
-![Usability Testing  - Discoverability and Consistency](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/WriteGirl/wg_usability_testing_1.png)
+![Usability Testing  - Discoverability and Consistency](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_usability_testing_1.png)
 
 #2 User-Centric Wording
 
@@ -123,7 +123,7 @@ After conducting usability testing with seven users, we identified opportunities
 
 **Solution:** We incorporated user-centric wording, making buttons more intuitive and the app more relatable. For example, we changed "type of break" to "part of you," "mental" to "my mind," and "physical" to "all of me."
 
-![Usability Testing  - User-Centric Wording](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/WriteGirl/wg_usability_testing_2.png)
+![Usability Testing  - User-Centric Wording](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_usability_testing_2.png)
 
 # Thoughtful Considerations
 
@@ -133,17 +133,17 @@ WriteGirl excels in evoking unique creative processes and encouraging writers to
 
 All our graphics are continuous hand-drawn illustrations that are strategically placed. For example, in Triple Flips, we decided to remove graphics and keep only the text. This choice empowers users to imagine what the text might look like through their own creativity, as opposed being guided towards a predefined visualization
 
-![Placing Graphics Intentionally](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/WriteGirl/wg_considerations_1.png)
+![Placing Graphics Intentionally](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_considerations_1.png)
 
 ### #2 Humanizing the App
 
 Another consideration was humanizing the app through small additions of copy write. In addition to more user-centric wording, when users scroll to the bottom of the screen, they will see friendly and encouraging messages. This humanization also brings in the in-person workshop touch.
 
-![Humanizing the App](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/WriteGirl/wg_considerations_2.png)
+![Humanizing the App](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_considerations_2.png)
 
 ## Design System
 
-![Design System](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/WriteGirl/wg_design_system.png)
+![Design System](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_design_system.png)
 
 # Final Designs
 
@@ -207,4 +207,4 @@ Got a writing idea? Awesome! All your saved items are right here, ready for you 
 
 Our app is going to be deploy very soon! With finalized designs and code, we are working on getting our app on the Apple and Google stores. Hang tight!
 
-![Next Steps](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/WriteGirl/wg_nextsteps.png)
+![Next Steps](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_nextsteps.png)
