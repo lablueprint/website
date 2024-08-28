@@ -6,7 +6,7 @@ WriteGirl
     Github Repository
 </Button>
 
-<Button className="white" size="md" href="">
+<Button className="white" size="md" href="https://www.figma.com/design/KOo9564wCGgDw5UQlzJ7iy/WriteGirl-Design?node-id=4773-5963&t=Lb98N2whoEDbauTS-0">
     Figma Prototype
 </Button>
 
@@ -151,8 +151,6 @@ Introducing BoldInk: A creative mobile writing app that encapsulates the magic o
 
 ## 1. Onboarding
 
-A welcoming process that will excite users to pick up a pen and get started.
-
 <table float="center">
     <tbody>
         <tr>
@@ -160,7 +158,7 @@ A welcoming process that will excite users to pick up a pen and get started.
                 A welcoming process that will excite users to pick up a pen and get started.
             </td>
             <td width="50%" >
-                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_final_1.png" alt="Low-Fidelity Prototype - Events Screen">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_final_1.gif" alt="Low-Fidelity Prototype - Events Screen">
             </td>
         </tr>
     </tbody>
@@ -168,51 +166,123 @@ A welcoming process that will excite users to pick up a pen and get started.
 
 ## 2. Home Screen
 
-Your easily accessible toolkit to help guide users in exploring all activities and features.
-
-[home.mov](https://prod-files-secure.s3.us-west-2.amazonaws.com/7401f960-9511-43af-8e57-08e13a81e85d/eb8fd420-f448-47bd-9561-96bf5fb6854c/home.mov)
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" >
+                Your easily accessible toolkit to help guide users in exploring all activities and features.
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_final_2.gif" alt="Low-Fidelity Prototype - Events Screen">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## 3. Triple Flip
 
-Randomized collection of objects and words to inspire a poem, story or even a song.
-
-[tripleflip.mov](https://prod-files-secure.s3.us-west-2.amazonaws.com/7401f960-9511-43af-8e57-08e13a81e85d/f86ddea2-4913-498a-9c60-85295d26040f/tripleflip.mov)
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" >
+                Randomized collection of objects and words to inspire a poem, story or even a song.
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_final_3.gif" alt="Low-Fidelity Prototype - Events Screen">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## 4. Door Activity
 
-Progressive writing activities that let you enter a whole new realm of unique categories.
-
-[door.mov](https://prod-files-secure.s3.us-west-2.amazonaws.com/7401f960-9511-43af-8e57-08e13a81e85d/1359ed3d-f0da-4e31-85e5-bc63f30ecaa0/door.mov)
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" >
+                Progressive writing activities that let you enter a whole new realm of unique categories.
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_final_4.gif" alt="Low-Fidelity Prototype - Events Screen">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## 5. Story Starters
 
-You can use these randomizers to start a story or come back here for inspiration.
-
-[story starter.mov](https://prod-files-secure.s3.us-west-2.amazonaws.com/7401f960-9511-43af-8e57-08e13a81e85d/7fc69be1-feea-493d-80f5-d60d1c085026/story_starter.mov)
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" >
+                You can use these randomizers to start a story or come back here for inspiration.
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_final_5.gif" alt="Low-Fidelity Prototype - Events Screen">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## 6. Pocket Prompts
 
-Designed to fire up your creativity. Mine your response for nuggets of words, phrases or ideas.
-
-[pocket.mov](https://prod-files-secure.s3.us-west-2.amazonaws.com/7401f960-9511-43af-8e57-08e13a81e85d/32586d46-36cd-48a1-94db-b8760cc324f1/pocket.mov)
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" >
+                Designed to fire up your creativity. Mine your response for nuggets of words, phrases or ideas.
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_final_6.gif" alt="Low-Fidelity Prototype - Events Screen">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## 7. Free Write Zone
 
-Grab and pen and paper. This is your zone, to let your creativity run free.
-
-[freewrite.mov](https://prod-files-secure.s3.us-west-2.amazonaws.com/7401f960-9511-43af-8e57-08e13a81e85d/ea274a4d-85f9-40b8-b73e-77b687ad3271/freewrite.mov)
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" >
+                Grab and pen and paper. This is your zone, to let your creativity run free.
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_final_7.gif" alt="Low-Fidelity Prototype - Events Screen">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## 8. Mind and Body Moments
 
-Activities to refocus attention during a long writing session or to help you shift gears between projects.
-
-[mind.mov](https://prod-files-secure.s3.us-west-2.amazonaws.com/7401f960-9511-43af-8e57-08e13a81e85d/4ffdbf12-d7db-4aa3-8945-92d1c02b7ebd/mind.mov)
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" >
+                Activities to refocus attention during a long writing session or to help you shift gears between projects.
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_final_8.gif" alt="Low-Fidelity Prototype - Events Screen">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## 9. Bookmarks
 
-Got a writing idea? Awesome! All your saved items are right here, ready for you to dive back in and let your creativity flow!
-
-[bookmark.mov](https://prod-files-secure.s3.us-west-2.amazonaws.com/7401f960-9511-43af-8e57-08e13a81e85d/978f49a9-06b5-48c2-97b0-74ad470e4fc9/bookmark.mov)
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" >
+                Got a writing idea? Awesome! All your saved items are right here, ready for you to dive back in and let your creativity flow!
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/WriteGirl/wg_final_9.gif" alt="Low-Fidelity Prototype - Events Screen">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 # Next Steps
 

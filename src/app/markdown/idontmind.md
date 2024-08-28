@@ -6,7 +6,7 @@ IDONTMIND
     Github Repository
 </Button>
 
-<Button className="white" size="md" href="">
+<Button className="white" size="md" href="https://www.figma.com/design/Goc2z8Dh48YCUURW6mFG5q/Designs?node-id=3982-4643&t=wKMObvP0eElFAxvc-0">
     Figma Prototype
 </Button>
 
@@ -50,7 +50,7 @@ To achieve this, we propose a mobile application with these primary features:
 
 # Process
 
-![Process](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/IDM/idm_process.png)
+![Process](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_process.png)
 
 # Research
 
@@ -58,21 +58,17 @@ To achieve this, we propose a mobile application with these primary features:
 
 For the duration of one week, we conducted an analysis of eight competitors that offer services similar to our proposed mobile companion app: DailyBean, Evidation, Health, How We Feel, MindDoc, Moodlight, Reflectly, and stoic. This analysis helped us identify commonalities that suggested features to incorporate in our product, as well as aspects to avoid.
 
-![Competitive Analysis](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/IDM/idm_comp_analysis.png)
+![Competitive Analysis](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_comp_analysis.png)
 
 ## User Interviews
 
 We conducted interviews with four members of IDONTMIND’s Youth Impact Team, who specialize in promoting mental health awareness in terms of digital outreach.
 
-> “Insert Quote from IDM Youth Impact Team Member.”
-
-> — Name, IDONTMIND Youth Impact Team Member
-
 ## Affinity Mapping
 
 Lastly, we synthesized our findings from both the competitive audit and the preliminary user interviews to identify common themes and trends. The result was this web of ideas:
 
-![Affinity Mapping](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/IDM/idm_affinity_mapping.png)
+![Affinity Mapping](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_affinity_mapping.png)
 
 ## Key Takeaways
 
@@ -84,7 +80,7 @@ Lastly, we synthesized our findings from both the competitive audit and the prel
 
 To further synthesize our research findings and allow the team to more effectively empathize with our users, we created personas to humanize the various mental health needs people might have coming into the app.
 
-![User Personas](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/IDM/idm_user_personas.png)
+![User Personas](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_user_personas.png)
 
 # Ideation
 
@@ -92,7 +88,7 @@ To further synthesize our research findings and allow the team to more effective
 
 Before diving into designing, we created some information architecture to guide the structure of the app and how its proposed features would interact with each other.
 
-![User Flow](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/IDM/idm_userflow.png)
+![User Flow](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_userflow.png)
 
 Armed with our research findings, we ideated potential features that would provide solutions to users’ pain points. At this stage, the goal was simply to come up with as many ideas as possible, without considering their feasibility.
 
@@ -117,19 +113,19 @@ After some preliminary research, we established a guiding vision to start design
 
 These rough sketches were created to illustrate the content and functionality of each screen, rather than their final design.
 
-![Low-Fidelity Mockups](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/IDM/idm_lofi.png)
+![Low-Fidelity Mockups](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_lofi.png)
 
 ## Mid-Fidelity Prototypes
 
 Next, we started to formulate our design system to decide on the colors, typography, and other design elements that we wanted our product to ultimately look like. Here are some of the explorations that came along the way!
 
-![Mid-Fidelity Prototypes](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/IDM/idm_midfi.png)
+![Mid-Fidelity Prototypes](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_midfi.png)
 
 ## Usability Testing
 
 We provided a working prototype and conducted usability tests with the same members from the Youth Impact Team along with 2 other members of IDONTMIND to gain insight and feedback on the preliminary design of the app.
 
-![Usability Testing](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/IDM/idm_usabilitytesting.png)
+![Usability Testing](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_usabilitytesting.png)
 
 Interviewees cited that the new app was intuitive, easy-to-use, and engaging. Whilst there were some points of confusion for certain features, the users explained that they felt the app was easy to learn.
 
@@ -141,23 +137,35 @@ In response to the feedback, we properly adjusted our prototype while maintainin
 
 ## Onboarding
 
-<!-- ![Onboarding](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_onboarding.mov) -->
+![Onboarding](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_onboarding.mov)
 
 ## Check-Ins
 
+![Check-Ins](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_check-ins.mov)
+
 ## Find Help
+
+![Find Help](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_find-help.mov)
 
 ## Content
 
+![Content](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_content.mov)
+
 ## Journal
+
+![Journal](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_journal.mov)
 
 ## Trends
 
+![Trends](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_trends.mov)
+
 ## Options
+
+![Options](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_options.mov)
 
 ## Design System
 
-![Next Steps](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/IDM/idm_designsystem.png)
+![Design System](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_designsystem.png)
 
 # Next Steps
 
@@ -165,4 +173,4 @@ Our mobile app is set to launch in Summer 2024! As of now (June 2024), we are fo
 
 If we had more time, the designers would have liked to conduct additional interviews and usability tests to gather more insights from real users. We would have also invested time in creating a more seamless experience across all screens of the app. However, we are incredibly grateful and proud of this project and look forward to delivering the final product to IDONTMIND!
 
-![Next Steps](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/IDM/idm_nextsteps.png)
+![Next Steps](https://raw.githubusercontent.com/lablueprint/website/case-studies/src/app/assets/images/projects/IDM/idm_nextsteps.png)

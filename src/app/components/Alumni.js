@@ -58,6 +58,12 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/jiamin-xu-9046b7196/',
   },
   {
+    image: JiaminXu,
+    name: 'Jiamin Xu ',
+    position: 'Vice President of Technology \'22',
+    linkedInURL: 'https://www.linkedin.com/in/jiamin-xu-9046b7196/',
+  },
+  {
     image: AyePyae,
     name: 'Aye Pyae ',
     position: 'Project Lead \'22',
