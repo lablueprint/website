@@ -26,6 +26,9 @@ import apifmApp from '../assets/images/projects/apifmgraphic.png';
 import fotcApp from '../assets/images/projects/fotcgraphic.png';
 import sraaApp from '../assets/images/projects/sraagraphic.png';
 import tcwApp from '../assets/images/projects/tcwgraphic.png';
+import globalgreenApp from '../assets/images/projects/gg_thumbnail.png';
+import idontmindApp from '../assets/images/projects/idm_thumbnail.png';
+import writegirlApp from '../assets/images/projects/wg_thumbnail.png';
 
 import ptv from '../markdown/ptv.md';
 import harmonyProject from '../markdown/harmony_project.md';
@@ -36,9 +39,38 @@ import stf from '../markdown/shoesthatfit.md';
 import fotc from '../markdown/fotc.md';
 import sraa from '../markdown/sraa.md';
 import tcw from '../markdown/tcw.md';
+import globalgreen from '../markdown/globalgreen.md';
+import idontmind from '../markdown/idontmind.md';
+import writegirl from '../markdown/writegirl.md';
 
 /* eslint-disable */
 const projects = {
+  // 2023-24
+  'globalgreen': {
+    title: '',
+    render: () => (
+      <>
+        <img src={globalgreenApp} width="100%" style={{objectFit: 'contain'}}></img>
+      </>
+    )
+  },
+  'idontmind': {
+    title: '',
+    render: () => (
+      <>
+        <img src={idontmindApp} width="100%" style={{objectFit: 'contain'}}></img>
+      </>
+    )
+  },
+  'writegirl': {
+    title: '',
+    render: () => (
+      <>
+        <img src={writegirlApp} width="100%" style={{objectFit: 'contain'}}></img>
+      </>
+    )
+  },
+  // 2022-23
   'fotc': {
     title: '',
     render: () => (
@@ -63,6 +95,7 @@ const projects = {
       </>
     )
   },
+  // 2021-22
   'apifm': {
     title: '',
     render: () => (
@@ -87,6 +120,7 @@ const projects = {
       </>
     )
   },
+  // 2020-21
   'ptv': {
     title: '',
     render: () => (
@@ -120,7 +154,22 @@ export default function ProjectInfo({ projectName }) {
   const [projectInfo, setProjectInfo] = useState(null);
 
   useEffect(() => {
-    if (projectName === 'fotc') {
+    if (projectName === 'globalgreen') {
+      fetch(globalgreen)
+        .then((res) => res.text())
+        .then((text) => setProjectInfo(text))
+        .catch((err) => console.warn(err));
+    } else if (projectName === 'idontmind') {
+      fetch(idontmind)
+        .then((res) => res.text())
+        .then((text) => setProjectInfo(text))
+        .catch((err) => console.warn(err));
+    } else if (projectName === 'writegirl') {
+      fetch(writegirl)
+        .then((res) => res.text())
+        .then((text) => setProjectInfo(text))
+        .catch((err) => console.warn(err));
+    } else if (projectName === 'fotc') {
       fetch(fotc)
         .then((res) => res.text())
         .then((text) => setProjectInfo(text))

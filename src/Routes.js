@@ -16,6 +16,9 @@ import ProjectPage from './app/pages/ProjectPage';
 import StudentPage from './app/pages/StudentPage';
 
 const projectNames = [
+  'globalgreen',
+  'idontmind',
+  'writegirl',
   'fotc',
   'sraa',
   'tcw',
