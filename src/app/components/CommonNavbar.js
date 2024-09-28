@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
-import { Fade, Roll } from 'react-reveal';
-import { Link } from 'react-router-dom';
-import PropTypes from 'prop-types';
-import ClassNames from 'classnames';
+import React, { useState } from "react";
+import { Navbar, Nav, Container } from "react-bootstrap";
+import { Fade, Roll } from "react-reveal";
+import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
+import ClassNames from "classnames";
 
-import LogoWhite from '../assets/images/branding/logo_white.svg';
+import LogoWhite from "../assets/images/branding/logo_white.svg";
 
 export default function CommonNavbar({ className }) {
   const [expanded, setExpanded] = useState(false);
@@ -13,10 +13,10 @@ export default function CommonNavbar({ className }) {
   const navbarClass = ClassNames(
     className,
     { expanded },
-    'container-fluid',
-    'common-navbar',
+    "container-fluid",
+    "common-navbar"
   );
-  const variant = className.includes('inverse') ? 'light' : 'dark';
+  const variant = className.includes("inverse") ? "light" : "dark";
 
   return (
     <div className={navbarClass}>
@@ -52,10 +52,10 @@ export default function CommonNavbar({ className }) {
                   Projects
                 </Link>
                 <Link className="nav-link" to="/students">
-                  Students
+                  For Students
                 </Link>
                 <Link className="nav-link" to="/nonprofits">
-                  Nonprofits
+                  For Nonprofits
                 </Link>
                 <Link
                   className="contact-btn contact-btn--outline"
@@ -73,7 +73,7 @@ export default function CommonNavbar({ className }) {
 }
 
 CommonNavbar.defaultProps = {
-  className: '',
+  className: "",
 };
 
 CommonNavbar.propTypes = {
