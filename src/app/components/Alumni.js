@@ -49,14 +49,141 @@ import KayleeTran from "../assets/images/alumni/kaylee_tran.png";
 import KenFukuyama from "../assets/images/alumni/ken_fukuyama.png";
 import KevinAntony from "../assets/images/alumni/kevin_antony.png";
 import LauraLu from "../assets/images/alumni/laura_lu.png";
+import AvnishSengupta from "../assets/images/alumni/anvish_sengupta.png";
+import ChantalTan from "../assets/images/alumni/chantal_tan.png";
+import DiyaBaliga from "../assets/images/alumni/diya_baliga.png";
+import HelenWang from "../assets/images/alumni/helen_wang.png";
+import NasserElhajjaoui from "../assets/images/alumni/nasser_elhajjaoui.png";
+import JamesHe from "../assets/images/alumni/james_he.png";
+import SoliaValentine from "../assets/images/alumni/solia_valentine.png";
+import SiddharthNandy from "../assets/images/alumni/siddharth_nandy.png";
+import IsaacWen from "../assets/images/alumni/isaac_wen.png";
+import AlanNguyen from "../assets/images/alumni/alan_nguyen.png";
+import AngelaTan from "../assets/images/alumni/angela_tan.png";
+import ChancellorRichey from "../assets/images/alumni/chancellor_richey.png";
+import ChinenyeEneh from "../assets/images/alumni/chinenye_eneh.png";
+import DanielKao from "../assets/images/alumni/daniel_kao.png";
+import DiyaIndoliya from "../assets/images/alumni/diya_indoliya.png";
+import JimmyTang from "../assets/images/alumni/jimmy_tang.png";
+import KennyWan from "../assets/images/alumni/kenny_wan.png";
+import MarioPengLee from "../assets/images/alumni/mario_peng_lee.png";
+import RyanKim from "../assets/images/alumni/ryan_kim.png";
 
 const members = [
-  // {
-  //   image: JiaminXu,
-  //   name: 'Jiamin Xu ',
-  //   position: 'Vice President of Technology \'22',
-  //   linkedInURL: 'https://www.linkedin.com/in/jiamin-xu-9046b7196/',
-  // },
+  {
+    image: JamesHe,
+    name: "James He ",
+    position: "Co-President '23",
+    linkedInURL: "https://www.linkedin.com/in/he-is-james/",
+  },
+  {
+    image: SoliaValentine,
+    name: "Solia Valentine ",
+    position: "External Vice President '23",
+    linkedInURL: "https://www.linkedin.com/in/solia-valentine-4961a9228/",
+  },
+  {
+    image: SiddharthNandy,
+    name: "Siddharth Nandy ",
+    position: "Vice President of Technology '23",
+    linkedInURL: "https://www.linkedin.com/in/siddnandy/",
+  },
+  {
+    image: IsaacWen,
+    name: "Isaac Wen ",
+    position: "Vice President of Design '22",
+    linkedInURL: "https://www.linkedin.com/in/isaac-wen/",
+  },
+  {
+    image: AlanNguyen,
+    name: "Alan Nguyen ",
+    position: "Developer",
+    linkedInURL: "https://www.linkedin.com/in/alan-nguyen-ucla/",
+  },
+  {
+    image: AngelaTan,
+    name: "Angela Tan ",
+    position: "Developer",
+    linkedInURL: "https://www.linkedin.com/in/angela-tan-221892251/",
+  },
+  {
+    image: ChancellorRichey,
+    name: "Chancellor Richey ",
+    position: "Developer",
+    linkedInURL: "https://www.linkedin.com/in/chancellororichey/",
+  },
+  {
+    image: ChinenyeEneh,
+    name: "Chinenye Eneh ",
+    position: "Developer",
+    linkedInURL: "https://www.linkedin.com/in/chinenye-eneh-118778268/",
+  },
+  {
+    image: DanielKao,
+    name: "Daniel Kao ",
+    position: "Developer",
+    linkedInURL: "https://www.linkedin.com/in/daniel-kao14/",
+  },
+  {
+    image: DiyaIndoliya,
+    name: "Diya Indoliya ",
+    position: "Designer",
+    linkedInURL: "https://www.linkedin.com/in/diya-indoliya/",
+  },
+  {
+    image: JimmyTang,
+    name: "Jimmy Tang ",
+    position: "Designer",
+    linkedInURL: "https://www.linkedin.com/in/jimmy-tang-34053422b/",
+  },
+  {
+    image: KennyWan,
+    name: "Kenny Wan ",
+    position: "Developer",
+    linkedInURL: "https://www.linkedin.com/in/kennethzwan/",
+  },
+  {
+    image: MarioPengLee,
+    name: "Mario Peng Lee ",
+    position: "Developer",
+    linkedInURL: "https://www.linkedin.com/in/mariopenglee/",
+  },
+  {
+    image: RyanKim,
+    name: "Ryan Kim ",
+    position: "Developer",
+    linkedInURL: "https://www.linkedin.com/in/ryan-sw-kim",
+  },
+  {
+    image: ChantalTan,
+    name: "Chantal Tan ",
+    position: "Co-President '22",
+    linkedInURL: "https://www.linkedin.com/in/chantal-tan-a49121172/",
+  },
+  {
+    image: HelenWang,
+    name: "Helen Wang ",
+    position: "Co-President '22",
+    linkedInURL: "https://www.linkedin.com/in/helenwangj/",
+  },
+  {
+    image: DiyaBaliga,
+    name: "Diya Baliga ",
+    position: "External Vice President '22",
+    linkedInURL: "https://www.linkedin.com/in/diya-baliga-7049881ab/",
+  },
+  {
+    image: AvnishSengupta,
+    name: "Avnish Sengupta ",
+    position: "Internal Vice President '22",
+    linkedInURL: "https://www.linkedin.com/in/avnish-sengupta/",
+  },
+  {
+    image: NasserElhajjaoui,
+    name: "Nasser Elhajjaoui ",
+    position: "Project Lead '22",
+    linkedInURL: "https://www.linkedin.com/in/nasser-elhajjaoui-9a00a0213/",
+  },
   {
     image: JiaminXu,
     name: "Jiamin Xu ",
