@@ -26,7 +26,7 @@ import wg from "../assets/images/projects/wg_thumbnail.png";
 const projects = [
   {
     image: gg,
-    title: "Gobal Green",
+    title: "Global Green",
     desc: "Global Green incorporates awareness with empowering businesses to adopt impactful, profitable, and sustainable solutions that are scalable and drive positive change.",
     link: "globalgreen",
   },
