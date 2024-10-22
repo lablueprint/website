@@ -6,7 +6,7 @@ IDONTMIND
     Github Repository
 </Button>
 
-<Button className="white" size="md" href="https://www.figma.com/design/Goc2z8Dh48YCUURW6mFG5q/Designs?node-id=3982-4643&t=wKMObvP0eElFAxvc-0">
+<Button className="white" size="md" href="https://www.figma.com/proto/Goc2z8Dh48YCUURW6mFG5q/Designs?node-id=3982-4643&t=o6z4TqRWTdbswXx5-1">
     Figma Prototype
 </Button>
 
