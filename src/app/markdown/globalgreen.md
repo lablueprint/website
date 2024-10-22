@@ -6,7 +6,7 @@ Global Green
     Github Repository
 </Button>
 
-<Button className="white" size="md" href="https://www.figma.com/design/7VJGQZ6DtZMLHUbfsPbGQF/Designs?node-id=466-2&t=wKMObvP0eElFAxvc-0">
+<Button className="white" size="md" href="https://www.figma.com/proto/7VJGQZ6DtZMLHUbfsPbGQF/Designs?node-id=3510-27769&t=HmALp58rywfRDvZt-1">
     Figma Prototype
 </Button>
 

@@ -6,7 +6,7 @@ WriteGirl
     Github Repository
 </Button>
 
-<Button className="white" size="md" href="https://www.figma.com/design/KOo9564wCGgDw5UQlzJ7iy/WriteGirl-Design?node-id=4773-5963&t=Lb98N2whoEDbauTS-0">
+<Button className="white" size="md" href="https://www.figma.com/proto/KOo9564wCGgDw5UQlzJ7iy/WriteGirl-Design?node-id=4773-5963&t=YCqxntEvdOHKnqqQ-1">
     Figma Prototype
 </Button>
 

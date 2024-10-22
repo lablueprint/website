@@ -29,12 +29,12 @@ import FionaPeng from "../assets/images/team/fiona_peng.png";
 import JasmineWongphatarakul from "../assets/images/team/jasmine_wongphatarakul.png";
 import JoyCheng from "../assets/images/team/joy_cheng.png";
 import KimberlyNguyen from "../assets/images/team/kimberly_nguyen.png";
-import MeganTieu from "../assets/images/team/megan_tieu.png";
 import NicoleJu from "../assets/images/team/nicole_ju.png";
 import VictoriaChoi from "../assets/images/team/victoria_choi.png";
 import YimingZhang from "../assets/images/team/yiming_zhang.png";
 
 //  Advisors
+import AdnanDarwiche from "../assets/images/team/adnan_darwiche.png";
 import AaronShi from "../assets/images/team/aaron_shi.png";
 import ErinKwon from "../assets/images/team/erin_kwon.png";
 import GalenHeuer from "../assets/images/team/galen_heuer.png";
@@ -177,12 +177,6 @@ const members = [
     linkedInURL: "https://www.linkedin.com/in/kimberlynguyenh/",
   },
   {
-    image: MeganTieu,
-    name: "Megan Tieu ",
-    position: "Developer",
-    linkedInURL: "https://www.linkedin.com/in/megan-tieu/",
-  },
-  {
     image: NicoleJu,
     name: "Nicole Ju ",
     position: "Developer",
@@ -199,6 +193,12 @@ const members = [
     name: "Yiming Zhang ",
     position: "Designer",
     linkedInURL: "https://www.linkedin.com/in/yimingzhng/",
+  },
+  {
+    image: AdnanDarwiche,
+    name: "Adnan Darwiche",
+    position: "Faculty Advisor",
+    linkedInURL: "https://samueli.ucla.edu/people/adnan-darwiche/",
   },
   {
     image: AaronShi,

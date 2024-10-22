@@ -67,6 +67,7 @@ import DiyaIndoliya from "../assets/images/alumni/diya_indoliya.png";
 import JimmyTang from "../assets/images/alumni/jimmy_tang.png";
 import KennyWan from "../assets/images/alumni/kenny_wan.png";
 import MarioPengLee from "../assets/images/alumni/mario_peng_lee.png";
+import MeganTieu from "../assets/images/team/megan_tieu.png";
 import RyanKim from "../assets/images/alumni/ryan_kim.png";
 
 const members = [
@@ -147,6 +148,12 @@ const members = [
     name: "Mario Peng Lee ",
     position: "Developer",
     linkedInURL: "https://www.linkedin.com/in/mariopenglee/",
+  },
+  {
+    image: MeganTieu,
+    name: "Megan Tieu ",
+    position: "Developer",
+    linkedInURL: "https://www.linkedin.com/in/megan-tieu/",
   },
   {
     image: RyanKim,
