@@ -312,7 +312,7 @@ const members = [
   },
   {
     image: SophiaLee,
-    name: 'Sophia Less ',
+    name: 'Sophia Lee ',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/sophiaylee23/',
   },
