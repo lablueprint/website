@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4719f41f2083f406dd5bca4894f65862",
+    "revision": "f820a1939fb493f5becb67fb7a2a3e6f",
     "url": "/index.html"
   },
   {
-    "revision": "07a4a11b0748b8c05623",
+    "revision": "a7399e8a22f7d22aa5c4",
     "url": "/static/css/2.7f1403ef.chunk.css"
   },
   {
-    "revision": "bef2198113da2255248e",
-    "url": "/static/css/main.b91c0c3a.chunk.css"
+    "revision": "9f1d4098153c05cdef7b",
+    "url": "/static/css/main.149c9bb0.chunk.css"
   },
   {
-    "revision": "07a4a11b0748b8c05623",
-    "url": "/static/js/2.a6a6409d.chunk.js"
+    "revision": "a7399e8a22f7d22aa5c4",
+    "url": "/static/js/2.5bdf57dc.chunk.js"
   },
   {
     "revision": "ea74ef8a94dcd293c2e229e41e3ec3b2",
-    "url": "/static/js/2.a6a6409d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.5bdf57dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bef2198113da2255248e",
-    "url": "/static/js/main.f8318237.chunk.js"
+    "revision": "9f1d4098153c05cdef7b",
+    "url": "/static/js/main.45bac068.chunk.js"
   },
   {
     "revision": "e5d4fc46478d256b5188",
@@ -224,6 +224,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/amazon.31aa9527.svg"
   },
   {
+    "revision": "222e3fa9ee03080ada0eea8c702f3a9b",
+    "url": "/static/media/amy_zhang.222e3fa9.png"
+  },
+  {
     "revision": "ba051ecfc1f9a37d6f62a4a5643b1c4f",
     "url": "/static/media/andrew_huynh.ba051ecf.png"
   },
@@ -232,8 +236,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/andy_zeff.7c746835.png"
   },
   {
-    "revision": "5802dc8e9565b25f62a31de50168bc50",
-    "url": "/static/media/angela_hao.5802dc8e.png"
+    "revision": "a55043dd2a4843c4e1868d9b31197f13",
+    "url": "/static/media/angela_hao.a55043dd.png"
   },
   {
     "revision": "9e7b21003e34e44b707db96c0633c2b9",
@@ -244,8 +248,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/angela_tan.8cc9ef21.png"
   },
   {
-    "revision": "250cd3c180a39adb2e51fb4e7a89fdab",
-    "url": "/static/media/antonio_cosio.250cd3c1.png"
+    "revision": "dee7e616ee17da851ae5e2b74a45b70c",
+    "url": "/static/media/angela_yang.dee7e616.png"
+  },
+  {
+    "revision": "e1169da1c3d513d2b2f0eb8a9e012000",
+    "url": "/static/media/antonio_cosio.e1169da1.png"
   },
   {
     "revision": "09971f7ced90faa1ac16a41fb72234ca",
@@ -262,6 +270,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "87e1741a7110839588f63bb48a59628d",
     "url": "/static/media/apple.87e1741a.svg"
+  },
+  {
+    "revision": "bb0bffdb790caf67973b6a31d863ddbd",
+    "url": "/static/media/arya_nasikkar.bb0bffdb.png"
   },
   {
     "revision": "1c89bb8e0e54a2a42f3f930fdef6e1f7",
@@ -308,6 +320,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cheryl_wu.bd22744a.png"
   },
   {
+    "revision": "86200ca08ad0a71580dc5d62110493f4",
+    "url": "/static/media/cheyenne_lu.86200ca0.png"
+  },
+  {
     "revision": "49974fcaa889da06adbf09a36440b5d4",
     "url": "/static/media/chinenye_eneh.49974fca.png"
   },
@@ -324,20 +340,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cody_do.efaa6731.png"
   },
   {
+    "revision": "03c7fd07ca0d04d1bc1753bd5e6c62a4",
+    "url": "/static/media/dalton_silverman.03c7fd07.png"
+  },
+  {
     "revision": "5bc56f47f0f50ab95946c1293beff8bc",
     "url": "/static/media/dan_lee.5bc56f47.png"
   },
   {
-    "revision": "6f9c7e8817f31755132f8f011b54ff9c",
-    "url": "/static/media/daniel_chang.6f9c7e88.png"
+    "revision": "67bd0e6b4493cd5c5f49a6e035f32d0d",
+    "url": "/static/media/daniel_chang.67bd0e6b.png"
   },
   {
     "revision": "0e2e4b8ad1110cb95b0b58d2700cdd95",
     "url": "/static/media/daniel_kao.0e2e4b8a.png"
   },
   {
-    "revision": "8374c7b5684146d86441f59f0cf6ec79",
-    "url": "/static/media/daniel_ogura.8374c7b5.png"
+    "revision": "673c669fab3927c8a754c2297d62bf1d",
+    "url": "/static/media/daniel_ogura.673c669f.png"
+  },
+  {
+    "revision": "c54099f45d91f7d7f16e1cf6a946d284",
+    "url": "/static/media/darcy_mcswain.c54099f4.png"
   },
   {
     "revision": "386fcd759e204923f50b49f6073ce86e",
@@ -372,16 +396,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/edward_chu.60b26810.png"
   },
   {
-    "revision": "7271503a0ebc21e6ea81bda59c9b4dd6",
-    "url": "/static/media/edward_ng.7271503a.png"
+    "revision": "728774f07f699dbc2e9e8dcf87c1b45c",
+    "url": "/static/media/edward_ng.728774f0.png"
   },
   {
     "revision": "dfec4408265a2002d8a9e8f00f927623",
     "url": "/static/media/elwyn_cruz.dfec4408.png"
   },
   {
-    "revision": "7c0a8f65e90e57d11687a88b6894bc37",
-    "url": "/static/media/eric_zhou.7c0a8f65.png"
+    "revision": "8a13131da2c91000de58e5f208421400",
+    "url": "/static/media/eric_lu.8a13131d.png"
+  },
+  {
+    "revision": "92703c6a343d6256db4dfad557277d77",
+    "url": "/static/media/eric_zhou.92703c6a.png"
   },
   {
     "revision": "6f428c9e14146702e6f5944ab4e27265",
@@ -404,8 +432,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/figma.bfc8530d.svg"
   },
   {
-    "revision": "b434c742b26a2ccb1e470b7bc2c47d23",
-    "url": "/static/media/fiona_peng.b434c742.png"
+    "revision": "12ef524ad45882c69149b8efa75dbe60",
+    "url": "/static/media/fiona_peng.12ef524a.png"
   },
   {
     "revision": "a4cbedc76892d70b9b96e6012822a928",
@@ -476,8 +504,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/james_he.5e82391b.png"
   },
   {
-    "revision": "91d8d380447b380397025b1871f7aa2d",
-    "url": "/static/media/jasmine_wongphatarakul.91d8d380.png"
+    "revision": "e2cf98c79cb9b101790b2e7f6a990eee",
+    "url": "/static/media/jasmine_wongphatarakul.e2cf98c7.png"
+  },
+  {
+    "revision": "912174174251551db72058c478f5d32f",
+    "url": "/static/media/jason_choy.91217417.png"
   },
   {
     "revision": "7f854da1574f73c3dff3c1cfd4e0fc02",
@@ -496,24 +528,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/jimmy_tang.a7931783.png"
   },
   {
-    "revision": "5edeec12197fe55538a1ae220ade1562",
-    "url": "/static/media/jiyeon_han.5edeec12.png"
+    "revision": "77a9e0bc431144e1f8e2c23ea908b66c",
+    "url": "/static/media/jiyeon_han.77a9e0bc.png"
+  },
+  {
+    "revision": "a011fcc4f607313e5ea376b787d6d62b",
+    "url": "/static/media/joanna_bui.a011fcc4.png"
   },
   {
     "revision": "a3f9f263b5b34fc7e8c1aef4943d7a8a",
     "url": "/static/media/jonathan_fan.a3f9f263.png"
   },
   {
+    "revision": "eb9e4cebb248747819a68281381383b8",
+    "url": "/static/media/joseph_moon.eb9e4ceb.png"
+  },
+  {
     "revision": "fbb57aacb76b4c877bacdb847381d2a1",
     "url": "/static/media/joy_cheng.fbb57aac.png"
   },
   {
-    "revision": "10a562938d1d0b7729215425299cc049",
-    "url": "/static/media/joyce_chen.10a56293.png"
+    "revision": "b7cc58bf2035c9fad67c3a164dea09a3",
+    "url": "/static/media/joyce_chen.b7cc58bf.png"
   },
   {
-    "revision": "9f4b74dae05cee5dbb303675cae14a8c",
-    "url": "/static/media/juliet_zhang.9f4b74da.png"
+    "revision": "55cf475bd46a6c8babad29787eece1b8",
+    "url": "/static/media/juliet_zhang.55cf475b.png"
   },
   {
     "revision": "8846d611f6f8aaf999fe86d31da232e0",
@@ -536,8 +576,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/kevin_antony.adcc837a.png"
   },
   {
-    "revision": "c543b5baa28a8c0e7c3d0823035ee177",
-    "url": "/static/media/kimberly_nguyen.c543b5ba.png"
+    "revision": "c0168e859eaf23f49fd2fb45983ed05d",
+    "url": "/static/media/kian_baghai.c0168e85.png"
+  },
+  {
+    "revision": "7a36305ab62847a3a1b2adde2665b0c6",
+    "url": "/static/media/kimberly_nguyen.7a36305a.png"
   },
   {
     "revision": "e03284cd51322f321dc06f543700216f",
@@ -560,8 +604,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo_white.56b7b0cf.svg"
   },
   {
-    "revision": "854e9679e5a76a07c8757a542a8f0f26",
-    "url": "/static/media/mackenzie_smith.854e9679.png"
+    "revision": "9980b0b371fdfaf4403cd9a6fa1cf3ee",
+    "url": "/static/media/mackenzie_smith.9980b0b3.png"
   },
   {
     "revision": "1ee782c6fdc47efb65378903b0f61acd",
@@ -574,6 +618,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e1fe73b3c768a9d496b4e478ce4c48d6",
     "url": "/static/media/megan_tieu.e1fe73b3.png"
+  },
+  {
+    "revision": "6e983e051941daacc1fe7dab00478e5b",
+    "url": "/static/media/mercy_adetunji.6e983e05.png"
   },
   {
     "revision": "cf579bb7c562eb207839bacb8c587f51",
@@ -596,12 +644,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nasser_elhajjaoui.21314886.png"
   },
   {
+    "revision": "ad695ac58262cbbcb2be305611ecf727",
+    "url": "/static/media/niccolo_duina.ad695ac5.png"
+  },
+  {
     "revision": "7159b452bd57dc256f345f77db2a1581",
     "url": "/static/media/nicole_ju.7159b452.png"
   },
   {
     "revision": "c00bdcb6e485fc3f2a18817bfe789ad7",
     "url": "/static/media/oracle.c00bdcb6.svg"
+  },
+  {
+    "revision": "12d7078ec98824db7eeaed7ae4135f3d",
+    "url": "/static/media/patrick_zhou.12d7078e.png"
   },
   {
     "revision": "ccd4924f2360c1a95e362fad964fa7c2",
@@ -628,6 +684,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ray_huang.4f4c8011.png"
   },
   {
+    "revision": "83e723dd980c488295487b28e24d9cb6",
+    "url": "/static/media/raymond_kao.83e723dd.png"
+  },
+  {
     "revision": "5572e2d234623776af1f833ee152ffc0",
     "url": "/static/media/raymond_phan.5572e2d2.png"
   },
@@ -652,8 +712,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ryan_yeo.f7a1985c.png"
   },
   {
+    "revision": "76fc0239c0aa657a31d8b124b96c5840",
+    "url": "/static/media/sanjay_krishna.76fc0239.png"
+  },
+  {
     "revision": "fa7193c7a63775ae77736d6932b32a3e",
     "url": "/static/media/sarah_chang.fa7193c7.png"
+  },
+  {
+    "revision": "a37afe3c440b99e119ba6d7de23dd154",
+    "url": "/static/media/shereen_ahmed.a37afe3c.png"
   },
   {
     "revision": "456892b07c37532ebf9a24dfa8457e8b",
@@ -674,6 +742,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0823a2520b5b323d2696e347bc91e209",
     "url": "/static/media/solia_valentine.0823a252.png"
+  },
+  {
+    "revision": "a45efe3321a7d058a481934b99b58237",
+    "url": "/static/media/sonya_surapaneni.a45efe33.png"
+  },
+  {
+    "revision": "e6b993913afc522280c23c22898ffafd",
+    "url": "/static/media/sophia_lee.e6b99391.png"
   },
   {
     "revision": "12e5ea3f63042d3cee59d5df50cdcd34",
@@ -816,8 +892,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/vanessa_ta.86d046eb.png"
   },
   {
-    "revision": "ed412d795319c4b27e88e795ce0a1f42",
-    "url": "/static/media/victoria_choi.ed412d79.png"
+    "revision": "9eb577c0a08b24004c4e9fde050d9d23",
+    "url": "/static/media/vanshika_turkar.9eb577c0.png"
+  },
+  {
+    "revision": "890a0994814692381bef23a457285321",
+    "url": "/static/media/victoria_choi.890a0994.png"
   },
   {
     "revision": "c40fdb44de6f43fef55f64c4dbdc6269",
@@ -964,16 +1044,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/writegirl.a1cd48a2.md"
   },
   {
-    "revision": "3e1ac8b2437b34d02cf901bde6e54f17",
-    "url": "/static/media/yiming_zhang.3e1ac8b2.png"
-  },
-  {
     "revision": "5a40db6d860068a6194ea530f7f54a44",
     "url": "/static/media/yinyin_wen.5a40db6d.png"
   },
   {
     "revision": "34d9080bde0e57c40059367a2e34512b",
     "url": "/static/media/yoshino_goto.34d9080b.png"
+  },
+  {
+    "revision": "528fec667bd32fe8d1b718d67731bbd0",
+    "url": "/static/media/youssef_mehelba.528fec66.png"
   },
   {
     "revision": "3bba4f3bded944d8c3b90293a60551bd",
