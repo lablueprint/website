@@ -24,13 +24,13 @@ export default function StudentPage() {
               Help us build our applications and work with nonprofits!
             </SectionSubtitle>
             <SectionSubtitle className="sign-up mb-3">
-              Applications are currently open! The deadline is Friday October
-              4th, 11:59 PM PST.
+              Applications are now closed. Come back in Fall 2025!
             </SectionSubtitle>
             <Button
               className="outline-white"
               size="md"
               href="https://airtable.com/appY8mDtwETX2LcL5/shrgwdaqOvjbi8FbJ"
+              disabled
             >
               Check out our applications
             </Button>
