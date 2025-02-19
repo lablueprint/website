@@ -24,7 +24,7 @@ Global Green
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **_Project Leads_** | Ryan Yeo, Isaac Wen                                                                                                      |
 | **_Designers_**     | Amy Zhang, Chizi Oranu, Jimmy Tang, Juliet Zhang                                                                         |
-| **_Developers_**    | Chinenye Eneh, Daniel Chang, Diya Baliga, Victoira Choi, Mario Peng Lee, Megan Tieu, Ryan Kim, James He, Solia Valentine |
+| **_Developers_**    | Chinenye Eneh, Daniel Chang, Diya Baliga, Victoria Choi, Mario Peng Lee, Megan Tieu, Ryan Kim, James He, Solia Valentine |
 
 # Background
 

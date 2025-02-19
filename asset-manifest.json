@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.149c9bb0.chunk.css",
-    "main.js": "/static/js/main.45bac068.chunk.js",
-    "main.js.map": "/static/js/main.45bac068.chunk.js.map",
+    "main.js": "/static/js/main.ac212eee.chunk.js",
+    "main.js.map": "/static/js/main.ac212eee.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f3bce04e.js",
     "runtime-main.js.map": "/static/js/runtime-main.f3bce04e.js.map",
     "static/css/2.7f1403ef.chunk.css": "/static/css/2.7f1403ef.chunk.css",
-    "static/js/2.5bdf57dc.chunk.js": "/static/js/2.5bdf57dc.chunk.js",
-    "static/js/2.5bdf57dc.chunk.js.map": "/static/js/2.5bdf57dc.chunk.js.map",
+    "static/js/2.311feda0.chunk.js": "/static/js/2.311feda0.chunk.js",
+    "static/js/2.311feda0.chunk.js.map": "/static/js/2.311feda0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.295a761ae9795d3dd6750d4da478ef78.js": "/precache-manifest.295a761ae9795d3dd6750d4da478ef78.js",
+    "precache-manifest.eb7669ba0e0c6a0a35d2cdd02880b6c4.js": "/precache-manifest.eb7669ba0e0c6a0a35d2cdd02880b6c4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.7f1403ef.chunk.css.map": "/static/css/2.7f1403ef.chunk.css.map",
     "static/css/main.149c9bb0.chunk.css.map": "/static/css/main.149c9bb0.chunk.css.map",
-    "static/js/2.5bdf57dc.chunk.js.LICENSE.txt": "/static/js/2.5bdf57dc.chunk.js.LICENSE.txt",
+    "static/js/2.311feda0.chunk.js.LICENSE.txt": "/static/js/2.311feda0.chunk.js.LICENSE.txt",
     "static/media/F2P_Thumbnail.png": "/static/media/F2P_Thumbnail.aa2d3816.png",
     "static/media/HP_Thumbnail.png": "/static/media/HP_Thumbnail.c311ed7c.png",
     "static/media/main.scss": "/static/media/work-sans-v11-latin-regular.c5db303c.svg",
@@ -82,7 +82,7 @@
     "static/media/fun-shapes.png": "/static/media/fun-shapes.9f53dd45.png",
     "static/media/galen_heuer.png": "/static/media/galen_heuer.86b02489.png",
     "static/media/gg_thumbnail.png": "/static/media/gg_thumbnail.5e11e5c7.png",
-    "static/media/globalgreen.md": "/static/media/globalgreen.4ddbcbdb.md",
+    "static/media/globalgreen.md": "/static/media/globalgreen.8e296e02.md",
     "static/media/google.svg": "/static/media/google.e99543bb.svg",
     "static/media/grace_ma.png": "/static/media/grace_ma.5366c871.png",
     "static/media/harmony_project.md": "/static/media/harmony_project.dc2cb1a3.md",
@@ -185,8 +185,8 @@
   "entrypoints": [
     "static/js/runtime-main.f3bce04e.js",
     "static/css/2.7f1403ef.chunk.css",
-    "static/js/2.5bdf57dc.chunk.js",
+    "static/js/2.311feda0.chunk.js",
     "static/css/main.149c9bb0.chunk.css",
-    "static/js/main.45bac068.chunk.js"
+    "static/js/main.ac212eee.chunk.js"
   ]
 }
