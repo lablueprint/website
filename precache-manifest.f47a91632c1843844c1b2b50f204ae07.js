@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a93617265e0fb577d9c074b284dd28b9",
+    "revision": "fbd991713c5fe49663da624ee82574bf",
     "url": "/index.html"
   },
   {
-    "revision": "3746c13e9d2d095f4e6c",
+    "revision": "eaf9f8522ca9efd72f3f",
     "url": "/static/css/2.032362bf.chunk.css"
   },
   {
-    "revision": "6b2aa8f6436951ab55a1",
+    "revision": "9c99ebd61485ee89167a",
     "url": "/static/css/main.e3221c09.chunk.css"
   },
   {
-    "revision": "3746c13e9d2d095f4e6c",
-    "url": "/static/js/2.624b46ac.chunk.js"
+    "revision": "eaf9f8522ca9efd72f3f",
+    "url": "/static/js/2.ebd53d66.chunk.js"
   },
   {
     "revision": "ea74ef8a94dcd293c2e229e41e3ec3b2",
-    "url": "/static/js/2.624b46ac.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ebd53d66.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6b2aa8f6436951ab55a1",
-    "url": "/static/js/main.3ed3cf84.chunk.js"
+    "revision": "9c99ebd61485ee89167a",
+    "url": "/static/js/main.dd569876.chunk.js"
   },
   {
     "revision": "e5d4fc46478d256b5188",
@@ -208,10 +208,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/aaron_shi.934caded.png"
   },
   {
-    "revision": "6754080c6560bf8271cf8fcff630a768",
-    "url": "/static/media/adnan_darwiche.6754080c.png"
-  },
-  {
     "revision": "48642aeec85b940b8bef5c3c21150ce2",
     "url": "/static/media/alan_nguyen.48642aee.png"
   },
@@ -252,10 +248,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/angela_yang.dee7e616.png"
   },
   {
-    "revision": "e1169da1c3d513d2b2f0eb8a9e012000",
-    "url": "/static/media/antonio_cosio.e1169da1.png"
-  },
-  {
     "revision": "09971f7ced90faa1ac16a41fb72234ca",
     "url": "/static/media/anvish_sengupta.09971f7c.png"
   },
@@ -270,10 +262,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "87e1741a7110839588f63bb48a59628d",
     "url": "/static/media/apple.87e1741a.svg"
-  },
-  {
-    "revision": "bb0bffdb790caf67973b6a31d863ddbd",
-    "url": "/static/media/arya_nasikkar.bb0bffdb.png"
   },
   {
     "revision": "1c89bb8e0e54a2a42f3f930fdef6e1f7",
@@ -410,10 +398,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8a13131da2c91000de58e5f208421400",
     "url": "/static/media/eric_lu.8a13131d.png"
-  },
-  {
-    "revision": "92703c6a343d6256db4dfad557277d77",
-    "url": "/static/media/eric_zhou.92703c6a.png"
   },
   {
     "revision": "6f428c9e14146702e6f5944ab4e27265",
@@ -606,10 +590,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "56b7b0cfb78823a1d613c5a267a39469",
     "url": "/static/media/logo_white.56b7b0cf.svg"
-  },
-  {
-    "revision": "9980b0b371fdfaf4403cd9a6fa1cf3ee",
-    "url": "/static/media/mackenzie_smith.9980b0b3.png"
   },
   {
     "revision": "1ee782c6fdc47efb65378903b0f61acd",
