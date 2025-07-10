@@ -13,7 +13,7 @@ export default function NonprofitWhen() {
         <SectionHeading>When are we looking for new nonprofits?</SectionHeading>
 
         <SectionParagraph>
-          We're looking for nonprofit partnerships during <strong>Summer 2024</strong> for the 2024-2025 school year!
+          We're looking for nonprofit partnerships during <strong>Summer 2025</strong> for the 2025-2026 school year!
           <br/>
           Interested in working with us? We'd love to hear from you! Send us an email at <a href="mailto:outreach@lablueprint.org">outreach@lablueprint.org</a>.
         </SectionParagraph>

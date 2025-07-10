@@ -16,8 +16,9 @@ const timeline = [
         <strong style={{ color: "#3599fd" }}>June / July</strong>, we will be
         conducting this outreach to find our yearlong partners!
         <br />
-        If your nonprofit is interested in an application, free of charge, email
-        us at{" "}
+        If your nonprofit is interested in an application, free of charge, please fill out the {" "}
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeYYQWWfUxok5SVLs611DKgqiI5Ie80shvVAEM-cDellmRlrg/viewform">interest form</a>.
+        Also, feel free to reach out to us with any questions via email at {" "}
         <a href="mailto:outreach@lablueprint.org">outreach@lablueprint.org</a>!
       </div>
     ),
@@ -28,7 +29,7 @@ const timeline = [
       <div>
         If you'd like to learn more about us, please respond to our outreach
         email anytime between{" "}
-        <strong style={{ color: "#3599fd" }}>July 3rd - August 10th</strong>.
+        <strong style={{ color: "#3599fd" }}>July 14th - August 6th</strong>.
         Our exec team will schedule a quick 30 minute informational call so we
         can get to know each other the better! We'll also be able to answer any
         questions you have about the application process and our organization.
@@ -42,7 +43,7 @@ const timeline = [
         If you decide that you're interested in working with us and we agree
         that Blueprint has the ability to fit your needs, please submit an
         application <a href="/contact">here</a> by{" "}
-        <strong style={{ color: "#3599fd" }}> August 13th</strong>. This part of
+        <strong style={{ color: "#3599fd" }}> August 8th</strong>. This part of
         our process helps us understand how Blueprint can best serve your
         organization. You'll have the chance to fully explain how we can help
         you, identify any points of need in your current operations, and expand
@@ -56,7 +57,7 @@ const timeline = [
     body: (
       <div>
         Between{" "}
-        <strong style={{ color: "#3599fd" }}>Aug 16th - Sept 3rd</strong>, the
+        <strong style={{ color: "#3599fd" }}>Aug 11th - Aug 22nd</strong>, the
         final interview will be a meeting with members of our exec team and
         project leads. Together, we'll go into more detail on your proposed
         project, discuss how it can be designed to best fit your needs, and
@@ -69,7 +70,7 @@ const timeline = [
     body: (
       <div>
         We’ll reach out by{" "}
-        <strong style={{ color: "#3599fd" }}> September 7th</strong> and let you
+        <strong style={{ color: "#3599fd" }}> August 24 </strong> and let you
         know if your organization has been selected to work with Blueprint! If
         chosen, your nonprofit will have the opportunity to work with us on a
         project through the course of our academic year (September - June). Our

@@ -8,6 +8,7 @@ import SectionSubtitle from "../components/SectionSubtitle";
 import NonprofitWhat from "../components/Nonprofit/NonprofitWhat";
 import NonprofitTimeline from "../components/Nonprofit/NonprofitTimeline";
 import NonprofitWhen from "../components/Nonprofit/NonprofitWhen";
+import NonprofitMoreInfo from "../components/Nonprofit/NonprofitMoreInfo";
 
 export default function NonprofitPage() {
   return (
@@ -26,15 +27,13 @@ export default function NonprofitPage() {
             <Button
               className="outline-white"
               size="md"
-              href="https://airtable.com/appSmNIv5ZC7s20mv/shrKz1mjNa9GuSZX8"
-              disabled="True"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeYYQWWfUxok5SVLs611DKgqiI5Ie80shvVAEM-cDellmRlrg/viewform"
             >
               Work with us
             </Button>
             <br />
             <em>
-              * Our application cycle for 2024-25 is now closed. Stay tuned for
-              the next application cycle in June 2025!
+              * Our application cycle for 2025-26 is now open!
             </em>
           </>
         )}
@@ -47,6 +46,12 @@ export default function NonprofitPage() {
       <Fade>
         <NonprofitTimeline />
       </Fade>
+
+      <div id="Apply">
+        <Fade>
+          <NonprofitMoreInfo />
+        </Fade>
+      </div>
       <div id="Apply">
         <Fade>
           <NonprofitWhen />
