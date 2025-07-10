@@ -52,11 +52,11 @@ export default function NonprofitPage() {
           <NonprofitMoreInfo />
         </Fade>
       </div>
-      <div id="Apply">
+      {/* <div id="Apply">
         <Fade>
           <NonprofitWhen />
         </Fade>
-      </div>
+      </div> */}
     </>
   );
 }

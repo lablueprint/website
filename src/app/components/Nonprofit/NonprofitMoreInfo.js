@@ -24,30 +24,26 @@ export default function NonprofitMoreInfo() {
 
 
          <SectionParagraph>Sneak Peak into last year's demo day! </SectionParagraph>
-          <div className="card-deck">
-                <Card className="project-card">
-                    <Card.Img src={teapot} alt="Teapot Gardens" />
-                    <Card.Body>
-                        <Card.Title>Teapot Gardens</Card.Title>
-                    </Card.Body>
-                </Card>
-                <Card className="project-card">
-                    <Card.Img src={eo} alt="End Overdose" />
-                    <Card.Body>
-                        <Card.Title>End Overdose</Card.Title>
-                    </Card.Body>
-                </Card>
-                <Card className="project-card">
-                    <Card.Img src={uw} alt="United Way" />
-                    <Card.Body>
-                        <Card.Title>United Way</Card.Title>
-                    </Card.Body>
-                </Card>
-                </div>
-
-
-
-
+          <div className="demo-day-card-deck">
+              <Card className="demo-day-card">
+                  <Card.Img src={eo} alt="End Overdose" />
+                  <Card.Body>
+                      <Card.Title>End Overdose</Card.Title>
+                  </Card.Body>
+              </Card>
+              <Card className="demo-day-card">
+                  <Card.Img src={teapot} alt="Teapot Gardens" />
+                  <Card.Body>
+                      <Card.Title>Teapot Gardens</Card.Title>
+                  </Card.Body>
+              </Card>
+              <Card className="demo-day-card">
+                  <Card.Img src={uw} alt="United Way" />
+                  <Card.Body>
+                      <Card.Title>United Way</Card.Title>
+                  </Card.Body>
+              </Card>
+          </div>
         {/* <Button size="lg" href="/contact">
           Work with us
         </Button> */}
