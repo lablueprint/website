@@ -69,8 +69,85 @@ import KennyWan from '../assets/images/alumni/kenny_wan.png';
 import MarioPengLee from '../assets/images/alumni/mario_peng_lee.png';
 import MeganTieu from '../assets/images/alumni/megan_tieu.png';
 import RyanKim from '../assets/images/alumni/ryan_kim.png';
+import JerryXu from '../assets/images/alumni/jerry_xu.png';
+import ErinKwon from '../assets/images/alumni/erin_kwon.png';
+import SarahChang from '../assets/images/alumni/sarah_chang.png';
+import AngelaLing from '../assets/images/alumni/angela_ling.png';
+import DanielOgura from '../assets/images/alumni/daniel_ogura.png';
+import CarolineDebBarauch from '../assets/images/alumni/caroline_debBaruah.png';
+import StellaKang from '../assets/images/alumni/stella_kang.png';
+import AaronShi from '../assets/images/alumni/aaron_shi.png';
+import JosephMoon from '../assets/images/alumni/joseph_moon.png';
+import AmyZhang from '../assets/images/alumni/amy_zhang.png';
+import KimberlyNguyen from '../assets/images/alumni/kimberly_nguyen.png';
 
 const members = [
+  {
+    image: AngelaLing,
+    name: 'Angela Ling ',
+    position: "Co-President '24",
+    linkedInURL: 'https://www.linkedin.com/in/angela-ling/',
+  },
+  {
+    image: CarolineDebBarauch,
+    name: 'Caroline DebBarauch ',
+    position: "External Vice President '24",
+    linkedInURL: 'https://www.linkedin.com/in/caroline-debbaruah/',
+  },
+  {
+    image: AmyZhang,
+    name: 'Amy Zhang ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/yimingzhng/',
+  },
+  {
+    image: DanielOgura,
+    name: 'Daniel Ogura ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/danielogura/',
+  },
+  {
+    image: JosephMoon,
+    name: 'Joseph Moon ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/-joseph-moon/',
+  },
+  {
+    image: KimberlyNguyen,
+    name: 'Kimberly Nguyen ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/kimberlynguyenh/',
+  },
+  {
+    image: StellaKang,
+    name: 'Stella Kang',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/stella-kang-a40a38258/',
+  },
+  {
+    image: JerryXu,
+    name: 'Jerry Xu ',
+    position: "Co-President '23",
+    linkedInURL: 'https://www.linkedin.com/in/chujun-jerry-xu/',
+  },
+  {
+    image: ErinKwon,
+    name: 'Erin Kwon ',
+    position: "Internal Vice President '23",
+    linkedInURL: 'https://www.linkedin.com/in/erinkwon01/',
+  },
+  {
+    image: SarahChang,
+    name: 'Sarah Chang ',
+    position: "Vice President of Design '23",
+    linkedInURL: 'https://www.linkedin.com/in/sarah-chang-240795199/',
+  },
+  {
+    image: AaronShi,
+    name: 'Aaron Shi ',
+    position: "Project Lead '23",
+    linkedInURL: 'https://www.linkedin.com/in/aaronshi53/',
+  },
   {
     image: JamesHe,
     name: 'James He ',

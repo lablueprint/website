@@ -23,7 +23,7 @@ export default function NonprofitMoreInfo() {
         </SectionParagraph>
 
 
-         <SectionParagraph>Sneak Peak into last year's demo day! </SectionParagraph>
+         <SectionParagraph>Sneak Peak into this year's demo day! </SectionParagraph>
           <div className="demo-day-card-deck">
               <Card className="demo-day-card">
                   <Card.Img src={eo} alt="End Overdose" />
