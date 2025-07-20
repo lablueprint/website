@@ -55,11 +55,11 @@ export default function StudentPage() {
           <StudentFAQ />
         </Fade>
       </div>
-      <div id="Apply">
+      {/* <div id="Apply">
         <Fade>
           <MailingListButton />
         </Fade>
-      </div>
+      </div> */}
     </>
   );
 }

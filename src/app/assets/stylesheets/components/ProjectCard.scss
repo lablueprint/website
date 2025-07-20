@@ -1,5 +1,4 @@
 .project-card {
-  margin-bottom: 40px;
   font-family: $syne;
 
   &:hover {
@@ -20,6 +19,7 @@
     cursor: pointer;
     height: 100%;
     padding: 20px 20px;
+    margin-bottom: 50px;
 
     .card-title {
       font-weight: 700;

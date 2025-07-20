@@ -82,6 +82,7 @@ import AmyZhang from '../assets/images/alumni/amy_zhang.png';
 import KimberlyNguyen from '../assets/images/alumni/kimberly_nguyen.png';
 import MackenzieSmith from '../assets/images/alumni/mackenzie_smith.png';
 import AntonioCosio from '../assets/images/alumni/antonio_cosio.png';
+import EricZhou from '../assets/images/alumni/eric_zhou.png';
 
 
 const members = [
@@ -108,6 +109,12 @@ const members = [
     name: 'Antonio Cosio ', 
     position: "Project Lead '24", 
     linkedInURL: 'http://linkedin.com/in/acosio/',
+  },
+  {
+    image: EricZhou, 
+    name: 'Eric Zhou ', 
+    position: "Project Lead '24", 
+    linkedInURL: 'https://www.linkedin.com/in/ezhou03/',
   },
   {
     image: AmyZhang,
