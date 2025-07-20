@@ -80,6 +80,9 @@ import AaronShi from '../assets/images/alumni/aaron_shi.png';
 import JosephMoon from '../assets/images/alumni/joseph_moon.png';
 import AmyZhang from '../assets/images/alumni/amy_zhang.png';
 import KimberlyNguyen from '../assets/images/alumni/kimberly_nguyen.png';
+import MackenzieSmith from '../assets/images/alumni/mackenzie_smith.png';
+import AntonioCosio from '../assets/images/alumni/antonio_cosio.png';
+
 
 const members = [
   {
@@ -93,6 +96,18 @@ const members = [
     name: 'Caroline DebBarauch ',
     position: "External Vice President '24",
     linkedInURL: 'https://www.linkedin.com/in/caroline-debbaruah/',
+  },
+  {
+    image: MackenzieSmith, 
+    name: 'Mackenzie Smith ',
+    position: "Project Lead '24", 
+    linkedInURL: 'https://www.linkedin.com/in/mackenzie-smith-3728a3220/',
+  },
+  {
+    image: AntonioCosio, 
+    name: 'Antonio Cosio ', 
+    position: "Project Lead '24", 
+    linkedInURL: 'http://linkedin.com/in/acosio/',
   },
   {
     image: AmyZhang,
