@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fbd991713c5fe49663da624ee82574bf",
+    "revision": "d038d39f3b985978eb15f070a01fd892",
     "url": "/index.html"
   },
   {
-    "revision": "eaf9f8522ca9efd72f3f",
+    "revision": "69b141d59358b8d379bc",
     "url": "/static/css/2.032362bf.chunk.css"
   },
   {
-    "revision": "9c99ebd61485ee89167a",
-    "url": "/static/css/main.e3221c09.chunk.css"
+    "revision": "1c91d024dae672218d20",
+    "url": "/static/css/main.2f1a0e51.chunk.css"
   },
   {
-    "revision": "eaf9f8522ca9efd72f3f",
-    "url": "/static/js/2.ebd53d66.chunk.js"
+    "revision": "69b141d59358b8d379bc",
+    "url": "/static/js/2.411782ee.chunk.js"
   },
   {
     "revision": "ea74ef8a94dcd293c2e229e41e3ec3b2",
-    "url": "/static/js/2.ebd53d66.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.411782ee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9c99ebd61485ee89167a",
-    "url": "/static/js/main.dd569876.chunk.js"
+    "revision": "1c91d024dae672218d20",
+    "url": "/static/js/main.d632d5f0.chunk.js"
   },
   {
     "revision": "e5d4fc46478d256b5188",
@@ -248,6 +248,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/angela_yang.dee7e616.png"
   },
   {
+    "revision": "e1169da1c3d513d2b2f0eb8a9e012000",
+    "url": "/static/media/antonio_cosio.e1169da1.png"
+  },
+  {
     "revision": "09971f7ced90faa1ac16a41fb72234ca",
     "url": "/static/media/anvish_sengupta.09971f7c.png"
   },
@@ -398,6 +402,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8a13131da2c91000de58e5f208421400",
     "url": "/static/media/eric_lu.8a13131d.png"
+  },
+  {
+    "revision": "92703c6a343d6256db4dfad557277d77",
+    "url": "/static/media/eric_zhou.92703c6a.png"
   },
   {
     "revision": "6f428c9e14146702e6f5944ab4e27265",
@@ -590,6 +598,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "56b7b0cfb78823a1d613c5a267a39469",
     "url": "/static/media/logo_white.56b7b0cf.svg"
+  },
+  {
+    "revision": "9980b0b371fdfaf4403cd9a6fa1cf3ee",
+    "url": "/static/media/mackenzie_smith.9980b0b3.png"
   },
   {
     "revision": "1ee782c6fdc47efb65378903b0f61acd",

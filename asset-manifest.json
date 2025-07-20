@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3221c09.chunk.css",
-    "main.js": "/static/js/main.dd569876.chunk.js",
-    "main.js.map": "/static/js/main.dd569876.chunk.js.map",
+    "main.css": "/static/css/main.2f1a0e51.chunk.css",
+    "main.js": "/static/js/main.d632d5f0.chunk.js",
+    "main.js.map": "/static/js/main.d632d5f0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f3bce04e.js",
     "runtime-main.js.map": "/static/js/runtime-main.f3bce04e.js.map",
     "static/css/2.032362bf.chunk.css": "/static/css/2.032362bf.chunk.css",
-    "static/js/2.ebd53d66.chunk.js": "/static/js/2.ebd53d66.chunk.js",
-    "static/js/2.ebd53d66.chunk.js.map": "/static/js/2.ebd53d66.chunk.js.map",
+    "static/js/2.411782ee.chunk.js": "/static/js/2.411782ee.chunk.js",
+    "static/js/2.411782ee.chunk.js.map": "/static/js/2.411782ee.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f47a91632c1843844c1b2b50f204ae07.js": "/precache-manifest.f47a91632c1843844c1b2b50f204ae07.js",
+    "precache-manifest.1269a19d2228b350f9c2aacdaa74b6fd.js": "/precache-manifest.1269a19d2228b350f9c2aacdaa74b6fd.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.032362bf.chunk.css.map": "/static/css/2.032362bf.chunk.css.map",
-    "static/css/main.e3221c09.chunk.css.map": "/static/css/main.e3221c09.chunk.css.map",
-    "static/js/2.ebd53d66.chunk.js.LICENSE.txt": "/static/js/2.ebd53d66.chunk.js.LICENSE.txt",
+    "static/css/main.2f1a0e51.chunk.css.map": "/static/css/main.2f1a0e51.chunk.css.map",
+    "static/js/2.411782ee.chunk.js.LICENSE.txt": "/static/js/2.411782ee.chunk.js.LICENSE.txt",
     "static/media/F2P_Thumbnail.png": "/static/media/F2P_Thumbnail.aa2d3816.png",
     "static/media/HP_Thumbnail.png": "/static/media/HP_Thumbnail.c311ed7c.png",
     "static/media/main.scss": "/static/media/work-sans-v11-latin-regular.c5db303c.svg",
@@ -29,6 +29,7 @@
     "static/media/angela_ling.png": "/static/media/angela_ling.9e7b2100.png",
     "static/media/angela_tan.png": "/static/media/angela_tan.8cc9ef21.png",
     "static/media/angela_yang.png": "/static/media/angela_yang.dee7e616.png",
+    "static/media/antonio_cosio.png": "/static/media/antonio_cosio.e1169da1.png",
     "static/media/anvish_sengupta.png": "/static/media/anvish_sengupta.09971f7c.png",
     "static/media/apifm.md": "/static/media/apifm.12e8331b.md",
     "static/media/apifmgraphic.png": "/static/media/apifmgraphic.e877afb0.png",
@@ -67,6 +68,7 @@
     "static/media/elwyn_cruz.png": "/static/media/elwyn_cruz.dfec4408.png",
     "static/media/end-overdose.PNG": "/static/media/end-overdose.b97d417f.PNG",
     "static/media/eric_lu.png": "/static/media/eric_lu.8a13131d.png",
+    "static/media/eric_zhou.png": "/static/media/eric_zhou.92703c6a.png",
     "static/media/erin_kwon.png": "/static/media/erin_kwon.6f428c9e.png",
     "static/media/facebook.svg": "/static/media/facebook.665dd80e.svg",
     "static/media/farm2people.md": "/static/media/farm2people.9e590f36.md",
@@ -114,6 +116,7 @@
     "static/media/leo_liu.png": "/static/media/leo_liu.dd7c9fb3.png",
     "static/media/linus_lam.png": "/static/media/linus_lam.1163a48f.png",
     "static/media/logo_white.svg": "/static/media/logo_white.56b7b0cf.svg",
+    "static/media/mackenzie_smith.png": "/static/media/mackenzie_smith.9980b0b3.png",
     "static/media/mario_peng_lee.png": "/static/media/mario_peng_lee.1ee782c6.png",
     "static/media/meet-blueprint-23-24.png": "/static/media/meet-blueprint-23-24.5dd35393.png",
     "static/media/megan_tieu.png": "/static/media/megan_tieu.e1fe73b3.png",
@@ -183,8 +186,8 @@
   "entrypoints": [
     "static/js/runtime-main.f3bce04e.js",
     "static/css/2.032362bf.chunk.css",
-    "static/js/2.ebd53d66.chunk.js",
-    "static/css/main.e3221c09.chunk.css",
-    "static/js/main.dd569876.chunk.js"
+    "static/js/2.411782ee.chunk.js",
+    "static/css/main.2f1a0e51.chunk.css",
+    "static/js/main.d632d5f0.chunk.js"
   ]
 }
