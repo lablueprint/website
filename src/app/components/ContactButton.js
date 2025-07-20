@@ -18,9 +18,9 @@ export default function ContactUs() {
             </Link>
             <Button
               className="raised-button blue"
-              href="https://facebook.com/lablueprint"
+              href="https://www.instagram.com/lablueprint"
             >
-              Facebook
+              Instagram
             </Button>
           </div>
         </div>
