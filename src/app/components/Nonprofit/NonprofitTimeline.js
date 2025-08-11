@@ -43,7 +43,7 @@ const timeline = [
         If you decide that you're interested in working with us and we agree
         that Blueprint has the ability to fit your needs, please submit an
         application <a href="/contact">here</a> by{" "}
-        <strong style={{ color: "#3599fd" }}> August 8th</strong>. This part of
+        <strong style={{ color: "#3599fd" }}> August 15th</strong>. This part of
         our process helps us understand how Blueprint can best serve your
         organization. You'll have the chance to fully explain how we can help
         you, identify any points of need in your current operations, and expand
@@ -57,7 +57,7 @@ const timeline = [
     body: (
       <div>
         Between{" "}
-        <strong style={{ color: "#3599fd" }}>Aug 11th - Aug 22nd</strong>, the
+        <strong style={{ color: "#3599fd" }}>Aug 18th - Aug 28nd</strong>, the
         final interview will be a meeting with members of our exec team and
         project leads. Together, we'll go into more detail on your proposed
         project, discuss how it can be designed to best fit your needs, and
@@ -70,7 +70,7 @@ const timeline = [
     body: (
       <div>
         We’ll reach out by{" "}
-        <strong style={{ color: "#3599fd" }}> August 24 </strong> and let you
+        <strong style={{ color: "#3599fd" }}> August 31 </strong> and let you
         know if your organization has been selected to work with Blueprint! If
         chosen, your nonprofit will have the opportunity to work with us on a
         project through the course of our academic year (September - June). Our
