@@ -24,6 +24,31 @@ import globalGreen from '../assets/images/projects/gg_thumbnail.png';
 import idontmind from '../assets/images/projects/idm_thumbnail.png';
 import writeGirl from '../assets/images/projects/wg_thumbnail.png';
 
+import teapotGardens from '../assets/images/projects/teapot_thumbnail.png';
+import endOverdose from '../assets/images/projects/eo_thumbnail.png';
+import unitedWay from '../assets/images/projects/uw_thumbnail.png';
+
+const projects2024_25 = [
+  {
+    image: endOverdose,
+    title: 'End Overdose',
+    desc: 'End Overdose is dedicated to preventing drug-related deaths by providing education, distributing naloxone, and offering community training nationwide.',
+    link: 'endoverdose',
+  },
+  {
+    image: teapotGardens,
+    title: 'Teapot Gardens',
+    desc: 'Teapot Gardens cultivates creativity outdoors and green-space initiatives as a catalyst for community healing and cultural exchange in park-deprived neighborhoods of Los Angeles.',
+    link: 'teapotgardens',
+  },
+  {
+    image: unitedWay,
+    title: 'United Way',
+    desc: 'United Way tackles poverty, supports small businesses, and builds stronger, more connected communities through impactful programs and partnerships.',
+    link: 'unitedway',
+  },
+];
+
 const projects2023_24 = [
   {
     image: globalGreen,
@@ -113,6 +138,16 @@ const projects2020_21 = [
 ];
 
 export default function ProjectPage() {
+   const project2024_25Cards = projects2024_25.map((item) => (
+    <ProjectCard
+      key={JSON.stringify(item)}
+      image={item.image}
+      title={item.title}
+      desc={item.desc}
+      link={item.link}
+    />
+  ));
+
   const project2023_24Cards = projects2023_24.map((item) => (
     <ProjectCard
       key={JSON.stringify(item)}
@@ -167,6 +202,18 @@ export default function ProjectPage() {
           </>
         )}
       />
+      <SectionContainer className="project-page">
+        <Container>
+          <div className="title">
+            <h1>2024 - 2025</h1>
+          </div>
+          <div className="projects">
+            <div className="card-deck">
+              {project2024_25Cards}
+            </div>
+          </div>
+        </Container>
+      </SectionContainer>
       <SectionContainer className="project-page">
         <Container>
           <div className="title">

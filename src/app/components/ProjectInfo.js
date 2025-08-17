@@ -29,6 +29,9 @@ import tcwApp from '../assets/images/projects/tcwgraphic.png';
 import globalgreenApp from '../assets/images/projects/gg_thumbnail.png';
 import idontmindApp from '../assets/images/projects/idm_thumbnail.png';
 import writegirlApp from '../assets/images/projects/wg_thumbnail.png';
+import endoverdoseApp from '../assets/images/projects/eo_thumbnail.png';
+import teapotgardensApp from '../assets/images/projects/teapot_thumbnail.png';
+import unitedwayApp from '../assets/images/projects/uw_thumbnail.png';
 
 import ptv from '../markdown/ptv.md';
 import harmonyProject from '../markdown/harmony_project.md';
@@ -42,9 +45,37 @@ import tcw from '../markdown/tcw.md';
 import globalgreen from '../markdown/globalgreen.md';
 import idontmind from '../markdown/idontmind.md';
 import writegirl from '../markdown/writegirl.md';
+import endoverdose from '../markdown/endoverdose.md';
+import teapotgardens from '../markdown/teapotgardens.md';
+import unitedway from '../markdown/unitedway.md';
 
 /* eslint-disable */
 const projects = {
+  // 2024-25
+  'endoverdose': {
+    title: '',
+    render: () => (
+      <>
+        <img src={endoverdoseApp} width="100%" style={{objectFit: 'contain'}}></img>
+      </>
+    )
+  },
+  'teapotgardens': {
+    title: '',
+    render: () => (
+      <>
+        <img src={teapotgardensApp} width="100%" style={{objectFit: 'contain'}}></img>
+      </>
+    )
+  },
+  'unitedway': {
+    title: '',
+    render: () => (
+      <>
+        <img src={unitedwayApp} width="100%" style={{objectFit: 'contain'}}></img>
+      </>
+    )
+  },
   // 2023-24
   'globalgreen': {
     title: '',
@@ -154,7 +185,22 @@ export default function ProjectInfo({ projectName }) {
   const [projectInfo, setProjectInfo] = useState(null);
 
   useEffect(() => {
-    if (projectName === 'globalgreen') {
+    if (projectName === 'endoverdose') {
+      fetch(endoverdose)
+        .then((res) => res.text())
+        .then((text) => setProjectInfo(text))
+        .catch((err) => console.warn(err));
+    } else if (projectName === 'teapotgardens') {
+      fetch(teapotgardens)
+        .then((res) => res.text())
+        .then((text) => setProjectInfo(text))
+        .catch((err) => console.warn(err));
+    } else if (projectName === 'unitedway') {
+      fetch(unitedway)
+        .then((res) => res.text())
+        .then((text) => setProjectInfo(text))
+        .catch((err) => console.warn(err));
+    } else if (projectName === 'globalgreen') {
       fetch(globalgreen)
         .then((res) => res.text())
         .then((text) => setProjectInfo(text))
