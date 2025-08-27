@@ -83,7 +83,8 @@ import KimberlyNguyen from '../assets/images/alumni/kimberly_nguyen.png';
 import MackenzieSmith from '../assets/images/alumni/mackenzie_smith.png';
 import AntonioCosio from '../assets/images/alumni/antonio_cosio.png';
 import EricZhou from '../assets/images/alumni/eric_zhou.png';
-
+import ChizitelumOranu from '../assets/images/alumni/chizitelum_oranu.png';
+import NicoleJu from '../assets/images/alumni/nicole_ju.png';
 
 const members = [
   {
@@ -123,6 +124,12 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/yimingzhng/',
   },
   {
+    image: ChizitelumOranu,
+    name: 'Chizitelum Oranu ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/chizitelumoranu/',
+  },
+  {
     image: DanielOgura,
     name: 'Daniel Ogura ',
     position: 'Designer',
@@ -139,6 +146,12 @@ const members = [
     name: 'Kimberly Nguyen ',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/kimberlynguyenh/',
+  },
+  {
+    image: NicoleJu,
+    name: 'Nicole Ju ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/nicoleju03/',
   },
   {
     image: StellaKang,
