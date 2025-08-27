@@ -23,7 +23,29 @@ import gg from "../assets/images/projects/gg_thumbnail.png";
 import idm from "../assets/images/projects/idm_thumbnail.png";
 import wg from "../assets/images/projects/wg_thumbnail.png";
 
+import teapotGardens from '../assets/images/projects/teapot_thumbnail.png';
+import endOverdose from '../assets/images/projects/eo_thumbnail.png';
+import unitedWay from '../assets/images/projects/uw_thumbnail.png';
+
 const projects = [
+  {
+    image: endOverdose,
+    title: 'End Overdose',
+    desc: 'End Overdose is dedicated to preventing drug-related deaths by providing education, distributing naloxone, and offering community training nationwide.',
+    link: 'endoverdose',
+  },
+  {
+    image: teapotGardens,
+    title: 'Teapot Gardens',
+    desc: 'Teapot Gardens cultivates creativity outdoors and green-space initiatives as a catalyst for community healing and cultural exchange in park-deprived neighborhoods of Los Angeles.',
+    link: 'teapotgardens',
+  },
+  {
+    image: unitedWay,
+    title: 'United Way',
+    desc: 'United Way tackles poverty, supports small businesses, and builds stronger, more connected communities through impactful programs and partnerships.',
+    link: 'unitedway',
+  },
   {
     image: gg,
     title: "Global Green",
