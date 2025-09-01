@@ -9,7 +9,7 @@ import OurValues from '../components/OurValues';
 
 import SectionSubtitle from '../components/SectionSubtitle';
 
-import about from '../assets/images/headers/meet-blueprint-23-24.png';
+import about from '../assets/images/headers/meet-blueprint-24-25.png';
 
 export default function AboutPage() {
   return (
@@ -25,7 +25,7 @@ export default function AboutPage() {
           </SectionSubtitle>
         )}
         image={about}
-        imageAlt="LA Blueprint at the 2021 End of the Year Banquet"
+        imageAlt="LA Blueprint at the 2025 Spring Retreat"
         imageClass="about-image"
       />
       <Fade>
