@@ -7,7 +7,7 @@ import ApplicationProcess from "../components/ApplicationProcess";
 import StudentFAQ from "../components/StudentFAQ";
 import MailingListButton from "../components/MailingListButton";
 
-import studentImage from "../assets/images/headers/for-students-23-24.png";
+import studentImage from "../assets/images/headers/for-students-24-25.png";
 
 import SectionSubtitle from "../components/SectionSubtitle";
 
@@ -44,7 +44,7 @@ export default function StudentPage() {
           </>
         )}
         image={studentImage}
-        imageAlt="Zoom screenshot from an online social"
+        imageAlt="Blueprint 2025 end of year banquet"
         imageClass="students-image"
       />
       <Fade>
