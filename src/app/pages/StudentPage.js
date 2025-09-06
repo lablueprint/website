@@ -44,7 +44,7 @@ export default function StudentPage() {
           </>
         )}
         image={studentImage}
-        imageAlt="Zoom screenshot from an online social"
+        imageAlt="Blueprint 2025 end of year banquet"
         imageClass="students-image"
       />
       <Fade>
