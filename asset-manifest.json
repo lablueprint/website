@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.91f19412.chunk.css",
-    "main.js": "/static/js/main.99811f91.chunk.js",
-    "main.js.map": "/static/js/main.99811f91.chunk.js.map",
+    "main.js": "/static/js/main.8ed601cc.chunk.js",
+    "main.js.map": "/static/js/main.8ed601cc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f3bce04e.js",
     "runtime-main.js.map": "/static/js/runtime-main.f3bce04e.js.map",
     "static/css/2.032362bf.chunk.css": "/static/css/2.032362bf.chunk.css",
     "static/js/2.34a398ce.chunk.js": "/static/js/2.34a398ce.chunk.js",
     "static/js/2.34a398ce.chunk.js.map": "/static/js/2.34a398ce.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.00a625bcdaf3c124ac2d28513c6e9a43.js": "/precache-manifest.00a625bcdaf3c124ac2d28513c6e9a43.js",
+    "precache-manifest.5356144e7cff03f4887f057890ea6fa2.js": "/precache-manifest.5356144e7cff03f4887f057890ea6fa2.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.032362bf.chunk.css.map": "/static/css/2.032362bf.chunk.css.map",
     "static/css/main.91f19412.chunk.css.map": "/static/css/main.91f19412.chunk.css.map",
@@ -68,7 +68,7 @@
     "static/media/elwyn_cruz.png": "/static/media/elwyn_cruz.dfec4408.png",
     "static/media/end-overdose.PNG": "/static/media/end-overdose.b97d417f.PNG",
     "static/media/endoverdose.md": "/static/media/endoverdose.b5465aa0.md",
-    "static/media/eo_thumbnail.png": "/static/media/eo_thumbnail.ac565392.png",
+    "static/media/eo_thumbnail.png": "/static/media/eo_thumbnail.00fa255b.png",
     "static/media/eric_lu.png": "/static/media/eric_lu.8a13131d.png",
     "static/media/eric_zhou.png": "/static/media/eric_zhou.92703c6a.png",
     "static/media/erin_kwon.png": "/static/media/erin_kwon.6f428c9e.png",
@@ -77,7 +77,7 @@
     "static/media/fidelity.svg": "/static/media/fidelity.15aee13c.svg",
     "static/media/figma.svg": "/static/media/figma.bfc8530d.svg",
     "static/media/fiona_peng.png": "/static/media/fiona_peng.12ef524a.png",
-    "static/media/for-students-23-24.png": "/static/media/for-students-23-24.a4cbedc7.png",
+    "static/media/for-students-24-25.png": "/static/media/for-students-24-25.addad2cb.png",
     "static/media/fotc.md": "/static/media/fotc.d84c0854.md",
     "static/media/fotcgraphic.png": "/static/media/fotcgraphic.d2fd6ef7.png",
     "static/media/fun-shapes.png": "/static/media/fun-shapes.9f53dd45.png",
@@ -165,7 +165,7 @@
     "static/media/tcw.md": "/static/media/tcw.60babf15.md",
     "static/media/tcwgraphic.png": "/static/media/tcwgraphic.0be5fd8d.png",
     "static/media/teapot-gardens.PNG": "/static/media/teapot-gardens.a100a472.PNG",
-    "static/media/teapot_thumbnail.png": "/static/media/teapot_thumbnail.5d5a9c6d.png",
+    "static/media/teapot_thumbnail.png": "/static/media/teapot_thumbnail.acea94d9.png",
     "static/media/teapotgardens.md": "/static/media/teapotgardens.ced8ae56.md",
     "static/media/tesla.svg": "/static/media/tesla.ec8a9c73.svg",
     "static/media/theconsciouskid.md": "/static/media/theconsciouskid.e5f999e4.md",
@@ -174,7 +174,7 @@
     "static/media/tom_oh.png": "/static/media/tom_oh.9c492d53.png",
     "static/media/united-way.PNG": "/static/media/united-way.ed56a1e6.PNG",
     "static/media/unitedway.md": "/static/media/unitedway.27c681bb.md",
-    "static/media/uw_thumbnail.png": "/static/media/uw_thumbnail.95a2c88f.png",
+    "static/media/uw_thumbnail.png": "/static/media/uw_thumbnail.7bd867dd.png",
     "static/media/vanessa_ta.png": "/static/media/vanessa_ta.86d046eb.png",
     "static/media/vanshika_turkar.png": "/static/media/vanshika_turkar.9eb577c0.png",
     "static/media/victoria_choi.png": "/static/media/victoria_choi.890a0994.png",
@@ -194,6 +194,6 @@
     "static/css/2.032362bf.chunk.css",
     "static/js/2.34a398ce.chunk.js",
     "static/css/main.91f19412.chunk.css",
-    "static/js/main.99811f91.chunk.js"
+    "static/js/main.8ed601cc.chunk.js"
   ]
 }
