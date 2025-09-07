@@ -13,7 +13,7 @@ import uw from '../../assets/images/nonprofits-demoday/united-way.PNG';
 /* eslint-disable */
 export default function NonprofitMoreInfo() {
   return (
-    <SectionContainer className="off-white">
+    <SectionContainer className="white">
       <Container>
         <SectionHeading>Want to learn more about us?</SectionHeading>
 

@@ -29,7 +29,7 @@ export default function NonprofitPage() {
               size="md"
               href="https://docs.google.com/forms/d/e/1FAIpQLSexzlxUIVmlR24Jr7x7RUfbTj6g4JOzd45LzNVeUCphPMydCw/viewform"
             >
-              Work with us
+              2026-2027 Interest Form
             </Button>
             <br />
             <em>
@@ -46,17 +46,16 @@ export default function NonprofitPage() {
       <Fade>
         <NonprofitTimeline />
       </Fade>
-
+      <div id="When">
+        <Fade>
+          <NonprofitWhen />
+        </Fade>
+      </div>
       <div id="Apply">
         <Fade>
           <NonprofitMoreInfo />
         </Fade>
       </div>
-      {/* <div id="Apply">
-        <Fade>
-          <NonprofitWhen />
-        </Fade>
-      </div> */}
     </>
   );
 }
