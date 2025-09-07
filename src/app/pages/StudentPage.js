@@ -24,23 +24,12 @@ export default function StudentPage() {
               Help us build our applications and work with nonprofits!
             </SectionSubtitle>
             <SectionSubtitle className="sign-up mb-3">
-              Applications are now closed. Come back in Fall 2025!
+              Applications will open in Fall 2025. Fill out our interest form to stay up to date
+              with our upcoming events!
             </SectionSubtitle>
-            <Button
-              className="outline-white"
-              size="md"
-              href="https://airtable.com/appY8mDtwETX2LcL5/shrgwdaqOvjbi8FbJ"
-              disabled
-            >
-              Check out our applications
+            <Button className="outline-white" href="https://airtable.com/appJz11HEgtdvpB0O/shraY91Uf7Mr5JMjN?fbclid=PAZXh0bgNhZW0CMTEAAaeBCft2apOk60cnNvEhYmgXP3rEko9C4fNm9-Shk_1Y93PlhdZ26-sUX_HODw_aem_JvCwGY7XFyRhbIhpBnQiQQ">
+              2025-26 Interest Form
             </Button>
-            {/* <SectionSubtitle className="sign-up mb-3">
-              Applications are currently closed. Fill out our interest form for more updates on
-              our other initiatives!
-            </SectionSubtitle>
-            <Button className="outline-white" href="https://airtable.com/appNXPLX16HDPNLLY/shrjFzXLVJ0vbGCSy">
-              2023-24 Interest Form
-            </Button> */}
           </>
         )}
         image={studentImage}
