@@ -27,13 +27,13 @@ export default function NonprofitPage() {
             <Button
               className="outline-white"
               size="md"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeYYQWWfUxok5SVLs611DKgqiI5Ie80shvVAEM-cDellmRlrg/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSexzlxUIVmlR24Jr7x7RUfbTj6g4JOzd45LzNVeUCphPMydCw/viewform"
             >
               Work with us
             </Button>
             <br />
             <em>
-              * Our application cycle for 2025-26 is now open!
+              * Our application cycle for 2025-26 is now closed!
             </em>
           </>
         )}
