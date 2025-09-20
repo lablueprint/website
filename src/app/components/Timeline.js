@@ -11,7 +11,7 @@ const timeline = [
     // date: "Sept 19",
     body: (
       <div>
-        Applications for our Fall 2025 recruitment will be open in October! You can find a link
+        Applications for our Fall 2025 recruitment will be open on Sunday September 21st! You can find a link
         to our application on our{" "}
         <a href="https://linktr.ee/lablueprint">Linktree</a>. Fill out our
         recruitment interest form, and check our{" "}
@@ -29,9 +29,9 @@ const timeline = [
     // date: 'Sept 27th and Sept 28',
     body: (
       <div>
-        We will be having an in-person infosession in{" "}
-        <b>Late September</b>, and an online one in{" "}
-        <b>Early October</b>! Learn more about our club and our projects
+        We will be having an in-person infosession on{" "}
+        <b>Monday September 29th</b>, and an online one on{" "}
+        <b>Tuesday September 30th</b>! Learn more about our club and our projects
         during these infosessions! We will be talking about what you can expect
         when you join Blueprint and answer any questions you may have.
       </div>
@@ -45,7 +45,7 @@ const timeline = [
     // date: 'Sept 30 (11:59 PM PST)',
     body: (
       <div>
-        Applications close in <b>Early October</b>! The application
+        Applications close on <b>Friday October 3rd</b>! The application
         includes 3 short questions to help us understand you and your
         motivations for joining Blueprint.
       </div>
