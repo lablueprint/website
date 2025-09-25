@@ -164,7 +164,7 @@ Nonprofits will also be shown an onboarding page to help address any questions o
 
 ![Artboard (5).png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Artboard_(5).png)
 
-[Sign Up and Onboarding.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/sign_in_onboarding.gif)
+![Sign Up and Onboarding.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/sign_in_onboarding.gif)
 
 ### Home:
 
@@ -172,9 +172,9 @@ Nonprofits will be allowed to create and manage events, alongside have an overvi
 
 ![Artboard (4).png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Artboard_(4).png)
 
-[Home.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.54.00_PM.gif)
+![Home.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.54.00_PM.gif)
 
-[Home.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-19_at_2.19.40_PM.gif)
+![Home.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-19_at_2.19.40_PM.gif)
 
 ### Events:
 
@@ -182,7 +182,7 @@ In the events page, nonprofits will be having a more detailed view into all of t
 
 ![Artboard (3).png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Artboard_(3).png)
 
-[Event Creation & Events.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/event_creation__events.gif)
+![Event Creation & Events.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/event_creation__events.gif)
 
 Nonprofits will be able to add information about the information which they would want volunteers to know about 
 
@@ -194,7 +194,7 @@ Nonprofits can add rewards and reward details for volunteers to obtain
 
 ![Artboard (6).png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Artboard_(6).png)
 
-[Rewards Management.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/rewards_management.gif)
+![Rewards Management.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/rewards_management.gif)
 
 ### Profile:
 
@@ -202,21 +202,21 @@ Nonprofits will be able to store information about their organization and update
 
 ![Artboard (1).png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Artboard_(1).png)
 
-[Profile.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/prfole.gif)
+![Profile.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/prfole.gif)
 
 ### Getting Setup
 
 Users will see a sleek log in card and can select communities and interests to receive personalized event recommendations. 
 
-[Setup.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/sign_in.gif)
+![Setup.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/sign_in.gif)
 
 ### My Events
 
-[My Events.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.23.38_PM.gif)
+![My Events.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.23.38_PM.gif)
 
 If logged in, users can seamlessly tap the register button to get subscribed to event announcements and next steps.
 
-[My Events.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.14.58_PM.gif)
+![My Events.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.14.58_PM.gif)
 
 If not logged in, users will be lead to sign up to register for an event.
 
@@ -224,37 +224,37 @@ If not logged in, users will be lead to sign up to register for an event.
 
 Users will be able to see explore volunteering events not catered on their home page in the explore.
 
-[Explore and Bookmark.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.32.15_PM.gif)
+![Explore and Bookmark.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.32.15_PM.gif)
 
 ### Event Check-In
 
 Once a user is registered to an event and the event begins, users are now able to ‘check-in’. This will initiate live events to start being server-pushed to all devices that are checked in, including in-app live announcements, polls, and raffles!
 
-[Event Check-In.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.25.29_PM.gif)
+![Event Check-In.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.25.29_PM.gif)
 
 ### Event Drawing
 
 Users will be entered into an automatic drawing if any are planned by the organizers, which will occur during the event. Each person will receive an auto-generated number with a winner selected at the end of the raffle.
 
-[Raffle.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/raffle.gif)
+![Raffle.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/raffle.gif)
 
 ### Event Polls
 
 Users will be entered into an automatic drawing which will occur during the event. This will prompt users on organizer-generated questions and reveal results upon the conclusion of the poll. 
 
-[Polls.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/polls_(1).gif)
+![Polls.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/polls_(1).gif)
 
 ### Rewards Page
 
 Users can choose their organizations they have been participating with and view a variety of rewards waiting to be redeemed using their earned points. Points are redeemed through engagement with community events.
 
-[Rewards.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/rewards.gif)
+![Rewards.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/rewards.gif)
 
 ### Profile
 
 Users can view their profile and settings to manage their information and sign out of their account.
 
-[Profile.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.37.45_PM.gif)
+![Profile.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.37.45_PM.gif)
 
 # Key takeaways
 
