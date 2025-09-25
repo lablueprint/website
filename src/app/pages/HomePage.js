@@ -39,9 +39,7 @@ export default function HomePage() {
       <Fade>
         <WhoWeAre />
       </Fade>
-      <Fade>
-        <OurProjects />
-      </Fade>
+      <OurProjects />
       <Fade>
         <ContactButton />
       </Fade>
