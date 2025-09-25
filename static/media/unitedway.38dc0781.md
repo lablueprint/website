@@ -42,15 +42,15 @@ To create a platform that makes it easy for individuals to discover, track, and 
 
 # Solution
 
-![image.png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/image.png)
+![image.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/image.png)
 
 Desktop:
 
-![Frame 2095597357.png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Frame_2095597357.png)
+![Frame 2095597357.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Frame_2095597357.png)
 
 Mobile:
 
-![Group 1321321492.png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Group_1321321492.png)
+![Group 1321321492.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Group_1321321492.png)
 
 In collaboration with United Way of Greater Los Angeles, we identified a core challenge: while the organization has a strong network of nonprofits and community partners, volunteer turnout at events remains inconsistent. Many community members simply aren’t aware of opportunities to engage. To address this gap, we conceptualized a digital solution designed to increase visibility, streamline participation, and strengthen the connection between nonprofits and volunteers.
 
@@ -62,7 +62,7 @@ For volunteers, we will design a mobile application that makes discovering and r
 
 ## Competitive analysis
 
-![Frame 2095597357.png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Frame_2095597357%201.png)
+![Frame 2095597357.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Frame_2095597357%201.png)
 
 With our mission to create an intuitive and empathetic mobile based platform to empower small business hosting community events, we conducted an analysis of 6 different competitors that offered event-hosting platforms and rewards-based services similar to our goal: EventPin, Luma, Ulta Beauty, Eventbrite, Nextdoor, and Fetch. This audit helped us gain a holistic understanding of not only the current market but the commonalities of features that were most user friendly. This analysis guided us in optimizing editing workflows and steering clear of patterns that could hinder usability.
 
@@ -70,9 +70,9 @@ With our mission to create an intuitive and empathetic mobile based platform to 
 
 Following our interviews and competitive analysis, we looked to synthesize our conclusions and insights through an Affinity Map, that helped us identify commonalities, strengths, and shared pain points. 
 
-![image.png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/image%201.png)
+![image.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/image%201.png)
 
-![image.png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/image%202.png)
+![image.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/image%202.png)
 
 ## User interviews
 
@@ -92,13 +92,13 @@ By engaging with and understanding all the users involved in our mission, we ide
 - How might we motivate attendees to actively participate in their communities through a rewards-based ecosystem?
 - How might we design a community-centered in-app activities that amplify and support event organizers’ cultural, community-serving, and empowerment missions?
 
-![image.png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/image%203.png)
+![image.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/image%203.png)
 
 ## **User Flow**
 
 Before kickstarting our designs, we established an information architecture from our various insights. This helped guide the structure of our app and how its proposed features would address previously identified pain points, align with our mission, and best support intuitive, engaging work flows.
 
-![image.png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/image%204.png)
+![image.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/image%204.png)
 
 # Iterative designs
 
@@ -108,7 +108,7 @@ A key strength of our approach was fostering a collaborative environment where a
 
 Here are a few examples of our low- and mid-fidelity wireframes:
 
-![Frame 2095597241.png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Frame_2095597241.png)
+![Frame 2095597241.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Frame_2095597241.png)
 
 ## Usability Testing
 
@@ -117,18 +117,18 @@ Here are a few examples of our low- and mid-fidelity wireframes:
 - It was difficult seeing more than one event in a seamless way which allowed the user to quickly access an event.
 - Got idea from an Apple Wallet design in order to be able to seamlessly look at each of the events
 
-![My Events (2).png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/My_Events_(2).png)
+![My Events (2).png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/My_Events_(2).png)
 
-![no events.png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/no_events.png)
+![no events.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/no_events.png)
 
 #2 From Dropdown to Seamless Scroll
 
 - In the rewards sections, users may have had a difficult time in scrolling through rewards in a non-functional way in which all the nonprofits had looked the same
 - Instead of having a drop down bar for the organizations, a scroll list was implemented with the organizations profile pics
 
-![Rewards + Dropdown.png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Rewards__Dropdown.png)
+![Rewards + Dropdown.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Rewards__Dropdown.png)
 
-![Rewards.png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Rewards.png)
+![Rewards.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Rewards.png)
 
 # Thoughtful Considerations
 
@@ -137,22 +137,22 @@ Here are a few examples of our low- and mid-fidelity wireframes:
     Since many volunteers register for multiple events at once, it’s important to give them a clear way to keep track of what’s ahead. To support this, we chose a card-based vertical list layout that makes the event name and date immediately visible, helping volunteers quickly recognize and organize their upcoming commitments.
     
 
-![My Events.svg](Case%20Study%202030b0d5dcb5800b9036c421723d87da/My_Events.svg)
+![My Events.svg](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/My_Events.svg)
 
 1. **Driving Event Participation**
     
     When users first sign up, we encourage them to discover and join events by showcasing personalized recommendations directly within the My Events page. This intentional placement helps guide new users toward meaningful engagement right from the start.
     
 
-![no events.svg](Case%20Study%202030b0d5dcb5800b9036c421723d87da/no_events.svg)
+![no events.svg](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/no_events.svg)
 
 # Final designs
 
 ## Design system:
 
-![image.png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/image%205.png)
+![image.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/image%205.png)
 
-## Final designs: (blurb for admin & blurb for mobile)
+## Final designs:
 
 ### Sign Up and Onboarding:
 
@@ -160,63 +160,63 @@ Nonprofits will be met with a sleek log in card, allowing them to put in their i
 
 Nonprofits will also be shown an onboarding page to help address any questions or concerns they may have 
 
-![Artboard.png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Artboard.png)
+![Artboard.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Artboard.png)
 
-![Artboard (5).png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Artboard_(5).png)
+![Artboard (5).png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Artboard_(5).png)
 
-[sign in onboarding.mp4](Case%20Study%202030b0d5dcb5800b9036c421723d87da/sign_in_onboarding.mp4)
+[Sign Up and Onboarding.mp4](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/sign_in_onboarding.mp4)
 
 ### Home:
 
 Nonprofits will be allowed to create and manage events, alongside have an overview of everything which is going on through the home page 
 
-![Artboard (4).png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Artboard_(4).png)
+![Artboard (4).png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Artboard_(4).png)
 
-[Screen Recording 2025-05-18 at 10.54.00 PM.mp4](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Screen_Recording_2025-05-18_at_10.54.00_PM.mp4)
+[Home.mp4](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.54.00_PM.mp4)
 
-[Screen Recording 2025-05-19 at 2.19.40 PM.mp4](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Screen_Recording_2025-05-19_at_2.19.40_PM.mp4)
+[Home.mp4](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-19_at_2.19.40_PM.mp4)
 
 ### Events:
 
 In the events page, nonprofits will be having a more detailed view into all of the upcoming events, being able to default from a calendar to grid view.
 
-![Artboard (3).png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Artboard_(3).png)
+![Artboard (3).png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Artboard_(3).png)
 
-[event creation & events.mp4](Case%20Study%202030b0d5dcb5800b9036c421723d87da/event_creation__events.mp4)
+[Event Creation & Events.mp4](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/event_creation__events.mp4)
 
 Nonprofits will be able to add information about the information which they would want volunteers to know about 
 
-![Artboard (2).png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Artboard_(2).png)
+![Artboard (2).png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Artboard_(2).png)
 
 ### Rewards:
 
 Nonprofits can add rewards and reward details for volunteers to obtain 
 
-![Artboard (6).png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Artboard_(6).png)
+![Artboard (6).png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Artboard_(6).png)
 
-[rewards management.mp4](Case%20Study%202030b0d5dcb5800b9036c421723d87da/rewards_management.mp4)
+[Rewards Management.mp4](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/rewards_management.mp4)
 
 ### Profile:
 
 Nonprofits will be able to store information about their organization and update them
 
-![Artboard (1).png](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Artboard_(1).png)
+![Artboard (1).png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Artboard_(1).png)
 
-[prfole.mp4](Case%20Study%202030b0d5dcb5800b9036c421723d87da/prfole.mp4)
+[Profile.mp4](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/prfole.mp4)
 
 ### Getting Setup
 
 Users will see a sleek log in card and can select communities and interests to receive personalized event recommendations. 
 
-[sign in.mp4](Case%20Study%202030b0d5dcb5800b9036c421723d87da/sign_in.mp4)
+[Setup.mp4](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/sign_in.mp4)
 
 ### My Events
 
-[Screen Recording 2025-05-18 at 10.23.38 PM.mp4](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Screen_Recording_2025-05-18_at_10.23.38_PM.mp4)
+[My Events.mp4](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.23.38_PM.mp4)
 
 If logged in, users can seamlessly tap the register button to get subscribed to event announcements and next steps.
 
-[Screen Recording 2025-05-18 at 10.14.58 PM.mp4](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Screen_Recording_2025-05-18_at_10.14.58_PM.mp4)
+[My Events.mp4](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.14.58_PM.mp4)
 
 If not logged in, users will be lead to sign up to register for an event.
 
@@ -224,37 +224,37 @@ If not logged in, users will be lead to sign up to register for an event.
 
 Users will be able to see explore volunteering events not catered on their home page in the explore.
 
-[Screen Recording 2025-05-18 at 10.32.15 PM.mp4](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Screen_Recording_2025-05-18_at_10.32.15_PM.mp4)
+[Explore and Bookmark.mp4](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.32.15_PM.mp4)
 
 ### Event Check-In
 
 Once a user is registered to an event and the event begins, users are now able to ‘check-in’. This will initiate live events to start being server-pushed to all devices that are checked in, including in-app live announcements, polls, and raffles!
 
-[Screen Recording 2025-05-18 at 10.25.29 PM.mp4](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Screen_Recording_2025-05-18_at_10.25.29_PM.mp4)
+[Event Check-In.mp4](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.25.29_PM.mp4)
 
 ### Event Drawing
 
 Users will be entered into an automatic drawing if any are planned by the organizers, which will occur during the event. Each person will receive an auto-generated number with a winner selected at the end of the raffle.
 
-[raffle.mp4](Case%20Study%202030b0d5dcb5800b9036c421723d87da/raffle.mp4)
+[Raffle.mp4](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/raffle.mp4)
 
 ### Event Polls
 
 Users will be entered into an automatic drawing which will occur during the event. This will prompt users on organizer-generated questions and reveal results upon the conclusion of the poll. 
 
-[polls (1).mp4](Case%20Study%202030b0d5dcb5800b9036c421723d87da/polls_(1).mp4)
+[Polls.mp4](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/polls_(1).mp4)
 
 ### Rewards Page
 
 Users can choose their organizations they have been participating with and view a variety of rewards waiting to be redeemed using their earned points. Points are redeemed through engagement with community events.
 
-[rewards.mp4](Case%20Study%202030b0d5dcb5800b9036c421723d87da/rewards.mp4)
+[Rewards.mp4](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/rewards.mp4)
 
 ### Profile
 
 Users can view their profile and settings to manage their information and sign out of their account.
 
-[Screen Recording 2025-05-18 at 10.37.45 PM.mp4](Case%20Study%202030b0d5dcb5800b9036c421723d87da/Screen_Recording_2025-05-18_at_10.37.45_PM.mp4)
+[Profile.mp4](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.37.45_PM.mp4)
 
 # Key takeaways
 
