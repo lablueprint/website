@@ -117,34 +117,68 @@ Here are a few examples of our low- and mid-fidelity wireframes:
 - It was difficult seeing more than one event in a seamless way which allowed the user to quickly access an event.
 - Got idea from an Apple Wallet design in order to be able to seamlessly look at each of the events
 
-![My Events (2).png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/My_Events_(2).png)
-
-![no events.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/no_events.png)
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/My_Events_(2).png" alt="Events">
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/no_events.png" alt="No Events">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 #2 From Dropdown to Seamless Scroll
 
 - In the rewards sections, users may have had a difficult time in scrolling through rewards in a non-functional way in which all the nonprofits had looked the same
 - Instead of having a drop down bar for the organizations, a scroll list was implemented with the organizations profile pics
 
-![Rewards + Dropdown.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Rewards__Dropdown.png)
-
-![Rewards.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Rewards.png)
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Rewards__Dropdown.png" alt="Rewards Dropdown">
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Rewards.png" alt="Rewards">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 # Thoughtful Considerations
 
-1. **Bringing Focus to Upcoming Commitments**
-    
-    Since many volunteers register for multiple events at once, it’s important to give them a clear way to keep track of what’s ahead. To support this, we chose a card-based vertical list layout that makes the event name and date immediately visible, helping volunteers quickly recognize and organize their upcoming commitments.
-    
-
-![My Events.svg](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/My_Events.svg)
-
-1. **Driving Event Participation**
-    
-    When users first sign up, we encourage them to discover and join events by showcasing personalized recommendations directly within the My Events page. This intentional placement helps guide new users toward meaningful engagement right from the start.
-    
-
-![no events.svg](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/no_events.svg)
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" style="vertical-align: top;">
+            <p><strong>1. Bringing Focus to Upcoming Commitments</strong></p>
+            <p>
+                Since many volunteers register for multiple events at once, it’s important to
+                give them a clear way to keep track of what’s ahead. To support this, we chose
+                a card-based vertical list layout that makes the event name and date immediately
+                visible, helping volunteers quickly recognize and organize their upcoming commitments.
+            </p>
+            </td>
+            <td width="50%">
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/My_Events.svg" alt="My Events">
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" style="vertical-align: top;">
+                <p><strong>2. Driving Event Participation</strong></p>
+                <p>
+                    When users first sign up, we encourage them to discover and join events by showcasing personalized recommendations directly within the My Events page. This intentional placement helps guide new users toward meaningful engagement right from the start.
+                </p>
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/no_events.svg" alt="No Events">
+            </td>
+        </tr>
+    </tbody>
+</table>    
 
 # Final designs
 
@@ -164,7 +198,7 @@ Nonprofits will also be shown an onboarding page to help address any questions o
 
 ![Artboard (5).png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Artboard_(5).png)
 
-![Sign Up and Onboarding.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/sign_in_onboarding.gif)
+[Sign Up and Onboarding.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/sign_in_onboarding.gif)
 
 ### Home:
 
@@ -174,7 +208,7 @@ Nonprofits will be allowed to create and manage events, alongside have an overvi
 
 ![Home.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.54.00_PM.gif)
 
-![Home.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-19_at_2.19.40_PM.gif)
+[Home.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-19_at_2.19.40_PM.gif)
 
 ### Events:
 
@@ -182,7 +216,7 @@ In the events page, nonprofits will be having a more detailed view into all of t
 
 ![Artboard (3).png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Artboard_(3).png)
 
-![Event Creation & Events.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/event_creation__events.gif)
+[Event Creation & Events.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/event_creation__events.gif)
 
 Nonprofits will be able to add information about the information which they would want volunteers to know about 
 
@@ -194,7 +228,7 @@ Nonprofits can add rewards and reward details for volunteers to obtain
 
 ![Artboard (6).png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Artboard_(6).png)
 
-![Rewards Management.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/rewards_management.gif)
+[Rewards Management.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/rewards_management.gif)
 
 ### Profile:
 
@@ -204,57 +238,148 @@ Nonprofits will be able to store information about their organization and update
 
 ![Profile.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/prfole.gif)
 
-### Getting Setup
+<table float="center">
+  <tbody>
+    <tr>
+      <td width="50%" style="vertical-align: top;">
+        <h3>Getting Setup </h3>
+        <p>
+          Users will see a sleek log in card and can select communities and interests 
+          to receive personalized event recommendations.
+        </p>
+      </td>
+      <td width="50%">
+        <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/sign_in.gif" alt="Login Setup">
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-Users will see a sleek log in card and can select communities and interests to receive personalized event recommendations. 
-
-![Setup.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/sign_in.gif)
 
 ### My Events
 
-![My Events.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.23.38_PM.gif)
+<table float="center">
+  <tbody>
+    <tr>
+      <td width="25%" style="vertical-align: top; text-align: center;">
+        <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.23.38_PM.gif" 
+             alt="My Events - Logged In" width="100%">
+      </td>
+      <td width="25%" style="vertical-align: top;">
+        <p>
+          <strong>Logged In:</strong><br>
+          Users can seamlessly tap the register button to get subscribed to event announcements and next steps.
+        </p>
+      </td>
+      <td width="25%" style="vertical-align: top; text-align: center;">
+        <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.14.58_PM.gif" 
+             alt="My Events - Not Logged In" width="100%">
+      </td>
+      <td width="25%" style="vertical-align: top;">
+        <p>
+          <strong>Not Logged In:</strong><br>
+          Users will be led to sign up in order to register for an event.
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-If logged in, users can seamlessly tap the register button to get subscribed to event announcements and next steps.
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" style="vertical-align: top;" >
+                <h3>Explore and Bookmark Page</h3>
+                <p>
+                Users will be able to see explore volunteering events not catered on their home page in the explore.
+                </p>
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.32.15_PM.gif" alt="Explore and Bookmark">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-![My Events.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.14.58_PM.gif)
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" style="vertical-align: top;" >
+                <h3>Event Check-In</h3>
+                <p>
+                Once a user is registered to an event and the event begins, users are now able to ‘check-in’. This will initiate live events to start being server-pushed to all devices that are checked in, including in-app live announcements, polls, and raffles!
+                </p>
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.25.29_PM.gif" alt="Event Check-In">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-If not logged in, users will be lead to sign up to register for an event.
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" style="vertical-align: top;" >
+                <h3>Event Drawing</h3>
+                <p>
+                Users will be entered into an automatic drawing if any are planned by the organizers, which will occur during the event. Each person will receive an auto-generated number with a winner selected at the end of the raffle.
+                </p>
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/raffle.gif" alt="Raffle">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-### Explore and Bookmark Page
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" style="vertical-align: top;" >
+                <h3>Event Polls</h3>
+                <p>
+                Users will be entered into an automatic drawing which will occur during the event. This will prompt users on organizer-generated questions and reveal results upon the conclusion of the poll.
+                </p>
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/polls_(1).gif" alt="Polls">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-Users will be able to see explore volunteering events not catered on their home page in the explore.
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" style="vertical-align: top;" >
+                <h3>Rewards Page</h3>
+                <p>
+                Users can choose their organizations they have been participating with and view a variety of rewards waiting to be redeemed using their earned points. Points are redeemed through engagement with community events.
+                </p>
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/rewards.gif" alt="Rewards">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-![Explore and Bookmark.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.32.15_PM.gif)
-
-### Event Check-In
-
-Once a user is registered to an event and the event begins, users are now able to ‘check-in’. This will initiate live events to start being server-pushed to all devices that are checked in, including in-app live announcements, polls, and raffles!
-
-![Event Check-In.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.25.29_PM.gif)
-
-### Event Drawing
-
-Users will be entered into an automatic drawing if any are planned by the organizers, which will occur during the event. Each person will receive an auto-generated number with a winner selected at the end of the raffle.
-
-![Raffle.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/raffle.gif)
-
-### Event Polls
-
-Users will be entered into an automatic drawing which will occur during the event. This will prompt users on organizer-generated questions and reveal results upon the conclusion of the poll. 
-
-![Polls.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/polls_(1).gif)
-
-### Rewards Page
-
-Users can choose their organizations they have been participating with and view a variety of rewards waiting to be redeemed using their earned points. Points are redeemed through engagement with community events.
-
-![Rewards.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/rewards.gif)
-
-### Profile
-
-Users can view their profile and settings to manage their information and sign out of their account.
-
-![Profile.gif](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.37.45_PM.gif)
+<table float="center">
+    <tbody>
+        <tr>
+            <td width="50%" style="vertical-align: top;" >
+                <h3>Profile</h3>
+                <p>
+                Users can view their profile and settings to manage their information and sign out of their account.
+                </p>
+            </td>
+            <td width="50%" >
+                <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/Screen_Recording_2025-05-18_at_10.37.45_PM.gif" alt="Profile">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 # Key takeaways
 
