@@ -23,7 +23,7 @@ United Way
 | Team Members        |                                                                                                                     |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | **_Project Leads_** | Edward Ng, Jiyeon Han, Angela Ling                                                                                                  |
-| **_Designers_**     | Amy Zhang, Shereen Ahmed, Joseph Moon, Stella Kang, Sarah Chang                                                                        |
+| **_Designers_**     | Amy Zhang, Shereen Ahmed, Joseph Moon, Stella Kang, Sarah Chang, Angela Hao                                                                        |
 | **_Developers_**    | Joy Cheng, Jasmine Wongphatarakul, Jason Choy, Nicco Duina, Eric Lu, Vanshika Turkar, Kim Nguyen, Caroline DebBarauch, Daniel Kao |
 
 # Background
@@ -249,7 +249,7 @@ Nonprofits will be able to store information about their organization and update
         </p>
       </td>
       <td width="50%">
-        <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/sign_in.gif" alt="Login Setup">
+        <img src="https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/sign in.gif" alt="Login Setup">
       </td>
     </tr>
   </tbody>
