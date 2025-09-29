@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 import PageHeader from "../components/PageHeader";
 import ApplicationProcess from "../components/ApplicationProcess";
 import StudentFAQ from "../components/StudentFAQ";
-import MailingListButton from "../components/MailingListButton";
+// import MailingListButton from "../components/MailingListButton";
 
 import studentImage from "../assets/images/headers/for-students-24-25.png";
 
