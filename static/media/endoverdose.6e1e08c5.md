@@ -98,7 +98,7 @@ This collaborative, judgment-free environment helped us spark creativity and unc
 
 Here are a few of our lo-fi screens:
 
-![low-fi.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/low-fi.png)
+![lo-fi.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/lo-fi.png)
 
 And here are some of our mid-fi screens:
 
@@ -119,7 +119,6 @@ Users struggled with the formatting and wording on the home page, so we reorgani
 Based on feedback and feasibility, we simplified the navigation by removing unnecessary elements like the search bar and rounding edges and refining spacing for a softer, more inviting look
 
 ![navbar.png](https://raw.githubusercontent.com/lablueprint/website/master/src/app/assets/images/projects/EO/navbar.png)
-
 
 # **Final Designs**
 
