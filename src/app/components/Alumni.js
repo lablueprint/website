@@ -74,7 +74,7 @@ import ErinKwon from '../assets/images/alumni/erin_kwon.png';
 import SarahChang from '../assets/images/alumni/sarah_chang.png';
 import AngelaLing from '../assets/images/alumni/angela_ling.png';
 import DanielOgura from '../assets/images/alumni/daniel_ogura.png';
-import CarolineDebBarauch from '../assets/images/alumni/caroline_debBaruah.png';
+import CarolineDebBaruah from '../assets/images/alumni/caroline_debBaruah.png';
 import StellaKang from '../assets/images/alumni/stella_kang.png';
 import AaronShi from '../assets/images/alumni/aaron_shi.png';
 import JosephMoon from '../assets/images/alumni/joseph_moon.png';
@@ -94,8 +94,8 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/angela-ling/',
   },
   {
-    image: CarolineDebBarauch,
-    name: 'Caroline DebBarauch ',
+    image: CarolineDebBaruah,
+    name: 'Caroline DebBaruah ',
     position: "External Vice President '24",
     linkedInURL: 'https://www.linkedin.com/in/caroline-debbaruah/',
   },
