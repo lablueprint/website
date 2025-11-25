@@ -279,7 +279,7 @@ const new_mems = [
   {
     image: EmilyShen,
     name: 'Emily Shen',
-    position: 'Developer',
+    position: 'Designer',
     linkedInURL: 'https://www.linkedin.com/in/emilyshenucla/',
   },
   {
