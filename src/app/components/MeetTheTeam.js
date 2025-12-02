@@ -35,7 +35,7 @@ import ShereenAhmed from '../assets/images/team/shereen_ahmed.png';
 import SophiaLee from '../assets/images/team/sophia_lee.png';
 
 // New mems 25-26
-import AamaniMaddukuri from '../assets/images/team/new_mems_25_26/aamani_maddukuri.png';
+import AamaniMaddukuri from '../assets/images/team/new_mems_25_26/aamani_maddukuri.jpeg';
 import AnhThuDo from '../assets/images/team/new_mems_25_26/anhthu_do.png';
 import AruushiKaur from '../assets/images/team/new_mems_25_26/aruushi_kaur.png';
 import CamillaChan from '../assets/images/team/new_mems_25_26/camilla_chan.png';
@@ -160,85 +160,16 @@ const members = [
     linkedInURL: 'https://www.linkedin.com/in/vanshika-turkar/',
   },
   {
-    image: AngelaYang,
-    name: 'Angela Yang ',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/angela-yang-2917792ba/',
-  },
-  {
-    image: CheyenneLu,
-    name: 'Cheyenne Lu ',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/weihsuan-cheyenne-lu/',
-  },
-  {
-    image: DaltonSilverman,
-    name: 'Dalton Silverman ',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/dalton-silverman/',
-  },
-  {
-    image: DanielChang,
-    name: 'Daniel Chang ',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/daniel-chang-457886248/',
-  },
-  {
-    image: EricLu,
-    name: 'Eric Lu ',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/ericslu/',
-  },
-  {
-    image: JasonChoy,
-    name: 'Jason Choy ',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/jasonchoy5/',
-  },
-  {
-    image: KianBaghai,
-    name: 'Kian Baghai ',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/kian-baghai-7b4943311/',
-  },
-  {
-    image: NiccoloDuina,
-    name: 'Niccolo Duina ',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/niccolo-duina-a21603267/',
-  },
-  {
-    image: PatrickZhou,
-    name: 'Patrick Zhou ',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/patrick-zhou-83245020a/',
-  },
-  {
-    image: RaymondKao,
-    name: 'Raymond Kao ',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/raymond-kao-8aa9a6290/',
-  },
-  {
-    image: ShereenAhmed,
-    name: 'Shereen Ahmed ',
-    position: 'Designer',
-    linkedInURL: 'https://www.linkedin.com/in/shereen-ahmed-9b718a174/',
-  },
-  {
-    image: SophiaLee,
-    name: 'Sophia Lee ',
-    position: 'Developer',
-    linkedInURL: 'https://www.linkedin.com/in/sophiaylee23/',
-  },
-];
-
-const new_mems = [
-  {
     image: AamaniMaddukuri,
     name: 'Aamani Maddukuri ',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/aamani-maddukuri/',
+  },
+  {
+    image: AngelaYang,
+    name: 'Angela Yang ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/angela-yang-2917792ba/',
   },
   {
     image: AnhThuDo,
@@ -259,10 +190,28 @@ const new_mems = [
     linkedInURL: 'https://www.linkedin.com/in/camilla-c-b7139b261/',
   },
   {
+    image: CheyenneLu,
+    name: 'Cheyenne Lu ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/weihsuan-cheyenne-lu/',
+  },
+  {
     image: ChristoferSanrow,
     name: 'Christofer Sanrow',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/christofer-sanrow/',
+  },
+  {
+    image: DaltonSilverman,
+    name: 'Dalton Silverman ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/dalton-silverman/',
+  },
+  {
+    image: DanielChang,
+    name: 'Daniel Chang ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/daniel-chang-457886248/',
   },
   {
     image: DiyaDesai,
@@ -289,6 +238,12 @@ const new_mems = [
     linkedInURL: 'https://www.linkedin.com/in/05manny/',
   },
   {
+    image: EricLu,
+    name: 'Eric Lu ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/ericslu/',
+  },
+  {
     image: EricaSong,
     name: 'Erica Song',
     position: 'Designer',
@@ -313,6 +268,12 @@ const new_mems = [
     linkedInURL: 'https://www.linkedin.com/in/izabellachan/',
   },
   {
+    image: JasonChoy,
+    name: 'Jason Choy ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/jasonchoy5/',
+  },
+  {
     image: JoyceJeoung,
     name: 'Joyce Jeoung',
     position: 'Developer',
@@ -329,6 +290,12 @@ const new_mems = [
     name: 'Kelly Yu',
     position: 'Developer',
     linkedInURL: 'https://www.linkedin.com/in/kellyy8/',
+  },
+  {
+    image: KianBaghai,
+    name: 'Kian Baghai ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/kian-baghai-7b4943311/',
   },
   {
     image: KiraTran,
@@ -361,10 +328,40 @@ const new_mems = [
     linkedInURL: 'https://www.linkedin.com/in/nseerapu/',
   },
   {
+    image: NiccoloDuina,
+    name: 'Niccolo Duina ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/niccolo-duina-a21603267/',
+  },
+  {
+    image: PatrickZhou,
+    name: 'Patrick Zhou ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/patrick-zhou-83245020a/',
+  },
+  {
+    image: RaymondKao,
+    name: 'Raymond Kao ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/raymond-kao-8aa9a6290/',
+  },
+  {
     image: ShawnNguyen,
     name: 'Shawn Nguyen',
     position: 'Designer',
     linkedInURL: 'https://www.linkedin.com/in/shawnnguyenn/',
+  },
+  {
+    image: ShereenAhmed,
+    name: 'Shereen Ahmed ',
+    position: 'Designer',
+    linkedInURL: 'https://www.linkedin.com/in/shereen-ahmed-9b718a174/',
+  },
+  {
+    image: SophiaLee,
+    name: 'Sophia Lee ',
+    position: 'Developer',
+    linkedInURL: 'https://www.linkedin.com/in/sophiaylee23/',
   },
   {
     image: SusieKim,
@@ -445,25 +442,21 @@ const advisors = [
 
 export default function MeetTheTeam() {
   // eslint-disable-next-line camelcase
-  const allMembers = [...members, ...new_mems];
-
-  const memberProfiles = allMembers.map((item, index) => {
+  const memberProfiles = members.map((item, index) => {
     const xsCol = { span: 6, offset: 0 };
     const mdCol = { span: 4, offset: 0 };
 
-    if (index === allMembers.length - 2 && allMembers.length % 3 === 2) {
+    if (index === members.length - 2 && members.length % 3 === 2) {
       mdCol.offset = 2;
-    } else if (index === allMembers.length - 1) {
-      if (allMembers.length % 2 === 1) {
+    } else if (index === members.length - 1) {
+      if (members.length % 2 === 1) {
         xsCol.offset = 3;
         mdCol.offset = 0;
       }
-      if (allMembers.length % 3 === 1) {
+      if (members.length % 3 === 1) {
         mdCol.offset = 4;
       }
     }
-
-    const isNewMem = index >= members.length;
 
     return (
       <Col xs={xsCol} md={mdCol} key={JSON.stringify(item)}>
@@ -473,7 +466,6 @@ export default function MeetTheTeam() {
             name={item.name}
             position={item.position}
             linkedInURL={item.linkedInURL}
-            size={isNewMem ? 'large' : 'default'}
           />
         </Fade>
       </Col>
