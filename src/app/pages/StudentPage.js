@@ -24,13 +24,13 @@ export default function StudentPage() {
               Help us build our applications and work with nonprofits!
             </SectionSubtitle>
             <SectionSubtitle className="sign-up mb-3">
-              {/* Applications will open in Fall 2025. Fill out our interest form to stay up to date
-              with our upcoming events! */}
-              Applications are now open!
+              Applications will open in Fall 2026!
+              {/* Fill out our interest form to stay up to date with our upcoming events! */}
+              {/* Applications are now open! */}
             </SectionSubtitle>
-            <Button className="outline-white" href="https://airtable.com/appHdhMiGXimMzZL9/shrMi7lR1LE6nEjjf">
+            {/* <Button className="outline-white" href="https://airtable.com/appHdhMiGXimMzZL9/shrMi7lR1LE6nEjjf">
               2025-26 Application
-            </Button>
+            </Button> */}
           </>
         )}
         image={studentImage}
